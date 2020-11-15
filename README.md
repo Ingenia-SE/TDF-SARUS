@@ -6,8 +6,9 @@ This GitHub repository is home to SARUS, a project in progress by The Drone Face
 The aim of the project is to develop a complex system of coordinated drones that will perform Search and Rescue tasks in the mountains. It shall support rescue teams in order to save as much time as possible, thus, as many lives as possible.
 
 ### Repository Contents
+This information will be updated once new information is available.
 
-Currently, the contents available in the repository are *To Be Defined* (TBD). This will update once new information is available.
+1 - Model Project: Contains the updated SYSML project with our system model (including its requirements).
 
 ### How to submit an ECR?
 
