@@ -11,7 +11,24 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_tIifcCnJEeu7zOJEOUkFAA" name="Normal Operation Conditions">
         <packagedElement xmi:type="uml:Package" xmi:id="_EDbXkCwfEeutKbRTHP0t3A" name="Take-off"/>
         <packagedElement xmi:type="uml:Package" xmi:id="_GzVTYCwfEeutKbRTHP0t3A" name="Landing"/>
-        <packagedElement xmi:type="uml:Package" xmi:id="_J5yG8CwfEeutKbRTHP0t3A" name="Mission planning"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_J5yG8CwfEeutKbRTHP0t3A" name="Mission planning">
+          <packagedElement xmi:type="uml:Class" xmi:id="_UFkTkCwhEeutKbRTHP0t3A" name="Mission plan creation">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_jHCnUCwkEeutKbRTHP0t3A" name="Manual flight plan"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_z2si4CwhEeutKbRTHP0t3A" name="Automated flight plan"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Kc9vsCwjEeutKbRTHP0t3A" name="Moving waypoints"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_VMRyECwjEeutKbRTHP0t3A" name="Adding waypoints"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_hrjWMCwjEeutKbRTHP0t3A" name="Waypoint limits"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_4gWjsCwjEeutKbRTHP0t3A" name="Waypoint display"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_g3jmECwmEeutKbRTHP0t3A" name="Refine7" client="_4gWjsCwjEeutKbRTHP0t3A" supplier="_jHCnUCwkEeutKbRTHP0t3A"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_7OBjgCwmEeutKbRTHP0t3A" name="Refine7" client="_hrjWMCwjEeutKbRTHP0t3A" supplier="_UFkTkCwhEeutKbRTHP0t3A"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_Voi6gCwnEeutKbRTHP0t3A" name="DeriveReqt9" client="_VMRyECwjEeutKbRTHP0t3A" supplier="_Gi1foCwnEeutKbRTHP0t3A"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_WVm00CwnEeutKbRTHP0t3A" name="DeriveReqt10" client="_Kc9vsCwjEeutKbRTHP0t3A" supplier="_Gi1foCwnEeutKbRTHP0t3A"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_mf6gQCwnEeutKbRTHP0t3A" name="Flight plan storage">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_Gi1foCwnEeutKbRTHP0t3A" name="Modifications to flight plan"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_LYZD4CwoEeutKbRTHP0t3A" name="Refine12" client="_mf6gQCwnEeutKbRTHP0t3A" supplier="_UFkTkCwhEeutKbRTHP0t3A"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_L2dPACwfEeutKbRTHP0t3A" name="Search area definition"/>
         <packagedElement xmi:type="uml:Package" xmi:id="_P-0ykCwfEeutKbRTHP0t3A" name="Flight"/>
       </packagedElement>
@@ -101,4 +118,18 @@
   <Requirements:Requirement xmi:id="_GmNzsCnKEeu7zOJEOUkFAA" base_NamedElement="_GmNMoCnKEeu7zOJEOUkFAA" id="BM-01" text="Write here requirement definition" base_Class="_GmNMoCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_Gr_rkCnKEeu7zOJEOUkFAA" base_NamedElement="_Gr-dcCnKEeu7zOJEOUkFAA" id="AC-01" text="Write here requirement definition" base_Class="_Gr-dcCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GxVekCnKEeu7zOJEOUkFAA" base_NamedElement="_GxUQcCnKEeu7zOJEOUkFAA" id="DM-01" text="Write here requirement definition" base_Class="_GxUQcCnKEeu7zOJEOUkFAA"/>
+  <Requirements:Requirement xmi:id="_UFvSsCwhEeutKbRTHP0t3A" base_NamedElement="_UFkTkCwhEeutKbRTHP0t3A" id="NO-40" text="The system must generate a flight trayectory for each of the drones. The flight trayectories will consist of waypoints and their interconnections." base_Class="_UFkTkCwhEeutKbRTHP0t3A"/>
+  <Requirements:Requirement xmi:id="_z2xbYCwhEeutKbRTHP0t3A" base_NamedElement="_z2si4CwhEeutKbRTHP0t3A" id="NO-41" text="The system must be able to automatically generate the flight trayectories for the drones, receiving the search area as an input." base_Class="_z2si4CwhEeutKbRTHP0t3A"/>
+  <Requirements:Requirement xmi:id="_KdBaECwjEeutKbRTHP0t3A" base_NamedElement="_Kc9vsCwjEeutKbRTHP0t3A" id="NO-43" text="The system must allow the system operator to move the different waypoints.&#xD;&#xA;" base_Class="_Kc9vsCwjEeutKbRTHP0t3A"/>
+  <Requirements:Requirement xmi:id="_VMU1YCwjEeutKbRTHP0t3A" base_NamedElement="_VMRyECwjEeutKbRTHP0t3A" id="NO-44" text="The system must allow the system operator to add new waypoints." base_Class="_VMRyECwjEeutKbRTHP0t3A"/>
+  <Requirements:Requirement xmi:id="_hrnnoCwjEeutKbRTHP0t3A" base_NamedElement="_hrjWMCwjEeutKbRTHP0t3A" id="NO-45" text="The system must place all the waypoints inside the predefined search area." base_Class="_hrjWMCwjEeutKbRTHP0t3A"/>
+  <Requirements:Requirement xmi:id="_4gYY4CwjEeutKbRTHP0t3A" base_NamedElement="_4gWjsCwjEeutKbRTHP0t3A" id="NO-46" text="The system must display the flight plans while the user generates them manually." base_Class="_4gWjsCwjEeutKbRTHP0t3A"/>
+  <Requirements:Requirement xmi:id="_jHHf0CwkEeutKbRTHP0t3A" base_NamedElement="_jHCnUCwkEeutKbRTHP0t3A" id="NO-47" text="The system must allow the system operator to manually generate the flight trayectories for the drones, receiving the search area as an input." base_Class="_jHCnUCwkEeutKbRTHP0t3A"/>
+  <Requirements:Refine xmi:id="_g3lbQCwmEeutKbRTHP0t3A" base_DirectedRelationship="_g3jmECwmEeutKbRTHP0t3A" base_Abstraction="_g3jmECwmEeutKbRTHP0t3A"/>
+  <Requirements:Refine xmi:id="_7OD_wCwmEeutKbRTHP0t3A" base_DirectedRelationship="_7OBjgCwmEeutKbRTHP0t3A" base_Abstraction="_7OBjgCwmEeutKbRTHP0t3A"/>
+  <Requirements:Requirement xmi:id="_Gi374CwnEeutKbRTHP0t3A" base_NamedElement="_Gi1foCwnEeutKbRTHP0t3A" id="NO-42" text="The system must allow the system operator to modify any flight plan." base_Class="_Gi1foCwnEeutKbRTHP0t3A"/>
+  <Requirements:DeriveReqt xmi:id="_Vol90CwnEeutKbRTHP0t3A" base_DirectedRelationship="_Voi6gCwnEeutKbRTHP0t3A" base_Abstraction="_Voi6gCwnEeutKbRTHP0t3A"/>
+  <Requirements:DeriveReqt xmi:id="_WVoqACwnEeutKbRTHP0t3A" base_DirectedRelationship="_WVm00CwnEeutKbRTHP0t3A" base_Abstraction="_WVm00CwnEeutKbRTHP0t3A"/>
+  <Requirements:Requirement xmi:id="_mf8VcCwnEeutKbRTHP0t3A" base_NamedElement="_mf6gQCwnEeutKbRTHP0t3A" id="NO-48" text="The system must allow the user to create, configure and store different flight plans before the deployment of the full system." base_Class="_mf6gQCwnEeutKbRTHP0t3A"/>
+  <Requirements:Refine xmi:id="_LYcHMCwoEeutKbRTHP0t3A" base_DirectedRelationship="_LYZD4CwoEeutKbRTHP0t3A" base_Abstraction="_LYZD4CwoEeutKbRTHP0t3A"/>
 </xmi:XMI>
