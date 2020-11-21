@@ -9,7 +9,11 @@
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_65n0QCnKEeuBhplQNQYfZQ" name="Requirements">
       <packagedElement xmi:type="uml:Package" xmi:id="_tIifcCnJEeu7zOJEOUkFAA" name="Normal Operation Conditions">
-        <packagedElement xmi:type="uml:Class" xmi:id="_6wjNQCnJEeu7zOJEOUkFAA" name="Example REQ-NO"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_EDbXkCwfEeutKbRTHP0t3A" name="Take-off"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_GzVTYCwfEeutKbRTHP0t3A" name="Landing"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_J5yG8CwfEeutKbRTHP0t3A" name="Mission planning"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_L2dPACwfEeutKbRTHP0t3A" name="Search area definition"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_P-0ykCwfEeutKbRTHP0t3A" name="Flight"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_wdWfICnJEeu7zOJEOUkFAA" name="Person Detection">
         <packagedElement xmi:type="uml:Class" xmi:id="_GOP_oCnKEeu7zOJEOUkFAA" name="Example REQ-PD"/>
@@ -91,7 +95,6 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
   </uml:Model>
-  <Requirements:Requirement xmi:id="_6wos0CnJEeu7zOJEOUkFAA" base_NamedElement="_6wjNQCnJEeu7zOJEOUkFAA" id="NO-01" text="Write here requirement definition" base_Class="_6wjNQCnJEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GOQmsCnKEeu7zOJEOUkFAA" base_NamedElement="_GOP_oCnKEeu7zOJEOUkFAA" id="PD-01" text="Write here requirement definition" base_Class="_GOP_oCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GXuEsCnKEeu7zOJEOUkFAA" base_NamedElement="_GXtdoCnKEeu7zOJEOUkFAA" id="CM-01" text="Write here requirement definition" base_Class="_GXtdoCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_Gf6XYCnKEeu7zOJEOUkFAA" base_NamedElement="_Gf5wUCnKEeu7zOJEOUkFAA" id="FM-01" text="Write here requirement definition" base_Class="_Gf5wUCnKEeu7zOJEOUkFAA"/>

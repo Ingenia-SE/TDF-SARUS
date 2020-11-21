@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <notation:Diagram xmi:id="_fL-d8CnJEeu7zOJEOUkFAA" type="PapyrusUMLClassDiagram" name="Normal Operation Conditions" measurementUnit="Pixel">
     <styles xmi:type="notation:StringValueStyle" xmi:id="_fL-eCSnJEeu7zOJEOUkFAA" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_fL-eCinJEeu7zOJEOUkFAA"/>
@@ -260,39 +260,75 @@
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_VdBP4CnKEeu7zOJEOUkFAA" type="PapyrusUMLClassDiagram" name="Normal Operation Conditions" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_kLZI0CnKEeuBhplQNQYfZQ" type="Class_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_kLjg4CnKEeuBhplQNQYfZQ" type="Class_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_kLkH8CnKEeuBhplQNQYfZQ" type="Class_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_kLkH8SnKEeuBhplQNQYfZQ" y="15"/>
+    <children xmi:type="notation:Shape" xmi:id="_ED7G0CwfEeutKbRTHP0t3A" type="Package_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lFki0CwfEeutKbRTHP0t3A" source="PapyrusHyperLink_Object" references="_lDVuMCwfEeutKbRTHP0t3A">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lFki0SwfEeutKbRTHP0t3A" key="tooltip_text"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lFki0iwfEeutKbRTHP0t3A" key="pageName" value="PapyrusHyperLink_Object"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lFki0ywfEeutKbRTHP0t3A" key="is_default_navigation" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ED88ACwfEeutKbRTHP0t3A" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ED88ASwfEeutKbRTHP0t3A" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_ED88AiwfEeutKbRTHP0t3A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ED88AywfEeutKbRTHP0t3A"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_kLkH8inKEeuBhplQNQYfZQ" type="Class_AttributeCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_kLkH8ynKEeuBhplQNQYfZQ"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_kLkH9CnKEeuBhplQNQYfZQ"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_kLkH9SnKEeuBhplQNQYfZQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kLkH9inKEeuBhplQNQYfZQ"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_kLkvACnKEeuBhplQNQYfZQ" type="Class_OperationCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_kLkvASnKEeuBhplQNQYfZQ"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_kLkvAinKEeuBhplQNQYfZQ"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_kLkvAynKEeuBhplQNQYfZQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kLkvBCnKEeuBhplQNQYfZQ"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_kLkvBSnKEeuBhplQNQYfZQ" type="Class_NestedClassifierCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_kLkvBinKEeuBhplQNQYfZQ"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_kLkvBynKEeuBhplQNQYfZQ"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_kLkvCCnKEeuBhplQNQYfZQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kLkvCSnKEeuBhplQNQYfZQ"/>
-      </children>
-      <element xmi:type="uml:Class" href="SARUS%20Project.uml#_6wjNQCnJEeu7zOJEOUkFAA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kLZI0SnKEeuBhplQNQYfZQ" x="400" y="100" width="365"/>
+      <element xmi:type="uml:Package" href="SARUS%20Project.uml#_EDbXkCwfEeutKbRTHP0t3A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ED7G0SwfEeutKbRTHP0t3A" x="80" y="40"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_kN2m8CnKEeuBhplQNQYfZQ" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_kN2m8SnKEeuBhplQNQYfZQ"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_kN3OACnKEeuBhplQNQYfZQ" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Class" href="SARUS%20Project.uml#_6wjNQCnJEeu7zOJEOUkFAA"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kN2m8inKEeuBhplQNQYfZQ" x="200"/>
+    <children xmi:type="notation:Shape" xmi:id="_GzXvoCwfEeutKbRTHP0t3A" type="Package_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tIDLgCwfEeutKbRTHP0t3A" source="PapyrusHyperLink_Object" references="_tFzv0CwfEeutKbRTHP0t3A">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tIDLgSwfEeutKbRTHP0t3A" key="tooltip_text"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tIDLgiwfEeutKbRTHP0t3A" key="pageName" value="PapyrusHyperLink_Object"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tIDLgywfEeutKbRTHP0t3A" key="is_default_navigation" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_GzYWsCwfEeutKbRTHP0t3A" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_GzYWsSwfEeutKbRTHP0t3A" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_GzYWsiwfEeutKbRTHP0t3A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GzYWsywfEeutKbRTHP0t3A"/>
+      </children>
+      <element xmi:type="uml:Package" href="SARUS%20Project.uml#_GzVTYCwfEeutKbRTHP0t3A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GzXvoSwfEeutKbRTHP0t3A" x="320" y="40"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_J5zVECwfEeutKbRTHP0t3A" type="Package_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zc_7YCwfEeutKbRTHP0t3A" source="PapyrusHyperLink_Object" references="_zaxGwCwfEeutKbRTHP0t3A">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zc_7YSwfEeutKbRTHP0t3A" key="tooltip_text"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zc_7YiwfEeutKbRTHP0t3A" key="pageName" value="PapyrusHyperLink_Object"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zc_7YywfEeutKbRTHP0t3A" key="is_default_navigation" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_J5zVEiwfEeutKbRTHP0t3A" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_J5zVEywfEeutKbRTHP0t3A" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_J5zVFCwfEeutKbRTHP0t3A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J5zVFSwfEeutKbRTHP0t3A"/>
+      </children>
+      <element xmi:type="uml:Package" href="SARUS%20Project.uml#_J5yG8CwfEeutKbRTHP0t3A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J5zVESwfEeutKbRTHP0t3A" x="85" y="179"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_L2d2ECwfEeutKbRTHP0t3A" type="Package_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5b4UoCwfEeutKbRTHP0t3A" source="PapyrusHyperLink_Object" references="_5Zo48CwfEeutKbRTHP0t3A">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5b4UoSwfEeutKbRTHP0t3A" key="tooltip_text"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5b4UoiwfEeutKbRTHP0t3A" key="pageName" value="PapyrusHyperLink_Object"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5b4UoywfEeutKbRTHP0t3A" key="is_default_navigation" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_L2edICwfEeutKbRTHP0t3A" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_L2edISwfEeutKbRTHP0t3A" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_L2edIiwfEeutKbRTHP0t3A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L2edIywfEeutKbRTHP0t3A"/>
+      </children>
+      <element xmi:type="uml:Package" href="SARUS%20Project.uml#_L2dPACwfEeutKbRTHP0t3A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L2d2ESwfEeutKbRTHP0t3A" x="327" y="178"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_P-2nwCwfEeutKbRTHP0t3A" type="Package_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8Jkp8CwfEeutKbRTHP0t3A" source="PapyrusHyperLink_Object" references="_8HcjACwfEeutKbRTHP0t3A">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Jkp8SwfEeutKbRTHP0t3A" key="tooltip_text"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Jkp8iwfEeutKbRTHP0t3A" key="pageName" value="PapyrusHyperLink_Object"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Jkp8ywfEeutKbRTHP0t3A" key="is_default_navigation" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_P-2nwiwfEeutKbRTHP0t3A" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_P-3O0CwfEeutKbRTHP0t3A" type="Package_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_P-3O0SwfEeutKbRTHP0t3A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P-3O0iwfEeutKbRTHP0t3A"/>
+      </children>
+      <element xmi:type="uml:Package" href="SARUS%20Project.uml#_P-0ykCwfEeutKbRTHP0t3A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P-2nwSwfEeutKbRTHP0t3A" x="579" y="42"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_VdBP4SnKEeu7zOJEOUkFAA" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_VdBP4inKEeu7zOJEOUkFAA"/>
@@ -300,16 +336,6 @@
       <owner xmi:type="uml:Package" href="SARUS%20Project.uml#_tIifcCnJEeu7zOJEOUkFAA"/>
     </styles>
     <element xmi:type="uml:Package" href="SARUS%20Project.uml#_tIifcCnJEeu7zOJEOUkFAA"/>
-    <edges xmi:type="notation:Connector" xmi:id="_kN3OASnKEeuBhplQNQYfZQ" type="StereotypeCommentLink" source="_kLZI0CnKEeuBhplQNQYfZQ" target="_kN2m8CnKEeuBhplQNQYfZQ">
-      <styles xmi:type="notation:FontStyle" xmi:id="_kN3OAinKEeuBhplQNQYfZQ"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_kN31EinKEeuBhplQNQYfZQ" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:Class" href="SARUS%20Project.uml#_6wjNQCnJEeu7zOJEOUkFAA"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kN3OAynKEeuBhplQNQYfZQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kN31ECnKEeuBhplQNQYfZQ"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kN31ESnKEeuBhplQNQYfZQ"/>
-    </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_ctWC4CnKEeu7zOJEOUkFAA" type="PapyrusUMLClassDiagram" name="Person Detection" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_loOTMCnKEeuBhplQNQYfZQ" type="Class_Shape">
@@ -622,5 +648,45 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4hSq-inKEeuBhplQNQYfZQ"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4hSq-ynKEeuBhplQNQYfZQ"/>
     </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_lDVuMCwfEeutKbRTHP0t3A" type="PapyrusUMLClassDiagram" name="Take-off" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_lDVuMSwfEeutKbRTHP0t3A" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_lDVuMiwfEeutKbRTHP0t3A"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_lDVuMywfEeutKbRTHP0t3A" diagramKindId="org.eclipse.papyrus.sysml16.diagram.requirement">
+      <owner xmi:type="uml:Package" href="SARUS%20Project.uml#_EDbXkCwfEeutKbRTHP0t3A"/>
+    </styles>
+    <element xmi:type="uml:Package" href="SARUS%20Project.uml#_EDbXkCwfEeutKbRTHP0t3A"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_tFzv0CwfEeutKbRTHP0t3A" type="PapyrusUMLClassDiagram" name="Landing" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_tFzv0SwfEeutKbRTHP0t3A" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_tFzv0iwfEeutKbRTHP0t3A"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_tFzv0ywfEeutKbRTHP0t3A" diagramKindId="org.eclipse.papyrus.sysml16.diagram.requirement">
+      <owner xmi:type="uml:Package" href="SARUS%20Project.uml#_GzVTYCwfEeutKbRTHP0t3A"/>
+    </styles>
+    <element xmi:type="uml:Package" href="SARUS%20Project.uml#_GzVTYCwfEeutKbRTHP0t3A"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_zaxGwCwfEeutKbRTHP0t3A" type="PapyrusUMLClassDiagram" name="Mission planning" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_zaxGwSwfEeutKbRTHP0t3A" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_zaxGwiwfEeutKbRTHP0t3A"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_zaxGwywfEeutKbRTHP0t3A" diagramKindId="org.eclipse.papyrus.sysml16.diagram.requirement">
+      <owner xmi:type="uml:Package" href="SARUS%20Project.uml#_J5yG8CwfEeutKbRTHP0t3A"/>
+    </styles>
+    <element xmi:type="uml:Package" href="SARUS%20Project.uml#_J5yG8CwfEeutKbRTHP0t3A"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_5Zo48CwfEeutKbRTHP0t3A" type="PapyrusUMLClassDiagram" name="Search area definition" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_5Zo48SwfEeutKbRTHP0t3A" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_5Zo48iwfEeutKbRTHP0t3A"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_5Zo48ywfEeutKbRTHP0t3A" diagramKindId="org.eclipse.papyrus.sysml16.diagram.requirement">
+      <owner xmi:type="uml:Package" href="SARUS%20Project.uml#_L2dPACwfEeutKbRTHP0t3A"/>
+    </styles>
+    <element xmi:type="uml:Package" href="SARUS%20Project.uml#_L2dPACwfEeutKbRTHP0t3A"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_8HcjACwfEeutKbRTHP0t3A" type="PapyrusUMLClassDiagram" name="Flight" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_8HcjASwfEeutKbRTHP0t3A" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_8HcjAiwfEeutKbRTHP0t3A"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_8HcjAywfEeutKbRTHP0t3A" diagramKindId="org.eclipse.papyrus.sysml16.diagram.requirement">
+      <owner xmi:type="uml:Package" href="SARUS%20Project.uml#_P-0ykCwfEeutKbRTHP0t3A"/>
+    </styles>
+    <element xmi:type="uml:Package" href="SARUS%20Project.uml#_P-0ykCwfEeutKbRTHP0t3A"/>
   </notation:Diagram>
 </xmi:XMI>
