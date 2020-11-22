@@ -73,7 +73,36 @@
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_Dd-BMCy7EeuESP3ABfdsrQ" name="Satisfy6" client="_WCsWECy6EeuESP3ABfdsrQ" supplier="_JnJbYCy6EeuESP3ABfdsrQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_x9DXUCnJEeu7zOJEOUkFAA" name="Fault Management">
-        <packagedElement xmi:type="uml:Class" xmi:id="_Gf5wUCnKEeu7zOJEOUkFAA" name="Example REQ-FM"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_G3Qq4C0AEeu6idVRQenvHQ" name="Faulty status ">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_G3Qq4S0AEeu6idVRQenvHQ" name="Multirotors failure"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_G3Qq4i0AEeu6idVRQenvHQ" name="Navigation system failure">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_G3Qq4y0AEeu6idVRQenvHQ" name="Return home"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_G3Qq5C0AEeu6idVRQenvHQ" name="Sensors system failure"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_G3Qq5S0AEeu6idVRQenvHQ" name="Critical system failure"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_G3Qq5i0AEeu6idVRQenvHQ" name="Collision "/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_Hw7d0C0AEeu6idVRQenvHQ" name="Stabilizing system failure"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_IToiQC0AEeu6idVRQenvHQ" name="Navigation system failure">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_IToiQS0AEeu6idVRQenvHQ" name="Return home"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_IxqiEC0AEeu6idVRQenvHQ" name="Multirotors failure"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_JRLvoC0AEeu6idVRQenvHQ" name="Sensors system failure"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_LyyJsC0AEeu6idVRQenvHQ" name="Collision "/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_MSvcIC0AEeu6idVRQenvHQ" name="Critical system failure"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_JxUBMC0AEeu6idVRQenvHQ" name="Return home"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Kv5JUC0AEeu6idVRQenvHQ" name="Land"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Mz62kC0AEeu6idVRQenvHQ" name="Total failure"/>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_XdqccC0AEeu6idVRQenvHQ" name="Stabilizing and navigation system works"/>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_YJVPoC0AEeu6idVRQenvHQ" name="Stabilizing and navigation system failed"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_lTotwC0AEeu6idVRQenvHQ" client="_JxUBMC0AEeu6idVRQenvHQ" supplier="_IxqiEC0AEeu6idVRQenvHQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_mIB_IC0AEeu6idVRQenvHQ" client="_JxUBMC0AEeu6idVRQenvHQ" supplier="_JRLvoC0AEeu6idVRQenvHQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_m7YusC0AEeu6idVRQenvHQ" name="Verify1" client="_XdqccC0AEeu6idVRQenvHQ" supplier="_JxUBMC0AEeu6idVRQenvHQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_o1hgIC0AEeu6idVRQenvHQ" client="_Kv5JUC0AEeu6idVRQenvHQ" supplier="_IxqiEC0AEeu6idVRQenvHQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_pW8LIC0AEeu6idVRQenvHQ" client="_Kv5JUC0AEeu6idVRQenvHQ" supplier="_JRLvoC0AEeu6idVRQenvHQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_p3M_kC0AEeu6idVRQenvHQ" name="Verify2" client="_YJVPoC0AEeu6idVRQenvHQ" supplier="_Kv5JUC0AEeu6idVRQenvHQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_yjlg4C0AEeu6idVRQenvHQ" client="_Mz62kC0AEeu6idVRQenvHQ" supplier="_MSvcIC0AEeu6idVRQenvHQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_04aqQC0AEeu6idVRQenvHQ" client="_Mz62kC0AEeu6idVRQenvHQ" supplier="_LyyJsC0AEeu6idVRQenvHQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_yB-6oCnJEeu7zOJEOUkFAA" name="Battery Management">
         <packagedElement xmi:type="uml:Class" xmi:id="_GmNMoCnKEeu7zOJEOUkFAA" name="Example REQ-BM"/>
@@ -176,7 +205,6 @@
   </uml:Model>
   <Requirements:Requirement xmi:id="_GOQmsCnKEeu7zOJEOUkFAA" base_NamedElement="_GOP_oCnKEeu7zOJEOUkFAA" id="PD-01" text="Write here requirement definition" base_Class="_GOP_oCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GXuEsCnKEeu7zOJEOUkFAA" base_NamedElement="_GXtdoCnKEeu7zOJEOUkFAA" id="CM-06" text="The drone must be connected with the operator in charge of the drone trajectory and flight plans" base_Class="_GXtdoCnKEeu7zOJEOUkFAA"/>
-  <Requirements:Requirement xmi:id="_Gf6XYCnKEeu7zOJEOUkFAA" base_NamedElement="_Gf5wUCnKEeu7zOJEOUkFAA" id="FM-01" text="Write here requirement definition" base_Class="_Gf5wUCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GmNzsCnKEeu7zOJEOUkFAA" base_NamedElement="_GmNMoCnKEeu7zOJEOUkFAA" id="BM-01" text="Write here requirement definition" base_Class="_GmNMoCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_Gr_rkCnKEeu7zOJEOUkFAA" base_NamedElement="_Gr-dcCnKEeu7zOJEOUkFAA" id="AC-01" text="The drones must fly in its different operational scenarios&#xD;&#xA;" base_Class="_Gr-dcCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GxVekCnKEeu7zOJEOUkFAA" base_NamedElement="_GxUQcCnKEeu7zOJEOUkFAA" id="DM-01" text="Write here requirement definition" base_Class="_GxUQcCnKEeu7zOJEOUkFAA"/>
@@ -244,4 +272,25 @@
   <Requirements:Requirement xmi:id="_gYH00CzmEeunBNSDKjsaEQ" base_NamedElement="_gX9cwCzmEeunBNSDKjsaEQ" id="AC-12" text="The drone must return home in case of battery malfunction&#xD;&#xA;" base_Class="_gX9cwCzmEeunBNSDKjsaEQ"/>
   <Requirements:Requirement xmi:id="_w0QQECzmEeunBNSDKjsaEQ" base_NamedElement="_w0JiYCzmEeunBNSDKjsaEQ" id="AC-13" text="The swarm must avoid collision in case a helicopter arrives (lack of coordination)&#xD;&#xA;" base_Class="_w0JiYCzmEeunBNSDKjsaEQ"/>
   <Requirements:Requirement xmi:id="_aQ47YCznEeunBNSDKjsaEQ" base_NamedElement="_aQsuICznEeunBNSDKjsaEQ" id="AC-14" text="The drones must return home" base_Class="_aQsuICznEeunBNSDKjsaEQ"/>
+  <Requirements:Requirement xmi:id="_G3SgEC0AEeu6idVRQenvHQ" base_NamedElement="_G3Qq5C0AEeu6idVRQenvHQ" id="FM-05" text="Dron´s sensors must be able to send information at any time of the mission.&#xD;&#xA;" base_Class="_G3Qq5C0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_G3TuMC0AEeu6idVRQenvHQ" base_NamedElement="_G3Qq4C0AEeu6idVRQenvHQ" id="FM-01" text="The dron faulty status must be OK in order to start or keep going the nomal operation of the mission" base_Class="_G3Qq4C0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_G3UVQC0AEeu6idVRQenvHQ" base_NamedElement="_G3Qq4S0AEeu6idVRQenvHQ" id="FM-02" text="Dron´s multirotors must perform correctly to continue the mission&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" base_Class="_G3Qq4S0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_G3U8UC0AEeu6idVRQenvHQ" base_NamedElement="_G3Qq4i0AEeu6idVRQenvHQ" id="FM-04" text="Dron´s navigation system must be able to send correct information about the dron at any time&#xD;&#xA; &#xD;&#xA;" base_Class="_G3Qq4i0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_G3VjYC0AEeu6idVRQenvHQ" base_NamedElement="_G3Qq5i0AEeu6idVRQenvHQ" id="FM-06" text="The dron´s system must stop working in case of a collission is detected&#xD;&#xA;&#xD;&#xA;" base_Class="_G3Qq5i0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_G3WKcC0AEeu6idVRQenvHQ" base_NamedElement="_G3Qq5S0AEeu6idVRQenvHQ" id="FM-07" text="The drone must stop working in order to reduce further risks&#xD;&#xA;" base_Class="_G3Qq5S0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_G3WxgC0AEeu6idVRQenvHQ" base_NamedElement="_G3Qq4y0AEeu6idVRQenvHQ" id="FM-08" text="Dron must return home&#xD;&#xA;" base_Class="_G3Qq4y0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_Hw9TAC0AEeu6idVRQenvHQ" base_NamedElement="_Hw7d0C0AEeu6idVRQenvHQ" id="FM-03" text="Dron´s stabilizing system must perfom correctly for the proper functioning of the planned mission&#xD;&#xA;&#xD;&#xA;" base_Class="_Hw7d0C0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_ITrlkC0AEeu6idVRQenvHQ" base_NamedElement="_IToiQC0AEeu6idVRQenvHQ" id="FM-04" text="Dron´s navigation system must be able to send correct information about the dron at any time&#xD;&#xA; &#xD;&#xA;" base_Class="_IToiQC0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_ITszsC0AEeu6idVRQenvHQ" base_NamedElement="_IToiQS0AEeu6idVRQenvHQ" id="FM-08" text="Dron must return home&#xD;&#xA;" base_Class="_IToiQS0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_IxuMcC0AEeu6idVRQenvHQ" base_NamedElement="_IxqiEC0AEeu6idVRQenvHQ" id="FM-02" text="Dron´s multirotors must perform correctly to continue the mission&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" base_Class="_IxqiEC0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_JRNk0C0AEeu6idVRQenvHQ" base_NamedElement="_JRLvoC0AEeu6idVRQenvHQ" id="FM-05" text="Dron´s sensors must be able to send information at any time of the mission.&#xD;&#xA;" base_Class="_JRLvoC0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_JxYSoC0AEeu6idVRQenvHQ" base_NamedElement="_JxUBMC0AEeu6idVRQenvHQ" id="FM-08" text="Dron must return home&#xD;&#xA;" base_Class="_JxUBMC0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_Kv7lkC0AEeu6idVRQenvHQ" base_NamedElement="_Kv5JUC0AEeu6idVRQenvHQ" id="FM-10" text="Dron must land in order to avoid further damages&#xD;&#xA;&#xD;&#xA;" base_Class="_Kv5JUC0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_Ly1NAC0AEeu6idVRQenvHQ" base_NamedElement="_LyyJsC0AEeu6idVRQenvHQ" id="FM-06" text="The dron´s system must stop working in case of a collission is detected&#xD;&#xA;&#xD;&#xA;" base_Class="_LyyJsC0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_MSztkC0AEeu6idVRQenvHQ" base_NamedElement="_MSvcIC0AEeu6idVRQenvHQ" id="FM-07" text="The drone must stop working in order to reduce further risks&#xD;&#xA;" base_Class="_MSvcIC0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_Mz_IAC0AEeu6idVRQenvHQ" base_NamedElement="_Mz62kC0AEeu6idVRQenvHQ" id="FM-09" text="The drone must stop working in order to avoid further risks in the system&#xD;&#xA;" base_Class="_Mz62kC0AEeu6idVRQenvHQ"/>
+  <Requirements:TestCase xmi:id="_XdsRoC0AEeu6idVRQenvHQ" base_Behavior="_XdqccC0AEeu6idVRQenvHQ"/>
+  <Requirements:TestCase xmi:id="_YJYS8C0AEeu6idVRQenvHQ" base_Behavior="_YJVPoC0AEeu6idVRQenvHQ"/>
+  <Requirements:Verify xmi:id="_m7h4oC0AEeu6idVRQenvHQ" base_DirectedRelationship="_m7YusC0AEeu6idVRQenvHQ" base_Abstraction="_m7YusC0AEeu6idVRQenvHQ"/>
+  <Requirements:Verify xmi:id="_p3UUUC0AEeu6idVRQenvHQ" base_DirectedRelationship="_p3M_kC0AEeu6idVRQenvHQ" base_Abstraction="_p3M_kC0AEeu6idVRQenvHQ"/>
 </xmi:XMI>
