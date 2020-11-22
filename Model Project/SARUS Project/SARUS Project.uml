@@ -35,7 +35,25 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_ey2mkCwqEeutKbRTHP0t3A" name="Waypoint distance"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_tX6ygCwqEeutKbRTHP0t3A" name="Refine17" client="_ey2mkCwqEeutKbRTHP0t3A" supplier="_z2si4CwhEeutKbRTHP0t3A"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Package" xmi:id="_L2dPACwfEeutKbRTHP0t3A" name="Search area definition"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_L2dPACwfEeutKbRTHP0t3A" name="Search area definition">
+          <packagedElement xmi:type="uml:Class" xmi:id="_ZNZiQCzgEeuqLowq6GfKMw" name="Definition of the area">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_nY1wcCzkEeuqLowq6GfKMw" name="No-fly zones"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_0SYLgCzgEeuqLowq6GfKMw" name="Maximum search area"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_gA-ngCzjEeuqLowq6GfKMw" name="Point definition"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_NuLJECzkEeuqLowq6GfKMw" name="Center point">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_qAYTECznEeuqLowq6GfKMw" name="Map display"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Asg0ICzlEeuqLowq6GfKMw" name="Maps"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_a2YgACzlEeuqLowq6GfKMw" name="Order of definition"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_563rwCzlEeuqLowq6GfKMw" name="Scope"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_4i2TcCzmEeuqLowq6GfKMw" name="Refine8" client="_563rwCzlEeuqLowq6GfKMw" supplier="_ZNZiQCzgEeuqLowq6GfKMw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="__HqEQCzmEeuqLowq6GfKMw" name="Refine9" client="_Asg0ICzlEeuqLowq6GfKMw" supplier="_ZNZiQCzgEeuqLowq6GfKMw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_Kn7CcCznEeuqLowq6GfKMw" name="Refine10" client="_0SYLgCzgEeuqLowq6GfKMw" supplier="_563rwCzlEeuqLowq6GfKMw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_YSc4wCznEeuqLowq6GfKMw" name="Refine11" client="_gA-ngCzjEeuqLowq6GfKMw" supplier="_ZNZiQCzgEeuqLowq6GfKMw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_35oh4CznEeuqLowq6GfKMw" name="Refine12" client="_NuLJECzkEeuqLowq6GfKMw" supplier="_Asg0ICzlEeuqLowq6GfKMw"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_HgbQkCzoEeuqLowq6GfKMw" name="DeriveReqt13" client="_a2YgACzlEeuqLowq6GfKMw" supplier="_ZNZiQCzgEeuqLowq6GfKMw"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_P-0ykCwfEeutKbRTHP0t3A" name="Flight"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_wdWfICnJEeu7zOJEOUkFAA" name="Person Detection">
@@ -163,4 +181,19 @@
   <Requirements:Requirement xmi:id="_JnNs0Cy6EeuESP3ABfdsrQ" base_NamedElement="_JnJbYCy6EeuESP3ABfdsrQ" id="CM-07" text="The drone must continue the mission in case of lost connection" base_Class="_JnJbYCy6EeuESP3ABfdsrQ"/>
   <Requirements:Requirement xmi:id="_WCvZYCy6EeuESP3ABfdsrQ" base_NamedElement="_WCsWECy6EeuESP3ABfdsrQ" id="CM-08" text="The drone must attempt to reestablish communication in case of loss" base_Class="_WCsWECy6EeuESP3ABfdsrQ"/>
   <Requirements:Satisfy xmi:id="_DeBrkCy7EeuESP3ABfdsrQ" base_DirectedRelationship="_Dd-BMCy7EeuESP3ABfdsrQ" base_Abstraction="_Dd-BMCy7EeuESP3ABfdsrQ"/>
+  <Requirements:Requirement xmi:id="_ZPksgCzgEeuqLowq6GfKMw" base_NamedElement="_ZNZiQCzgEeuqLowq6GfKMw" id="NO-20" text="The system must allow the user to define a search area for the flight plan." base_Class="_ZNZiQCzgEeuqLowq6GfKMw"/>
+  <Requirements:Requirement xmi:id="_0SdEACzgEeuqLowq6GfKMw" base_NamedElement="_0SYLgCzgEeuqLowq6GfKMw" id="NO-21" text="The system must support search areas of up to 1 square km." base_Class="_0SYLgCzgEeuqLowq6GfKMw"/>
+  <Requirements:Requirement xmi:id="_gBBq0CzjEeuqLowq6GfKMw" base_NamedElement="_gA-ngCzjEeuqLowq6GfKMw" id="NO-22" text="The system must use points connected by straight lines to define the search area. The area is completely defined when the perimeter is closed." base_Class="_gA-ngCzjEeuqLowq6GfKMw"/>
+  <Requirements:Requirement xmi:id="_NuNlUCzkEeuqLowq6GfKMw" base_NamedElement="_NuLJECzkEeuqLowq6GfKMw" id="NO-23" text="The system must first accept a location, given by its coordinates, to center the map before the system operator defines the search area." base_Class="_NuLJECzkEeuqLowq6GfKMw"/>
+  <Requirements:Requirement xmi:id="_nY5a0CzkEeuqLowq6GfKMw" base_NamedElement="_nY1wcCzkEeuqLowq6GfKMw" id="NO-24" text="The system must allow the system operator to define no-fly areas inside the search area." base_Class="_nY1wcCzkEeuqLowq6GfKMw"/>
+  <Requirements:Requirement xmi:id="_AsjQYCzlEeuqLowq6GfKMw" base_NamedElement="_Asg0ICzlEeuqLowq6GfKMw" id="NO-25" text="The system must display the search area for the system operator on a map, while it is being defined." base_Class="_Asg0ICzlEeuqLowq6GfKMw"/>
+  <Requirements:Requirement xmi:id="_a2bjUCzlEeuqLowq6GfKMw" base_NamedElement="_a2YgACzlEeuqLowq6GfKMw" id="NO-26" text="The system must only allow the user to define the flight plan after the search area is defined." base_Class="_a2YgACzlEeuqLowq6GfKMw"/>
+  <Requirements:Requirement xmi:id="_568kQCzlEeuqLowq6GfKMw" base_NamedElement="_563rwCzlEeuqLowq6GfKMw" id="NO-27" text="The system must allow the user to define a search area inside Spanish borders." base_Class="_563rwCzlEeuqLowq6GfKMw"/>
+  <Requirements:Refine xmi:id="_4i4IoCzmEeuqLowq6GfKMw" base_DirectedRelationship="_4i2TcCzmEeuqLowq6GfKMw" base_Abstraction="_4i2TcCzmEeuqLowq6GfKMw"/>
+  <Requirements:Refine xmi:id="__HsggCzmEeuqLowq6GfKMw" base_DirectedRelationship="__HqEQCzmEeuqLowq6GfKMw" base_Abstraction="__HqEQCzmEeuqLowq6GfKMw"/>
+  <Requirements:Refine xmi:id="_Kn83oCznEeuqLowq6GfKMw" base_DirectedRelationship="_Kn7CcCznEeuqLowq6GfKMw" base_Abstraction="_Kn7CcCznEeuqLowq6GfKMw"/>
+  <Requirements:Refine xmi:id="_YSet8CznEeuqLowq6GfKMw" base_DirectedRelationship="_YSc4wCznEeuqLowq6GfKMw" base_Abstraction="_YSc4wCznEeuqLowq6GfKMw"/>
+  <Requirements:Requirement xmi:id="_qAaIQCznEeuqLowq6GfKMw" base_NamedElement="_qAYTECznEeuqLowq6GfKMw" id="NO-28" text="The system must be able to display a map to the user." base_Class="_qAYTECznEeuqLowq6GfKMw"/>
+  <Requirements:Refine xmi:id="_35pwACznEeuqLowq6GfKMw" base_DirectedRelationship="_35oh4CznEeuqLowq6GfKMw" base_Abstraction="_35oh4CznEeuqLowq6GfKMw"/>
+  <Requirements:DeriveReqt xmi:id="_HgdFwCzoEeuqLowq6GfKMw" base_DirectedRelationship="_HgbQkCzoEeuqLowq6GfKMw" base_Abstraction="_HgbQkCzoEeuqLowq6GfKMw"/>
 </xmi:XMI>
