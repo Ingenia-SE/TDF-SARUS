@@ -42,7 +42,17 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_GOP_oCnKEeu7zOJEOUkFAA" name="Example REQ-PD"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_xrcC4CnJEeu7zOJEOUkFAA" name="Communication">
-        <packagedElement xmi:type="uml:Class" xmi:id="_GXtdoCnKEeu7zOJEOUkFAA" name="Example REQ-CM"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_AUZvkCy4EeuESP3ABfdsrQ" name="Communication uninterrupted"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_ojwvcCy4EeuESP3ABfdsrQ" name="Refine6" client="_AUZvkCy4EeuESP3ABfdsrQ" supplier="_kfG18CyyEeuESP3ABfdsrQ"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_DmtYYCy5EeuESP3ABfdsrQ" name="Communication available">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_GXtdoCnKEeu7zOJEOUkFAA" name="Operator"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_pj7TUCy1EeuESP3ABfdsrQ" name="C2 System"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_xZ0moCy3EeuESP3ABfdsrQ" name="Geographical maps"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_JnJbYCy6EeuESP3ABfdsrQ" name="Lost connection"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_kfG18CyyEeuESP3ABfdsrQ" name="Command post"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_WCsWECy6EeuESP3ABfdsrQ" name="Reconnection "/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Dd-BMCy7EeuESP3ABfdsrQ" name="Satisfy6" client="_WCsWECy6EeuESP3ABfdsrQ" supplier="_JnJbYCy6EeuESP3ABfdsrQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_x9DXUCnJEeu7zOJEOUkFAA" name="Fault Management">
         <packagedElement xmi:type="uml:Class" xmi:id="_Gf5wUCnKEeu7zOJEOUkFAA" name="Example REQ-FM"/>
@@ -119,7 +129,7 @@
     </profileApplication>
   </uml:Model>
   <Requirements:Requirement xmi:id="_GOQmsCnKEeu7zOJEOUkFAA" base_NamedElement="_GOP_oCnKEeu7zOJEOUkFAA" id="PD-01" text="Write here requirement definition" base_Class="_GOP_oCnKEeu7zOJEOUkFAA"/>
-  <Requirements:Requirement xmi:id="_GXuEsCnKEeu7zOJEOUkFAA" base_NamedElement="_GXtdoCnKEeu7zOJEOUkFAA" id="CM-01" text="Write here requirement definition" base_Class="_GXtdoCnKEeu7zOJEOUkFAA"/>
+  <Requirements:Requirement xmi:id="_GXuEsCnKEeu7zOJEOUkFAA" base_NamedElement="_GXtdoCnKEeu7zOJEOUkFAA" id="CM-06" text="The drone must be connected with the operator in charge of the drone trajectory and flight plans" base_Class="_GXtdoCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_Gf6XYCnKEeu7zOJEOUkFAA" base_NamedElement="_Gf5wUCnKEeu7zOJEOUkFAA" id="FM-01" text="Write here requirement definition" base_Class="_Gf5wUCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GmNzsCnKEeu7zOJEOUkFAA" base_NamedElement="_GmNMoCnKEeu7zOJEOUkFAA" id="BM-01" text="Write here requirement definition" base_Class="_GmNMoCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_Gr_rkCnKEeu7zOJEOUkFAA" base_NamedElement="_Gr-dcCnKEeu7zOJEOUkFAA" id="AC-01" text="Write here requirement definition" base_Class="_Gr-dcCnKEeu7zOJEOUkFAA"/>
@@ -144,4 +154,13 @@
   <Requirements:Refine xmi:id="_c_3mACwqEeutKbRTHP0t3A" base_DirectedRelationship="_c_0isCwqEeutKbRTHP0t3A" base_Abstraction="_c_0isCwqEeutKbRTHP0t3A"/>
   <Requirements:Requirement xmi:id="_ey4bwCwqEeutKbRTHP0t3A" base_NamedElement="_ey2mkCwqEeutKbRTHP0t3A" id="NO-51" text="The system must place the waypoints between 100 and 400 m apart when creating the flight plan automatically." base_Class="_ey2mkCwqEeutKbRTHP0t3A"/>
   <Requirements:Refine xmi:id="_tX8nsCwqEeutKbRTHP0t3A" base_DirectedRelationship="_tX6ygCwqEeutKbRTHP0t3A" base_Abstraction="_tX6ygCwqEeutKbRTHP0t3A"/>
+  <Requirements:Requirement xmi:id="_kf6uQCyyEeuESP3ABfdsrQ" base_NamedElement="_kfG18CyyEeuESP3ABfdsrQ" id="CM-02" text="The drone has to able to communicate with the command post" base_Class="_kfG18CyyEeuESP3ABfdsrQ"/>
+  <Requirements:Requirement xmi:id="_pkAL0Cy1EeuESP3ABfdsrQ" base_NamedElement="_pj7TUCy1EeuESP3ABfdsrQ" id="CM-03" text="The drone has to be able to communicate to the Command and Control platform.&#xD;&#xA;" base_Class="_pj7TUCy1EeuESP3ABfdsrQ"/>
+  <Requirements:Requirement xmi:id="_xZ44ECy3EeuESP3ABfdsrQ" base_NamedElement="_xZ0moCy3EeuESP3ABfdsrQ" id="CM-04" text="The drone's current position and estimated target position will be displayed on the maps" base_Class="_xZ0moCy3EeuESP3ABfdsrQ"/>
+  <Requirements:Requirement xmi:id="_AUdZ8Cy4EeuESP3ABfdsrQ" base_NamedElement="_AUZvkCy4EeuESP3ABfdsrQ" id="CM-05" text="The communication with the system operator must be uninterrupted" base_Class="_AUZvkCy4EeuESP3ABfdsrQ"/>
+  <Requirements:Refine xmi:id="_oj4EMCy4EeuESP3ABfdsrQ" base_DirectedRelationship="_ojwvcCy4EeuESP3ABfdsrQ" base_Abstraction="_ojwvcCy4EeuESP3ABfdsrQ"/>
+  <Requirements:Requirement xmi:id="_DmwbsCy5EeuESP3ABfdsrQ" base_NamedElement="_DmtYYCy5EeuESP3ABfdsrQ" id="CM-01" text="The drone must be available for communication at all times" base_Class="_DmtYYCy5EeuESP3ABfdsrQ"/>
+  <Requirements:Requirement xmi:id="_JnNs0Cy6EeuESP3ABfdsrQ" base_NamedElement="_JnJbYCy6EeuESP3ABfdsrQ" id="CM-07" text="The drone must continue the mission in case of lost connection" base_Class="_JnJbYCy6EeuESP3ABfdsrQ"/>
+  <Requirements:Requirement xmi:id="_WCvZYCy6EeuESP3ABfdsrQ" base_NamedElement="_WCsWECy6EeuESP3ABfdsrQ" id="CM-08" text="The drone must attempt to reestablish communication in case of loss" base_Class="_WCsWECy6EeuESP3ABfdsrQ"/>
+  <Requirements:Satisfy xmi:id="_DeBrkCy7EeuESP3ABfdsrQ" base_DirectedRelationship="_Dd-BMCy7EeuESP3ABfdsrQ" base_Abstraction="_Dd-BMCy7EeuESP3ABfdsrQ"/>
 </xmi:XMI>
