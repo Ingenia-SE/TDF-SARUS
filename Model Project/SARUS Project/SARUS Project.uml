@@ -95,6 +95,25 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_wdWfICnJEeu7zOJEOUkFAA" name="Person Detection">
         <packagedElement xmi:type="uml:Class" xmi:id="_GOP_oCnKEeu7zOJEOUkFAA" name="Visual Detection and Classification"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MdPncC26EeuakL1QKwDxZg" name="Object tracking"/>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_3rRX4C26EeuakL1QKwDxZg" name="Moving object detection" node="_7numYC26EeuakL1QKwDxZg">
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_7Xd80C26EeuakL1QKwDxZg" name="Moving object detection"/>
+          <node xmi:type="uml:CreateObjectAction" xmi:id="_7numYC26EeuakL1QKwDxZg" name="CreateObjectAction2" classifier="_7Xd80C26EeuakL1QKwDxZg">
+            <result xmi:type="uml:OutputPin" xmi:id="_7n17IC26EeuakL1QKwDxZg" name="result" type="_7Xd80C26EeuakL1QKwDxZg">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7n17IS26EeuakL1QKwDxZg" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7n17Ii26EeuakL1QKwDxZg" value="1"/>
+            </result>
+          </node>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_Aimk8C27EeuakL1QKwDxZg" name="Poor visibility conditions" node="_Aimk8i27EeuakL1QKwDxZg">
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_Aimk8S27EeuakL1QKwDxZg" name="Moving object detection"/>
+          <node xmi:type="uml:CreateObjectAction" xmi:id="_Aimk8i27EeuakL1QKwDxZg" name="CreateObjectAction2" classifier="_Aimk8S27EeuakL1QKwDxZg">
+            <result xmi:type="uml:OutputPin" xmi:id="_Aimk8y27EeuakL1QKwDxZg" name="result" type="_Aimk8S27EeuakL1QKwDxZg">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Aimk9C27EeuakL1QKwDxZg" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Aimk9S27EeuakL1QKwDxZg" value="1"/>
+            </result>
+          </node>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_xrcC4CnJEeu7zOJEOUkFAA" name="Communication">
         <packagedElement xmi:type="uml:Class" xmi:id="_AUZvkCy4EeuESP3ABfdsrQ" name="Communication uninterrupted"/>
@@ -240,7 +259,7 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
   </uml:Model>
-  <Requirements:Requirement xmi:id="_GOQmsCnKEeu7zOJEOUkFAA" base_NamedElement="_GOP_oCnKEeu7zOJEOUkFAA" id="PD-01" text="Write here requirement definition" base_Class="_GOP_oCnKEeu7zOJEOUkFAA"/>
+  <Requirements:Requirement xmi:id="_GOQmsCnKEeu7zOJEOUkFAA" base_NamedElement="_GOP_oCnKEeu7zOJEOUkFAA" id="PD-01" text="The system must be able to detect and classify  possible persons in the rescue area" base_Class="_GOP_oCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GXuEsCnKEeu7zOJEOUkFAA" base_NamedElement="_GXtdoCnKEeu7zOJEOUkFAA" id="CM-06" text="The drone must be connected with the operator in charge of the drone trajectory and flight plans" base_Class="_GXtdoCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GmNzsCnKEeu7zOJEOUkFAA" base_NamedElement="_GmNMoCnKEeu7zOJEOUkFAA" id="BM-01" text="Write here requirement definition" base_Class="_GmNMoCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_Gr_rkCnKEeu7zOJEOUkFAA" base_NamedElement="_Gr-dcCnKEeu7zOJEOUkFAA" id="AC-01" text="The drones must fly in its different operational scenarios&#xD;&#xA;" base_Class="_Gr-dcCnKEeu7zOJEOUkFAA"/>
@@ -362,4 +381,9 @@
   <Requirements:Refine xmi:id="_2t_w8C2yEeudUYyhZ7mBag" base_DirectedRelationship="_2t97wC2yEeudUYyhZ7mBag" base_Abstraction="_2t97wC2yEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_75ovYC2yEeudUYyhZ7mBag" base_DirectedRelationship="_75mTIC2yEeudUYyhZ7mBag" base_Abstraction="_75mTIC2yEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_IuSGkC2zEeudUYyhZ7mBag" base_DirectedRelationship="_IuQRYC2zEeudUYyhZ7mBag" base_Abstraction="_IuQRYC2zEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_MdamkC26EeuakL1QKwDxZg" base_NamedElement="_MdPncC26EeuakL1QKwDxZg" id="PD-02" text="The drone should follow the moving object for its future classification" base_Class="_MdPncC26EeuakL1QKwDxZg"/>
+  <Requirements:TestCase xmi:id="_3rbI4C26EeuakL1QKwDxZg" base_Behavior="_3rRX4C26EeuakL1QKwDxZg"/>
+  <Requirements:TestCase xmi:id="_7n3JQC26EeuakL1QKwDxZg" base_Behavior="_7Xd80C26EeuakL1QKwDxZg"/>
+  <Requirements:TestCase xmi:id="_AiqPUC27EeuakL1QKwDxZg" base_Behavior="_Aimk8S27EeuakL1QKwDxZg"/>
+  <Requirements:TestCase xmi:id="_AirdcC27EeuakL1QKwDxZg" base_Behavior="_Aimk8C27EeuakL1QKwDxZg"/>
 </xmi:XMI>
