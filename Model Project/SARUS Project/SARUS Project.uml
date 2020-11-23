@@ -9,8 +9,31 @@
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_65n0QCnKEeuBhplQNQYfZQ" name="Requirements">
       <packagedElement xmi:type="uml:Package" xmi:id="_tIifcCnJEeu7zOJEOUkFAA" name="Normal Operation Conditions">
-        <packagedElement xmi:type="uml:Package" xmi:id="_EDbXkCwfEeutKbRTHP0t3A" name="Take-off"/>
-        <packagedElement xmi:type="uml:Package" xmi:id="_GzVTYCwfEeutKbRTHP0t3A" name="Landing"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_EDbXkCwfEeutKbRTHP0t3A" name="Take-off">
+          <packagedElement xmi:type="uml:Class" xmi:id="_wffz4C2dEeudUYyhZ7mBag" name="Swarm takeoff"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_f_8mUC2fEeudUYyhZ7mBag" name="Takeoff time"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_RuAVQC2gEeudUYyhZ7mBag" name="Takeoff area"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_A-2wAC2jEeudUYyhZ7mBag" name="Landed drone"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Bdbs8C2kEeudUYyhZ7mBag" name="Swarm incorporation"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Ak_sQC2oEeudUYyhZ7mBag" name="Taken off drones"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_P1lsAC2pEeudUYyhZ7mBag" name="Refine7" client="_Bdbs8C2kEeudUYyhZ7mBag" supplier="_wffz4C2dEeudUYyhZ7mBag"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_owo0UC2pEeudUYyhZ7mBag" name="DeriveReqt8" client="_Ak_sQC2oEeudUYyhZ7mBag" supplier="_Bdbs8C2kEeudUYyhZ7mBag"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_0tgO8C2pEeudUYyhZ7mBag" name="DeriveReqt9" client="_EDbXkCwfEeutKbRTHP0t3A" supplier="_Ak_sQC2oEeudUYyhZ7mBag"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_5yt1QC2pEeudUYyhZ7mBag" name="DeriveReqt10" client="_f_8mUC2fEeudUYyhZ7mBag" supplier="_Ak_sQC2oEeudUYyhZ7mBag"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_BSjq8C2qEeudUYyhZ7mBag" name="DeriveReqt11" client="_A-2wAC2jEeudUYyhZ7mBag" supplier="_Ak_sQC2oEeudUYyhZ7mBag"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_v7qbIC2qEeudUYyhZ7mBag" name="Maximum"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_ZxRAEC2rEeudUYyhZ7mBag" name="Refine13" client="_v7qbIC2qEeudUYyhZ7mBag" supplier="_Bdbs8C2kEeudUYyhZ7mBag"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_GzVTYCwfEeutKbRTHP0t3A" name="Landing">
+          <packagedElement xmi:type="uml:Class" xmi:id="_H8ym8C2tEeudUYyhZ7mBag" name="Swarm landing">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_l-qxEC2rEeudUYyhZ7mBag" name="Landing sequence"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_jZcwYC2tEeudUYyhZ7mBag" name="Modification of landing point">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="__5tPYC2uEeudUYyhZ7mBag" name="Forced landing"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_m255QC2uEeudUYyhZ7mBag" name="Landing battery"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_2FwCAC2uEeudUYyhZ7mBag" name="DeriveReqt4" client="_m255QC2uEeudUYyhZ7mBag" supplier="_H8ym8C2tEeudUYyhZ7mBag"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_J5yG8CwfEeutKbRTHP0t3A" name="Mission planning" visibility="private">
           <packagedElement xmi:type="uml:Class" xmi:id="_UFkTkCwhEeutKbRTHP0t3A" name="Mission plan creation">
             <nestedClassifier xmi:type="uml:Class" xmi:id="_jHCnUCwkEeutKbRTHP0t3A" name="Manual flight plan"/>
@@ -54,7 +77,21 @@
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_35oh4CznEeuqLowq6GfKMw" name="Refine12" client="_NuLJECzkEeuqLowq6GfKMw" supplier="_Asg0ICzlEeuqLowq6GfKMw"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_HgbQkCzoEeuqLowq6GfKMw" name="DeriveReqt13" client="_a2YgACzlEeuqLowq6GfKMw" supplier="_ZNZiQCzgEeuqLowq6GfKMw"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Package" xmi:id="_P-0ykCwfEeutKbRTHP0t3A" name="Flight"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_P-0ykCwfEeutKbRTHP0t3A" name="Flight">
+          <packagedElement xmi:type="uml:Class" xmi:id="_4CeX8C2vEeudUYyhZ7mBag" name="Obstacle avoidance"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_KGmEsC2wEeudUYyhZ7mBag" name="Flight height"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_1h8fcC2wEeudUYyhZ7mBag" name="Obstacle surpass"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_MHMOAC2xEeudUYyhZ7mBag" name="Refine4" client="_1h8fcC2wEeudUYyhZ7mBag" supplier="_P-0ykCwfEeutKbRTHP0t3A"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_PNB9kC2xEeudUYyhZ7mBag" name="DeriveReqt5" client="_4CeX8C2vEeudUYyhZ7mBag" supplier="_P-0ykCwfEeutKbRTHP0t3A"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_kJHV8C2xEeudUYyhZ7mBag" name="Drone status"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_4pseEC2xEeudUYyhZ7mBag" name="Trayectory"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_Nk_zUC2yEeudUYyhZ7mBag" name="DeriveReqt8" client="_KGmEsC2wEeudUYyhZ7mBag" supplier="_4pseEC2xEeudUYyhZ7mBag"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_UNGIsC2yEeudUYyhZ7mBag" name="Cancelled mission"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_hwFMkC2yEeudUYyhZ7mBag" name="Swarm return"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_2t97wC2yEeudUYyhZ7mBag" name="Refine11" client="_hwFMkC2yEeudUYyhZ7mBag" supplier="_UNGIsC2yEeudUYyhZ7mBag"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_75mTIC2yEeudUYyhZ7mBag" name="DeriveReqt12" client="_kJHV8C2xEeudUYyhZ7mBag" supplier="_4pseEC2xEeudUYyhZ7mBag"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_IuQRYC2zEeudUYyhZ7mBag" name="DeriveReqt13" client="_UNGIsC2yEeudUYyhZ7mBag" supplier="_4pseEC2xEeudUYyhZ7mBag"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_wdWfICnJEeu7zOJEOUkFAA" name="Person Detection">
         <packagedElement xmi:type="uml:Class" xmi:id="_GOP_oCnKEeu7zOJEOUkFAA" name="Example REQ-PD"/>
@@ -293,4 +330,36 @@
   <Requirements:TestCase xmi:id="_YJYS8C0AEeu6idVRQenvHQ" base_Behavior="_YJVPoC0AEeu6idVRQenvHQ"/>
   <Requirements:Verify xmi:id="_m7h4oC0AEeu6idVRQenvHQ" base_DirectedRelationship="_m7YusC0AEeu6idVRQenvHQ" base_Abstraction="_m7YusC0AEeu6idVRQenvHQ"/>
   <Requirements:Verify xmi:id="_p3UUUC0AEeu6idVRQenvHQ" base_DirectedRelationship="_p3M_kC0AEeu6idVRQenvHQ" base_Abstraction="_p3M_kC0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_wfsBIC2dEeudUYyhZ7mBag" base_NamedElement="_wffz4C2dEeudUYyhZ7mBag" id="NO-01" text="The system must allow a flexible takeoff for the drone swarm." base_Class="_wffz4C2dEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_f__poC2fEeudUYyhZ7mBag" base_NamedElement="_f_8mUC2fEeudUYyhZ7mBag" id="NO-05" text="The drone must be able to take off in less than 3 minutes." base_Class="_f_8mUC2fEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_RuCxgC2gEeudUYyhZ7mBag" base_NamedElement="_RuAVQC2gEeudUYyhZ7mBag" id="NO-04" text="The drone must be able to take off in a 10 square meters area." base_Class="_RuAVQC2gEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_A-6aYC2jEeudUYyhZ7mBag" base_NamedElement="_A-2wAC2jEeudUYyhZ7mBag" id="NO-06" text="The drone must be able to rest on a flat surface." base_Class="_A-2wAC2jEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_BdeJMC2kEeudUYyhZ7mBag" base_NamedElement="_Bdbs8C2kEeudUYyhZ7mBag" id="NO-02" text="The system must allow the incorporation of drones to the mission, before the system operator starts the mission." base_Class="_Bdbs8C2kEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_AlCIgC2oEeudUYyhZ7mBag" base_NamedElement="_Ak_sQC2oEeudUYyhZ7mBag" id="NO-03" text="The system must allow the system operator to select the drones that will take off between the ones that are on." base_Class="_Ak_sQC2oEeudUYyhZ7mBag"/>
+  <Requirements:Refine xmi:id="_P1oIQC2pEeudUYyhZ7mBag" base_DirectedRelationship="_P1lsAC2pEeudUYyhZ7mBag" base_Abstraction="_P1lsAC2pEeudUYyhZ7mBag"/>
+  <Requirements:DeriveReqt xmi:id="_owrQkC2pEeudUYyhZ7mBag" base_DirectedRelationship="_owo0UC2pEeudUYyhZ7mBag" base_Abstraction="_owo0UC2pEeudUYyhZ7mBag"/>
+  <Requirements:DeriveReqt xmi:id="_0tiEIC2pEeudUYyhZ7mBag" base_DirectedRelationship="_0tgO8C2pEeudUYyhZ7mBag" base_Abstraction="_0tgO8C2pEeudUYyhZ7mBag"/>
+  <Requirements:DeriveReqt xmi:id="_5ywRgC2pEeudUYyhZ7mBag" base_DirectedRelationship="_5yt1QC2pEeudUYyhZ7mBag" base_Abstraction="_5yt1QC2pEeudUYyhZ7mBag"/>
+  <Requirements:DeriveReqt xmi:id="_BSlgIC2qEeudUYyhZ7mBag" base_DirectedRelationship="_BSjq8C2qEeudUYyhZ7mBag" base_Abstraction="_BSjq8C2qEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_v7sQUC2qEeudUYyhZ7mBag" base_NamedElement="_v7qbIC2qEeudUYyhZ7mBag" id="NO-07" text="The system must support a maximum of 25 drones." base_Class="_v7qbIC2qEeudUYyhZ7mBag"/>
+  <Requirements:Refine xmi:id="_ZxS1QC2rEeudUYyhZ7mBag" base_DirectedRelationship="_ZxRAEC2rEeudUYyhZ7mBag" base_Abstraction="_ZxRAEC2rEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_l-smQC2rEeudUYyhZ7mBag" base_NamedElement="_l-qxEC2rEeudUYyhZ7mBag" id="NO-81" text="The system must automatically generate a landing plan for the drones, in the same place and order as they take off." base_Class="_l-qxEC2rEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_H80cIC2tEeudUYyhZ7mBag" base_NamedElement="_H8ym8C2tEeudUYyhZ7mBag" id="NO-80" text="The system must be able to manage the swarm landing." base_Class="_H8ym8C2tEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_jZfMoC2tEeudUYyhZ7mBag" base_NamedElement="_jZcwYC2tEeudUYyhZ7mBag" id="NO-82" text="The system must allow the system operator to select on the map a landing point for a particular drone." base_Class="_jZcwYC2tEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_m27ucC2uEeudUYyhZ7mBag" base_NamedElement="_m255QC2uEeudUYyhZ7mBag" id="NO-83" text="The drone must keep a battery backup for the landing." base_Class="_m255QC2uEeudUYyhZ7mBag"/>
+  <Requirements:DeriveReqt xmi:id="_2Fx3MC2uEeudUYyhZ7mBag" base_DirectedRelationship="_2FwCAC2uEeudUYyhZ7mBag" base_Abstraction="_2FwCAC2uEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="__5vroC2uEeudUYyhZ7mBag" base_NamedElement="__5tPYC2uEeudUYyhZ7mBag" id="NO-84" text="Th system must allow the system operator to force the landing of a particular drone at any time of the mission." base_Class="__5tPYC2uEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_4CgNIC2vEeudUYyhZ7mBag" base_NamedElement="_4CeX8C2vEeudUYyhZ7mBag" id="NO-61" text="The drone must be able to avoid obstacles during flight." base_Class="_4CeX8C2vEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_KGn54C2wEeudUYyhZ7mBag" base_NamedElement="_KGmEsC2wEeudUYyhZ7mBag" id="NO-60" text="The drone must be able to fly above the enviroment height." base_Class="_KGmEsC2wEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_1h-UoC2wEeudUYyhZ7mBag" base_NamedElement="_1h8fcC2wEeudUYyhZ7mBag" id="NO-62" text="The drone must fly over the obstacle if posible." base_Class="_1h8fcC2wEeudUYyhZ7mBag"/>
+  <Requirements:Refine xmi:id="_MHOqQC2xEeudUYyhZ7mBag" base_DirectedRelationship="_MHMOAC2xEeudUYyhZ7mBag" base_Abstraction="_MHMOAC2xEeudUYyhZ7mBag"/>
+  <Requirements:DeriveReqt xmi:id="_PNDywC2xEeudUYyhZ7mBag" base_DirectedRelationship="_PNB9kC2xEeudUYyhZ7mBag" base_Abstraction="_PNB9kC2xEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_kJJLIC2xEeudUYyhZ7mBag" base_NamedElement="_kJHV8C2xEeudUYyhZ7mBag" id="NO-63" text="The drone must send its status to the system operator during the mission." base_Class="_kJHV8C2xEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_4puTQC2xEeudUYyhZ7mBag" base_NamedElement="_4pseEC2xEeudUYyhZ7mBag" id="NO-64" text="The drone must fly following its planned flight trayectory." base_Class="_4pseEC2xEeudUYyhZ7mBag"/>
+  <Requirements:DeriveReqt xmi:id="_NlBogC2yEeudUYyhZ7mBag" base_DirectedRelationship="_Nk_zUC2yEeudUYyhZ7mBag" base_Abstraction="_Nk_zUC2yEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_UNHW0C2yEeudUYyhZ7mBag" base_NamedElement="_UNGIsC2yEeudUYyhZ7mBag" id="NO-65" text="The system must allow the system operator to cancel the mission." base_Class="_UNGIsC2yEeudUYyhZ7mBag"/>
+  <Requirements:Requirement xmi:id="_hwIP4C2yEeudUYyhZ7mBag" base_NamedElement="_hwFMkC2yEeudUYyhZ7mBag" id="NO-66" text="The swarm must land when mission is cancelled." base_Class="_hwFMkC2yEeudUYyhZ7mBag"/>
+  <Requirements:Refine xmi:id="_2t_w8C2yEeudUYyhZ7mBag" base_DirectedRelationship="_2t97wC2yEeudUYyhZ7mBag" base_Abstraction="_2t97wC2yEeudUYyhZ7mBag"/>
+  <Requirements:DeriveReqt xmi:id="_75ovYC2yEeudUYyhZ7mBag" base_DirectedRelationship="_75mTIC2yEeudUYyhZ7mBag" base_Abstraction="_75mTIC2yEeudUYyhZ7mBag"/>
+  <Requirements:DeriveReqt xmi:id="_IuSGkC2zEeudUYyhZ7mBag" base_DirectedRelationship="_IuQRYC2zEeudUYyhZ7mBag" base_Abstraction="_IuQRYC2zEeudUYyhZ7mBag"/>
 </xmi:XMI>
