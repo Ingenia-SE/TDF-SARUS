@@ -213,7 +213,8 @@
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_qFuGECznEeunBNSDKjsaEQ" client="_aQsuICznEeunBNSDKjsaEQ" supplier="_w0JiYCzmEeunBNSDKjsaEQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_5Xo5kCnJEeu7zOJEOUkFAA" name="Domain">
-        <packagedElement xmi:type="uml:Class" xmi:id="_GxUQcCnKEeu7zOJEOUkFAA" name="Example REQ-DM"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GxUQcCnKEeu7zOJEOUkFAA" name="Legal Compliance"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FArXIC3ZEeuQzc7P15YYWQ" name="Sustainability"/>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_dfRrkCnJEeu7zOJEOUkFAA">
@@ -281,7 +282,7 @@
   <Requirements:Requirement xmi:id="_GXuEsCnKEeu7zOJEOUkFAA" base_NamedElement="_GXtdoCnKEeu7zOJEOUkFAA" id="CM-06" text="The drone must be connected with the operator in charge of the drone trajectory and flight plans" base_Class="_GXtdoCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GmNzsCnKEeu7zOJEOUkFAA" base_NamedElement="_GmNMoCnKEeu7zOJEOUkFAA" id="BM-01" text="Write here requirement definition" base_Class="_GmNMoCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_Gr_rkCnKEeu7zOJEOUkFAA" base_NamedElement="_Gr-dcCnKEeu7zOJEOUkFAA" id="AC-01" text="The drones must fly in its different operational scenarios&#xD;&#xA;" base_Class="_Gr-dcCnKEeu7zOJEOUkFAA"/>
-  <Requirements:Requirement xmi:id="_GxVekCnKEeu7zOJEOUkFAA" base_NamedElement="_GxUQcCnKEeu7zOJEOUkFAA" id="DM-01" text="Write here requirement definition" base_Class="_GxUQcCnKEeu7zOJEOUkFAA"/>
+  <Requirements:Requirement xmi:id="_GxVekCnKEeu7zOJEOUkFAA" base_NamedElement="_GxUQcCnKEeu7zOJEOUkFAA" id="DM-01" text="The system must comply with local regulations" base_Class="_GxUQcCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_UFvSsCwhEeutKbRTHP0t3A" base_NamedElement="_UFkTkCwhEeutKbRTHP0t3A" id="NO-40" text="The system must generate a flight trayectory for each of the drones. The flight trayectories will consist of waypoints and their interconnections." base_Class="_UFkTkCwhEeutKbRTHP0t3A"/>
   <Requirements:Requirement xmi:id="_z2xbYCwhEeutKbRTHP0t3A" base_NamedElement="_z2si4CwhEeutKbRTHP0t3A" id="NO-41" text="The system must be able to automatically generate the flight trayectories for the drones, receiving the search area as an input." base_Class="_z2si4CwhEeutKbRTHP0t3A"/>
   <Requirements:Requirement xmi:id="_KdBaECwjEeutKbRTHP0t3A" base_NamedElement="_Kc9vsCwjEeutKbRTHP0t3A" id="NO-43" text="The system must allow the system operator to move the different waypoints.&#xD;&#xA;" base_Class="_Kc9vsCwjEeutKbRTHP0t3A"/>
@@ -413,4 +414,5 @@
   <Requirements:Requirement xmi:id="_otjP0C3EEeuakL1QKwDxZg" base_NamedElement="_othaoC3EEeuakL1QKwDxZg" id="PD-09" text="The swarm must generate a real time map with the exact coordinates of the multiple locations where persons are identified" base_Class="_othaoC3EEeuakL1QKwDxZg"/>
   <Requirements:Verify xmi:id="_QrIjMC3FEeuakL1QKwDxZg" base_DirectedRelationship="_QrBOcC3FEeuakL1QKwDxZg" base_Abstraction="_QrBOcC3FEeuakL1QKwDxZg"/>
   <Requirements:Verify xmi:id="_X2OQ4C3FEeuakL1QKwDxZg" base_DirectedRelationship="_X2FG8C3FEeuakL1QKwDxZg" base_Abstraction="_X2FG8C3FEeuakL1QKwDxZg"/>
+  <Requirements:Requirement xmi:id="_FA4ygC3ZEeuQzc7P15YYWQ" base_NamedElement="_FArXIC3ZEeuQzc7P15YYWQ" id="DM-02" text="The system must be designed within the company's sustainability meassures" base_Class="_FArXIC3ZEeuQzc7P15YYWQ"/>
 </xmi:XMI>
