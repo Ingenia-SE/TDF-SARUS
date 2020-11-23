@@ -118,7 +118,7 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_m0OFwC27EeuakL1QKwDxZg" name="Hardware resource management"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_NVLqIC28EeuakL1QKwDxZg" name="Human classification threshold"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_uAyksC28EeuakL1QKwDxZg" name="Live transmission of aerial detection data"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_K7jq4C29EeuakL1QKwDxZg" name="Requirement9"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_K7jq4C29EeuakL1QKwDxZg" name="Object detection colaboration"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_xrcC4CnJEeu7zOJEOUkFAA" name="Communication">
         <packagedElement xmi:type="uml:Class" xmi:id="_AUZvkCy4EeuESP3ABfdsrQ" name="Communication uninterrupted"/>
@@ -395,5 +395,5 @@
   <Requirements:Requirement xmi:id="_m0TlUC27EeuakL1QKwDxZg" base_NamedElement="_m0OFwC27EeuakL1QKwDxZg" id="PD-04" text="The integrated hardware accelerators used for person detection workloads must be used in the most power efficient way" base_Class="_m0OFwC27EeuakL1QKwDxZg"/>
   <Requirements:Requirement xmi:id="_NVS-4C28EeuakL1QKwDxZg" base_NamedElement="_NVLqIC28EeuakL1QKwDxZg" id="PD-05" text="The detected object must be relevant for the rescue team only if its probability of being a person exceeds a certain threshold limit" base_Class="_NVLqIC28EeuakL1QKwDxZg"/>
   <Requirements:Requirement xmi:id="_uA0Z4C28EeuakL1QKwDxZg" base_NamedElement="_uAyksC28EeuakL1QKwDxZg" id="PD-06" text="When detecting a possible person, the drone has to send relevant information to the ground station for further actions" base_Class="_uAyksC28EeuakL1QKwDxZg"/>
-  <Requirements:Requirement xmi:id="_K7uC8C29EeuakL1QKwDxZg" base_NamedElement="_K7jq4C29EeuakL1QKwDxZg" base_Class="_K7jq4C29EeuakL1QKwDxZg"/>
+  <Requirements:Requirement xmi:id="_K7uC8C29EeuakL1QKwDxZg" base_NamedElement="_K7jq4C29EeuakL1QKwDxZg" id="PD-07" text="When a drone detects an object, it may send signal to a nearby drone in order to help it identify the corresponding object" base_Class="_K7jq4C29EeuakL1QKwDxZg"/>
 </xmi:XMI>
