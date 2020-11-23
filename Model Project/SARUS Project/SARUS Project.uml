@@ -114,6 +114,11 @@
             </result>
           </node>
         </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Vu6KoC27EeuakL1QKwDxZg" name="Sensor fusion adjustment"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_m0OFwC27EeuakL1QKwDxZg" name="Hardware resource management"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_NVLqIC28EeuakL1QKwDxZg" name="Human classification threshold"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uAyksC28EeuakL1QKwDxZg" name="Live transmission of aerial detection data"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_K7jq4C29EeuakL1QKwDxZg" name="Requirement9"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_xrcC4CnJEeu7zOJEOUkFAA" name="Communication">
         <packagedElement xmi:type="uml:Class" xmi:id="_AUZvkCy4EeuESP3ABfdsrQ" name="Communication uninterrupted"/>
@@ -259,7 +264,7 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
   </uml:Model>
-  <Requirements:Requirement xmi:id="_GOQmsCnKEeu7zOJEOUkFAA" base_NamedElement="_GOP_oCnKEeu7zOJEOUkFAA" id="PD-01" text="The system must be able to detect and classify  possible persons in the rescue area" base_Class="_GOP_oCnKEeu7zOJEOUkFAA"/>
+  <Requirements:Requirement xmi:id="_GOQmsCnKEeu7zOJEOUkFAA" base_NamedElement="_GOP_oCnKEeu7zOJEOUkFAA" id="PD-01" text="The system must be capable of detecting as well as classifying  possible persons in the rescue area" base_Class="_GOP_oCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GXuEsCnKEeu7zOJEOUkFAA" base_NamedElement="_GXtdoCnKEeu7zOJEOUkFAA" id="CM-06" text="The drone must be connected with the operator in charge of the drone trajectory and flight plans" base_Class="_GXtdoCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GmNzsCnKEeu7zOJEOUkFAA" base_NamedElement="_GmNMoCnKEeu7zOJEOUkFAA" id="BM-01" text="Write here requirement definition" base_Class="_GmNMoCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_Gr_rkCnKEeu7zOJEOUkFAA" base_NamedElement="_Gr-dcCnKEeu7zOJEOUkFAA" id="AC-01" text="The drones must fly in its different operational scenarios&#xD;&#xA;" base_Class="_Gr-dcCnKEeu7zOJEOUkFAA"/>
@@ -386,4 +391,9 @@
   <Requirements:TestCase xmi:id="_7n3JQC26EeuakL1QKwDxZg" base_Behavior="_7Xd80C26EeuakL1QKwDxZg"/>
   <Requirements:TestCase xmi:id="_AiqPUC27EeuakL1QKwDxZg" base_Behavior="_Aimk8S27EeuakL1QKwDxZg"/>
   <Requirements:TestCase xmi:id="_AirdcC27EeuakL1QKwDxZg" base_Behavior="_Aimk8C27EeuakL1QKwDxZg"/>
+  <Requirements:Requirement xmi:id="_Vu9N8C27EeuakL1QKwDxZg" base_NamedElement="_Vu6KoC27EeuakL1QKwDxZg" id="PD-03" text="The drone must be able to combine information from different sensors and modify the data complexity according to the situation" base_Class="_Vu6KoC27EeuakL1QKwDxZg"/>
+  <Requirements:Requirement xmi:id="_m0TlUC27EeuakL1QKwDxZg" base_NamedElement="_m0OFwC27EeuakL1QKwDxZg" id="PD-04" text="The integrated hardware accelerators used for person detection workloads must be used in the most power efficient way" base_Class="_m0OFwC27EeuakL1QKwDxZg"/>
+  <Requirements:Requirement xmi:id="_NVS-4C28EeuakL1QKwDxZg" base_NamedElement="_NVLqIC28EeuakL1QKwDxZg" id="PD-05" text="The detected object must be relevant for the rescue team only if its probability of being a person exceeds a certain threshold limit" base_Class="_NVLqIC28EeuakL1QKwDxZg"/>
+  <Requirements:Requirement xmi:id="_uA0Z4C28EeuakL1QKwDxZg" base_NamedElement="_uAyksC28EeuakL1QKwDxZg" id="PD-06" text="When detecting a possible person, the drone has to send relevant information to the ground station for further actions" base_Class="_uAyksC28EeuakL1QKwDxZg"/>
+  <Requirements:Requirement xmi:id="_K7uC8C29EeuakL1QKwDxZg" base_NamedElement="_K7jq4C29EeuakL1QKwDxZg" base_Class="_K7jq4C29EeuakL1QKwDxZg"/>
 </xmi:XMI>
