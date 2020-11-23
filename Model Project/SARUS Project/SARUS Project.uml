@@ -96,7 +96,11 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_wdWfICnJEeu7zOJEOUkFAA" name="Person Detection">
         <packagedElement xmi:type="uml:Class" xmi:id="_GOP_oCnKEeu7zOJEOUkFAA" name="Visual Detection and Classification">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_NVLqIC28EeuakL1QKwDxZg" name="Human classification threshold"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_uAyksC28EeuakL1QKwDxZg" name="Live transmission of aerial detection data"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_uAyksC28EeuakL1QKwDxZg" name="Live transmission of aerial detection data">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_WQjF0C3AEeuakL1QKwDxZg" name="Hirarchy object identification">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_othaoC3EEeuakL1QKwDxZg" name="Localization map coordinates"/>
+            </nestedClassifier>
+          </nestedClassifier>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_MdPncC26EeuakL1QKwDxZg" name="Object tracking"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_K7jq4C29EeuakL1QKwDxZg" name="Colaborative object identification "/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_m0OFwC27EeuakL1QKwDxZg" name="Hardware resource management"/>
@@ -119,12 +123,15 @@
             </result>
           </node>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_WQjF0C3AEeuakL1QKwDxZg" name="Hirarchy object identification"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_othaoC3EEeuakL1QKwDxZg" name="Localization map coordinates"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_QrBOcC3FEeuakL1QKwDxZg" name="Verify12" client="_3rRX4C26EeuakL1QKwDxZg" supplier="_MdPncC26EeuakL1QKwDxZg"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_X2FG8C3FEeuakL1QKwDxZg" name="Verify13" client="_Aimk8C27EeuakL1QKwDxZg" supplier="_Vu6KoC27EeuakL1QKwDxZg"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Vu6KoC27EeuakL1QKwDxZg" name="Sensor fusion adjustment"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_P7ZA8C3IEeuakL1QKwDxZg" client="_Vu6KoC27EeuakL1QKwDxZg" supplier="_m0OFwC27EeuakL1QKwDxZg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_gaepkC3IEeuakL1QKwDxZg" client="_MdPncC26EeuakL1QKwDxZg" supplier="_K7jq4C29EeuakL1QKwDxZg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_his14C3IEeuakL1QKwDxZg" client="_MdPncC26EeuakL1QKwDxZg" supplier="_uAyksC28EeuakL1QKwDxZg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_iz-3kC3IEeuakL1QKwDxZg" client="_MdPncC26EeuakL1QKwDxZg" supplier="_NVLqIC28EeuakL1QKwDxZg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="__eG5sC3IEeuakL1QKwDxZg" client="_uAyksC28EeuakL1QKwDxZg" supplier="_othaoC3EEeuakL1QKwDxZg"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_L9S-QC3JEeuakL1QKwDxZg" client="_K7jq4C29EeuakL1QKwDxZg" supplier="_WQjF0C3AEeuakL1QKwDxZg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_xrcC4CnJEeu7zOJEOUkFAA" name="Communication">
         <packagedElement xmi:type="uml:Class" xmi:id="_AUZvkCy4EeuESP3ABfdsrQ" name="Communication uninterrupted"/>
@@ -400,7 +407,7 @@
   <Requirements:Requirement xmi:id="_Vu9N8C27EeuakL1QKwDxZg" base_NamedElement="_Vu6KoC27EeuakL1QKwDxZg" id="PD-03" text="The drone must be able to combine information from different sensors and modify the data complexity according to the situation" base_Class="_Vu6KoC27EeuakL1QKwDxZg"/>
   <Requirements:Requirement xmi:id="_m0TlUC27EeuakL1QKwDxZg" base_NamedElement="_m0OFwC27EeuakL1QKwDxZg" id="PD-04" text="The integrated hardware accelerators used for person detection workloads must be used in the most power efficient way" base_Class="_m0OFwC27EeuakL1QKwDxZg"/>
   <Requirements:Requirement xmi:id="_NVS-4C28EeuakL1QKwDxZg" base_NamedElement="_NVLqIC28EeuakL1QKwDxZg" id="PD-05" text="The detected object must be relevant for the rescue team only if its probability of being a person exceeds a certain threshold limit" base_Class="_NVLqIC28EeuakL1QKwDxZg"/>
-  <Requirements:Requirement xmi:id="_uA0Z4C28EeuakL1QKwDxZg" base_NamedElement="_uAyksC28EeuakL1QKwDxZg" id="PD-06" text="When detecting a possible person, the drone has to send relevant information to the ground station for further actions" base_Class="_uAyksC28EeuakL1QKwDxZg"/>
+  <Requirements:Requirement xmi:id="_uA0Z4C28EeuakL1QKwDxZg" base_NamedElement="_uAyksC28EeuakL1QKwDxZg" id="PD-06" text="When detecting a possible person, the drone has to send critical information to the ground station for further actions" base_Class="_uAyksC28EeuakL1QKwDxZg"/>
   <Requirements:Requirement xmi:id="_K7uC8C29EeuakL1QKwDxZg" base_NamedElement="_K7jq4C29EeuakL1QKwDxZg" id="PD-07" text="When a drone detects an object, it may send a signal to a nearby drone in order to help it identify the corresponding object" base_Class="_K7jq4C29EeuakL1QKwDxZg"/>
   <Requirements:Requirement xmi:id="_WQtd4C3AEeuakL1QKwDxZg" base_NamedElement="_WQjF0C3AEeuakL1QKwDxZg" id="PD-08" text="When multiple objects are detected, the swarm should prioritize as important the  most accurate identification" base_Class="_WQjF0C3AEeuakL1QKwDxZg"/>
   <Requirements:Requirement xmi:id="_otjP0C3EEeuakL1QKwDxZg" base_NamedElement="_othaoC3EEeuakL1QKwDxZg" id="PD-09" text="The swarm must generate a real time map with the exact coordinates of the multiple locations where persons are identified" base_Class="_othaoC3EEeuakL1QKwDxZg"/>
