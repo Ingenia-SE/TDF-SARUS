@@ -213,8 +213,37 @@
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_qFuGECznEeunBNSDKjsaEQ" client="_aQsuICznEeunBNSDKjsaEQ" supplier="_w0JiYCzmEeunBNSDKjsaEQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_5Xo5kCnJEeu7zOJEOUkFAA" name="Domain">
-        <packagedElement xmi:type="uml:Class" xmi:id="_GxUQcCnKEeu7zOJEOUkFAA" name="Legal Compliance"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_FArXIC3ZEeuQzc7P15YYWQ" name="Sustainability"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GxUQcCnKEeu7zOJEOUkFAA" name="Legal Compliance">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_fvu40C6LEeuR2IwYJyJWjw" name="Aesa regulations">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_7HJyYC6KEeuR2IwYJyJWjw" name="Night regulation">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_MleVUC6JEeuR2IwYJyJWjw" name="Night weight"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_0rAVsC6HEeuR2IwYJyJWjw" name="Drone visibility"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_INZP4C6LEeuR2IwYJyJWjw" name="SORA"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_dOWhMC6LEeuR2IwYJyJWjw" name="CTR zones">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_rzB9gC6JEeuR2IwYJyJWjw" name="CTR flight"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_uBegIC6LEeuR2IwYJyJWjw" name="Certificates"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_2lzRoC6LEeuR2IwYJyJWjw" name="Security report"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_29AqAC6GEeuR2IwYJyJWjw" name="Plate"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_nokPkC6GEeuR2IwYJyJWjw" name="Maximum weight"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_N-vVsC6GEeuR2IwYJyJWjw" name="Pilot License"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_YZLe0C6HEeuR2IwYJyJWjw" name="Bases station label"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_wqm7AC6KEeuR2IwYJyJWjw" name="BLOS">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_pDKBcC6KEeuR2IwYJyJWjw" name="AESA"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_aqAKkC6KEeuR2IwYJyJWjw" name="Detection"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_RL-w8C6KEeuR2IwYJyJWjw" name="Camera"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_3UEUkC6FEeuR2IwYJyJWjw" name="Maximum Height"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_v_l6AC6IEeuR2IwYJyJWjw" name="Ra"/>
+            </nestedClassifier>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_yx664C6MEeuR2IwYJyJWjw" name="Data protection">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_qM17cC6MEeuR2IwYJyJWjw" name="Data storage"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_el0N8C6MEeuR2IwYJyJWjw" name="Anonimity"/>
+          </nestedClassifier>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KBUBYC6HEeuR2IwYJyJWjw" name="Fireproofing"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_W5-V4C6HEeuR2IwYJyJWjw" client="_KBUBYC6HEeuR2IwYJyJWjw" supplier="_29AqAC6GEeuR2IwYJyJWjw"/>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_dfRrkCnJEeu7zOJEOUkFAA">
@@ -282,7 +311,7 @@
   <Requirements:Requirement xmi:id="_GXuEsCnKEeu7zOJEOUkFAA" base_NamedElement="_GXtdoCnKEeu7zOJEOUkFAA" id="CM-06" text="The drone must be connected with the operator in charge of the drone trajectory and flight plans" base_Class="_GXtdoCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GmNzsCnKEeu7zOJEOUkFAA" base_NamedElement="_GmNMoCnKEeu7zOJEOUkFAA" id="BM-01" text="Write here requirement definition" base_Class="_GmNMoCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_Gr_rkCnKEeu7zOJEOUkFAA" base_NamedElement="_Gr-dcCnKEeu7zOJEOUkFAA" id="AC-01" text="The drones must fly in its different operational scenarios&#xD;&#xA;" base_Class="_Gr-dcCnKEeu7zOJEOUkFAA"/>
-  <Requirements:Requirement xmi:id="_GxVekCnKEeu7zOJEOUkFAA" base_NamedElement="_GxUQcCnKEeu7zOJEOUkFAA" id="DM-01" text="The system must comply with local regulations" base_Class="_GxUQcCnKEeu7zOJEOUkFAA"/>
+  <Requirements:Requirement xmi:id="_GxVekCnKEeu7zOJEOUkFAA" base_NamedElement="_GxUQcCnKEeu7zOJEOUkFAA" id="DM-01" text="The system must comply with aplicable regulations" base_Class="_GxUQcCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_UFvSsCwhEeutKbRTHP0t3A" base_NamedElement="_UFkTkCwhEeutKbRTHP0t3A" id="NO-40" text="The system must generate a flight trayectory for each of the drones. The flight trayectories will consist of waypoints and their interconnections." base_Class="_UFkTkCwhEeutKbRTHP0t3A"/>
   <Requirements:Requirement xmi:id="_z2xbYCwhEeutKbRTHP0t3A" base_NamedElement="_z2si4CwhEeutKbRTHP0t3A" id="NO-41" text="The system must be able to automatically generate the flight trayectories for the drones, receiving the search area as an input." base_Class="_z2si4CwhEeutKbRTHP0t3A"/>
   <Requirements:Requirement xmi:id="_KdBaECwjEeutKbRTHP0t3A" base_NamedElement="_Kc9vsCwjEeutKbRTHP0t3A" id="NO-43" text="The system must allow the system operator to move the different waypoints.&#xD;&#xA;" base_Class="_Kc9vsCwjEeutKbRTHP0t3A"/>
@@ -414,5 +443,27 @@
   <Requirements:Requirement xmi:id="_otjP0C3EEeuakL1QKwDxZg" base_NamedElement="_othaoC3EEeuakL1QKwDxZg" id="PD-09" text="The swarm must generate a real time map with the exact coordinates of the multiple locations where persons are identified" base_Class="_othaoC3EEeuakL1QKwDxZg"/>
   <Requirements:Verify xmi:id="_QrIjMC3FEeuakL1QKwDxZg" base_DirectedRelationship="_QrBOcC3FEeuakL1QKwDxZg" base_Abstraction="_QrBOcC3FEeuakL1QKwDxZg"/>
   <Requirements:Verify xmi:id="_X2OQ4C3FEeuakL1QKwDxZg" base_DirectedRelationship="_X2FG8C3FEeuakL1QKwDxZg" base_Abstraction="_X2FG8C3FEeuakL1QKwDxZg"/>
-  <Requirements:Requirement xmi:id="_FA4ygC3ZEeuQzc7P15YYWQ" base_NamedElement="_FArXIC3ZEeuQzc7P15YYWQ" id="DM-02" text="The system must be designed within the company's sustainability meassures" base_Class="_FArXIC3ZEeuQzc7P15YYWQ"/>
+  <Requirements:Requirement xmi:id="_3UqKcC6FEeuR2IwYJyJWjw" base_NamedElement="_3UEUkC6FEeuR2IwYJyJWjw" id="DM-01" text="The drones must fly below 120 m of vertical height.&#xD;&#xA;" base_Class="_3UEUkC6FEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_N-zAEC6GEeuR2IwYJyJWjw" base_NamedElement="_N-vVsC6GEeuR2IwYJyJWjw" id="DM-01" text="The system operator must have a drone pilot's license " base_Class="_N-vVsC6GEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_noohAC6GEeuR2IwYJyJWjw" base_NamedElement="_nokPkC6GEeuR2IwYJyJWjw" id="DM-01" text="The drones' take-off weight must be below 25 kg" base_Class="_nokPkC6GEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_29DGQC6GEeuR2IwYJyJWjw" base_NamedElement="_29AqAC6GEeuR2IwYJyJWjw" id="DM-01" text="The drones must be equiped with a plate attached to the housing that states the serial number, manufacturer, pilot name and contact details" base_Class="_29AqAC6GEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_KBWdoC6HEeuR2IwYJyJWjw" base_NamedElement="_KBUBYC6HEeuR2IwYJyJWjw" id="DM-01" text="The information shall be marked on the plate by any approved fire-retardant method, such as chemical engraving, die-cutting, stamping or writing in indelible ink, in a clear and legible manner." base_Class="_KBUBYC6HEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_YZN7EC6HEeuR2IwYJyJWjw" base_NamedElement="_YZLe0C6HEeuR2IwYJyJWjw" id="DM-01" text="The base station must have a label with the pilot name and contact info" base_Class="_YZLe0C6HEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_0rDZAC6HEeuR2IwYJyJWjw" base_NamedElement="_0rAVsC6HEeuR2IwYJyJWjw" id="DM-01" text="The drones must be visible during operation conditions, including the necessary visual elements like  eye-catching paint, reflective bands, lights, etc for night-time operations" base_Class="_0rAVsC6HEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_v_o9UC6IEeuR2IwYJyJWjw" base_NamedElement="_v_l6AC6IEeuR2IwYJyJWjw" id="DM-01" text="The drones must fly within 150 m" base_Class="_v_l6AC6IEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_MlgKgC6JEeuR2IwYJyJWjw" base_NamedElement="_MleVUC6JEeuR2IwYJyJWjw" id="DM-01" text="The drones' take-off weight during night time must be below 10 kg" base_Class="_MleVUC6JEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_rzDysC6JEeuR2IwYJyJWjw" base_NamedElement="_rzB9gC6JEeuR2IwYJyJWjw" id="DM-01" text="In order to fly in CTR zones:The drone must be equipped with mode S transponder" base_Class="_rzB9gC6JEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_RMAmIy6KEeuR2IwYJyJWjw" base_NamedElement="_RL-w8C6KEeuR2IwYJyJWjw" id="DM-01" text="The drone must have a forward-facing camera(if BLOS&#xD;&#xA;)" base_Class="_RL-w8C6KEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_aqCm0C6KEeuR2IwYJyJWjw" base_NamedElement="_aqAKkC6KEeuR2IwYJyJWjw" id="DM-01" text="The drone must have systems to detect and avoid other airspace users" base_Class="_aqAKkC6KEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_pDL2sC6KEeuR2IwYJyJWjw" base_NamedElement="_pDKBcC6KEeuR2IwYJyJWjw" id="DM-01" text="AESA’s authorization will be needed along with a security report." base_Class="_pDKBcC6KEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_wqpXQC6KEeuR2IwYJyJWjw" base_NamedElement="_wqm7AC6KEeuR2IwYJyJWjw" id="DM-01" text="The drones must comply with AESA's regulations for Beyond-line-of-sight operation" base_Class="_wqm7AC6KEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_7HMOoC6KEeuR2IwYJyJWjw" base_NamedElement="_7HJyYC6KEeuR2IwYJyJWjw" id="DM-01" text="The drones must comply with AESA's regulations for night time operation" base_Class="_7HJyYC6KEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_INbsIC6LEeuR2IwYJyJWjw" base_NamedElement="_INZP4C6LEeuR2IwYJyJWjw" id="DM-01" text="The company must have a specific aeronautical safe study (SORA)." base_Class="_INZP4C6LEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_dOY9cC6LEeuR2IwYJyJWjw" base_NamedElement="_dOWhMC6LEeuR2IwYJyJWjw" id="DM-01" text="The drones must comply with AESA's regulations to flight in CTR zones" base_Class="_dOWhMC6LEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_fvwuAC6LEeuR2IwYJyJWjw" base_NamedElement="_fvu40C6LEeuR2IwYJyJWjw" id="DM-01" text="The system must comply with  AESA's regulations" base_Class="_fvu40C6LEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_uBgVUC6LEeuR2IwYJyJWjw" base_NamedElement="_uBegIC6LEeuR2IwYJyJWjw" id="DM-01" text="The system operator must be accredited with the aeronautical radiooperatortitle and a language certificate in which the conversations are going to be taken" base_Class="_uBegIC6LEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_2l1G0C6LEeuR2IwYJyJWjw" base_NamedElement="_2lzRoC6LEeuR2IwYJyJWjw" id="DM-01" text="The system operators must have AESA's autorization along a security report" base_Class="_2lzRoC6LEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_el2qMC6MEeuR2IwYJyJWjw" base_NamedElement="_el0N8C6MEeuR2IwYJyJWjw" id="DM-01" text="All the data of people in the mountain captured by the drone’s cameras must be anonymized" base_Class="_el0N8C6MEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_qM3woC6MEeuR2IwYJyJWjw" base_NamedElement="_qM17cC6MEeuR2IwYJyJWjw" id="DM-01" text="The Drone Face will provide information about data collection and obtain the people’s consent in case personal data needs to be stored" base_Class="_qM17cC6MEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_yx8wEC6MEeuR2IwYJyJWjw" base_NamedElement="_yx664C6MEeuR2IwYJyJWjw" id="DM-01" text="The system must comply with data protection regulations" base_Class="_yx664C6MEeuR2IwYJyJWjw"/>
 </xmi:XMI>
