@@ -145,6 +145,14 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_kfG18CyyEeuESP3ABfdsrQ" name="Command post"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_WCsWECy6EeuESP3ABfdsrQ" name="Reconnection "/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_Dd-BMCy7EeuESP3ABfdsrQ" name="Satisfy6" client="_WCsWECy6EeuESP3ABfdsrQ" supplier="_JnJbYCy6EeuESP3ABfdsrQ"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ejhxkDMDEeuKG_RWql4dxw" name="Interface"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_zqKNEDMDEeuKG_RWql4dxw" name="Refine8" client="_ejhxkDMDEeuKG_RWql4dxw" supplier="_pj7TUCy1EeuESP3ABfdsrQ"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1NBuADMDEeuKG_RWql4dxw" name="Training"/>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_W1gggDMEEeuKG_RWql4dxw" name="Usability test"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_bIuCIDMEEeuKG_RWql4dxw" name="Verify11" client="_W1gggDMEEeuKG_RWql4dxw" supplier="_1NBuADMDEeuKG_RWql4dxw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_cTDuUDMEEeuKG_RWql4dxw" name="DeriveReqt12" client="_1NBuADMDEeuKG_RWql4dxw" supplier="_ejhxkDMDEeuKG_RWql4dxw"/>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_liQo0DMEEeuKG_RWql4dxw" name="Loss of communication test"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_vrPrADMEEeuKG_RWql4dxw" name="Verify14" client="_liQo0DMEEeuKG_RWql4dxw" supplier="_WCsWECy6EeuESP3ABfdsrQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_x9DXUCnJEeu7zOJEOUkFAA" name="Fault Management">
         <packagedElement xmi:type="uml:Class" xmi:id="_G3Qq4C0AEeu6idVRQenvHQ" name="Faulty status ">
@@ -466,4 +474,12 @@
   <Requirements:Requirement xmi:id="_el2qMC6MEeuR2IwYJyJWjw" base_NamedElement="_el0N8C6MEeuR2IwYJyJWjw" id="DM-01" text="All the data of people in the mountain captured by the drone’s cameras must be anonymized" base_Class="_el0N8C6MEeuR2IwYJyJWjw"/>
   <Requirements:Requirement xmi:id="_qM3woC6MEeuR2IwYJyJWjw" base_NamedElement="_qM17cC6MEeuR2IwYJyJWjw" id="DM-01" text="The Drone Face will provide information about data collection and obtain the people’s consent in case personal data needs to be stored" base_Class="_qM17cC6MEeuR2IwYJyJWjw"/>
   <Requirements:Requirement xmi:id="_yx8wEC6MEeuR2IwYJyJWjw" base_NamedElement="_yx664C6MEeuR2IwYJyJWjw" id="DM-01" text="The system must comply with data protection regulations" base_Class="_yx664C6MEeuR2IwYJyJWjw"/>
+  <Requirements:Requirement xmi:id="_ekRYcDMDEeuKG_RWql4dxw" base_NamedElement="_ejhxkDMDEeuKG_RWql4dxw" id="CM-09" text="The system interface must be user-friendly" base_Class="_ejhxkDMDEeuKG_RWql4dxw"/>
+  <Requirements:Refine xmi:id="_zqQTsDMDEeuKG_RWql4dxw" base_DirectedRelationship="_zqKNEDMDEeuKG_RWql4dxw" base_Abstraction="_zqKNEDMDEeuKG_RWql4dxw"/>
+  <Requirements:Requirement xmi:id="_1NF_cDMDEeuKG_RWql4dxw" base_NamedElement="_1NBuADMDEeuKG_RWql4dxw" id="CM-10" text="Users without specific training must be able to use the interface" base_Class="_1NBuADMDEeuKG_RWql4dxw"/>
+  <Requirements:TestCase xmi:id="_W1kx8DMEEeuKG_RWql4dxw" base_Behavior="_W1gggDMEEeuKG_RWql4dxw"/>
+  <Requirements:Verify xmi:id="_bIxFcDMEEeuKG_RWql4dxw" base_DirectedRelationship="_bIuCIDMEEeuKG_RWql4dxw" base_Abstraction="_bIuCIDMEEeuKG_RWql4dxw"/>
+  <Requirements:DeriveReqt xmi:id="_cTGxoDMEEeuKG_RWql4dxw" base_DirectedRelationship="_cTDuUDMEEeuKG_RWql4dxw" base_Abstraction="_cTDuUDMEEeuKG_RWql4dxw"/>
+  <Requirements:TestCase xmi:id="_liUTMDMEEeuKG_RWql4dxw" base_Behavior="_liQo0DMEEeuKG_RWql4dxw"/>
+  <Requirements:Verify xmi:id="_vrTVYDMEEeuKG_RWql4dxw" base_DirectedRelationship="_vrPrADMEEeuKG_RWql4dxw" base_Abstraction="_vrPrADMEEeuKG_RWql4dxw"/>
 </xmi:XMI>
