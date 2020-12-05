@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisconfiguration="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattableconfiguration="http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableconfiguration">
   <notation:Diagram xmi:id="_fL-d8CnJEeu7zOJEOUkFAA" type="PapyrusUMLClassDiagram" name="Normal Operation Conditions" measurementUnit="Pixel">
     <styles xmi:type="notation:StringValueStyle" xmi:id="_fL-eCSnJEeu7zOJEOUkFAA" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_fL-eCinJEeu7zOJEOUkFAA"/>
@@ -2517,13 +2517,13 @@
       <element xmi:type="uml:Class" href="SARUS%20Project.uml#_GmNMoCnKEeu7zOJEOUkFAA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yEXDwSnKEeuBhplQNQYfZQ" x="440" y="100" width="391"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_zz83sDMCEeuKG_RWql4dxw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_zz83sTMCEeuKG_RWql4dxw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_zz83szMCEeuKG_RWql4dxw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_n-0GjDcEEeukNt1nHn1nkQ" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_n-0GjTcEEeukNt1nHn1nkQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_n-0GjzcEEeukNt1nHn1nkQ" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SARUS%20Project.uml#_GmNMoCnKEeu7zOJEOUkFAA"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zz83sjMCEeuKG_RWql4dxw" x="640" y="100"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n-0GjjcEEeukNt1nHn1nkQ" x="640" y="100"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_wDO5gSnKEeuBhplQNQYfZQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_wDO5ginKEeuBhplQNQYfZQ"/>
@@ -2531,15 +2531,15 @@
       <owner xmi:type="uml:Package" href="SARUS%20Project.uml#_yB-6oCnJEeu7zOJEOUkFAA"/>
     </styles>
     <element xmi:type="uml:Package" href="SARUS%20Project.uml#_yB-6oCnJEeu7zOJEOUkFAA"/>
-    <edges xmi:type="notation:Connector" xmi:id="_zz9ewDMCEeuKG_RWql4dxw" type="StereotypeCommentLink" source="_yEXDwCnKEeuBhplQNQYfZQ" target="_zz83sDMCEeuKG_RWql4dxw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_zz9ewTMCEeuKG_RWql4dxw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_zz9exTMCEeuKG_RWql4dxw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_n-0tkDcEEeukNt1nHn1nkQ" type="StereotypeCommentLink" source="_yEXDwCnKEeuBhplQNQYfZQ" target="_n-0GjDcEEeukNt1nHn1nkQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="_n-0tkTcEEeukNt1nHn1nkQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_n-0tlTcEEeukNt1nHn1nkQ" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SARUS%20Project.uml#_GmNMoCnKEeu7zOJEOUkFAA"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zz9ewjMCEeuKG_RWql4dxw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zz9ewzMCEeuKG_RWql4dxw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zz9exDMCEeuKG_RWql4dxw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n-0tkjcEEeukNt1nHn1nkQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_n-0tkzcEEeukNt1nHn1nkQ"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_n-0tlDcEEeukNt1nHn1nkQ"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_1ds-ICnKEeuBhplQNQYfZQ" type="PapyrusUMLClassDiagram" name="Airspace Conditions" measurementUnit="Pixel">
@@ -7524,4 +7524,42 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MyJk1S3YEeuQzc7P15YYWQ"/>
     </edges>
   </notation:Diagram>
+  <nattable:Table xmi:id="_yZumMDcEEeukNt1nHn1nkQ" name="BM Req Table" currentRowAxisProvider="_yZumNDcEEeukNt1nHn1nkQ" currentColumnAxisProvider="_yZumMTcEEeukNt1nHn1nkQ" tableKindId="org.eclipse.papyrus.sysml16.table.requirement">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yZ0FwDcEEeukNt1nHn1nkQ" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yZ0FwTcEEeukNt1nHn1nkQ" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context xmi:type="uml:Package" href="SARUS%20Project.uml#_yB-6oCnJEeu7zOJEOUkFAA"/>
+    <owner xmi:type="uml:Package" href="SARUS%20Project.uml#_yB-6oCnJEeu7zOJEOUkFAA"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#__qulcG1gEeijMr8XjU8gCg"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_yZumMTcEEeukNt1nHn1nkQ" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_yZumMjcEEeukNt1nHn1nkQ" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_yZumMzcEEeukNt1nHn1nkQ" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_1WTsEDcEEeukNt1nHn1nkQ" element="property_of_stereotype:/reqSARUS profile::RequirementSARUS::Author">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_1WTsETcEEeukNt1nHn1nkQ" element="property_of_stereotype:/reqSARUS profile::RequirementSARUS::Complexity">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_1WTsEjcEEeukNt1nHn1nkQ" element="property_of_stereotype:/reqSARUS profile::RequirementSARUS::Cost">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_1WTsEzcEEeukNt1nHn1nkQ" element="property_of_stereotype:/reqSARUS profile::RequirementSARUS::Priority">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_1WTsFDcEEeukNt1nHn1nkQ" element="property_of_stereotype:/reqSARUS profile::RequirementSARUS::Risk">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_1WTsFTcEEeukNt1nHn1nkQ" element="property_of_stereotype:/reqSARUS profile::RequirementSARUS::Validation Status">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_1WTsFjcEEeukNt1nHn1nkQ" element="property_of_stereotype:/reqSARUS profile::RequirementSARUS::Verification Status">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_yZumNDcEEeukNt1nHn1nkQ" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
+  </nattable:Table>
 </xmi:XMI>

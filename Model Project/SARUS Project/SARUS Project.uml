@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:reqSARUSprofile="http:///schemas/reqSARUSprofile/_rZMNkDcCEeukNt1nHn1nkQ/0" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements http:///schemas/reqSARUSprofile/_rZMNkDcCEeukNt1nHn1nkQ/0 ../reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ">
   <uml:Model xmi:id="_deIcECnJEeu7zOJEOUkFAA" name="SARUS Project">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_dh6I0CnJEeu7zOJEOUkFAA">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -188,6 +188,19 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_yB-6oCnJEeu7zOJEOUkFAA" name="Battery Management">
         <packagedElement xmi:type="uml:Class" xmi:id="_GmNMoCnKEeu7zOJEOUkFAA" name="Example REQ-BM"/>
+        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_he9HIDcEEeukNt1nHn1nkQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_he9uMTcEEeukNt1nHn1nkQ" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_he9uMjcEEeukNt1nHn1nkQ" key="Version" value="0.0.1"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_he9uMzcEEeukNt1nHn1nkQ" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_he9uNDcEEeukNt1nHn1nkQ" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_he9uNTcEEeukNt1nHn1nkQ" key="Date" value="2020-12-05"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_he9uNjcEEeukNt1nHn1nkQ" key="Author" value=""/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_he9uMDcEEeukNt1nHn1nkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="ecore:EPackage" href="../reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
+          </eAnnotations>
+          <appliedProfile xmi:type="uml:Profile" href="../reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
+        </profileApplication>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_yGVPICnJEeu7zOJEOUkFAA" name="Airspace Conditions">
         <packagedElement xmi:type="uml:Class" xmi:id="_Gr-dcCnKEeu7zOJEOUkFAA" name="OPERATIONAL SCENARIOS">
@@ -317,7 +330,6 @@
   </uml:Model>
   <Requirements:Requirement xmi:id="_GOQmsCnKEeu7zOJEOUkFAA" base_NamedElement="_GOP_oCnKEeu7zOJEOUkFAA" id="PD-01" text="The system must be capable of detecting as well as classifying  possible persons in the rescue area" base_Class="_GOP_oCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GXuEsCnKEeu7zOJEOUkFAA" base_NamedElement="_GXtdoCnKEeu7zOJEOUkFAA" id="CM-06" text="The drone must be connected with the operator in charge of the drone trajectory and flight plans" base_Class="_GXtdoCnKEeu7zOJEOUkFAA"/>
-  <Requirements:Requirement xmi:id="_GmNzsCnKEeu7zOJEOUkFAA" base_NamedElement="_GmNMoCnKEeu7zOJEOUkFAA" id="BM-01" text="Write here requirement definition" base_Class="_GmNMoCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_Gr_rkCnKEeu7zOJEOUkFAA" base_NamedElement="_Gr-dcCnKEeu7zOJEOUkFAA" id="AC-01" text="The drones must fly in its different operational scenarios&#xD;&#xA;" base_Class="_Gr-dcCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GxVekCnKEeu7zOJEOUkFAA" base_NamedElement="_GxUQcCnKEeu7zOJEOUkFAA" id="DM-01" text="The system must comply with aplicable regulations" base_Class="_GxUQcCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_UFvSsCwhEeutKbRTHP0t3A" base_NamedElement="_UFkTkCwhEeutKbRTHP0t3A" id="NO-40" text="The system must generate a flight trayectory for each of the drones. The flight trayectories will consist of waypoints and their interconnections." base_Class="_UFkTkCwhEeutKbRTHP0t3A"/>
@@ -482,4 +494,5 @@
   <Requirements:DeriveReqt xmi:id="_cTGxoDMEEeuKG_RWql4dxw" base_DirectedRelationship="_cTDuUDMEEeuKG_RWql4dxw" base_Abstraction="_cTDuUDMEEeuKG_RWql4dxw"/>
   <Requirements:TestCase xmi:id="_liUTMDMEEeuKG_RWql4dxw" base_Behavior="_liQo0DMEEeuKG_RWql4dxw"/>
   <Requirements:Verify xmi:id="_vrTVYDMEEeuKG_RWql4dxw" base_DirectedRelationship="_vrPrADMEEeuKG_RWql4dxw" base_Abstraction="_vrPrADMEEeuKG_RWql4dxw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_n-cTEDcEEeukNt1nHn1nkQ" base_NamedElement="_GmNMoCnKEeu7zOJEOUkFAA" id="BM-01" base_Class="_GmNMoCnKEeu7zOJEOUkFAA"/>
 </xmi:XMI>
