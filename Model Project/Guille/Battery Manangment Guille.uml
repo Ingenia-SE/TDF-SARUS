@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_ysX20Cy7Eeulu-R9To_NkQ" name="Battery Manangment Guille">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_yvGasCy7Eeulu-R9To_NkQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_yvSA4Cy7Eeulu-R9To_NkQ">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QZd4MCzEEeuL_52xMEAklA" name="Battery Management in flight">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_G9aYACzFEeuL_52xMEAklA" name="LIPO battery"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_sCQjsCzFEeuL_52xMEAklA" name="Battery level Management"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QsvkECzFEeuL_52xMEAklA" name="Battery level"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_o-D9cCzGEeuL_52xMEAklA" name="DeriveReqt17" client="_QsvkECzFEeuL_52xMEAklA" supplier="_sCQjsCzFEeuL_52xMEAklA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_SMO5gCzIEeuL_52xMEAklA" name="Battery Management before taking off"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4hGXECzSEeuL_52xMEAklA" name="Battery Management"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_Thh3gCzTEeuL_52xMEAklA" name="DeriveReqt18" client="_QZd4MCzEEeuL_52xMEAklA" supplier="_4hGXECzSEeuL_52xMEAklA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_UUflgCzTEeuL_52xMEAklA" name="DeriveReqt19" client="_SMO5gCzIEeuL_52xMEAklA" supplier="_4hGXECzSEeuL_52xMEAklA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QO3mYCzzEeuqeLeBQiPXYQ" name="Battery Management after landing"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_essh4CzzEeuqeLeBQiPXYQ" name="Charge dead battery"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2gvl4CzzEeuqeLeBQiPXYQ" name="Replace dead battery"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_eAa1QCz0EeuqeLeBQiPXYQ" name="Spare batterys"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ids44Cz0EeuqeLeBQiPXYQ" name="Charger"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_mtn18Cz0EeuqeLeBQiPXYQ" name="DeriveReqt25" client="_ysX20Cy7Eeulu-R9To_NkQ" supplier="_ysX20Cy7Eeulu-R9To_NkQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_nQIGECz0EeuqeLeBQiPXYQ" name="DeriveReqt26" client="_ids44Cz0EeuqeLeBQiPXYQ" supplier="_SMO5gCzIEeuL_52xMEAklA"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_3UHHECz0EeuqeLeBQiPXYQ" name="DeriveReqt27" client="_2gvl4CzzEeuqeLeBQiPXYQ" supplier="_ysX20Cy7Eeulu-R9To_NkQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_4FAYgCz0EeuqeLeBQiPXYQ" name="DeriveReqt28" client="_ysX20Cy7Eeulu-R9To_NkQ" supplier="_ysX20Cy7Eeulu-R9To_NkQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_AsmgcCz1EeuqeLeBQiPXYQ" name="DeriveReqt29" client="_QO3mYCzzEeuqeLeBQiPXYQ" supplier="_4hGXECzSEeuL_52xMEAklA"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ytNkUCy7Eeulu-R9To_NkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ytQnoCy7Eeulu-R9To_NkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yvBiMCy7Eeulu-R9To_NkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yvCJQCy7Eeulu-R9To_NkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yvD-cCy7Eeulu-R9To_NkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yvD-cSy7Eeulu-R9To_NkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yvD-ciy7Eeulu-R9To_NkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yvElgCy7Eeulu-R9To_NkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yvElgSy7Eeulu-R9To_NkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yvElgiy7Eeulu-R9To_NkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yvElgyy7Eeulu-R9To_NkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yvElhCy7Eeulu-R9To_NkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yvFMkCy7Eeulu-R9To_NkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yvFMkSy7Eeulu-R9To_NkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yvFMkiy7Eeulu-R9To_NkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yvFMkyy7Eeulu-R9To_NkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yvFzoCy7Eeulu-R9To_NkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yvFzoSy7Eeulu-R9To_NkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yvFzoiy7Eeulu-R9To_NkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yvFzoyy7Eeulu-R9To_NkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_Qa0jECzEEeuL_52xMEAklA" base_Class="_QZd4MCzEEeuL_52xMEAklA" id="BM-02" text="The system must complete the mision and return to base without running out of battery&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_G9geoCzFEeuL_52xMEAklA" base_Class="_G9aYACzFEeuL_52xMEAklA" id="BM-05" text="The dron mus carry a LIPO battery to assure maximum operational range"/>
+  <Requirements:Requirement xmi:id="_Qs1qsCzFEeuL_52xMEAklA" base_Class="_QsvkECzFEeuL_52xMEAklA" id="BM-07" text="The dron must control the battery level during flight"/>
+  <Requirements:Requirement xmi:id="_sCWDQCzFEeuL_52xMEAklA" base_Class="_sCQjsCzFEeuL_52xMEAklA" id="BM-06" text="The dron must analize how far and how much time it can fly till it has to return to the base (Mode return to home activated)"/>
+  <Requirements:DeriveReqt xmi:id="_o-JdACzGEeuL_52xMEAklA" base_DirectedRelationship="_o-D9cCzGEeuL_52xMEAklA" base_Abstraction="_o-D9cCzGEeuL_52xMEAklA"/>
+  <Requirements:Requirement xmi:id="_SMR80CzIEeuL_52xMEAklA" base_Class="_SMO5gCzIEeuL_52xMEAklA" id="BM-03" text="Operations that must be carried out before taking off the drons&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_4hJaYCzSEeuL_52xMEAklA" base_Class="_4hGXECzSEeuL_52xMEAklA" id="BM-01" text="Every point in baterry management must be completed in a mision"/>
+  <Requirements:DeriveReqt xmi:id="_Thn-ICzTEeuL_52xMEAklA" base_DirectedRelationship="_Thh3gCzTEeuL_52xMEAklA" base_Abstraction="_Thh3gCzTEeuL_52xMEAklA"/>
+  <Requirements:DeriveReqt xmi:id="_UUlFECzTEeuL_52xMEAklA" base_DirectedRelationship="_UUflgCzTEeuL_52xMEAklA" base_Abstraction="_UUflgCzTEeuL_52xMEAklA"/>
+  <Requirements:Requirement xmi:id="_QPEasCzzEeuqeLeBQiPXYQ" base_Class="_QO3mYCzzEeuqeLeBQiPXYQ" id="BM-04" text="Operations that must be carried out after landing the drones.&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_es1r0CzzEeuqeLeBQiPXYQ" base_Class="_essh4CzzEeuqeLeBQiPXYQ" id="BM-11" text="The dead battery of the dron that has landed must be charged"/>
+  <Requirements:Requirement xmi:id="_2g0eYCzzEeuqeLeBQiPXYQ" base_Class="_2gvl4CzzEeuqeLeBQiPXYQ" id="BM-10" text="The battery of the dron that has landed after the mission must be replaced with a fully charge one"/>
+  <Requirements:Requirement xmi:id="_eAdRgCz0EeuqeLeBQiPXYQ" base_Class="_eAa1QCz0EeuqeLeBQiPXYQ" id="BM-08" text="Before starting the mission, each dron must have atleast 3 spare batterys fully charged"/>
+  <Requirements:Requirement xmi:id="_idvVICz0EeuqeLeBQiPXYQ" base_Class="_ids44Cz0EeuqeLeBQiPXYQ" id="BM-09" text="Before starting the mission, each dron must have 1 charger available&#xD;&#xA;"/>
+  <Requirements:DeriveReqt xmi:id="_mtqSMCz0EeuqeLeBQiPXYQ" base_DirectedRelationship="_mtn18Cz0EeuqeLeBQiPXYQ" base_Abstraction="_mtn18Cz0EeuqeLeBQiPXYQ"/>
+  <Requirements:DeriveReqt xmi:id="_nQMXgCz0EeuqeLeBQiPXYQ" base_DirectedRelationship="_nQIGECz0EeuqeLeBQiPXYQ" base_Abstraction="_nQIGECz0EeuqeLeBQiPXYQ"/>
+  <Requirements:DeriveReqt xmi:id="_3UIVMCz0EeuqeLeBQiPXYQ" base_DirectedRelationship="_3UHHECz0EeuqeLeBQiPXYQ" base_Abstraction="_3UHHECz0EeuqeLeBQiPXYQ"/>
+  <Requirements:DeriveReqt xmi:id="_4FDb0Cz0EeuqeLeBQiPXYQ" base_DirectedRelationship="_4FAYgCz0EeuqeLeBQiPXYQ" base_Abstraction="_4FAYgCz0EeuqeLeBQiPXYQ"/>
+  <Requirements:DeriveReqt xmi:id="_AsoVoCz1EeuqeLeBQiPXYQ" base_DirectedRelationship="_AsmgcCz1EeuqeLeBQiPXYQ" base_Abstraction="_AsmgcCz1EeuqeLeBQiPXYQ"/>
+</xmi:XMI>
