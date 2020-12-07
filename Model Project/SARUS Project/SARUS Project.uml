@@ -46,6 +46,19 @@
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_m255QC2uEeudUYyhZ7mBag" name="Landing battery"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_2FwCAC2uEeudUYyhZ7mBag" name="DeriveReqt4" client="_m255QC2uEeudUYyhZ7mBag" supplier="_H8ym8C2tEeudUYyhZ7mBag"/>
+          <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_k-NUIDjkEeu2ZfOLFtbVEA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_k-OiQTjkEeu2ZfOLFtbVEA" source="PapyrusVersion">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k-OiQjjkEeu2ZfOLFtbVEA" key="Version" value="0.0.1"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k-OiQzjkEeu2ZfOLFtbVEA" key="Comment" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k-OiRDjkEeu2ZfOLFtbVEA" key="Copyright" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k-OiRTjkEeu2ZfOLFtbVEA" key="Date" value="2020-12-05"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k-OiRjjkEeu2ZfOLFtbVEA" key="Author" value=""/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_k-OiQDjkEeu2ZfOLFtbVEA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <references xmi:type="ecore:EPackage" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
+            </eAnnotations>
+            <appliedProfile xmi:type="uml:Profile" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
+          </profileApplication>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_J5yG8CwfEeutKbRTHP0t3A" name="Mission planning" visibility="private">
           <packagedElement xmi:type="uml:Class" xmi:id="_UFkTkCwhEeutKbRTHP0t3A" name="Mission plan creation">
@@ -547,12 +560,7 @@
   <Requirements:DeriveReqt xmi:id="_5ywRgC2pEeudUYyhZ7mBag" base_DirectedRelationship="_5yt1QC2pEeudUYyhZ7mBag" base_Abstraction="_5yt1QC2pEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_BSlgIC2qEeudUYyhZ7mBag" base_DirectedRelationship="_BSjq8C2qEeudUYyhZ7mBag" base_Abstraction="_BSjq8C2qEeudUYyhZ7mBag"/>
   <Requirements:Refine xmi:id="_ZxS1QC2rEeudUYyhZ7mBag" base_DirectedRelationship="_ZxRAEC2rEeudUYyhZ7mBag" base_Abstraction="_ZxRAEC2rEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_l-smQC2rEeudUYyhZ7mBag" base_NamedElement="_l-qxEC2rEeudUYyhZ7mBag" id="NO-81" text="The system must automatically generate a landing plan for the drones, in the same place and order as they take off." base_Class="_l-qxEC2rEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_H80cIC2tEeudUYyhZ7mBag" base_NamedElement="_H8ym8C2tEeudUYyhZ7mBag" id="NO-80" text="The system must be able to manage the swarm landing." base_Class="_H8ym8C2tEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_jZfMoC2tEeudUYyhZ7mBag" base_NamedElement="_jZcwYC2tEeudUYyhZ7mBag" id="NO-82" text="The system must allow the system operator to select on the map a landing point for a particular drone." base_Class="_jZcwYC2tEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_m27ucC2uEeudUYyhZ7mBag" base_NamedElement="_m255QC2uEeudUYyhZ7mBag" id="NO-83" text="The drone must keep a battery backup for the landing." base_Class="_m255QC2uEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_2Fx3MC2uEeudUYyhZ7mBag" base_DirectedRelationship="_2FwCAC2uEeudUYyhZ7mBag" base_Abstraction="_2FwCAC2uEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="__5vroC2uEeudUYyhZ7mBag" base_NamedElement="__5tPYC2uEeudUYyhZ7mBag" id="NO-84" text="Th system must allow the system operator to force the landing of a particular drone at any time of the mission." base_Class="__5tPYC2uEeudUYyhZ7mBag"/>
   <Requirements:Requirement xmi:id="_4CgNIC2vEeudUYyhZ7mBag" base_NamedElement="_4CeX8C2vEeudUYyhZ7mBag" id="NO-61" text="The drone must be able to avoid obstacles during flight." base_Class="_4CeX8C2vEeudUYyhZ7mBag"/>
   <Requirements:Requirement xmi:id="_KGn54C2wEeudUYyhZ7mBag" base_NamedElement="_KGmEsC2wEeudUYyhZ7mBag" id="NO-60" text="The drone must be able to fly above the enviroment height." base_Class="_KGmEsC2wEeudUYyhZ7mBag"/>
   <Requirements:Requirement xmi:id="_1h-UoC2wEeudUYyhZ7mBag" base_NamedElement="_1h8fcC2wEeudUYyhZ7mBag" id="NO-62" text="The drone must fly over the obstacle if posible." base_Class="_1h8fcC2wEeudUYyhZ7mBag"/>
@@ -621,4 +629,9 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_fzYDcDjjEeu2ZfOLFtbVEA" base_NamedElement="_Bdbs8C2kEeudUYyhZ7mBag" id="NO-2" text="The system must allow the incorporation of drones to the mission, before the system operator starts the mission." base_Class="_Bdbs8C2kEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_ouWaYDjjEeu2ZfOLFtbVEA" base_NamedElement="_Ak_sQC2oEeudUYyhZ7mBag" id="NO-3" text="The system must allow the system operator to select the drones that will take off between the ones that are on." base_Class="_Ak_sQC2oEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_0YoQMDjjEeu2ZfOLFtbVEA" base_NamedElement="_v7qbIC2qEeudUYyhZ7mBag" id="NO-7" text="The system must support a maximum of 25 drones." base_Class="_v7qbIC2qEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_mNP6IDjkEeu2ZfOLFtbVEA" base_NamedElement="_H8ym8C2tEeudUYyhZ7mBag" id="NO-80" text="The system must be able to manage the swarm landing." base_Class="_H8ym8C2tEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_tHUwUDjkEeu2ZfOLFtbVEA" base_NamedElement="_jZcwYC2tEeudUYyhZ7mBag" id="NO-82" text="The system must allow the system operator to select on the map a landing point for a particular drone." base_Class="_jZcwYC2tEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_0uYBQDjkEeu2ZfOLFtbVEA" base_NamedElement="_m255QC2uEeudUYyhZ7mBag" id="NO-83" text="The drone must keep a battery backup for the landing." base_Class="_m255QC2uEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_89D58DjkEeu2ZfOLFtbVEA" base_NamedElement="_l-qxEC2rEeudUYyhZ7mBag" id="NO-81" text="The system must automatically generate a landing plan for the drones, in the same place and order as they take off." base_Class="_l-qxEC2rEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_J9d1MDjlEeu2ZfOLFtbVEA" base_NamedElement="__5tPYC2uEeudUYyhZ7mBag" id="NO-84" text="Th system must allow the system operator to force the landing of a particular drone at any time of the mission." base_Class="__5tPYC2uEeudUYyhZ7mBag"/>
 </xmi:XMI>
