@@ -3289,7 +3289,7 @@
         <eObjectValue xmi:type="uml:Class" href="SARUS%20Project.uml#_aQsuICznEeunBNSDKjsaEQ"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a0EfsjjdEeuyydLqknH_2g" x="1040" y="160"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a0EfsjjdEeuyydLqknH_2g" x="1040" y="160"/>  
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_1ds-ISnKEeuBhplQNQYfZQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_1ds-IinKEeuBhplQNQYfZQ"/>
@@ -3697,6 +3697,7 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a0EftjjdEeuyydLqknH_2g" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a0EftzjdEeuyydLqknH_2g"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a0EfuDjdEeuyydLqknH_2g"/>
+
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_4LezACnKEeuBhplQNQYfZQ" type="PapyrusUMLClassDiagram" name="Domain" measurementUnit="Pixel">
@@ -9881,6 +9882,7 @@
         <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
       </axis>
       <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_LfHzBDjWEeu2ZfOLFtbVEA" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
+        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_rXiZQDjaEeu2ZfOLFtbVEA" name="axisWidth" intValue="401"/>
         <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
       </axis>
       <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_RPXTUDjWEeu2ZfOLFtbVEA" element="property_of_stereotype:/reqSARUS profile::RequirementSARUS::Author">
