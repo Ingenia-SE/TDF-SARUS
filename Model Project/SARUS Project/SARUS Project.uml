@@ -23,6 +23,19 @@
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_BSjq8C2qEeudUYyhZ7mBag" name="DeriveReqt11" client="_A-2wAC2jEeudUYyhZ7mBag" supplier="_Ak_sQC2oEeudUYyhZ7mBag"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_v7qbIC2qEeudUYyhZ7mBag" name="Maximum"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_ZxRAEC2rEeudUYyhZ7mBag" name="Refine13" client="_v7qbIC2qEeudUYyhZ7mBag" supplier="_Bdbs8C2kEeudUYyhZ7mBag"/>
+          <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_kEAAkDjiEeu2ZfOLFtbVEA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kEBOsDjiEeu2ZfOLFtbVEA" source="PapyrusVersion">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kEBOsTjiEeu2ZfOLFtbVEA" key="Version" value="0.0.1"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kEBOsjjiEeu2ZfOLFtbVEA" key="Comment" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kEBOszjiEeu2ZfOLFtbVEA" key="Copyright" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kEBOtDjiEeu2ZfOLFtbVEA" key="Date" value="2020-12-05"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kEBOtTjiEeu2ZfOLFtbVEA" key="Author" value=""/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kEAnoDjiEeu2ZfOLFtbVEA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <references xmi:type="ecore:EPackage" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
+            </eAnnotations>
+            <appliedProfile xmi:type="uml:Profile" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
+          </profileApplication>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_GzVTYCwfEeutKbRTHP0t3A" name="Landing">
           <packagedElement xmi:type="uml:Class" xmi:id="_H8ym8C2tEeudUYyhZ7mBag" name="Swarm landing">
@@ -528,18 +541,11 @@
   <Requirements:TestCase xmi:id="_YJYS8C0AEeu6idVRQenvHQ" base_Behavior="_YJVPoC0AEeu6idVRQenvHQ"/>
   <Requirements:Verify xmi:id="_m7h4oC0AEeu6idVRQenvHQ" base_DirectedRelationship="_m7YusC0AEeu6idVRQenvHQ" base_Abstraction="_m7YusC0AEeu6idVRQenvHQ"/>
   <Requirements:Verify xmi:id="_p3UUUC0AEeu6idVRQenvHQ" base_DirectedRelationship="_p3M_kC0AEeu6idVRQenvHQ" base_Abstraction="_p3M_kC0AEeu6idVRQenvHQ"/>
-  <Requirements:Requirement xmi:id="_wfsBIC2dEeudUYyhZ7mBag" base_NamedElement="_wffz4C2dEeudUYyhZ7mBag" id="NO-01" text="The system must allow a flexible takeoff for the drone swarm." base_Class="_wffz4C2dEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_f__poC2fEeudUYyhZ7mBag" base_NamedElement="_f_8mUC2fEeudUYyhZ7mBag" id="NO-05" text="The drone must be able to take off in less than 3 minutes." base_Class="_f_8mUC2fEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_RuCxgC2gEeudUYyhZ7mBag" base_NamedElement="_RuAVQC2gEeudUYyhZ7mBag" id="NO-04" text="The drone must be able to take off in a 10 square meters area." base_Class="_RuAVQC2gEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_A-6aYC2jEeudUYyhZ7mBag" base_NamedElement="_A-2wAC2jEeudUYyhZ7mBag" id="NO-06" text="The drone must be able to rest on a flat surface." base_Class="_A-2wAC2jEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_BdeJMC2kEeudUYyhZ7mBag" base_NamedElement="_Bdbs8C2kEeudUYyhZ7mBag" id="NO-02" text="The system must allow the incorporation of drones to the mission, before the system operator starts the mission." base_Class="_Bdbs8C2kEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_AlCIgC2oEeudUYyhZ7mBag" base_NamedElement="_Ak_sQC2oEeudUYyhZ7mBag" id="NO-03" text="The system must allow the system operator to select the drones that will take off between the ones that are on." base_Class="_Ak_sQC2oEeudUYyhZ7mBag"/>
   <Requirements:Refine xmi:id="_P1oIQC2pEeudUYyhZ7mBag" base_DirectedRelationship="_P1lsAC2pEeudUYyhZ7mBag" base_Abstraction="_P1lsAC2pEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_owrQkC2pEeudUYyhZ7mBag" base_DirectedRelationship="_owo0UC2pEeudUYyhZ7mBag" base_Abstraction="_owo0UC2pEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_0tiEIC2pEeudUYyhZ7mBag" base_DirectedRelationship="_0tgO8C2pEeudUYyhZ7mBag" base_Abstraction="_0tgO8C2pEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_5ywRgC2pEeudUYyhZ7mBag" base_DirectedRelationship="_5yt1QC2pEeudUYyhZ7mBag" base_Abstraction="_5yt1QC2pEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_BSlgIC2qEeudUYyhZ7mBag" base_DirectedRelationship="_BSjq8C2qEeudUYyhZ7mBag" base_Abstraction="_BSjq8C2qEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_v7sQUC2qEeudUYyhZ7mBag" base_NamedElement="_v7qbIC2qEeudUYyhZ7mBag" id="NO-07" text="The system must support a maximum of 25 drones." base_Class="_v7qbIC2qEeudUYyhZ7mBag"/>
   <Requirements:Refine xmi:id="_ZxS1QC2rEeudUYyhZ7mBag" base_DirectedRelationship="_ZxRAEC2rEeudUYyhZ7mBag" base_Abstraction="_ZxRAEC2rEeudUYyhZ7mBag"/>
   <Requirements:Requirement xmi:id="_l-smQC2rEeudUYyhZ7mBag" base_NamedElement="_l-qxEC2rEeudUYyhZ7mBag" id="NO-81" text="The system must automatically generate a landing plan for the drones, in the same place and order as they take off." base_Class="_l-qxEC2rEeudUYyhZ7mBag"/>
   <Requirements:Requirement xmi:id="_H80cIC2tEeudUYyhZ7mBag" base_NamedElement="_H8ym8C2tEeudUYyhZ7mBag" id="NO-80" text="The system must be able to manage the swarm landing." base_Class="_H8ym8C2tEeudUYyhZ7mBag"/>
@@ -608,5 +614,11 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_U7mxADjVEeu2ZfOLFtbVEA" base_NamedElement="_KBUBYC6HEeuR2IwYJyJWjw" id="DM-1" text="The information shall be marked on the plate by any approved fire-retardant method, such as chemical engraving, die-cutting, stamping or writing in indelible ink, in a clear and legible manner." base_Class="_KBUBYC6HEeuR2IwYJyJWjw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_QoAUMDjdEeuyydLqknH_2g" base_NamedElement="_Gr-dcCnKEeu7zOJEOUkFAA" id="AC-1" text="The drones must fly in its different operational scenarios" base_Class="_Gr-dcCnKEeu7zOJEOUkFAA"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_D8OIoDjeEeuyydLqknH_2g" base_NamedElement="_fHbQsCzgEeunBNSDKjsaEQ" id="AC-04" text="After the search operation ends, the drones shall land in an area prepared by the ground station operators." base_Class="_fHbQsCzgEeunBNSDKjsaEQ"/>
-
+  <reqSARUSprofile:RequirementSARUS xmi:id="_pFxRUDjiEeu2ZfOLFtbVEA" base_NamedElement="_wffz4C2dEeudUYyhZ7mBag" id="NO-1" text="The system must allow a flexible takeoff for the drone swarm." base_Class="_wffz4C2dEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_1YZgkDjiEeu2ZfOLFtbVEA" base_NamedElement="_f_8mUC2fEeudUYyhZ7mBag" id="NO-5" text="The drone must be able to take off in less than 3 minutes." base_Class="_f_8mUC2fEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_Ex_gwDjjEeu2ZfOLFtbVEA" base_NamedElement="_RuAVQC2gEeudUYyhZ7mBag" id="NO-4" text="The drone must be able to take off in a 10 square meters area." base_Class="_RuAVQC2gEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_MFHwIDjjEeu2ZfOLFtbVEA" base_NamedElement="_A-2wAC2jEeudUYyhZ7mBag" id="NO-6" text="The drone must be able to rest on a flat surface." base_Class="_A-2wAC2jEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_fzYDcDjjEeu2ZfOLFtbVEA" base_NamedElement="_Bdbs8C2kEeudUYyhZ7mBag" id="NO-2" text="The system must allow the incorporation of drones to the mission, before the system operator starts the mission." base_Class="_Bdbs8C2kEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_ouWaYDjjEeu2ZfOLFtbVEA" base_NamedElement="_Ak_sQC2oEeudUYyhZ7mBag" id="NO-3" text="The system must allow the system operator to select the drones that will take off between the ones that are on." base_Class="_Ak_sQC2oEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_0YoQMDjjEeu2ZfOLFtbVEA" base_NamedElement="_v7qbIC2qEeudUYyhZ7mBag" id="NO-7" text="The system must support a maximum of 25 drones." base_Class="_v7qbIC2qEeudUYyhZ7mBag"/>
 </xmi:XMI>
