@@ -203,7 +203,7 @@
         </profileApplication>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_yGVPICnJEeu7zOJEOUkFAA" name="Airspace Conditions">
-        <packagedElement xmi:type="uml:Class" xmi:id="_Gr-dcCnKEeu7zOJEOUkFAA" name="OPERATIONAL SCENARIOS">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gr-dcCnKEeu7zOJEOUkFAA" name="OPERATIONAL SCENARIOS" visibility="protected">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_YdhZ8CzfEeunBNSDKjsaEQ" name="Normal operation"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_loNnsCzhEeunBNSDKjsaEQ" name="Person in distress"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_zSM2ACziEeunBNSDKjsaEQ" name="Loss of communication">
@@ -232,6 +232,19 @@
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_ciPvcCzmEeunBNSDKjsaEQ" client="_PwD2YCzmEeunBNSDKjsaEQ" supplier="_yiQ78CzkEeunBNSDKjsaEQ"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_aQsuICznEeunBNSDKjsaEQ" name="Recall aircrafts"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_qFuGECznEeunBNSDKjsaEQ" client="_aQsuICznEeunBNSDKjsaEQ" supplier="_w0JiYCzmEeunBNSDKjsaEQ"/>
+        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_MnPNcDjdEeuyydLqknH_2g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MnY-cTjdEeuyydLqknH_2g" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnY-cjjdEeuyydLqknH_2g" key="Version" value="0.0.1"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnY-czjdEeuyydLqknH_2g" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnY-dDjdEeuyydLqknH_2g" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnY-dTjdEeuyydLqknH_2g" key="Date" value="2020-12-05"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnY-djjdEeuyydLqknH_2g" key="Author" value=""/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MnY-cDjdEeuyydLqknH_2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="ecore:EPackage" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
+          </eAnnotations>
+          <appliedProfile xmi:type="uml:Profile" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
+        </profileApplication>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_5Xo5kCnJEeu7zOJEOUkFAA" name="Domain">
         <packagedElement xmi:type="uml:Class" xmi:id="_GxUQcCnKEeu7zOJEOUkFAA" name="Legal Compliance">
@@ -431,7 +444,6 @@
   </uml:Model>
   <Requirements:Requirement xmi:id="_GOQmsCnKEeu7zOJEOUkFAA" base_NamedElement="_GOP_oCnKEeu7zOJEOUkFAA" id="PD-01" text="The system must be capable of detecting as well as classifying  possible persons in the rescue area" base_Class="_GOP_oCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GXuEsCnKEeu7zOJEOUkFAA" base_NamedElement="_GXtdoCnKEeu7zOJEOUkFAA" id="CM-06" text="The drone must be connected with the operator in charge of the drone trajectory and flight plans" base_Class="_GXtdoCnKEeu7zOJEOUkFAA"/>
-  <Requirements:Requirement xmi:id="_Gr_rkCnKEeu7zOJEOUkFAA" base_NamedElement="_Gr-dcCnKEeu7zOJEOUkFAA" id="AC-01" text="The drones must fly in its different operational scenarios&#xD;&#xA;" base_Class="_Gr-dcCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_UFvSsCwhEeutKbRTHP0t3A" base_NamedElement="_UFkTkCwhEeutKbRTHP0t3A" id="NO-40" text="The system must generate a flight trayectory for each of the drones. The flight trayectories will consist of waypoints and their interconnections." base_Class="_UFkTkCwhEeutKbRTHP0t3A"/>
   <Requirements:Requirement xmi:id="_z2xbYCwhEeutKbRTHP0t3A" base_NamedElement="_z2si4CwhEeutKbRTHP0t3A" id="NO-41" text="The system must be able to automatically generate the flight trayectories for the drones, receiving the search area as an input." base_Class="_z2si4CwhEeutKbRTHP0t3A"/>
   <Requirements:Requirement xmi:id="_KdBaECwjEeutKbRTHP0t3A" base_NamedElement="_Kc9vsCwjEeutKbRTHP0t3A" id="NO-43" text="The system must allow the system operator to move the different waypoints.&#xD;&#xA;" base_Class="_Kc9vsCwjEeutKbRTHP0t3A"/>
@@ -478,7 +490,6 @@
   <Requirements:DeriveReqt xmi:id="_HgdFwCzoEeuqLowq6GfKMw" base_DirectedRelationship="_HgbQkCzoEeuqLowq6GfKMw" base_Abstraction="_HgbQkCzoEeuqLowq6GfKMw"/>
   <Requirements:Requirement xmi:id="_YdkdQCzfEeunBNSDKjsaEQ" base_NamedElement="_YdhZ8CzfEeunBNSDKjsaEQ" id="AC-02" text="The aircrafts&#xD;&#xA; navigate through a plan defined by the ground station&#xD;&#xA;" base_Class="_YdhZ8CzfEeunBNSDKjsaEQ"/>
   <Requirements:Requirement xmi:id="_0uptQCzfEeunBNSDKjsaEQ" base_NamedElement="_0uiYgCzfEeunBNSDKjsaEQ" id="AC-03" text="The navigation plan must be designed to avoid collisions" base_Class="_0uiYgCzfEeunBNSDKjsaEQ"/>
-  <Requirements:Requirement xmi:id="_fHds8CzgEeunBNSDKjsaEQ" base_NamedElement="_fHbQsCzgEeunBNSDKjsaEQ" id="AC-04" text="After the search operation ends, the drones shall land in an area prepared by the ground station operators." base_Class="_fHbQsCzgEeunBNSDKjsaEQ"/>
   <Requirements:Requirement xmi:id="_loQD8CzhEeunBNSDKjsaEQ" base_NamedElement="_loNnsCzhEeunBNSDKjsaEQ" id="AC-05" text="When a person is detected,  the drone must increase surveillance of the area of interest&#xD;&#xA;" base_Class="_loNnsCzhEeunBNSDKjsaEQ"/>
   <Requirements:Requirement xmi:id="_zSRHcCziEeunBNSDKjsaEQ" base_NamedElement="_zSM2ACziEeunBNSDKjsaEQ" id="AC-06" text="The drone should enter this mode in case of impaired communication with the swarm&#xD;&#xA;&#xD;&#xA;" base_Class="_zSM2ACziEeunBNSDKjsaEQ"/>
   <Requirements:Requirement xmi:id="_WX3_QCzjEeunBNSDKjsaEQ" base_NamedElement="_WX0U4CzjEeunBNSDKjsaEQ" id="AC-07" text="The UAV in question must enter fallback mode and try to readapt its path to recover the signal range&#xD;&#xA;" base_Class="_WX0U4CzjEeunBNSDKjsaEQ"/>
@@ -595,4 +606,6 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="__8LwwDjUEeu2ZfOLFtbVEA" base_NamedElement="_qM17cC6MEeuR2IwYJyJWjw" id="DM-1" text="The Drone Face will provide information about data collection and obtain the people’s consent in case personal data needs to be stored" base_Class="_qM17cC6MEeuR2IwYJyJWjw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_HSvuoDjVEeu2ZfOLFtbVEA" base_NamedElement="_el0N8C6MEeuR2IwYJyJWjw" id="DM-1" text="All the data of people in the mountain captured by the drone’s cameras must be anonymized" base_Class="_el0N8C6MEeuR2IwYJyJWjw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_U7mxADjVEeu2ZfOLFtbVEA" base_NamedElement="_KBUBYC6HEeuR2IwYJyJWjw" id="DM-1" text="The information shall be marked on the plate by any approved fire-retardant method, such as chemical engraving, die-cutting, stamping or writing in indelible ink, in a clear and legible manner." base_Class="_KBUBYC6HEeuR2IwYJyJWjw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_QoAUMDjdEeuyydLqknH_2g" base_NamedElement="_Gr-dcCnKEeu7zOJEOUkFAA" id="AC-1" text="The drones must fly in its different operational scenarios" base_Class="_Gr-dcCnKEeu7zOJEOUkFAA"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_D8OIoDjeEeuyydLqknH_2g" base_NamedElement="_fHbQsCzgEeunBNSDKjsaEQ" id="AC-04" text="After the search operation ends, the drones shall land in an area prepared by the ground station operators." base_Class="_fHbQsCzgEeunBNSDKjsaEQ"/>
 </xmi:XMI>
