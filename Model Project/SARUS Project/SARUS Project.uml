@@ -231,6 +231,19 @@
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_cTDuUDMEEeuKG_RWql4dxw" name="DeriveReqt12" client="_1NBuADMDEeuKG_RWql4dxw" supplier="_ejhxkDMDEeuKG_RWql4dxw"/>
         <packagedElement xmi:type="uml:Activity" xmi:id="_liQo0DMEEeuKG_RWql4dxw" name="Loss of communication test"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_vrPrADMEEeuKG_RWql4dxw" name="Verify14" client="_liQo0DMEEeuKG_RWql4dxw" supplier="_WCsWECy6EeuESP3ABfdsrQ"/>
+        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zZyd0DjtEeuzQrwgWYJmRA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zZzE4DjtEeuzQrwgWYJmRA" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zZzE4TjtEeuzQrwgWYJmRA" key="Version" value="0.0.1"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zZzE4jjtEeuzQrwgWYJmRA" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zZzE4zjtEeuzQrwgWYJmRA" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zZzE5DjtEeuzQrwgWYJmRA" key="Date" value="2020-12-05"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zZzE5TjtEeuzQrwgWYJmRA" key="Author" value=""/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zZyd0TjtEeuzQrwgWYJmRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="ecore:EPackage" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
+          </eAnnotations>
+          <appliedProfile xmi:type="uml:Profile" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
+        </profileApplication>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_x9DXUCnJEeu7zOJEOUkFAA" name="Fault Management">
         <packagedElement xmi:type="uml:Class" xmi:id="_G3Qq4C0AEeu6idVRQenvHQ" name="Faulty status ">
@@ -520,7 +533,6 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
   </uml:Model>
-  <Requirements:Requirement xmi:id="_GXuEsCnKEeu7zOJEOUkFAA" base_NamedElement="_GXtdoCnKEeu7zOJEOUkFAA" id="CM-06" text="The drone must be connected with the operator in charge of the drone trajectory and flight plans" base_Class="_GXtdoCnKEeu7zOJEOUkFAA"/>
   <Requirements:Refine xmi:id="_g3lbQCwmEeutKbRTHP0t3A" base_DirectedRelationship="_g3jmECwmEeutKbRTHP0t3A" base_Abstraction="_g3jmECwmEeutKbRTHP0t3A"/>
   <Requirements:Refine xmi:id="_7OD_wCwmEeutKbRTHP0t3A" base_DirectedRelationship="_7OBjgCwmEeutKbRTHP0t3A" base_Abstraction="_7OBjgCwmEeutKbRTHP0t3A"/>
   <Requirements:DeriveReqt xmi:id="_Vol90CwnEeutKbRTHP0t3A" base_DirectedRelationship="_Voi6gCwnEeutKbRTHP0t3A" base_Abstraction="_Voi6gCwnEeutKbRTHP0t3A"/>
@@ -529,14 +541,7 @@
   <Requirements:Refine xmi:id="_rMZLkCwpEeutKbRTHP0t3A" base_DirectedRelationship="_rMXWYCwpEeutKbRTHP0t3A" base_Abstraction="_rMXWYCwpEeutKbRTHP0t3A"/>
   <Requirements:Refine xmi:id="_c_3mACwqEeutKbRTHP0t3A" base_DirectedRelationship="_c_0isCwqEeutKbRTHP0t3A" base_Abstraction="_c_0isCwqEeutKbRTHP0t3A"/>
   <Requirements:Refine xmi:id="_tX8nsCwqEeutKbRTHP0t3A" base_DirectedRelationship="_tX6ygCwqEeutKbRTHP0t3A" base_Abstraction="_tX6ygCwqEeutKbRTHP0t3A"/>
-  <Requirements:Requirement xmi:id="_kf6uQCyyEeuESP3ABfdsrQ" base_NamedElement="_kfG18CyyEeuESP3ABfdsrQ" id="CM-02" text="The drone has to able to communicate with the command post" base_Class="_kfG18CyyEeuESP3ABfdsrQ"/>
-  <Requirements:Requirement xmi:id="_pkAL0Cy1EeuESP3ABfdsrQ" base_NamedElement="_pj7TUCy1EeuESP3ABfdsrQ" id="CM-03" text="The drone has to be able to communicate to the Command and Control platform.&#xD;&#xA;" base_Class="_pj7TUCy1EeuESP3ABfdsrQ"/>
-  <Requirements:Requirement xmi:id="_xZ44ECy3EeuESP3ABfdsrQ" base_NamedElement="_xZ0moCy3EeuESP3ABfdsrQ" id="CM-04" text="The drone's current position and estimated target position will be displayed on the maps" base_Class="_xZ0moCy3EeuESP3ABfdsrQ"/>
-  <Requirements:Requirement xmi:id="_AUdZ8Cy4EeuESP3ABfdsrQ" base_NamedElement="_AUZvkCy4EeuESP3ABfdsrQ" id="CM-05" text="The communication with the system operator must be uninterrupted" base_Class="_AUZvkCy4EeuESP3ABfdsrQ"/>
   <Requirements:Refine xmi:id="_oj4EMCy4EeuESP3ABfdsrQ" base_DirectedRelationship="_ojwvcCy4EeuESP3ABfdsrQ" base_Abstraction="_ojwvcCy4EeuESP3ABfdsrQ"/>
-  <Requirements:Requirement xmi:id="_DmwbsCy5EeuESP3ABfdsrQ" base_NamedElement="_DmtYYCy5EeuESP3ABfdsrQ" id="CM-01" text="The drone must be available for communication at all times" base_Class="_DmtYYCy5EeuESP3ABfdsrQ"/>
-  <Requirements:Requirement xmi:id="_JnNs0Cy6EeuESP3ABfdsrQ" base_NamedElement="_JnJbYCy6EeuESP3ABfdsrQ" id="CM-07" text="The drone must continue the mission in case of lost connection" base_Class="_JnJbYCy6EeuESP3ABfdsrQ"/>
-  <Requirements:Requirement xmi:id="_WCvZYCy6EeuESP3ABfdsrQ" base_NamedElement="_WCsWECy6EeuESP3ABfdsrQ" id="CM-08" text="The drone must attempt to reestablish communication in case of loss" base_Class="_WCsWECy6EeuESP3ABfdsrQ"/>
   <Requirements:Satisfy xmi:id="_DeBrkCy7EeuESP3ABfdsrQ" base_DirectedRelationship="_Dd-BMCy7EeuESP3ABfdsrQ" base_Abstraction="_Dd-BMCy7EeuESP3ABfdsrQ"/>
   <Requirements:Refine xmi:id="_4i4IoCzmEeuqLowq6GfKMw" base_DirectedRelationship="_4i2TcCzmEeuqLowq6GfKMw" base_Abstraction="_4i2TcCzmEeuqLowq6GfKMw"/>
   <Requirements:Refine xmi:id="__HsggCzmEeuqLowq6GfKMw" base_DirectedRelationship="__HqEQCzmEeuqLowq6GfKMw" base_Abstraction="__HqEQCzmEeuqLowq6GfKMw"/>
@@ -603,9 +608,7 @@
   <Requirements:TestCase xmi:id="_AirdcC27EeuakL1QKwDxZg" base_Behavior="_Aimk8C27EeuakL1QKwDxZg"/>
   <Requirements:Verify xmi:id="_QrIjMC3FEeuakL1QKwDxZg" base_DirectedRelationship="_QrBOcC3FEeuakL1QKwDxZg" base_Abstraction="_QrBOcC3FEeuakL1QKwDxZg"/>
   <Requirements:Verify xmi:id="_X2OQ4C3FEeuakL1QKwDxZg" base_DirectedRelationship="_X2FG8C3FEeuakL1QKwDxZg" base_Abstraction="_X2FG8C3FEeuakL1QKwDxZg"/>
-  <Requirements:Requirement xmi:id="_ekRYcDMDEeuKG_RWql4dxw" base_NamedElement="_ejhxkDMDEeuKG_RWql4dxw" id="CM-09" text="The system interface must be user-friendly" base_Class="_ejhxkDMDEeuKG_RWql4dxw"/>
   <Requirements:Refine xmi:id="_zqQTsDMDEeuKG_RWql4dxw" base_DirectedRelationship="_zqKNEDMDEeuKG_RWql4dxw" base_Abstraction="_zqKNEDMDEeuKG_RWql4dxw"/>
-  <Requirements:Requirement xmi:id="_1NF_cDMDEeuKG_RWql4dxw" base_NamedElement="_1NBuADMDEeuKG_RWql4dxw" id="CM-10" text="Users without specific training must be able to use the interface" base_Class="_1NBuADMDEeuKG_RWql4dxw"/>
   <Requirements:TestCase xmi:id="_W1kx8DMEEeuKG_RWql4dxw" base_Behavior="_W1gggDMEEeuKG_RWql4dxw"/>
   <Requirements:Verify xmi:id="_bIxFcDMEEeuKG_RWql4dxw" base_DirectedRelationship="_bIuCIDMEEeuKG_RWql4dxw" base_Abstraction="_bIuCIDMEEeuKG_RWql4dxw"/>
   <Requirements:DeriveReqt xmi:id="_cTGxoDMEEeuKG_RWql4dxw" base_DirectedRelationship="_cTDuUDMEEeuKG_RWql4dxw" base_Abstraction="_cTDuUDMEEeuKG_RWql4dxw"/>
@@ -686,4 +689,14 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_4Rdz4DjsEeuzQrwgWYJmRA" base_NamedElement="_K7jq4C29EeuakL1QKwDxZg" id="PD-7" text="When a drone detects an object, it may send a signal to a nearby drone in order to help it identify the corresponding object" base_Class="_K7jq4C29EeuakL1QKwDxZg"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_HPmAEDjtEeuzQrwgWYJmRA" base_NamedElement="_m0OFwC27EeuakL1QKwDxZg" id="PD-4" text="The integrated hardware accelerators used for person detection workloads must be used in the most power efficient way" base_Class="_m0OFwC27EeuakL1QKwDxZg"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_O7lbYDjtEeuzQrwgWYJmRA" base_NamedElement="_Vu6KoC27EeuakL1QKwDxZg" id="PD-3" text="The drone must be able to combine information from different sensors and modify the data complexity according to the situation" base_Class="_Vu6KoC27EeuakL1QKwDxZg"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_1uGp0DjtEeuzQrwgWYJmRA" base_NamedElement="_AUZvkCy4EeuESP3ABfdsrQ" id="CM-5" text="The communication with the system operator must be uninterrupted" base_Class="_AUZvkCy4EeuESP3ABfdsrQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_8yw_YDjtEeuzQrwgWYJmRA" base_NamedElement="_DmtYYCy5EeuESP3ABfdsrQ" id="CM-1" text="The drone must be available for communication at all times" base_Class="_DmtYYCy5EeuESP3ABfdsrQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_EXzeIDjuEeuzQrwgWYJmRA" base_NamedElement="_GXtdoCnKEeu7zOJEOUkFAA" id="CM-6" text="The drone must be connected with the operator in charge of the drone trajectory and flight plans" base_Class="_GXtdoCnKEeu7zOJEOUkFAA"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_LO5RwDjuEeuzQrwgWYJmRA" base_NamedElement="_pj7TUCy1EeuESP3ABfdsrQ" id="CM-3" text="The drone has to be able to communicate to the Command and Control platform." base_Class="_pj7TUCy1EeuESP3ABfdsrQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_SllygDjuEeuzQrwgWYJmRA" base_NamedElement="_xZ0moCy3EeuESP3ABfdsrQ" id="CM-4" text="The drone's current position and estimated target position will be displayed on the maps" base_Class="_xZ0moCy3EeuESP3ABfdsrQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_asscgDjuEeuzQrwgWYJmRA" base_NamedElement="_JnJbYCy6EeuESP3ABfdsrQ" id="CM-7" text="The drone must continue the mission in case of lost connection" base_Class="_JnJbYCy6EeuESP3ABfdsrQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_gs984DjuEeuzQrwgWYJmRA" base_NamedElement="_kfG18CyyEeuESP3ABfdsrQ" id="CM-2" text="The drone has to able to communicate with the command post" base_Class="_kfG18CyyEeuESP3ABfdsrQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_m5-RsDjuEeuzQrwgWYJmRA" base_NamedElement="_WCsWECy6EeuESP3ABfdsrQ" id="CM-8" text="The drone must attempt to reestablish communication in case of loss" base_Class="_WCsWECy6EeuESP3ABfdsrQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_tqrwgDjuEeuzQrwgWYJmRA" base_NamedElement="_ejhxkDMDEeuKG_RWql4dxw" id="CM-9" text="The system interface must be user-friendly" base_Class="_ejhxkDMDEeuKG_RWql4dxw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_0m7J4DjuEeuzQrwgWYJmRA" base_NamedElement="_1NBuADMDEeuKG_RWql4dxw" id="CM-10" text="Users without specific training must be able to use the interface" base_Class="_1NBuADMDEeuKG_RWql4dxw"/>
 </xmi:XMI>
