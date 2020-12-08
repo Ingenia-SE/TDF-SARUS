@@ -83,6 +83,19 @@
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_c_0isCwqEeutKbRTHP0t3A" name="Refine15" client="_Qqgy4CwqEeutKbRTHP0t3A" supplier="_z2si4CwhEeutKbRTHP0t3A"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_ey2mkCwqEeutKbRTHP0t3A" name="Waypoint distance"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_tX6ygCwqEeutKbRTHP0t3A" name="Refine17" client="_ey2mkCwqEeutKbRTHP0t3A" supplier="_z2si4CwhEeutKbRTHP0t3A"/>
+          <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_nGxtsDjlEeu2ZfOLFtbVEA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nGyUwDjlEeu2ZfOLFtbVEA" source="PapyrusVersion">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nGyUwTjlEeu2ZfOLFtbVEA" key="Version" value="0.0.1"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nGyUwjjlEeu2ZfOLFtbVEA" key="Comment" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nGyUwzjlEeu2ZfOLFtbVEA" key="Copyright" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nGyUxDjlEeu2ZfOLFtbVEA" key="Date" value="2020-12-05"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nGyUxTjlEeu2ZfOLFtbVEA" key="Author" value=""/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nGxtsTjlEeu2ZfOLFtbVEA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <references xmi:type="ecore:EPackage" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
+            </eAnnotations>
+            <appliedProfile xmi:type="uml:Profile" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
+          </profileApplication>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_L2dPACwfEeutKbRTHP0t3A" name="Search area definition">
           <packagedElement xmi:type="uml:Class" xmi:id="_ZNZiQCzgEeuqLowq6GfKMw" name="Definition of the area">
@@ -470,25 +483,13 @@
   </uml:Model>
   <Requirements:Requirement xmi:id="_GOQmsCnKEeu7zOJEOUkFAA" base_NamedElement="_GOP_oCnKEeu7zOJEOUkFAA" id="PD-01" text="The system must be capable of detecting as well as classifying  possible persons in the rescue area" base_Class="_GOP_oCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GXuEsCnKEeu7zOJEOUkFAA" base_NamedElement="_GXtdoCnKEeu7zOJEOUkFAA" id="CM-06" text="The drone must be connected with the operator in charge of the drone trajectory and flight plans" base_Class="_GXtdoCnKEeu7zOJEOUkFAA"/>
-  <Requirements:Requirement xmi:id="_UFvSsCwhEeutKbRTHP0t3A" base_NamedElement="_UFkTkCwhEeutKbRTHP0t3A" id="NO-40" text="The system must generate a flight trayectory for each of the drones. The flight trayectories will consist of waypoints and their interconnections." base_Class="_UFkTkCwhEeutKbRTHP0t3A"/>
-  <Requirements:Requirement xmi:id="_z2xbYCwhEeutKbRTHP0t3A" base_NamedElement="_z2si4CwhEeutKbRTHP0t3A" id="NO-41" text="The system must be able to automatically generate the flight trayectories for the drones, receiving the search area as an input." base_Class="_z2si4CwhEeutKbRTHP0t3A"/>
-  <Requirements:Requirement xmi:id="_KdBaECwjEeutKbRTHP0t3A" base_NamedElement="_Kc9vsCwjEeutKbRTHP0t3A" id="NO-43" text="The system must allow the system operator to move the different waypoints.&#xD;&#xA;" base_Class="_Kc9vsCwjEeutKbRTHP0t3A"/>
-  <Requirements:Requirement xmi:id="_VMU1YCwjEeutKbRTHP0t3A" base_NamedElement="_VMRyECwjEeutKbRTHP0t3A" id="NO-44" text="The system must allow the system operator to add new waypoints." base_Class="_VMRyECwjEeutKbRTHP0t3A"/>
-  <Requirements:Requirement xmi:id="_hrnnoCwjEeutKbRTHP0t3A" base_NamedElement="_hrjWMCwjEeutKbRTHP0t3A" id="NO-45" text="The system must place all the waypoints inside the predefined search area." base_Class="_hrjWMCwjEeutKbRTHP0t3A"/>
-  <Requirements:Requirement xmi:id="_4gYY4CwjEeutKbRTHP0t3A" base_NamedElement="_4gWjsCwjEeutKbRTHP0t3A" id="NO-46" text="The system must display the flight plans over the search area map while the user generates them manually." base_Class="_4gWjsCwjEeutKbRTHP0t3A"/>
-  <Requirements:Requirement xmi:id="_jHHf0CwkEeutKbRTHP0t3A" base_NamedElement="_jHCnUCwkEeutKbRTHP0t3A" id="NO-47" text="The system must allow the system operator to manually generate the flight trayectories for the drones, receiving the search area as an input." base_Class="_jHCnUCwkEeutKbRTHP0t3A"/>
   <Requirements:Refine xmi:id="_g3lbQCwmEeutKbRTHP0t3A" base_DirectedRelationship="_g3jmECwmEeutKbRTHP0t3A" base_Abstraction="_g3jmECwmEeutKbRTHP0t3A"/>
   <Requirements:Refine xmi:id="_7OD_wCwmEeutKbRTHP0t3A" base_DirectedRelationship="_7OBjgCwmEeutKbRTHP0t3A" base_Abstraction="_7OBjgCwmEeutKbRTHP0t3A"/>
-  <Requirements:Requirement xmi:id="_Gi374CwnEeutKbRTHP0t3A" base_NamedElement="_Gi1foCwnEeutKbRTHP0t3A" id="NO-42" text="The system must allow the system operator to modify any flight plan." base_Class="_Gi1foCwnEeutKbRTHP0t3A"/>
   <Requirements:DeriveReqt xmi:id="_Vol90CwnEeutKbRTHP0t3A" base_DirectedRelationship="_Voi6gCwnEeutKbRTHP0t3A" base_Abstraction="_Voi6gCwnEeutKbRTHP0t3A"/>
   <Requirements:DeriveReqt xmi:id="_WVoqACwnEeutKbRTHP0t3A" base_DirectedRelationship="_WVm00CwnEeutKbRTHP0t3A" base_Abstraction="_WVm00CwnEeutKbRTHP0t3A"/>
-  <Requirements:Requirement xmi:id="_mf8VcCwnEeutKbRTHP0t3A" base_NamedElement="_mf6gQCwnEeutKbRTHP0t3A" id="NO-48" text="The system must allow the user to create, configure and store different flight plans before the deployment of the full system." base_Class="_mf6gQCwnEeutKbRTHP0t3A"/>
   <Requirements:Refine xmi:id="_LYcHMCwoEeutKbRTHP0t3A" base_DirectedRelationship="_LYZD4CwoEeutKbRTHP0t3A" base_Abstraction="_LYZD4CwoEeutKbRTHP0t3A"/>
-  <Requirements:Requirement xmi:id="_hej0UCwpEeutKbRTHP0t3A" base_NamedElement="_hehYECwpEeutKbRTHP0t3A" id="NO-49" text="The system must identify the flight plans to be followed by each drone." base_Class="_hehYECwpEeutKbRTHP0t3A"/>
   <Requirements:Refine xmi:id="_rMZLkCwpEeutKbRTHP0t3A" base_DirectedRelationship="_rMXWYCwpEeutKbRTHP0t3A" base_Abstraction="_rMXWYCwpEeutKbRTHP0t3A"/>
-  <Requirements:Requirement xmi:id="_Qqj2MCwqEeutKbRTHP0t3A" base_NamedElement="_Qqgy4CwqEeutKbRTHP0t3A" id="NO-50" text="The system must take into account terrain data when creating the flight plans." base_Class="_Qqgy4CwqEeutKbRTHP0t3A"/>
   <Requirements:Refine xmi:id="_c_3mACwqEeutKbRTHP0t3A" base_DirectedRelationship="_c_0isCwqEeutKbRTHP0t3A" base_Abstraction="_c_0isCwqEeutKbRTHP0t3A"/>
-  <Requirements:Requirement xmi:id="_ey4bwCwqEeutKbRTHP0t3A" base_NamedElement="_ey2mkCwqEeutKbRTHP0t3A" id="NO-51" text="The system must place the waypoints between 100 and 400 m apart when creating the flight plan automatically." base_Class="_ey2mkCwqEeutKbRTHP0t3A"/>
   <Requirements:Refine xmi:id="_tX8nsCwqEeutKbRTHP0t3A" base_DirectedRelationship="_tX6ygCwqEeutKbRTHP0t3A" base_Abstraction="_tX6ygCwqEeutKbRTHP0t3A"/>
   <Requirements:Requirement xmi:id="_kf6uQCyyEeuESP3ABfdsrQ" base_NamedElement="_kfG18CyyEeuESP3ABfdsrQ" id="CM-02" text="The drone has to able to communicate with the command post" base_Class="_kfG18CyyEeuESP3ABfdsrQ"/>
   <Requirements:Requirement xmi:id="_pkAL0Cy1EeuESP3ABfdsrQ" base_NamedElement="_pj7TUCy1EeuESP3ABfdsrQ" id="CM-03" text="The drone has to be able to communicate to the Command and Control platform.&#xD;&#xA;" base_Class="_pj7TUCy1EeuESP3ABfdsrQ"/>
@@ -634,4 +635,16 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_0uYBQDjkEeu2ZfOLFtbVEA" base_NamedElement="_m255QC2uEeudUYyhZ7mBag" id="NO-83" text="The drone must keep a battery backup for the landing." base_Class="_m255QC2uEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_89D58DjkEeu2ZfOLFtbVEA" base_NamedElement="_l-qxEC2rEeudUYyhZ7mBag" id="NO-81" text="The system must automatically generate a landing plan for the drones, in the same place and order as they take off." base_Class="_l-qxEC2rEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_J9d1MDjlEeu2ZfOLFtbVEA" base_NamedElement="__5tPYC2uEeudUYyhZ7mBag" id="NO-84" text="Th system must allow the system operator to force the landing of a particular drone at any time of the mission." base_Class="__5tPYC2uEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_t5SjUDjlEeu2ZfOLFtbVEA" base_NamedElement="_UFkTkCwhEeutKbRTHP0t3A" id="NO-40" text="The system must generate a flight trayectory for each of the drones. The flight trayectories will consist of waypoints and their interconnections." base_Class="_UFkTkCwhEeutKbRTHP0t3A"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_1IO2QDjlEeu2ZfOLFtbVEA" base_NamedElement="_jHCnUCwkEeutKbRTHP0t3A" id="NO-47" text="The system must allow the system operator to manually generate the flight trayectories for the drones, receiving the search area as an input." base_Class="_jHCnUCwkEeutKbRTHP0t3A"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_8F4k4DjlEeu2ZfOLFtbVEA" base_NamedElement="_z2si4CwhEeutKbRTHP0t3A" id="NO-41" text="The system must be able to automatically generate the flight trayectories for the drones, receiving the search area as an input." base_Class="_z2si4CwhEeutKbRTHP0t3A"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_4wmOoDjmEeuzQrwgWYJmRA" base_NamedElement="_Kc9vsCwjEeutKbRTHP0t3A" id="NO-43" text="The system must allow the system operator to move the different waypoints." base_Class="_Kc9vsCwjEeutKbRTHP0t3A"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_BMxwwDjnEeuzQrwgWYJmRA" base_NamedElement="_VMRyECwjEeutKbRTHP0t3A" id="NO-44" text="The system must allow the system operator to add new waypoints." base_Class="_VMRyECwjEeutKbRTHP0t3A"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_InCi4DjnEeuzQrwgWYJmRA" base_NamedElement="_hrjWMCwjEeutKbRTHP0t3A" id="NO-45" text="The system must place all the waypoints inside the predefined search area." base_Class="_hrjWMCwjEeutKbRTHP0t3A"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_QE_iMDjnEeuzQrwgWYJmRA" base_NamedElement="_4gWjsCwjEeutKbRTHP0t3A" id="NO-46" text="The system must display the flight plans over the search area map while the user generates them manually." base_Class="_4gWjsCwjEeutKbRTHP0t3A"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_YPp2gDjnEeuzQrwgWYJmRA" base_NamedElement="_mf6gQCwnEeutKbRTHP0t3A" id="NO-48" text="The system must allow the user to create, configure and store different flight plans before the deployment of the full system." base_Class="_mf6gQCwnEeutKbRTHP0t3A"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_fInSYDjnEeuzQrwgWYJmRA" base_NamedElement="_Gi1foCwnEeutKbRTHP0t3A" id="NO-42" text="The system must allow the system operator to modify any flight plan." base_Class="_Gi1foCwnEeutKbRTHP0t3A"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_nMvg4DjnEeuzQrwgWYJmRA" base_NamedElement="_hehYECwpEeutKbRTHP0t3A" id="NO-49" text="The system must identify the flight plans to be followed by each drone." base_Class="_hehYECwpEeutKbRTHP0t3A"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_wa7HsDjnEeuzQrwgWYJmRA" base_NamedElement="_Qqgy4CwqEeutKbRTHP0t3A" id="NO-50" text="The system must take into account terrain data when creating the flight plans." base_Class="_Qqgy4CwqEeutKbRTHP0t3A"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_5MIeoDjnEeuzQrwgWYJmRA" base_NamedElement="_ey2mkCwqEeutKbRTHP0t3A" id="NO-51" text="The system must place the waypoints between 100 and 400 m apart when creating the flight plan automatically." base_Class="_ey2mkCwqEeutKbRTHP0t3A"/>
 </xmi:XMI>
