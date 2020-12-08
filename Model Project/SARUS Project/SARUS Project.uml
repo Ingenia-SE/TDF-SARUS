@@ -197,6 +197,19 @@
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_iz-3kC3IEeuakL1QKwDxZg" client="_MdPncC26EeuakL1QKwDxZg" supplier="_NVLqIC28EeuakL1QKwDxZg"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="__eG5sC3IEeuakL1QKwDxZg" client="_uAyksC28EeuakL1QKwDxZg" supplier="_othaoC3EEeuakL1QKwDxZg"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_L9S-QC3JEeuakL1QKwDxZg" client="_K7jq4C29EeuakL1QKwDxZg" supplier="_WQjF0C3AEeuakL1QKwDxZg"/>
+        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_pmcmYDjrEeuzQrwgWYJmRA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pmdNcTjrEeuzQrwgWYJmRA" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pmdNcjjrEeuzQrwgWYJmRA" key="Version" value="0.0.1"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pmdNczjrEeuzQrwgWYJmRA" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pmdNdDjrEeuzQrwgWYJmRA" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pmdNdTjrEeuzQrwgWYJmRA" key="Date" value="2020-12-05"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pmdNdjjrEeuzQrwgWYJmRA" key="Author" value=""/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pmdNcDjrEeuzQrwgWYJmRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="ecore:EPackage" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
+          </eAnnotations>
+          <appliedProfile xmi:type="uml:Profile" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
+        </profileApplication>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_xrcC4CnJEeu7zOJEOUkFAA" name="Communication">
         <packagedElement xmi:type="uml:Class" xmi:id="_AUZvkCy4EeuESP3ABfdsrQ" name="Communication uninterrupted"/>
@@ -507,7 +520,6 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
   </uml:Model>
-  <Requirements:Requirement xmi:id="_GOQmsCnKEeu7zOJEOUkFAA" base_NamedElement="_GOP_oCnKEeu7zOJEOUkFAA" id="PD-01" text="The system must be capable of detecting as well as classifying  possible persons in the rescue area" base_Class="_GOP_oCnKEeu7zOJEOUkFAA"/>
   <Requirements:Requirement xmi:id="_GXuEsCnKEeu7zOJEOUkFAA" base_NamedElement="_GXtdoCnKEeu7zOJEOUkFAA" id="CM-06" text="The drone must be connected with the operator in charge of the drone trajectory and flight plans" base_Class="_GXtdoCnKEeu7zOJEOUkFAA"/>
   <Requirements:Refine xmi:id="_g3lbQCwmEeutKbRTHP0t3A" base_DirectedRelationship="_g3jmECwmEeutKbRTHP0t3A" base_Abstraction="_g3jmECwmEeutKbRTHP0t3A"/>
   <Requirements:Refine xmi:id="_7OD_wCwmEeutKbRTHP0t3A" base_DirectedRelationship="_7OBjgCwmEeutKbRTHP0t3A" base_Abstraction="_7OBjgCwmEeutKbRTHP0t3A"/>
@@ -585,18 +597,10 @@
   <Requirements:Refine xmi:id="_2t_w8C2yEeudUYyhZ7mBag" base_DirectedRelationship="_2t97wC2yEeudUYyhZ7mBag" base_Abstraction="_2t97wC2yEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_75ovYC2yEeudUYyhZ7mBag" base_DirectedRelationship="_75mTIC2yEeudUYyhZ7mBag" base_Abstraction="_75mTIC2yEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_IuSGkC2zEeudUYyhZ7mBag" base_DirectedRelationship="_IuQRYC2zEeudUYyhZ7mBag" base_Abstraction="_IuQRYC2zEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_MdamkC26EeuakL1QKwDxZg" base_NamedElement="_MdPncC26EeuakL1QKwDxZg" id="PD-02" text="The drone should follow the moving object for its future classification" base_Class="_MdPncC26EeuakL1QKwDxZg"/>
   <Requirements:TestCase xmi:id="_3rbI4C26EeuakL1QKwDxZg" base_Behavior="_3rRX4C26EeuakL1QKwDxZg"/>
   <Requirements:TestCase xmi:id="_7n3JQC26EeuakL1QKwDxZg" base_Behavior="_7Xd80C26EeuakL1QKwDxZg"/>
   <Requirements:TestCase xmi:id="_AiqPUC27EeuakL1QKwDxZg" base_Behavior="_Aimk8S27EeuakL1QKwDxZg"/>
   <Requirements:TestCase xmi:id="_AirdcC27EeuakL1QKwDxZg" base_Behavior="_Aimk8C27EeuakL1QKwDxZg"/>
-  <Requirements:Requirement xmi:id="_Vu9N8C27EeuakL1QKwDxZg" base_NamedElement="_Vu6KoC27EeuakL1QKwDxZg" id="PD-03" text="The drone must be able to combine information from different sensors and modify the data complexity according to the situation" base_Class="_Vu6KoC27EeuakL1QKwDxZg"/>
-  <Requirements:Requirement xmi:id="_m0TlUC27EeuakL1QKwDxZg" base_NamedElement="_m0OFwC27EeuakL1QKwDxZg" id="PD-04" text="The integrated hardware accelerators used for person detection workloads must be used in the most power efficient way" base_Class="_m0OFwC27EeuakL1QKwDxZg"/>
-  <Requirements:Requirement xmi:id="_NVS-4C28EeuakL1QKwDxZg" base_NamedElement="_NVLqIC28EeuakL1QKwDxZg" id="PD-05" text="The detected object must be relevant for the rescue team only if its probability of being a person exceeds a certain threshold limit" base_Class="_NVLqIC28EeuakL1QKwDxZg"/>
-  <Requirements:Requirement xmi:id="_uA0Z4C28EeuakL1QKwDxZg" base_NamedElement="_uAyksC28EeuakL1QKwDxZg" id="PD-06" text="When detecting a possible person, the drone has to send critical information to the ground station for further actions" base_Class="_uAyksC28EeuakL1QKwDxZg"/>
-  <Requirements:Requirement xmi:id="_K7uC8C29EeuakL1QKwDxZg" base_NamedElement="_K7jq4C29EeuakL1QKwDxZg" id="PD-07" text="When a drone detects an object, it may send a signal to a nearby drone in order to help it identify the corresponding object" base_Class="_K7jq4C29EeuakL1QKwDxZg"/>
-  <Requirements:Requirement xmi:id="_WQtd4C3AEeuakL1QKwDxZg" base_NamedElement="_WQjF0C3AEeuakL1QKwDxZg" id="PD-08" text="When multiple objects are detected, the swarm should prioritize as important the  most accurate identification" base_Class="_WQjF0C3AEeuakL1QKwDxZg"/>
-  <Requirements:Requirement xmi:id="_otjP0C3EEeuakL1QKwDxZg" base_NamedElement="_othaoC3EEeuakL1QKwDxZg" id="PD-09" text="The swarm must generate a real time map with the exact coordinates of the multiple locations where persons are identified" base_Class="_othaoC3EEeuakL1QKwDxZg"/>
   <Requirements:Verify xmi:id="_QrIjMC3FEeuakL1QKwDxZg" base_DirectedRelationship="_QrBOcC3FEeuakL1QKwDxZg" base_Abstraction="_QrBOcC3FEeuakL1QKwDxZg"/>
   <Requirements:Verify xmi:id="_X2OQ4C3FEeuakL1QKwDxZg" base_DirectedRelationship="_X2FG8C3FEeuakL1QKwDxZg" base_Abstraction="_X2FG8C3FEeuakL1QKwDxZg"/>
   <Requirements:Requirement xmi:id="_ekRYcDMDEeuKG_RWql4dxw" base_NamedElement="_ejhxkDMDEeuKG_RWql4dxw" id="CM-09" text="The system interface must be user-friendly" base_Class="_ejhxkDMDEeuKG_RWql4dxw"/>
@@ -673,4 +677,13 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_53pZcDjqEeuzQrwgWYJmRA" base_NamedElement="_4pseEC2xEeudUYyhZ7mBag" id="NO-64" text="The drone must fly following its planned flight trayectory." base_Class="_4pseEC2xEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_CmYrMDjrEeuzQrwgWYJmRA" base_NamedElement="_UNGIsC2yEeudUYyhZ7mBag" id="NO-65" text="The system must allow the system operator to cancel the mission." base_Class="_UNGIsC2yEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_NB_HYDjrEeuzQrwgWYJmRA" base_NamedElement="_hwFMkC2yEeudUYyhZ7mBag" id="NO-66" text="The swarm must land when mission is cancelled." base_Class="_hwFMkC2yEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_2tGTkDjrEeuzQrwgWYJmRA" base_NamedElement="_GOP_oCnKEeu7zOJEOUkFAA" id="PD-1" text="The system must be capable of detecting as well as classifying  possible persons in the rescue area" base_Class="_GOP_oCnKEeu7zOJEOUkFAA"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_6rrB8DjrEeuzQrwgWYJmRA" base_NamedElement="_NVLqIC28EeuakL1QKwDxZg" id="PD-5" text="The detected object must be relevant for the rescue team only if its probability of being a person exceeds a certain threshold limit" base_Class="_NVLqIC28EeuakL1QKwDxZg"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_HMIR0DjsEeuzQrwgWYJmRA" base_NamedElement="_uAyksC28EeuakL1QKwDxZg" id="PD-6" text="When detecting a possible person, the drone has to send critical information to the ground station for further actions" base_Class="_uAyksC28EeuakL1QKwDxZg"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_WwqWsDjsEeuzQrwgWYJmRA" base_NamedElement="_WQjF0C3AEeuakL1QKwDxZg" id="PD-8" text="When multiple objects are detected, the swarm should prioritize as important the  most accurate identification" base_Class="_WQjF0C3AEeuakL1QKwDxZg"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_i9s7UDjsEeuzQrwgWYJmRA" base_NamedElement="_othaoC3EEeuakL1QKwDxZg" id="PD-9" text="The swarm must generate a real time map with the exact coordinates of the multiple locations where persons are identified" base_Class="_othaoC3EEeuakL1QKwDxZg"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_sXvM0DjsEeuzQrwgWYJmRA" base_NamedElement="_MdPncC26EeuakL1QKwDxZg" id="PD-2" text="The drone should follow the moving object for its future classification" base_Class="_MdPncC26EeuakL1QKwDxZg"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_4Rdz4DjsEeuzQrwgWYJmRA" base_NamedElement="_K7jq4C29EeuakL1QKwDxZg" id="PD-7" text="When a drone detects an object, it may send a signal to a nearby drone in order to help it identify the corresponding object" base_Class="_K7jq4C29EeuakL1QKwDxZg"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_HPmAEDjtEeuzQrwgWYJmRA" base_NamedElement="_m0OFwC27EeuakL1QKwDxZg" id="PD-4" text="The integrated hardware accelerators used for person detection workloads must be used in the most power efficient way" base_Class="_m0OFwC27EeuakL1QKwDxZg"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_O7lbYDjtEeuzQrwgWYJmRA" base_NamedElement="_Vu6KoC27EeuakL1QKwDxZg" id="PD-3" text="The drone must be able to combine information from different sensors and modify the data complexity according to the situation" base_Class="_Vu6KoC27EeuakL1QKwDxZg"/>
 </xmi:XMI>
