@@ -143,6 +143,19 @@
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_2t97wC2yEeudUYyhZ7mBag" name="Refine11" client="_hwFMkC2yEeudUYyhZ7mBag" supplier="_UNGIsC2yEeudUYyhZ7mBag"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_75mTIC2yEeudUYyhZ7mBag" name="DeriveReqt12" client="_kJHV8C2xEeudUYyhZ7mBag" supplier="_4pseEC2xEeudUYyhZ7mBag"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_IuQRYC2zEeudUYyhZ7mBag" name="DeriveReqt13" client="_UNGIsC2yEeudUYyhZ7mBag" supplier="_4pseEC2xEeudUYyhZ7mBag"/>
+          <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_cSR3EDjqEeuzQrwgWYJmRA">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cSTsQDjqEeuzQrwgWYJmRA" source="PapyrusVersion">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cSTsQTjqEeuzQrwgWYJmRA" key="Version" value="0.0.1"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cSTsQjjqEeuzQrwgWYJmRA" key="Comment" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cSTsQzjqEeuzQrwgWYJmRA" key="Copyright" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cSTsRDjqEeuzQrwgWYJmRA" key="Date" value="2020-12-05"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cSTsRTjqEeuzQrwgWYJmRA" key="Author" value=""/>
+            </eAnnotations>
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cSTFMDjqEeuzQrwgWYJmRA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <references xmi:type="ecore:EPackage" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
+            </eAnnotations>
+            <appliedProfile xmi:type="uml:Profile" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
+          </profileApplication>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_wdWfICnJEeu7zOJEOUkFAA" name="Person Detection">
@@ -566,16 +579,9 @@
   <Requirements:DeriveReqt xmi:id="_BSlgIC2qEeudUYyhZ7mBag" base_DirectedRelationship="_BSjq8C2qEeudUYyhZ7mBag" base_Abstraction="_BSjq8C2qEeudUYyhZ7mBag"/>
   <Requirements:Refine xmi:id="_ZxS1QC2rEeudUYyhZ7mBag" base_DirectedRelationship="_ZxRAEC2rEeudUYyhZ7mBag" base_Abstraction="_ZxRAEC2rEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_2Fx3MC2uEeudUYyhZ7mBag" base_DirectedRelationship="_2FwCAC2uEeudUYyhZ7mBag" base_Abstraction="_2FwCAC2uEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_4CgNIC2vEeudUYyhZ7mBag" base_NamedElement="_4CeX8C2vEeudUYyhZ7mBag" id="NO-61" text="The drone must be able to avoid obstacles during flight." base_Class="_4CeX8C2vEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_KGn54C2wEeudUYyhZ7mBag" base_NamedElement="_KGmEsC2wEeudUYyhZ7mBag" id="NO-60" text="The drone must be able to fly above the enviroment height." base_Class="_KGmEsC2wEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_1h-UoC2wEeudUYyhZ7mBag" base_NamedElement="_1h8fcC2wEeudUYyhZ7mBag" id="NO-62" text="The drone must fly over the obstacle if posible." base_Class="_1h8fcC2wEeudUYyhZ7mBag"/>
   <Requirements:Refine xmi:id="_MHOqQC2xEeudUYyhZ7mBag" base_DirectedRelationship="_MHMOAC2xEeudUYyhZ7mBag" base_Abstraction="_MHMOAC2xEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_PNDywC2xEeudUYyhZ7mBag" base_DirectedRelationship="_PNB9kC2xEeudUYyhZ7mBag" base_Abstraction="_PNB9kC2xEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_kJJLIC2xEeudUYyhZ7mBag" base_NamedElement="_kJHV8C2xEeudUYyhZ7mBag" id="NO-63" text="The drone must send its status to the system operator during the mission." base_Class="_kJHV8C2xEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_4puTQC2xEeudUYyhZ7mBag" base_NamedElement="_4pseEC2xEeudUYyhZ7mBag" id="NO-64" text="The drone must fly following its planned flight trayectory." base_Class="_4pseEC2xEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_NlBogC2yEeudUYyhZ7mBag" base_DirectedRelationship="_Nk_zUC2yEeudUYyhZ7mBag" base_Abstraction="_Nk_zUC2yEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_UNHW0C2yEeudUYyhZ7mBag" base_NamedElement="_UNGIsC2yEeudUYyhZ7mBag" id="NO-65" text="The system must allow the system operator to cancel the mission." base_Class="_UNGIsC2yEeudUYyhZ7mBag"/>
-  <Requirements:Requirement xmi:id="_hwIP4C2yEeudUYyhZ7mBag" base_NamedElement="_hwFMkC2yEeudUYyhZ7mBag" id="NO-66" text="The swarm must land when mission is cancelled." base_Class="_hwFMkC2yEeudUYyhZ7mBag"/>
   <Requirements:Refine xmi:id="_2t_w8C2yEeudUYyhZ7mBag" base_DirectedRelationship="_2t97wC2yEeudUYyhZ7mBag" base_Abstraction="_2t97wC2yEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_75ovYC2yEeudUYyhZ7mBag" base_DirectedRelationship="_75mTIC2yEeudUYyhZ7mBag" base_Abstraction="_75mTIC2yEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_IuSGkC2zEeudUYyhZ7mBag" base_DirectedRelationship="_IuQRYC2zEeudUYyhZ7mBag" base_Abstraction="_IuQRYC2zEeudUYyhZ7mBag"/>
@@ -660,4 +666,11 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_gefOQDjpEeuzQrwgWYJmRA" base_NamedElement="_qAYTECznEeuqLowq6GfKMw" id="NO-28" text="The system must be able to display a map to the user." base_Class="_qAYTECznEeuqLowq6GfKMw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_odY-gDjpEeuzQrwgWYJmRA" base_NamedElement="_a2YgACzlEeuqLowq6GfKMw" id="NO-26" text="The system must only allow the user to define the flight plan after the search area is defined." base_Class="_a2YgACzlEeuqLowq6GfKMw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_vQC-EDjpEeuzQrwgWYJmRA" base_NamedElement="_563rwCzlEeuqLowq6GfKMw" id="NO-27" text="The system must allow the user to define a search area inside Spanish borders." base_Class="_563rwCzlEeuqLowq6GfKMw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_eEie4DjqEeuzQrwgWYJmRA" base_NamedElement="_4CeX8C2vEeudUYyhZ7mBag" id="NO-61" text="The drone must be able to avoid obstacles during flight." base_Class="_4CeX8C2vEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_kk_UIDjqEeuzQrwgWYJmRA" base_NamedElement="_KGmEsC2wEeudUYyhZ7mBag" id="NO-60" text="The drone must be able to fly above the enviroment height." base_Class="_KGmEsC2wEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_rJFTQDjqEeuzQrwgWYJmRA" base_NamedElement="_1h8fcC2wEeudUYyhZ7mBag" id="NO-62" text="The drone must fly over the obstacle if posible." base_Class="_1h8fcC2wEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_ykNoEDjqEeuzQrwgWYJmRA" base_NamedElement="_kJHV8C2xEeudUYyhZ7mBag" id="NO-63" text="The drone must send its status to the system operator during the mission." base_Class="_kJHV8C2xEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_53pZcDjqEeuzQrwgWYJmRA" base_NamedElement="_4pseEC2xEeudUYyhZ7mBag" id="NO-64" text="The drone must fly following its planned flight trayectory." base_Class="_4pseEC2xEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_CmYrMDjrEeuzQrwgWYJmRA" base_NamedElement="_UNGIsC2yEeudUYyhZ7mBag" id="NO-65" text="The system must allow the system operator to cancel the mission." base_Class="_UNGIsC2yEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_NB_HYDjrEeuzQrwgWYJmRA" base_NamedElement="_hwFMkC2yEeudUYyhZ7mBag" id="NO-66" text="The swarm must land when mission is cancelled." base_Class="_hwFMkC2yEeudUYyhZ7mBag"/>
 </xmi:XMI>
