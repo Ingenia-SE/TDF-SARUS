@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:reqSARUSprofile="http:///schemas/reqSARUSprofile/_rZMNkDcCEeukNt1nHn1nkQ/0" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements http:///schemas/reqSARUSprofile/_rZMNkDcCEeukNt1nHn1nkQ/0 ../../TDF-SARUS/Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ">
   <uml:Model xmi:id="_ysX20Cy7Eeulu-R9To_NkQ" name="Battery Manangment Guille">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_yvGasCy7Eeulu-R9To_NkQ">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -87,24 +87,37 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ueGbIDmWEeu3YMtH4TrRRw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ueIQUDmWEeu3YMtH4TrRRw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ueIQUTmWEeu3YMtH4TrRRw" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ueIQUjmWEeu3YMtH4TrRRw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ueIQUzmWEeu3YMtH4TrRRw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ueIQVDmWEeu3YMtH4TrRRw" key="Date" value="2020-12-05"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ueIQVTmWEeu3YMtH4TrRRw" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ueHpQDmWEeu3YMtH4TrRRw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../../TDF-SARUS/Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../../TDF-SARUS/Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
+    </profileApplication>
   </uml:Model>
-  <Requirements:Requirement xmi:id="_Qa0jECzEEeuL_52xMEAklA" base_Class="_QZd4MCzEEeuL_52xMEAklA" id="BM-02" text="The system must complete the mision and return to base without running out of battery&#xD;&#xA;"/>
-  <Requirements:Requirement xmi:id="_G9geoCzFEeuL_52xMEAklA" base_Class="_G9aYACzFEeuL_52xMEAklA" id="BM-05" text="The dron mus carry a LIPO battery to assure maximum operational range"/>
-  <Requirements:Requirement xmi:id="_Qs1qsCzFEeuL_52xMEAklA" base_Class="_QsvkECzFEeuL_52xMEAklA" id="BM-07" text="The dron must control the battery level during flight"/>
-  <Requirements:Requirement xmi:id="_sCWDQCzFEeuL_52xMEAklA" base_Class="_sCQjsCzFEeuL_52xMEAklA" id="BM-06" text="The dron must analize how far and how much time it can fly till it has to return to the base (Mode return to home activated)"/>
   <Requirements:DeriveReqt xmi:id="_o-JdACzGEeuL_52xMEAklA" base_DirectedRelationship="_o-D9cCzGEeuL_52xMEAklA" base_Abstraction="_o-D9cCzGEeuL_52xMEAklA"/>
-  <Requirements:Requirement xmi:id="_SMR80CzIEeuL_52xMEAklA" base_Class="_SMO5gCzIEeuL_52xMEAklA" id="BM-03" text="Operations that must be carried out before taking off the drons&#xD;&#xA;"/>
-  <Requirements:Requirement xmi:id="_4hJaYCzSEeuL_52xMEAklA" base_Class="_4hGXECzSEeuL_52xMEAklA" id="BM-01" text="Every point in baterry management must be completed in a mision"/>
   <Requirements:DeriveReqt xmi:id="_Thn-ICzTEeuL_52xMEAklA" base_DirectedRelationship="_Thh3gCzTEeuL_52xMEAklA" base_Abstraction="_Thh3gCzTEeuL_52xMEAklA"/>
   <Requirements:DeriveReqt xmi:id="_UUlFECzTEeuL_52xMEAklA" base_DirectedRelationship="_UUflgCzTEeuL_52xMEAklA" base_Abstraction="_UUflgCzTEeuL_52xMEAklA"/>
-  <Requirements:Requirement xmi:id="_QPEasCzzEeuqeLeBQiPXYQ" base_Class="_QO3mYCzzEeuqeLeBQiPXYQ" id="BM-04" text="Operations that must be carried out after landing the drones.&#xD;&#xA;"/>
-  <Requirements:Requirement xmi:id="_es1r0CzzEeuqeLeBQiPXYQ" base_Class="_essh4CzzEeuqeLeBQiPXYQ" id="BM-11" text="The dead battery of the dron that has landed must be charged"/>
-  <Requirements:Requirement xmi:id="_2g0eYCzzEeuqeLeBQiPXYQ" base_Class="_2gvl4CzzEeuqeLeBQiPXYQ" id="BM-10" text="The battery of the dron that has landed after the mission must be replaced with a fully charge one"/>
-  <Requirements:Requirement xmi:id="_eAdRgCz0EeuqeLeBQiPXYQ" base_Class="_eAa1QCz0EeuqeLeBQiPXYQ" id="BM-08" text="Before starting the mission, each dron must have atleast 3 spare batterys fully charged"/>
-  <Requirements:Requirement xmi:id="_idvVICz0EeuqeLeBQiPXYQ" base_Class="_ids44Cz0EeuqeLeBQiPXYQ" id="BM-09" text="Before starting the mission, each dron must have 1 charger available&#xD;&#xA;"/>
   <Requirements:DeriveReqt xmi:id="_mtqSMCz0EeuqeLeBQiPXYQ" base_DirectedRelationship="_mtn18Cz0EeuqeLeBQiPXYQ" base_Abstraction="_mtn18Cz0EeuqeLeBQiPXYQ"/>
   <Requirements:DeriveReqt xmi:id="_nQMXgCz0EeuqeLeBQiPXYQ" base_DirectedRelationship="_nQIGECz0EeuqeLeBQiPXYQ" base_Abstraction="_nQIGECz0EeuqeLeBQiPXYQ"/>
   <Requirements:DeriveReqt xmi:id="_3UIVMCz0EeuqeLeBQiPXYQ" base_DirectedRelationship="_3UHHECz0EeuqeLeBQiPXYQ" base_Abstraction="_3UHHECz0EeuqeLeBQiPXYQ"/>
   <Requirements:DeriveReqt xmi:id="_4FDb0Cz0EeuqeLeBQiPXYQ" base_DirectedRelationship="_4FAYgCz0EeuqeLeBQiPXYQ" base_Abstraction="_4FAYgCz0EeuqeLeBQiPXYQ"/>
   <Requirements:DeriveReqt xmi:id="_AsoVoCz1EeuqeLeBQiPXYQ" base_DirectedRelationship="_AsmgcCz1EeuqeLeBQiPXYQ" base_Abstraction="_AsmgcCz1EeuqeLeBQiPXYQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_o8qWYDmXEeu3YMtH4TrRRw" base_NamedElement="_sCQjsCzFEeuL_52xMEAklA" id="BM-06" text="The dron must analize how far and how much time it can fly till it has to return to the base (Mode return to home activated)" base_Class="_sCQjsCzFEeuL_52xMEAklA"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_s9Oo0DmXEeu3YMtH4TrRRw" base_NamedElement="_QsvkECzFEeuL_52xMEAklA" id="BM-07" text="The dron must control the battery level during flight" base_Class="_QsvkECzFEeuL_52xMEAklA"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_wobIMDmXEeu3YMtH4TrRRw" base_NamedElement="_G9aYACzFEeuL_52xMEAklA" id="BM-05" text="The dron mus carry a LIPO battery to assure maximum operational range" base_Class="_G9aYACzFEeuL_52xMEAklA"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_z_HXMDmXEeu3YMtH4TrRRw" base_NamedElement="_QZd4MCzEEeuL_52xMEAklA" id="BM-02" text="The system must complete the mision and return to base without running out of battery" base_Class="_QZd4MCzEEeuL_52xMEAklA"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_NDJcYDmYEeu3YMtH4TrRRw" base_NamedElement="_eAa1QCz0EeuqeLeBQiPXYQ" id="BM-08" text="Before starting the mission, each dron must have atleast 3 spare batterys fully charged" base_Class="_eAa1QCz0EeuqeLeBQiPXYQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_PzpOEDmYEeu3YMtH4TrRRw" base_NamedElement="_SMO5gCzIEeuL_52xMEAklA" id="BM-03" text="Operations that must be carried out before taking off the drons" base_Class="_SMO5gCzIEeuL_52xMEAklA"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_UVSNQDmYEeu3YMtH4TrRRw" base_NamedElement="_ids44Cz0EeuqeLeBQiPXYQ" id="BM-09" text="Before starting the mission, each dron must have 1 charger available" base_Class="_ids44Cz0EeuqeLeBQiPXYQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_XLSKADmYEeu3YMtH4TrRRw" base_NamedElement="_2gvl4CzzEeuqeLeBQiPXYQ" id="BM-10" text="The battery of the dron that has landed after the mission must be replaced with a fully charge one" base_Class="_2gvl4CzzEeuqeLeBQiPXYQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_aKbbsDmYEeu3YMtH4TrRRw" base_NamedElement="_essh4CzzEeuqeLeBQiPXYQ" id="BM-11" text="The dead battery of the dron that has landed must be charged" base_Class="_essh4CzzEeuqeLeBQiPXYQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_dQemoDmYEeu3YMtH4TrRRw" base_NamedElement="_QO3mYCzzEeuqeLeBQiPXYQ" id="BM-04" text="Operations that must be carried out after landing the drones." base_Class="_QO3mYCzzEeuqeLeBQiPXYQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_gYYLsDmYEeu3YMtH4TrRRw" base_NamedElement="_4hGXECzSEeuL_52xMEAklA" id="BM-01" text="Every point in baterry management must be completed in a mision" base_Class="_4hGXECzSEeuL_52xMEAklA"/>
 </xmi:XMI>
