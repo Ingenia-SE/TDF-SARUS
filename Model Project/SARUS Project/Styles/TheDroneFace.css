@@ -1,11 +1,59 @@
 * {
-    fillColor: red;
-    fontColor: #0000FF;
+    fillColor: #0075EA;
+    fontColor: red;
+	maskLabel: id text;
 }
 
 Class {
-    gradient: white vertical;
+    /*gradient: white vertical;*/
     elementIcon:true;
-    shadow:true;
+    /*shadow:true;*/
     qualifiedNameDepth:full;
+}
+
+/* To make the properties visible into compartment */
+Compartment[type=StereotypeCompartment]{
+	visible:true;
+}
+Compartment[type=StereotypeCompartment]>[property="Author"]{
+	visible:false;
+}
+Compartment[type=StereotypeCompartment]>[property="Priority"]{
+	visible:false;
+}
+Compartment[type=StereotypeCompartment]>[property="Risk"]{
+	visible:false;
+}
+Compartment[type=StereotypeCompartment]>[property="Complexity"]{
+	visible:false;
+}
+Compartment[type=StereotypeCompartment]>[property="Cost"]{
+	visible:false;
+}
+Compartment[type=StereotypeCompartment]>[property="Verification Status"]{
+	visible:false;
+}
+Compartment[type=StereotypeCompartment]>[property="Validation Status"]{
+	visible:false;
+}
+Compartment[type=StereotypeCompartment]>[property="derived"]{
+	visible:false;
+}
+Compartment[type=StereotypeCompartment]>[property="derivedFrom"]{
+	visible:false;
+}
+Compartment[type=StereotypeCompartment]>[property="master"]{
+	visible:false;
+}
+Compartment[type=StereotypeCompartment]>[property="refinedBy"]{
+	visible:false;
+}
+Compartment[type=StereotypeCompartment]>[property="satisfiedBy"]{
+	visible:false;
+}
+Compartment[type=StereotypeCompartment]>[property="tracedTo"]{
+	visible:false;
+}
+Compartment[type=StereotypeCompartment]>[property="verifiedBy"]{
+	visible:false;
 }
