@@ -247,8 +247,17 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_x9DXUCnJEeu7zOJEOUkFAA" name="Fault Management">
         <packagedElement xmi:type="uml:Class" xmi:id="_G3Qq4C0AEeu6idVRQenvHQ" name="Faulty status ">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_G3Qq4S0AEeu6idVRQenvHQ" name="Multirotors failure"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_G3Qq4i0AEeu6idVRQenvHQ" name="Navigation system failure">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_G3Qq4y0AEeu6idVRQenvHQ" name="Return home"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_G3Qq5C0AEeu6idVRQenvHQ" name="Sensors system failure"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_G3Qq5S0AEeu6idVRQenvHQ" name="Critical system failure"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_G3Qq5i0AEeu6idVRQenvHQ" name="Collision "/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_Hw7d0C0AEeu6idVRQenvHQ" name="Stabilizing system failure"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_IToiQC0AEeu6idVRQenvHQ" name="Navigation system failure"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_IToiQC0AEeu6idVRQenvHQ" name="Navigation system failure">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_IToiQS0AEeu6idVRQenvHQ" name="Return home"/>
+          </nestedClassifier>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_IxqiEC0AEeu6idVRQenvHQ" name="Multirotors failure"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_JRLvoC0AEeu6idVRQenvHQ" name="Sensors system failure"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_LyyJsC0AEeu6idVRQenvHQ" name="Collision "/>
@@ -267,19 +276,6 @@
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_p3M_kC0AEeu6idVRQenvHQ" name="Verify2" client="_YJVPoC0AEeu6idVRQenvHQ" supplier="_Kv5JUC0AEeu6idVRQenvHQ"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_yjlg4C0AEeu6idVRQenvHQ" client="_Mz62kC0AEeu6idVRQenvHQ" supplier="_MSvcIC0AEeu6idVRQenvHQ"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_04aqQC0AEeu6idVRQenvHQ" client="_Mz62kC0AEeu6idVRQenvHQ" supplier="_LyyJsC0AEeu6idVRQenvHQ"/>
-        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3FD2oDmmEeuIb6v31c6NCg">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3FKkUDmmEeuIb6v31c6NCg" source="PapyrusVersion">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3FKkUTmmEeuIb6v31c6NCg" key="Version" value="0.0.1"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3FKkUjmmEeuIb6v31c6NCg" key="Comment" value=""/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3FKkUzmmEeuIb6v31c6NCg" key="Copyright" value=""/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3FKkVDmmEeuIb6v31c6NCg" key="Date" value="2020-12-05"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3FKkVTmmEeuIb6v31c6NCg" key="Author" value=""/>
-          </eAnnotations>
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3FIvIDmmEeuIb6v31c6NCg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-            <references xmi:type="ecore:EPackage" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
-          </eAnnotations>
-          <appliedProfile xmi:type="uml:Profile" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
-        </profileApplication>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_yB-6oCnJEeu7zOJEOUkFAA" name="Battery Management">
         <packagedElement xmi:type="uml:Class" xmi:id="_GmNMoCnKEeu7zOJEOUkFAA" name="Example REQ-BM"/>
@@ -585,6 +581,13 @@
   <Requirements:Verify xmi:id="_qiX3wCzlEeunBNSDKjsaEQ" base_DirectedRelationship="_qiPU4CzlEeunBNSDKjsaEQ" base_Abstraction="_qiPU4CzlEeunBNSDKjsaEQ"/>
   <Requirements:TestCase xmi:id="_Aq_UsCzmEeunBNSDKjsaEQ" base_Behavior="_Aq4nACzmEeunBNSDKjsaEQ"/>
   <Requirements:Verify xmi:id="_HQlvsCzmEeunBNSDKjsaEQ" base_DirectedRelationship="_HQdz4CzmEeunBNSDKjsaEQ" base_Abstraction="_HQdz4CzmEeunBNSDKjsaEQ"/>
+  <Requirements:Requirement xmi:id="_G3SgEC0AEeu6idVRQenvHQ" base_NamedElement="_G3Qq5C0AEeu6idVRQenvHQ" id="FM-05" text="Dron´s sensors must be able to send information at any time of the mission.&#xD;&#xA;" base_Class="_G3Qq5C0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_G3UVQC0AEeu6idVRQenvHQ" base_NamedElement="_G3Qq4S0AEeu6idVRQenvHQ" id="FM-02" text="Dron´s multirotors must perform correctly to continue the mission&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" base_Class="_G3Qq4S0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_G3U8UC0AEeu6idVRQenvHQ" base_NamedElement="_G3Qq4i0AEeu6idVRQenvHQ" id="FM-04" text="Dron´s navigation system must be able to send correct information about the dron at any time&#xD;&#xA; &#xD;&#xA;" base_Class="_G3Qq4i0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_G3VjYC0AEeu6idVRQenvHQ" base_NamedElement="_G3Qq5i0AEeu6idVRQenvHQ" id="FM-06" text="The dron´s system must stop working in case of a collission is detected&#xD;&#xA;&#xD;&#xA;" base_Class="_G3Qq5i0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_G3WKcC0AEeu6idVRQenvHQ" base_NamedElement="_G3Qq5S0AEeu6idVRQenvHQ" id="FM-07" text="The drone must stop working in order to reduce further risks&#xD;&#xA;" base_Class="_G3Qq5S0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_G3WxgC0AEeu6idVRQenvHQ" base_NamedElement="_G3Qq4y0AEeu6idVRQenvHQ" id="FM-08" text="Dron must return home&#xD;&#xA;" base_Class="_G3Qq4y0AEeu6idVRQenvHQ"/>
+  <Requirements:Requirement xmi:id="_ITszsC0AEeu6idVRQenvHQ" base_NamedElement="_IToiQS0AEeu6idVRQenvHQ" id="FM-08" text="Dron must return home&#xD;&#xA;" base_Class="_IToiQS0AEeu6idVRQenvHQ"/>
   <Requirements:TestCase xmi:id="_XdsRoC0AEeu6idVRQenvHQ" base_Behavior="_XdqccC0AEeu6idVRQenvHQ"/>
   <Requirements:TestCase xmi:id="_YJYS8C0AEeu6idVRQenvHQ" base_Behavior="_YJVPoC0AEeu6idVRQenvHQ"/>
   <Requirements:Verify xmi:id="_m7h4oC0AEeu6idVRQenvHQ" base_DirectedRelationship="_m7YusC0AEeu6idVRQenvHQ" base_Abstraction="_m7YusC0AEeu6idVRQenvHQ"/>
