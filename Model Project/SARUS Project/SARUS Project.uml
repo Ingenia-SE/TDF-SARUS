@@ -276,6 +276,19 @@
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_p3M_kC0AEeu6idVRQenvHQ" name="Verify2" client="_YJVPoC0AEeu6idVRQenvHQ" supplier="_Kv5JUC0AEeu6idVRQenvHQ"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_yjlg4C0AEeu6idVRQenvHQ" client="_Mz62kC0AEeu6idVRQenvHQ" supplier="_MSvcIC0AEeu6idVRQenvHQ"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_04aqQC0AEeu6idVRQenvHQ" client="_Mz62kC0AEeu6idVRQenvHQ" supplier="_LyyJsC0AEeu6idVRQenvHQ"/>
+        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_lL4SgDo-Eeu-aPC57fF5vg">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lMCDgTo-Eeu-aPC57fF5vg" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lMCDgjo-Eeu-aPC57fF5vg" key="Version" value="0.0.1"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lMCDgzo-Eeu-aPC57fF5vg" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lMCDhDo-Eeu-aPC57fF5vg" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lMCDhTo-Eeu-aPC57fF5vg" key="Date" value="2020-12-05"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lMCDhjo-Eeu-aPC57fF5vg" key="Author" value=""/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lMCDgDo-Eeu-aPC57fF5vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="ecore:EPackage" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
+          </eAnnotations>
+          <appliedProfile xmi:type="uml:Profile" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
+        </profileApplication>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_yB-6oCnJEeu7zOJEOUkFAA" name="Battery Management">
         <packagedElement xmi:type="uml:Class" xmi:id="_GmNMoCnKEeu7zOJEOUkFAA" name="Example REQ-BM"/>
@@ -565,10 +578,7 @@
   <Requirements:Requirement xmi:id="_Hw9TAC0AEeu6idVRQenvHQ" base_NamedElement="_Hw7d0C0AEeu6idVRQenvHQ" id="FM-03" text="Dron´s stabilizing system must perfom correctly for the proper functioning of the planned mission&#xD;&#xA;&#xD;&#xA;" base_Class="_Hw7d0C0AEeu6idVRQenvHQ"/>
   <Requirements:Requirement xmi:id="_ITrlkC0AEeu6idVRQenvHQ" base_NamedElement="_IToiQC0AEeu6idVRQenvHQ" id="FM-04" text="Dron´s navigation system must be able to send correct information about the dron at any time&#xD;&#xA; &#xD;&#xA;" base_Class="_IToiQC0AEeu6idVRQenvHQ"/>
   <Requirements:Requirement xmi:id="_ITszsC0AEeu6idVRQenvHQ" base_NamedElement="_IToiQS0AEeu6idVRQenvHQ" id="FM-08" text="Dron must return home&#xD;&#xA;" base_Class="_IToiQS0AEeu6idVRQenvHQ"/>
-  <Requirements:Requirement xmi:id="_IxuMcC0AEeu6idVRQenvHQ" base_NamedElement="_IxqiEC0AEeu6idVRQenvHQ" id="FM-02" text="Dron´s multirotors must perform correctly to continue the mission&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" base_Class="_IxqiEC0AEeu6idVRQenvHQ"/>
   <Requirements:Requirement xmi:id="_JRNk0C0AEeu6idVRQenvHQ" base_NamedElement="_JRLvoC0AEeu6idVRQenvHQ" id="FM-05" text="Dron´s sensors must be able to send information at any time of the mission.&#xD;&#xA;" base_Class="_JRLvoC0AEeu6idVRQenvHQ"/>
-  <Requirements:Requirement xmi:id="_JxYSoC0AEeu6idVRQenvHQ" base_NamedElement="_JxUBMC0AEeu6idVRQenvHQ" id="FM-08" text="Dron must return home&#xD;&#xA;" base_Class="_JxUBMC0AEeu6idVRQenvHQ"/>
-  <Requirements:Requirement xmi:id="_Kv7lkC0AEeu6idVRQenvHQ" base_NamedElement="_Kv5JUC0AEeu6idVRQenvHQ" id="FM-10" text="Dron must land in order to avoid further damages&#xD;&#xA;&#xD;&#xA;" base_Class="_Kv5JUC0AEeu6idVRQenvHQ"/>
   <Requirements:Requirement xmi:id="_Ly1NAC0AEeu6idVRQenvHQ" base_NamedElement="_LyyJsC0AEeu6idVRQenvHQ" id="FM-06" text="The dron´s system must stop working in case of a collission is detected&#xD;&#xA;&#xD;&#xA;" base_Class="_LyyJsC0AEeu6idVRQenvHQ"/>
   <Requirements:Requirement xmi:id="_MSztkC0AEeu6idVRQenvHQ" base_NamedElement="_MSvcIC0AEeu6idVRQenvHQ" id="FM-07" text="The drone must stop working in order to reduce further risks&#xD;&#xA;" base_Class="_MSvcIC0AEeu6idVRQenvHQ"/>
   <Requirements:Requirement xmi:id="_Mz_IAC0AEeu6idVRQenvHQ" base_NamedElement="_Mz62kC0AEeu6idVRQenvHQ" id="FM-09" text="The drone must stop working in order to avoid further risks in the system&#xD;&#xA;" base_Class="_Mz62kC0AEeu6idVRQenvHQ"/>
@@ -699,4 +709,7 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_0m7J4DjuEeuzQrwgWYJmRA" base_NamedElement="_1NBuADMDEeuKG_RWql4dxw" id="CM-10" text="Users without specific training must be able to use the interface" base_Class="_1NBuADMDEeuKG_RWql4dxw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_WtUAYDjvEeuzQrwgWYJmRA" base_NamedElement="_dOWhMC6LEeuR2IwYJyJWjw" id="DM-01" text="The drones must comply with AESA's regulations to flight in CTR zones" base_Class="_dOWhMC6LEeuR2IwYJyJWjw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_maUr0DjvEeuzQrwgWYJmRA" base_NamedElement="_2lzRoC6LEeuR2IwYJyJWjw" id="DM-1" text="The system operators must have AESA's autorization along a security report" base_Class="_2lzRoC6LEeuR2IwYJyJWjw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_mgPdYDo-Eeu-aPC57fF5vg" base_NamedElement="_JxUBMC0AEeu6idVRQenvHQ" id="FM-08" text="Drone must return home" base_Class="_JxUBMC0AEeu6idVRQenvHQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_qoDnUDo-Eeu-aPC57fF5vg" base_NamedElement="_IxqiEC0AEeu6idVRQenvHQ" id="FM-02" text="Dron´s multirotors must perform correctly to continue the mission" base_Class="_IxqiEC0AEeu6idVRQenvHQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_vMGaQDo-Eeu-aPC57fF5vg" base_NamedElement="_Kv5JUC0AEeu6idVRQenvHQ" id="FM-10" text="Dron must land in order to avoid further damages" base_Class="_Kv5JUC0AEeu6idVRQenvHQ"/>
 </xmi:XMI>
