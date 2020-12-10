@@ -168,7 +168,7 @@
           </nestedClassifier>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_MdPncC26EeuakL1QKwDxZg" name="Object tracking"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_K7jq4C29EeuakL1QKwDxZg" name="Colaborative object identification "/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_m0OFwC27EeuakL1QKwDxZg" name="Hardware resource management"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_Vu6KoC27EeuakL1QKwDxZg" name="Sensor fusion adjustment"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Activity" xmi:id="_3rRX4C26EeuakL1QKwDxZg" name="Moving object detection" node="_7numYC26EeuakL1QKwDxZg">
           <ownedBehavior xmi:type="uml:Activity" xmi:id="_7Xd80C26EeuakL1QKwDxZg" name="Moving object detection"/>
@@ -190,8 +190,6 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_QrBOcC3FEeuakL1QKwDxZg" name="Verify12" client="_3rRX4C26EeuakL1QKwDxZg" supplier="_MdPncC26EeuakL1QKwDxZg"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_X2FG8C3FEeuakL1QKwDxZg" name="Verify13" client="_Aimk8C27EeuakL1QKwDxZg" supplier="_Vu6KoC27EeuakL1QKwDxZg"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_Vu6KoC27EeuakL1QKwDxZg" name="Sensor fusion adjustment"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_P7ZA8C3IEeuakL1QKwDxZg" client="_Vu6KoC27EeuakL1QKwDxZg" supplier="_m0OFwC27EeuakL1QKwDxZg"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_gaepkC3IEeuakL1QKwDxZg" client="_MdPncC26EeuakL1QKwDxZg" supplier="_K7jq4C29EeuakL1QKwDxZg"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_his14C3IEeuakL1QKwDxZg" client="_MdPncC26EeuakL1QKwDxZg" supplier="_uAyksC28EeuakL1QKwDxZg"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_iz-3kC3IEeuakL1QKwDxZg" client="_MdPncC26EeuakL1QKwDxZg" supplier="_NVLqIC28EeuakL1QKwDxZg"/>
@@ -212,7 +210,6 @@
         </profileApplication>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_xrcC4CnJEeu7zOJEOUkFAA" name="Communication">
-        <packagedElement xmi:type="uml:Class" xmi:id="_AUZvkCy4EeuESP3ABfdsrQ" name="Communication uninterrupted"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_ojwvcCy4EeuESP3ABfdsrQ" name="Refine6" client="_AUZvkCy4EeuESP3ABfdsrQ" supplier="_kfG18CyyEeuESP3ABfdsrQ"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_kfG18CyyEeuESP3ABfdsrQ" name="Command post"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_WCsWECy6EeuESP3ABfdsrQ" name="Reconnection "/>
@@ -242,7 +239,6 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_x9DXUCnJEeu7zOJEOUkFAA" name="Fault Management">
         <packagedElement xmi:type="uml:Class" xmi:id="_G3Qq4C0AEeu6idVRQenvHQ" name="Faulty status ">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_Hw7d0C0AEeu6idVRQenvHQ" name="Stabilizing system failure"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_IToiQC0AEeu6idVRQenvHQ" name="Navigation system failure"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_IxqiEC0AEeu6idVRQenvHQ" name="Multirotors failure"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_LyyJsC0AEeu6idVRQenvHQ" name="Collision "/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_MSvcIC0AEeu6idVRQenvHQ" name="Critical system failure"/>
@@ -252,6 +248,7 @@
             <nestedClassifier xmi:type="uml:Class" xmi:id="_xZ0moCy3EeuESP3ABfdsrQ" name="Geographical maps"/>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_JnJbYCy6EeuESP3ABfdsrQ" name="Lost connection"/>
           </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_AUZvkCy4EeuESP3ABfdsrQ" name="Communication uninterrupted"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_JxUBMC0AEeu6idVRQenvHQ" name="Return home"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Kv5JUC0AEeu6idVRQenvHQ" name="Land"/>
@@ -602,13 +599,13 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_ypavoDjTEeu2ZfOLFtbVEA" base_NamedElement="_wqm7AC6KEeuR2IwYJyJWjw" id="DM-01" text="The drones must comply with AESA's regulations for Beyond-line-of-sight operation" base_Class="_wqm7AC6KEeuR2IwYJyJWjw" Author=""/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_E0ex4DjUEeu2ZfOLFtbVEA" base_NamedElement="_pDKBcC6KEeuR2IwYJyJWjw" id="DM-01" text="AESA’s authorization will be needed along with a security report." base_Class="_pDKBcC6KEeuR2IwYJyJWjw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_NKNGsDjUEeu2ZfOLFtbVEA" base_NamedElement="_aqAKkC6KEeuR2IwYJyJWjw" id="DM-01" text="The drone must have systems to detect and avoid other airspace users" base_Class="_aqAKkC6KEeuR2IwYJyJWjw"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_aIe7ADjUEeu2ZfOLFtbVEA" base_NamedElement="_RL-w8C6KEeuR2IwYJyJWjw" id="DM-01" text="The drone must have a forward-facing camera(if BLOS" base_Class="_RL-w8C6KEeuR2IwYJyJWjw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_aIe7ADjUEeu2ZfOLFtbVEA" base_NamedElement="_RL-w8C6KEeuR2IwYJyJWjw" id="DM-01" text="The drone must have a forward-facing camera." base_Class="_RL-w8C6KEeuR2IwYJyJWjw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_hnPLkDjUEeu2ZfOLFtbVEA" base_NamedElement="_3UEUkC6FEeuR2IwYJyJWjw" id="DM-01" text="The drones must fly below 120 m of vertical height." base_Class="_3UEUkC6FEeuR2IwYJyJWjw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_oByNIDjUEeu2ZfOLFtbVEA" base_NamedElement="_v_l6AC6IEeuR2IwYJyJWjw" id="DM-01" text="The drones must fly within 150 m" base_Class="_v_l6AC6IEeuR2IwYJyJWjw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_zLlMEDjUEeu2ZfOLFtbVEA" base_NamedElement="_yx664C6MEeuR2IwYJyJWjw" id="DM-01" text="The system must comply with data protection regulations" base_Class="_yx664C6MEeuR2IwYJyJWjw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="__8LwwDjUEeu2ZfOLFtbVEA" base_NamedElement="_qM17cC6MEeuR2IwYJyJWjw" id="DM-01" text="The Drone Face will provide information about data collection and obtain the people’s consent in case personal data needs to be stored" base_Class="_qM17cC6MEeuR2IwYJyJWjw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_HSvuoDjVEeu2ZfOLFtbVEA" base_NamedElement="_el0N8C6MEeuR2IwYJyJWjw" id="DM-01" text="All the data of people in the mountain captured by the drone’s cameras must be anonymized" base_Class="_el0N8C6MEeuR2IwYJyJWjw"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_U7mxADjVEeu2ZfOLFtbVEA" base_NamedElement="_KBUBYC6HEeuR2IwYJyJWjw" id="DM-01" text="The information shall be marked on the plate by any approved fire-retardant method, such as chemical engraving, die-cutting, stamping or writing in indelible ink, in a clear and legible manner." base_Class="_KBUBYC6HEeuR2IwYJyJWjw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_U7mxADjVEeu2ZfOLFtbVEA" base_NamedElement="_KBUBYC6HEeuR2IwYJyJWjw" id="DM-01" text="The information shall be marked on the plate.&#xD;&#xA;" base_Class="_KBUBYC6HEeuR2IwYJyJWjw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_QoAUMDjdEeuyydLqknH_2g" base_NamedElement="_Gr-dcCnKEeu7zOJEOUkFAA" id="AC-1" text="The drones must fly in its different operational scenarios" base_Class="_Gr-dcCnKEeu7zOJEOUkFAA"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_D8OIoDjeEeuyydLqknH_2g" base_NamedElement="_fHbQsCzgEeunBNSDKjsaEQ" id="AC-04" text="After the search operation ends, the drones shall land in an area prepared by the ground station operators." base_Class="_fHbQsCzgEeunBNSDKjsaEQ"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="__ZRscDjeEeuyydLqknH_2g" base_NamedElement="_0uiYgCzfEeunBNSDKjsaEQ" id="AC-3" text="The navigation plan must be designed to avoid collisions" base_Class="_0uiYgCzfEeunBNSDKjsaEQ"/>
@@ -617,7 +614,7 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_72t5gDl_EeuAsb6gotNQYQ" base_NamedElement="_yiQ78CzkEeunBNSDKjsaEQ" id="AC-09" text="If a multirrotor is not performing its functions correctly, the swarm planning must evaluate the status of the UAV." base_Class="_yiQ78CzkEeunBNSDKjsaEQ"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_p_p74DmAEeuAsb6gotNQYQ" base_NamedElement="_YdhZ8CzfEeunBNSDKjsaEQ" id="AC-02" text="If a multirrotor is not performing its functions correctly, the swarm planning must evaluate the status of the UAV." base_Class="_YdhZ8CzfEeunBNSDKjsaEQ"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_A8dO0DmBEeuAsb6gotNQYQ" base_NamedElement="_loNnsCzhEeunBNSDKjsaEQ" id="AC-05" text="When a person is detected,  the drone must increase surveillance of the area of interest" base_Class="_loNnsCzhEeunBNSDKjsaEQ"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_Ht008DmBEeuAsb6gotNQYQ" base_NamedElement="_zSM2ACziEeunBNSDKjsaEQ" id="AC-06" text="The drone should enter this mode in case of impaired communication with the swarm" base_Class="_zSM2ACziEeunBNSDKjsaEQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_Ht008DmBEeuAsb6gotNQYQ" base_NamedElement="_zSM2ACziEeunBNSDKjsaEQ" id="AC-06" text="The drone should enter fallback mode in case of impaired communication with the swarm" base_Class="_zSM2ACziEeunBNSDKjsaEQ"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_Y3GDADmBEeuAsb6gotNQYQ" base_NamedElement="_WX0U4CzjEeunBNSDKjsaEQ" id="AC-07" text="The UAV in question must enter fallback mode and try to readapt its path to recover the signal range" base_Class="_WX0U4CzjEeunBNSDKjsaEQ"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_iHwWEDmBEeuAsb6gotNQYQ" base_NamedElement="_dgoVMCzkEeunBNSDKjsaEQ" id="AC-08" text="The global planning of the swarm must be recalculated to cover the ground that was part of the disconnected UAV’s path.  " base_Class="_dgoVMCzkEeunBNSDKjsaEQ"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_poC3sDmBEeuAsb6gotNQYQ" base_NamedElement="_gX9cwCzmEeunBNSDKjsaEQ" id="AC-12" text="The drone must return home in case of battery malfunction" base_Class="_gX9cwCzmEeunBNSDKjsaEQ"/>
@@ -631,11 +628,11 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_fzYDcDjjEeu2ZfOLFtbVEA" base_NamedElement="_Bdbs8C2kEeudUYyhZ7mBag" id="NO-02" text="The system must allow the incorporation of drones to the mission, before the system operator starts the mission." base_Class="_Bdbs8C2kEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_ouWaYDjjEeu2ZfOLFtbVEA" base_NamedElement="_Ak_sQC2oEeudUYyhZ7mBag" id="NO-03" text="The system must allow the system operator to select the drones that will take off between the ones that are on." base_Class="_Ak_sQC2oEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_0YoQMDjjEeu2ZfOLFtbVEA" base_NamedElement="_v7qbIC2qEeudUYyhZ7mBag" id="NO-07" text="The system must support a maximum of 25 drones." base_Class="_v7qbIC2qEeudUYyhZ7mBag"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_mNP6IDjkEeu2ZfOLFtbVEA" base_NamedElement="_H8ym8C2tEeudUYyhZ7mBag" id="NO-80" text="The system must be able to manage the swarm landing." base_Class="_H8ym8C2tEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_mNP6IDjkEeu2ZfOLFtbVEA" base_NamedElement="_H8ym8C2tEeudUYyhZ7mBag" id="NO-80" text="The system must be able to manage the swarm landing." base_Class="_H8ym8C2tEeudUYyhZ7mBag" Author=""/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_tHUwUDjkEeu2ZfOLFtbVEA" base_NamedElement="_jZcwYC2tEeudUYyhZ7mBag" id="NO-82" text="The system must allow the system operator to select on the map a landing point for a particular drone." base_Class="_jZcwYC2tEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_0uYBQDjkEeu2ZfOLFtbVEA" base_NamedElement="_m255QC2uEeudUYyhZ7mBag" id="NO-83" text="The drone must keep a battery backup for the landing." base_Class="_m255QC2uEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_89D58DjkEeu2ZfOLFtbVEA" base_NamedElement="_l-qxEC2rEeudUYyhZ7mBag" id="NO-81" text="The system must automatically generate a landing plan for the drones, in the same place and order as they take off." base_Class="_l-qxEC2rEeudUYyhZ7mBag"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_J9d1MDjlEeu2ZfOLFtbVEA" base_NamedElement="__5tPYC2uEeudUYyhZ7mBag" id="NO-84" text="Th system must allow the system operator to force the landing of a particular drone at any time of the mission." base_Class="__5tPYC2uEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_J9d1MDjlEeu2ZfOLFtbVEA" base_NamedElement="__5tPYC2uEeudUYyhZ7mBag" id="NO-84" text="The system must allow the system operator to force the landing of a particular drone at any time of the mission." base_Class="__5tPYC2uEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_t5SjUDjlEeu2ZfOLFtbVEA" base_NamedElement="_UFkTkCwhEeutKbRTHP0t3A" id="NO-40" text="The system must generate a flight trayectory for each of the drones. The flight trayectories will consist of waypoints and their interconnections." base_Class="_UFkTkCwhEeutKbRTHP0t3A"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_1IO2QDjlEeu2ZfOLFtbVEA" base_NamedElement="_jHCnUCwkEeutKbRTHP0t3A" id="NO-47" text="The system must allow the system operator to manually generate the flight trayectories for the drones, receiving the search area as an input." base_Class="_jHCnUCwkEeutKbRTHP0t3A"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_8F4k4DjlEeu2ZfOLFtbVEA" base_NamedElement="_z2si4CwhEeutKbRTHP0t3A" id="NO-41" text="The system must be able to automatically generate the flight trayectories for the drones, receiving the search area as an input." base_Class="_z2si4CwhEeutKbRTHP0t3A"/>
@@ -643,7 +640,7 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_BMxwwDjnEeuzQrwgWYJmRA" base_NamedElement="_VMRyECwjEeutKbRTHP0t3A" id="NO-44" text="The system must allow the system operator to add new waypoints." base_Class="_VMRyECwjEeutKbRTHP0t3A"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_InCi4DjnEeuzQrwgWYJmRA" base_NamedElement="_hrjWMCwjEeutKbRTHP0t3A" id="NO-45" text="The system must place all the waypoints inside the predefined search area." base_Class="_hrjWMCwjEeutKbRTHP0t3A"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_QE_iMDjnEeuzQrwgWYJmRA" base_NamedElement="_4gWjsCwjEeutKbRTHP0t3A" id="NO-46" text="The system must display the flight plans over the search area map while the user generates them manually." base_Class="_4gWjsCwjEeutKbRTHP0t3A"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_YPp2gDjnEeuzQrwgWYJmRA" base_NamedElement="_mf6gQCwnEeutKbRTHP0t3A" id="NO-48" text="The system must allow the user to create, configure and store different flight plans before the deployment of the full system." base_Class="_mf6gQCwnEeutKbRTHP0t3A"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_YPp2gDjnEeuzQrwgWYJmRA" base_NamedElement="_mf6gQCwnEeutKbRTHP0t3A" id="NO-48" text="The system must allow the user to create, configure and store different flight plans before the deployment of the full system.&#xD;&#xA;" base_Class="_mf6gQCwnEeutKbRTHP0t3A"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_fInSYDjnEeuzQrwgWYJmRA" base_NamedElement="_Gi1foCwnEeutKbRTHP0t3A" id="NO-42" text="The system must allow the system operator to modify any flight plan." base_Class="_Gi1foCwnEeutKbRTHP0t3A"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_nMvg4DjnEeuzQrwgWYJmRA" base_NamedElement="_hehYECwpEeutKbRTHP0t3A" id="NO-49" text="The system must identify the flight plans to be followed by each drone." base_Class="_hehYECwpEeutKbRTHP0t3A"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_wa7HsDjnEeuzQrwgWYJmRA" base_NamedElement="_Qqgy4CwqEeutKbRTHP0t3A" id="NO-50" text="The system must take into account terrain data when creating the flight plans." base_Class="_Qqgy4CwqEeutKbRTHP0t3A"/>
@@ -659,7 +656,7 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_vQC-EDjpEeuzQrwgWYJmRA" base_NamedElement="_563rwCzlEeuqLowq6GfKMw" id="NO-27" text="The system must allow the user to define a search area inside Spanish borders." base_Class="_563rwCzlEeuqLowq6GfKMw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_eEie4DjqEeuzQrwgWYJmRA" base_NamedElement="_4CeX8C2vEeudUYyhZ7mBag" id="NO-61" text="The drone must be able to avoid obstacles during flight." base_Class="_4CeX8C2vEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_kk_UIDjqEeuzQrwgWYJmRA" base_NamedElement="_KGmEsC2wEeudUYyhZ7mBag" id="NO-60" text="The drone must be able to fly above the enviroment height." base_Class="_KGmEsC2wEeudUYyhZ7mBag"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_rJFTQDjqEeuzQrwgWYJmRA" base_NamedElement="_1h8fcC2wEeudUYyhZ7mBag" id="NO-62" text="The drone must fly over the obstacle if posible." base_Class="_1h8fcC2wEeudUYyhZ7mBag"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_rJFTQDjqEeuzQrwgWYJmRA" base_NamedElement="_1h8fcC2wEeudUYyhZ7mBag" id="NO-62" text="The drone must fly over the obstacle if posible.&#xD;&#xA;" base_Class="_1h8fcC2wEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_ykNoEDjqEeuzQrwgWYJmRA" base_NamedElement="_kJHV8C2xEeudUYyhZ7mBag" id="NO-63" text="The drone must send its status to the system operator during the mission." base_Class="_kJHV8C2xEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_53pZcDjqEeuzQrwgWYJmRA" base_NamedElement="_4pseEC2xEeudUYyhZ7mBag" id="NO-64" text="The drone must fly following its planned flight trayectory." base_Class="_4pseEC2xEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_CmYrMDjrEeuzQrwgWYJmRA" base_NamedElement="_UNGIsC2yEeudUYyhZ7mBag" id="NO-65" text="The system must allow the system operator to cancel the mission." base_Class="_UNGIsC2yEeudUYyhZ7mBag"/>
@@ -670,28 +667,26 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_WwqWsDjsEeuzQrwgWYJmRA" base_NamedElement="_WQjF0C3AEeuakL1QKwDxZg" id="PD-08" text="When multiple objects are detected, the swarm should prioritize as important the  most accurate identification" base_Class="_WQjF0C3AEeuakL1QKwDxZg"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_i9s7UDjsEeuzQrwgWYJmRA" base_NamedElement="_othaoC3EEeuakL1QKwDxZg" id="PD-09" text="The swarm must generate a real time map with the exact coordinates of the multiple locations where persons are identified" base_Class="_othaoC3EEeuakL1QKwDxZg"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_sXvM0DjsEeuzQrwgWYJmRA" base_NamedElement="_MdPncC26EeuakL1QKwDxZg" id="PD-02" text="The drone should follow the moving object for its future classification" base_Class="_MdPncC26EeuakL1QKwDxZg"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_4Rdz4DjsEeuzQrwgWYJmRA" base_NamedElement="_K7jq4C29EeuakL1QKwDxZg" id="PD-07" text="When a drone detects an object, it may send a signal to a nearby drone in order to help it identify the corresponding object" base_Class="_K7jq4C29EeuakL1QKwDxZg"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_HPmAEDjtEeuzQrwgWYJmRA" base_NamedElement="_m0OFwC27EeuakL1QKwDxZg" id="PD-04" text="The integrated hardware accelerators used for person detection workloads must be used in the most power efficient way" base_Class="_m0OFwC27EeuakL1QKwDxZg"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_4Rdz4DjsEeuzQrwgWYJmRA" base_NamedElement="_K7jq4C29EeuakL1QKwDxZg" id="PD-07" text="When a drone detects an object, it may send a signal to a nearby drone in order to help it identify the corresponding object&#xD;&#xA;" base_Class="_K7jq4C29EeuakL1QKwDxZg"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_O7lbYDjtEeuzQrwgWYJmRA" base_NamedElement="_Vu6KoC27EeuakL1QKwDxZg" id="PD-03" text="The drone must be able to combine information from different sensors and modify the data complexity according to the situation" base_Class="_Vu6KoC27EeuakL1QKwDxZg"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_1uGp0DjtEeuzQrwgWYJmRA" base_NamedElement="_AUZvkCy4EeuESP3ABfdsrQ" id="CM-05" text="The communication with the system operator must be uninterrupted" base_Class="_AUZvkCy4EeuESP3ABfdsrQ"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_8yw_YDjtEeuzQrwgWYJmRA" base_NamedElement="_DmtYYCy5EeuESP3ABfdsrQ" id="CM-01" text="The drone must be available for communication at all times" base_Class="_DmtYYCy5EeuESP3ABfdsrQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_1uGp0DjtEeuzQrwgWYJmRA" base_NamedElement="_AUZvkCy4EeuESP3ABfdsrQ" id="CM-05" text="The communication with the system operator must be uninterrupted during, at least, 60 minutes" base_Class="_AUZvkCy4EeuESP3ABfdsrQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_8yw_YDjtEeuzQrwgWYJmRA" base_NamedElement="_DmtYYCy5EeuESP3ABfdsrQ" id="CM-01" text="The drone must be available for communication at least 95% of the time" base_Class="_DmtYYCy5EeuESP3ABfdsrQ"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_EXzeIDjuEeuzQrwgWYJmRA" base_NamedElement="_GXtdoCnKEeu7zOJEOUkFAA" id="CM-06" text="The drone must be connected with the operator in charge of the drone trajectory and flight plans" base_Class="_GXtdoCnKEeu7zOJEOUkFAA"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_LO5RwDjuEeuzQrwgWYJmRA" base_NamedElement="_pj7TUCy1EeuESP3ABfdsrQ" id="CM-03" text="The drone has to be able to communicate to the Command and Control platform." base_Class="_pj7TUCy1EeuESP3ABfdsrQ"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_SllygDjuEeuzQrwgWYJmRA" base_NamedElement="_xZ0moCy3EeuESP3ABfdsrQ" id="CM-04" text="The drone's current position and estimated target position will be displayed on the maps" base_Class="_xZ0moCy3EeuESP3ABfdsrQ"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_asscgDjuEeuzQrwgWYJmRA" base_NamedElement="_JnJbYCy6EeuESP3ABfdsrQ" id="CM-07" text="The drone must continue the mission in case of lost connection" base_Class="_JnJbYCy6EeuESP3ABfdsrQ"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_gs984DjuEeuzQrwgWYJmRA" base_NamedElement="_kfG18CyyEeuESP3ABfdsrQ" id="CM-02" text="The drone has to able to communicate with the command post" base_Class="_kfG18CyyEeuESP3ABfdsrQ"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_m5-RsDjuEeuzQrwgWYJmRA" base_NamedElement="_WCsWECy6EeuESP3ABfdsrQ" id="CM-08" text="The drone must attempt to reestablish communication in case of loss" base_Class="_WCsWECy6EeuESP3ABfdsrQ"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_tqrwgDjuEeuzQrwgWYJmRA" base_NamedElement="_ejhxkDMDEeuKG_RWql4dxw" id="CM-09" text="The system interface must be user-friendly" base_Class="_ejhxkDMDEeuKG_RWql4dxw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_tqrwgDjuEeuzQrwgWYJmRA" base_NamedElement="_ejhxkDMDEeuKG_RWql4dxw" id="CM-09" text="The system interface must be easy to use" base_Class="_ejhxkDMDEeuKG_RWql4dxw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_0m7J4DjuEeuzQrwgWYJmRA" base_NamedElement="_1NBuADMDEeuKG_RWql4dxw" id="CM-10" text="Users without specific training must be able to use the interface" base_Class="_1NBuADMDEeuKG_RWql4dxw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_WtUAYDjvEeuzQrwgWYJmRA" base_NamedElement="_dOWhMC6LEeuR2IwYJyJWjw" id="DM-01" text="The drones must comply with AESA's regulations to flight in CTR zones" base_Class="_dOWhMC6LEeuR2IwYJyJWjw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_maUr0DjvEeuzQrwgWYJmRA" base_NamedElement="_2lzRoC6LEeuR2IwYJyJWjw" id="DM-1" text="The system operators must have AESA's autorization along a security report" base_Class="_2lzRoC6LEeuR2IwYJyJWjw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_mgPdYDo-Eeu-aPC57fF5vg" base_NamedElement="_JxUBMC0AEeu6idVRQenvHQ" id="FM-08" text="Drone must return home" base_Class="_JxUBMC0AEeu6idVRQenvHQ"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_qoDnUDo-Eeu-aPC57fF5vg" base_NamedElement="_IxqiEC0AEeu6idVRQenvHQ" id="FM-02" text="Dron´s multirotors must perform correctly to continue the mission" base_Class="_IxqiEC0AEeu6idVRQenvHQ"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_vMGaQDo-Eeu-aPC57fF5vg" base_NamedElement="_Kv5JUC0AEeu6idVRQenvHQ" id="FM-10" text="Dron must land in order to avoid further damages" base_Class="_Kv5JUC0AEeu6idVRQenvHQ"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_4291sDpBEeu-aPC57fF5vg" base_NamedElement="_Hw7d0C0AEeu6idVRQenvHQ" id="FM-03" text="Dron´s stabilizing system must perfom correctly for the proper functioning of the planned mission" base_Class="_Hw7d0C0AEeu6idVRQenvHQ"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_8EkaIDpBEeu-aPC57fF5vg" base_NamedElement="_IToiQC0AEeu6idVRQenvHQ" id="FM-04" text="Dron´s navigation system must be able to send correct information about the dron at any time" base_Class="_IToiQC0AEeu6idVRQenvHQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_qoDnUDo-Eeu-aPC57fF5vg" base_NamedElement="_IxqiEC0AEeu6idVRQenvHQ" id="FM-02" text="Drone´s multirotors must perform correctly to continue the mission" base_Class="_IxqiEC0AEeu6idVRQenvHQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_vMGaQDo-Eeu-aPC57fF5vg" base_NamedElement="_Kv5JUC0AEeu6idVRQenvHQ" id="FM-10" text="Drone must land in order to avoid further damages." base_Class="_Kv5JUC0AEeu6idVRQenvHQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_4291sDpBEeu-aPC57fF5vg" base_NamedElement="_Hw7d0C0AEeu6idVRQenvHQ" id="FM-03" text="Drone´s stabilizing system must perfom correctly for the proper functioning of the planned mission" base_Class="_Hw7d0C0AEeu6idVRQenvHQ"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="__G-bMDpBEeu-aPC57fF5vg" base_NamedElement="_MSvcIC0AEeu6idVRQenvHQ" id="FM-07" text="The drone must stop working in order to reduce further risks" base_Class="_MSvcIC0AEeu6idVRQenvHQ"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_JUszcDpCEeu-aPC57fF5vg" base_NamedElement="_LyyJsC0AEeu6idVRQenvHQ" id="FM-06" text="The dron´s system must stop working in case of a collission is detected" base_Class="_LyyJsC0AEeu6idVRQenvHQ"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_MOLiADpCEeu-aPC57fF5vg" base_NamedElement="_Mz62kC0AEeu6idVRQenvHQ" id="FM-09" text="The drone must stop working in order to avoid further risks in the system" base_Class="_Mz62kC0AEeu6idVRQenvHQ"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_Po2SEDpCEeu-aPC57fF5vg" base_NamedElement="_G3Qq4C0AEeu6idVRQenvHQ" id="FM-01" text="The dron faulty status must be OK in order to start or keep going the nomal operation of the mission" base_Class="_G3Qq4C0AEeu6idVRQenvHQ"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_Po2SEDpCEeu-aPC57fF5vg" base_NamedElement="_G3Qq4C0AEeu6idVRQenvHQ" id="FM-01" text="The drone faulty status must be OK in order to start or keep going the nomal operation of the mission." base_Class="_G3Qq4C0AEeu6idVRQenvHQ"/>
 </xmi:XMI>
