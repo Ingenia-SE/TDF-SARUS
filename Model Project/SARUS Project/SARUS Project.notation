@@ -13904,5 +13904,8 @@
       </axis>
     </columnAxisProvidersHistory>
     <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_Zt5vIjpFEeuj1fwKlrxyKA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+    <localRowHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_ID-HUDsyEeuF36vK6E3NTw" indexStyle="NUMERIC" displayIndex="false">
+      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_IEBxsDsyEeuF36vK6E3NTw" name="rowLabelWidth" intValue="258"/>
+    </localRowHeaderAxisConfiguration>
   </nattable:Table>
 </xmi:XMI>
