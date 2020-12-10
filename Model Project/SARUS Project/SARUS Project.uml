@@ -132,8 +132,6 @@
         <packagedElement xmi:type="uml:Package" xmi:id="_P-0ykCwfEeutKbRTHP0t3A" name="Flight">
           <packagedElement xmi:type="uml:Class" xmi:id="_4CeX8C2vEeudUYyhZ7mBag" name="Obstacle avoidance"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_KGmEsC2wEeudUYyhZ7mBag" name="Flight height"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_1h8fcC2wEeudUYyhZ7mBag" name="Obstacle surpass"/>
-          <packagedElement xmi:type="uml:Abstraction" xmi:id="_MHMOAC2xEeudUYyhZ7mBag" name="Refine4" client="_1h8fcC2wEeudUYyhZ7mBag" supplier="_P-0ykCwfEeutKbRTHP0t3A"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_PNB9kC2xEeudUYyhZ7mBag" name="DeriveReqt5" client="_4CeX8C2vEeudUYyhZ7mBag" supplier="_P-0ykCwfEeutKbRTHP0t3A"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_kJHV8C2xEeudUYyhZ7mBag" name="Drone status"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_4pseEC2xEeudUYyhZ7mBag" name="Trayectory"/>
@@ -566,7 +564,6 @@
   <Requirements:DeriveReqt xmi:id="_BSlgIC2qEeudUYyhZ7mBag" base_DirectedRelationship="_BSjq8C2qEeudUYyhZ7mBag" base_Abstraction="_BSjq8C2qEeudUYyhZ7mBag"/>
   <Requirements:Refine xmi:id="_ZxS1QC2rEeudUYyhZ7mBag" base_DirectedRelationship="_ZxRAEC2rEeudUYyhZ7mBag" base_Abstraction="_ZxRAEC2rEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_2Fx3MC2uEeudUYyhZ7mBag" base_DirectedRelationship="_2FwCAC2uEeudUYyhZ7mBag" base_Abstraction="_2FwCAC2uEeudUYyhZ7mBag"/>
-  <Requirements:Refine xmi:id="_MHOqQC2xEeudUYyhZ7mBag" base_DirectedRelationship="_MHMOAC2xEeudUYyhZ7mBag" base_Abstraction="_MHMOAC2xEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_PNDywC2xEeudUYyhZ7mBag" base_DirectedRelationship="_PNB9kC2xEeudUYyhZ7mBag" base_Abstraction="_PNB9kC2xEeudUYyhZ7mBag"/>
   <Requirements:DeriveReqt xmi:id="_NlBogC2yEeudUYyhZ7mBag" base_DirectedRelationship="_Nk_zUC2yEeudUYyhZ7mBag" base_Abstraction="_Nk_zUC2yEeudUYyhZ7mBag"/>
   <Requirements:Refine xmi:id="_2t_w8C2yEeudUYyhZ7mBag" base_DirectedRelationship="_2t97wC2yEeudUYyhZ7mBag" base_Abstraction="_2t97wC2yEeudUYyhZ7mBag"/>
@@ -648,7 +645,7 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_p57DYDjoEeuzQrwgWYJmRA" base_NamedElement="_ZNZiQCzgEeuqLowq6GfKMw" id="NO-20" text="The system must allow the user to define a search area for the flight plan." base_Class="_ZNZiQCzgEeuqLowq6GfKMw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_z7a9gDjoEeuzQrwgWYJmRA" base_NamedElement="_0SYLgCzgEeuqLowq6GfKMw" id="NO-21" text="The system must support search areas of up to 1 square km." base_Class="_0SYLgCzgEeuqLowq6GfKMw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_6pew8DjoEeuzQrwgWYJmRA" base_NamedElement="_gA-ngCzjEeuqLowq6GfKMw" id="NO-22" text="The system must use points connected by straight lines to define the search area. The area is completely defined when the perimeter is closed." base_Class="_gA-ngCzjEeuqLowq6GfKMw"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_C0zMkDjpEeuzQrwgWYJmRA" base_NamedElement="_nY1wcCzkEeuqLowq6GfKMw" id="NO-24" text="The system must allow the system operator to define no-fly areas inside the search area." base_Class="_nY1wcCzkEeuqLowq6GfKMw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_C0zMkDjpEeuzQrwgWYJmRA" base_NamedElement="_nY1wcCzkEeuqLowq6GfKMw" id="NO-24" text="The system must allow the system operator to define no-fly areas inside the search area.&#xD;&#xA;" base_Class="_nY1wcCzkEeuqLowq6GfKMw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_Mj7kUDjpEeuzQrwgWYJmRA" base_NamedElement="_NuLJECzkEeuqLowq6GfKMw" id="NO-23" text="The system must first accept a location, given by its coordinates, to center the map before the system operator defines the search area." base_Class="_NuLJECzkEeuqLowq6GfKMw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_X1BeEDjpEeuzQrwgWYJmRA" base_NamedElement="_Asg0ICzlEeuqLowq6GfKMw" id="NO-25" text="The system must display the search area for the system operator on a map, while it is being defined." base_Class="_Asg0ICzlEeuqLowq6GfKMw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_gefOQDjpEeuzQrwgWYJmRA" base_NamedElement="_qAYTECznEeuqLowq6GfKMw" id="NO-28" text="The system must be able to display a map to the user." base_Class="_qAYTECznEeuqLowq6GfKMw"/>
@@ -656,7 +653,6 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_vQC-EDjpEeuzQrwgWYJmRA" base_NamedElement="_563rwCzlEeuqLowq6GfKMw" id="NO-27" text="The system must allow the user to define a search area inside Spanish borders." base_Class="_563rwCzlEeuqLowq6GfKMw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_eEie4DjqEeuzQrwgWYJmRA" base_NamedElement="_4CeX8C2vEeudUYyhZ7mBag" id="NO-61" text="The drone must be able to avoid obstacles during flight." base_Class="_4CeX8C2vEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_kk_UIDjqEeuzQrwgWYJmRA" base_NamedElement="_KGmEsC2wEeudUYyhZ7mBag" id="NO-60" text="The drone must be able to fly above the enviroment height." base_Class="_KGmEsC2wEeudUYyhZ7mBag"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_rJFTQDjqEeuzQrwgWYJmRA" base_NamedElement="_1h8fcC2wEeudUYyhZ7mBag" id="NO-62" text="The drone must fly over the obstacle if posible.&#xD;&#xA;" base_Class="_1h8fcC2wEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_ykNoEDjqEeuzQrwgWYJmRA" base_NamedElement="_kJHV8C2xEeudUYyhZ7mBag" id="NO-63" text="The drone must send its status to the system operator during the mission." base_Class="_kJHV8C2xEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_53pZcDjqEeuzQrwgWYJmRA" base_NamedElement="_4pseEC2xEeudUYyhZ7mBag" id="NO-64" text="The drone must fly following its planned flight trayectory." base_Class="_4pseEC2xEeudUYyhZ7mBag"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_CmYrMDjrEeuzQrwgWYJmRA" base_NamedElement="_UNGIsC2yEeudUYyhZ7mBag" id="NO-65" text="The system must allow the system operator to cancel the mission." base_Class="_UNGIsC2yEeudUYyhZ7mBag"/>
