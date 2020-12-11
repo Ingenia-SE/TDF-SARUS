@@ -220,6 +220,13 @@
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_cTDuUDMEEeuKG_RWql4dxw" name="DeriveReqt12" client="_1NBuADMDEeuKG_RWql4dxw" supplier="_ejhxkDMDEeuKG_RWql4dxw"/>
         <packagedElement xmi:type="uml:Activity" xmi:id="_liQo0DMEEeuKG_RWql4dxw" name="Loss of communication test"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_vrPrADMEEeuKG_RWql4dxw" name="Verify14" client="_liQo0DMEEeuKG_RWql4dxw" supplier="_WCsWECy6EeuESP3ABfdsrQ"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_DmtYYCy5EeuESP3ABfdsrQ" name="Communication available">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_GXtdoCnKEeu7zOJEOUkFAA" name="Operator"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_pj7TUCy1EeuESP3ABfdsrQ" name="C2 System"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_xZ0moCy3EeuESP3ABfdsrQ" name="Geographical maps"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_JnJbYCy6EeuESP3ABfdsrQ" name="Lost connection"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_AUZvkCy4EeuESP3ABfdsrQ" name="Communication uninterrupted"/>
         <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zZyd0DjtEeuzQrwgWYJmRA">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zZzE4DjtEeuzQrwgWYJmRA" source="PapyrusVersion">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zZzE4TjtEeuzQrwgWYJmRA" key="Version" value="0.0.1"/>
@@ -240,13 +247,6 @@
           <nestedClassifier xmi:type="uml:Class" xmi:id="_IxqiEC0AEeu6idVRQenvHQ" name="Multirotors failure"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_LyyJsC0AEeu6idVRQenvHQ" name="Collision "/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_MSvcIC0AEeu6idVRQenvHQ" name="Critical system failure"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_DmtYYCy5EeuESP3ABfdsrQ" name="Communication available">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_GXtdoCnKEeu7zOJEOUkFAA" name="Operator"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_pj7TUCy1EeuESP3ABfdsrQ" name="C2 System"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_xZ0moCy3EeuESP3ABfdsrQ" name="Geographical maps"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_JnJbYCy6EeuESP3ABfdsrQ" name="Lost connection"/>
-          </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_AUZvkCy4EeuESP3ABfdsrQ" name="Communication uninterrupted"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_JxUBMC0AEeu6idVRQenvHQ" name="Return home"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Kv5JUC0AEeu6idVRQenvHQ" name="Land"/>
@@ -261,8 +261,8 @@
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_p3M_kC0AEeu6idVRQenvHQ" name="Verify2" client="_YJVPoC0AEeu6idVRQenvHQ" supplier="_Kv5JUC0AEeu6idVRQenvHQ"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_yjlg4C0AEeu6idVRQenvHQ" client="_Mz62kC0AEeu6idVRQenvHQ" supplier="_MSvcIC0AEeu6idVRQenvHQ"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_04aqQC0AEeu6idVRQenvHQ" client="_Mz62kC0AEeu6idVRQenvHQ" supplier="_LyyJsC0AEeu6idVRQenvHQ"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_2IskwDwGEeufKsQ3ZWE_OQ" client="_x9DXUCnJEeu7zOJEOUkFAA" supplier="_G3Qq4C0AEeu6idVRQenvHQ"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_7tUD4DwGEeufKsQ3ZWE_OQ" client="_DmtYYCy5EeuESP3ABfdsrQ" supplier="_G3Qq4C0AEeu6idVRQenvHQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_UiEksDwMEeuJotLiTc-xXw" name="DeriveReqt16" client="_DmtYYCy5EeuESP3ABfdsrQ" supplier="_G3Qq4C0AEeu6idVRQenvHQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_V4KN4DwMEeuJotLiTc-xXw" name="DeriveReqt17" client="_AUZvkCy4EeuESP3ABfdsrQ" supplier="_G3Qq4C0AEeu6idVRQenvHQ"/>
         <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_lL4SgDo-Eeu-aPC57fF5vg">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lMCDgTo-Eeu-aPC57fF5vg" source="PapyrusVersion">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lMCDgjo-Eeu-aPC57fF5vg" key="Version" value="0.0.1"/>
@@ -687,4 +687,6 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_JUszcDpCEeu-aPC57fF5vg" base_NamedElement="_LyyJsC0AEeu6idVRQenvHQ" id="FM-06" text="The dron´s system must stop working in case of a collission is detected" base_Class="_LyyJsC0AEeu6idVRQenvHQ"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_MOLiADpCEeu-aPC57fF5vg" base_NamedElement="_Mz62kC0AEeu6idVRQenvHQ" id="FM-09" text="The drone must stop working in order to avoid further risks in the system" base_Class="_Mz62kC0AEeu6idVRQenvHQ"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_Po2SEDpCEeu-aPC57fF5vg" base_NamedElement="_G3Qq4C0AEeu6idVRQenvHQ" id="FM-01" text="The drone faulty status must be OK in order to start or keep going the nomal operation of the mission." base_Class="_G3Qq4C0AEeu6idVRQenvHQ"/>
+  <Requirements:DeriveReqt xmi:id="_UiT1QDwMEeuJotLiTc-xXw" base_DirectedRelationship="_UiEksDwMEeuJotLiTc-xXw" base_Abstraction="_UiEksDwMEeuJotLiTc-xXw"/>
+  <Requirements:DeriveReqt xmi:id="_V4SwwDwMEeuJotLiTc-xXw" base_DirectedRelationship="_V4KN4DwMEeuJotLiTc-xXw" base_Abstraction="_V4KN4DwMEeuJotLiTc-xXw"/>
 </xmi:XMI>
