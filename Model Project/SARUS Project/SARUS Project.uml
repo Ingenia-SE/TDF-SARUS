@@ -277,96 +277,6 @@
           <appliedProfile xmi:type="uml:Profile" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
         </profileApplication>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_yGVPICnJEeu7zOJEOUkFAA" name="Airspace Conditions">
-        <packagedElement xmi:type="uml:Class" xmi:id="_Gr-dcCnKEeu7zOJEOUkFAA" name="OPERATIONAL SCENARIOS" visibility="public">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_YdhZ8CzfEeunBNSDKjsaEQ" name="Normal operation"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_loNnsCzhEeunBNSDKjsaEQ" name="Person in distress"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_zSM2ACziEeunBNSDKjsaEQ" name="Loss of communication">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_WX0U4CzjEeunBNSDKjsaEQ" name="Fallback mode"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_dgoVMCzkEeunBNSDKjsaEQ" name="Recalculating global planning"/>
-          </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_yiQ78CzkEeunBNSDKjsaEQ" name="Faulty UAV"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_gX9cwCzmEeunBNSDKjsaEQ" name="Battery malfunction"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_w0JiYCzmEeunBNSDKjsaEQ" name="Change of the AC"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_0uiYgCzfEeunBNSDKjsaEQ" name="Avoid collision"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_a-rSoCzgEeunBNSDKjsaEQ" client="_0uiYgCzfEeunBNSDKjsaEQ" supplier="_YdhZ8CzfEeunBNSDKjsaEQ"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_fHbQsCzgEeunBNSDKjsaEQ" name="Landing"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_oIHOECzgEeunBNSDKjsaEQ" client="_fHbQsCzgEeunBNSDKjsaEQ" supplier="_YdhZ8CzfEeunBNSDKjsaEQ"/>
-        <packagedElement xmi:type="uml:Activity" xmi:id="_-6R28CzjEeunBNSDKjsaEQ" name="Ground station operator confirms info."/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Xw1g0CzkEeunBNSDKjsaEQ" name="Verify7" client="_-6R28CzjEeunBNSDKjsaEQ" supplier="_loNnsCzhEeunBNSDKjsaEQ"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_Tg9xoCzlEeunBNSDKjsaEQ" name="Return home"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_jyI6ECzlEeunBNSDKjsaEQ" client="_Tg9xoCzlEeunBNSDKjsaEQ" supplier="_yiQ78CzkEeunBNSDKjsaEQ"/>
-        <packagedElement xmi:type="uml:Activity" xmi:id="_lLBYkCzlEeunBNSDKjsaEQ" name="Stabilization and navigation works"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_qiPU4CzlEeunBNSDKjsaEQ" name="Verify11" client="_lLBYkCzlEeunBNSDKjsaEQ" supplier="_Tg9xoCzlEeunBNSDKjsaEQ"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_49oncCzlEeunBNSDKjsaEQ" name="Avoid further damage"/>
-        <packagedElement xmi:type="uml:Activity" xmi:id="_Aq4nACzmEeunBNSDKjsaEQ" name="Positioning system is not reliable"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_HQdz4CzmEeunBNSDKjsaEQ" name="Verify14" client="_Aq4nACzmEeunBNSDKjsaEQ" supplier="_49oncCzlEeunBNSDKjsaEQ"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_JPMxcCzmEeunBNSDKjsaEQ" client="_49oncCzlEeunBNSDKjsaEQ" supplier="_yiQ78CzkEeunBNSDKjsaEQ"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_PwD2YCzmEeunBNSDKjsaEQ" name="Total failure"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_ciPvcCzmEeunBNSDKjsaEQ" client="_PwD2YCzmEeunBNSDKjsaEQ" supplier="_yiQ78CzkEeunBNSDKjsaEQ"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_aQsuICznEeunBNSDKjsaEQ" name="Recall aircrafts"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_qFuGECznEeunBNSDKjsaEQ" client="_aQsuICznEeunBNSDKjsaEQ" supplier="_w0JiYCzmEeunBNSDKjsaEQ"/>
-        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_MnPNcDjdEeuyydLqknH_2g">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MnY-cTjdEeuyydLqknH_2g" source="PapyrusVersion">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnY-cjjdEeuyydLqknH_2g" key="Version" value="0.0.1"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnY-czjdEeuyydLqknH_2g" key="Comment" value=""/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnY-dDjdEeuyydLqknH_2g" key="Copyright" value=""/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnY-dTjdEeuyydLqknH_2g" key="Date" value="2020-12-05"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnY-djjdEeuyydLqknH_2g" key="Author" value=""/>
-          </eAnnotations>
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MnY-cDjdEeuyydLqknH_2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
-            <references xmi:type="ecore:EPackage" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
-          </eAnnotations>
-          <appliedProfile xmi:type="uml:Profile" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
-        </profileApplication>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_5Xo5kCnJEeu7zOJEOUkFAA" name="Domain Conditions" visibility="public">
-        <packagedElement xmi:type="uml:Class" xmi:id="_GxUQcCnKEeu7zOJEOUkFAA" name="Legal Compliance">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_fvu40C6LEeuR2IwYJyJWjw" name="Aesa regulations">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_7HJyYC6KEeuR2IwYJyJWjw" name="Night regulation">
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_MleVUC6JEeuR2IwYJyJWjw" name="Night weight"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_0rAVsC6HEeuR2IwYJyJWjw" name="Drone visibility"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_INZP4C6LEeuR2IwYJyJWjw" name="SORA"/>
-            </nestedClassifier>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_dOWhMC6LEeuR2IwYJyJWjw" name="CTR zones">
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_rzB9gC6JEeuR2IwYJyJWjw" name="CTR flight"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_uBegIC6LEeuR2IwYJyJWjw" name="Certificates"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_2lzRoC6LEeuR2IwYJyJWjw" name="Security report"/>
-            </nestedClassifier>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_29AqAC6GEeuR2IwYJyJWjw" name="Plate">
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_KBUBYC6HEeuR2IwYJyJWjw" name="Fireproofing"/>
-            </nestedClassifier>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_nokPkC6GEeuR2IwYJyJWjw" name="Maximum weight"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_N-vVsC6GEeuR2IwYJyJWjw" name="Pilot License"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_YZLe0C6HEeuR2IwYJyJWjw" name="Bases station label"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_wqm7AC6KEeuR2IwYJyJWjw" name="BLOS">
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_pDKBcC6KEeuR2IwYJyJWjw" name="AESA"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_aqAKkC6KEeuR2IwYJyJWjw" name="Detection"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_RL-w8C6KEeuR2IwYJyJWjw" name="Camera"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_3UEUkC6FEeuR2IwYJyJWjw" name="Maximum Height"/>
-              <nestedClassifier xmi:type="uml:Class" xmi:id="_v_l6AC6IEeuR2IwYJyJWjw" name="Ra"/>
-            </nestedClassifier>
-          </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_yx664C6MEeuR2IwYJyJWjw" name="Data protection">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_qM17cC6MEeuR2IwYJyJWjw" name="Data storage"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_el0N8C6MEeuR2IwYJyJWjw" name="Anonimity"/>
-          </nestedClassifier>
-        </packagedElement>
-        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hGP7MDjQEeu2ZfOLFtbVEA">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hGX3ADjQEeu2ZfOLFtbVEA" source="PapyrusVersion">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hGX3ATjQEeu2ZfOLFtbVEA" key="Version" value="0.0.1"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hGX3AjjQEeu2ZfOLFtbVEA" key="Comment" value=""/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hGX3AzjQEeu2ZfOLFtbVEA" key="Copyright" value=""/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hGX3BDjQEeu2ZfOLFtbVEA" key="Date" value="2020-12-05"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hGX3BTjQEeu2ZfOLFtbVEA" key="Author" value=""/>
-          </eAnnotations>
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hGWB0DjQEeu2ZfOLFtbVEA" source="http://www.eclipse.org/uml2/2.0.0/UML">
-            <references xmi:type="ecore:EPackage" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
-          </eAnnotations>
-          <appliedProfile xmi:type="uml:Profile" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
-        </profileApplication>
-      </packagedElement>
       <packagedElement xmi:type="uml:Model" xmi:id="_Og_7UDikEeujVsKs6DHBuw" name="Battery Manangment">
         <packageImport xmi:type="uml:PackageImport" xmi:id="_Og_7UTikEeujVsKs6DHBuw">
           <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -465,6 +375,96 @@
             <references xmi:type="ecore:EPackage" href="../TDF-SARUS/Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
           </eAnnotations>
           <appliedProfile xmi:type="uml:Profile" href="../TDF-SARUS/Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
+        </profileApplication>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_yGVPICnJEeu7zOJEOUkFAA" name="Airspace Conditions">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gr-dcCnKEeu7zOJEOUkFAA" name="OPERATIONAL SCENARIOS" visibility="public">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_YdhZ8CzfEeunBNSDKjsaEQ" name="Normal operation"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_loNnsCzhEeunBNSDKjsaEQ" name="Person in distress"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_zSM2ACziEeunBNSDKjsaEQ" name="Loss of communication">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_WX0U4CzjEeunBNSDKjsaEQ" name="Fallback mode"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_dgoVMCzkEeunBNSDKjsaEQ" name="Recalculating global planning"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_yiQ78CzkEeunBNSDKjsaEQ" name="Faulty UAV"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_gX9cwCzmEeunBNSDKjsaEQ" name="Battery malfunction"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_w0JiYCzmEeunBNSDKjsaEQ" name="Change of the AC"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_0uiYgCzfEeunBNSDKjsaEQ" name="Avoid collision"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_a-rSoCzgEeunBNSDKjsaEQ" client="_0uiYgCzfEeunBNSDKjsaEQ" supplier="_YdhZ8CzfEeunBNSDKjsaEQ"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fHbQsCzgEeunBNSDKjsaEQ" name="Landing"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_oIHOECzgEeunBNSDKjsaEQ" client="_fHbQsCzgEeunBNSDKjsaEQ" supplier="_yGVPICnJEeu7zOJEOUkFAA"/>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_-6R28CzjEeunBNSDKjsaEQ" name="Ground station operator confirms info."/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Xw1g0CzkEeunBNSDKjsaEQ" name="Verify7" client="_-6R28CzjEeunBNSDKjsaEQ" supplier="_loNnsCzhEeunBNSDKjsaEQ"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Tg9xoCzlEeunBNSDKjsaEQ" name="Return home"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_jyI6ECzlEeunBNSDKjsaEQ" client="_Tg9xoCzlEeunBNSDKjsaEQ" supplier="_yiQ78CzkEeunBNSDKjsaEQ"/>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_lLBYkCzlEeunBNSDKjsaEQ" name="Stabilization and navigation works"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_qiPU4CzlEeunBNSDKjsaEQ" name="Verify11" client="_lLBYkCzlEeunBNSDKjsaEQ" supplier="_Tg9xoCzlEeunBNSDKjsaEQ"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_49oncCzlEeunBNSDKjsaEQ" name="Avoid further damage"/>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_Aq4nACzmEeunBNSDKjsaEQ" name="Positioning system is not reliable"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_HQdz4CzmEeunBNSDKjsaEQ" name="Verify14" client="_Aq4nACzmEeunBNSDKjsaEQ" supplier="_49oncCzlEeunBNSDKjsaEQ"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_JPMxcCzmEeunBNSDKjsaEQ" client="_49oncCzlEeunBNSDKjsaEQ" supplier="_yiQ78CzkEeunBNSDKjsaEQ"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PwD2YCzmEeunBNSDKjsaEQ" name="Total failure"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_ciPvcCzmEeunBNSDKjsaEQ" client="_PwD2YCzmEeunBNSDKjsaEQ" supplier="_yiQ78CzkEeunBNSDKjsaEQ"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aQsuICznEeunBNSDKjsaEQ" name="Recall aircrafts"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_qFuGECznEeunBNSDKjsaEQ" client="_aQsuICznEeunBNSDKjsaEQ" supplier="_w0JiYCzmEeunBNSDKjsaEQ"/>
+        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_MnPNcDjdEeuyydLqknH_2g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MnY-cTjdEeuyydLqknH_2g" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnY-cjjdEeuyydLqknH_2g" key="Version" value="0.0.1"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnY-czjdEeuyydLqknH_2g" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnY-dDjdEeuyydLqknH_2g" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnY-dTjdEeuyydLqknH_2g" key="Date" value="2020-12-05"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MnY-djjdEeuyydLqknH_2g" key="Author" value=""/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MnY-cDjdEeuyydLqknH_2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="ecore:EPackage" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
+          </eAnnotations>
+          <appliedProfile xmi:type="uml:Profile" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
+        </profileApplication>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_5Xo5kCnJEeu7zOJEOUkFAA" name="Domain Conditions" visibility="public">
+        <packagedElement xmi:type="uml:Class" xmi:id="_GxUQcCnKEeu7zOJEOUkFAA" name="Legal Compliance">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_fvu40C6LEeuR2IwYJyJWjw" name="Aesa regulations">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_7HJyYC6KEeuR2IwYJyJWjw" name="Night regulation">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_MleVUC6JEeuR2IwYJyJWjw" name="Night weight"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_0rAVsC6HEeuR2IwYJyJWjw" name="Drone visibility"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_INZP4C6LEeuR2IwYJyJWjw" name="SORA"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_dOWhMC6LEeuR2IwYJyJWjw" name="CTR zones">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_rzB9gC6JEeuR2IwYJyJWjw" name="CTR flight"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_uBegIC6LEeuR2IwYJyJWjw" name="Certificates"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_2lzRoC6LEeuR2IwYJyJWjw" name="Security report"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_29AqAC6GEeuR2IwYJyJWjw" name="Plate">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_KBUBYC6HEeuR2IwYJyJWjw" name="Fireproofing"/>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_nokPkC6GEeuR2IwYJyJWjw" name="Maximum weight"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_N-vVsC6GEeuR2IwYJyJWjw" name="Pilot License"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_YZLe0C6HEeuR2IwYJyJWjw" name="Bases station label"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_wqm7AC6KEeuR2IwYJyJWjw" name="BLOS">
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_pDKBcC6KEeuR2IwYJyJWjw" name="AESA"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_aqAKkC6KEeuR2IwYJyJWjw" name="Detection"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_RL-w8C6KEeuR2IwYJyJWjw" name="Camera"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_3UEUkC6FEeuR2IwYJyJWjw" name="Maximum Height"/>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_v_l6AC6IEeuR2IwYJyJWjw" name="Ra"/>
+            </nestedClassifier>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_yx664C6MEeuR2IwYJyJWjw" name="Data protection">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_qM17cC6MEeuR2IwYJyJWjw" name="Data storage"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_el0N8C6MEeuR2IwYJyJWjw" name="Anonimity"/>
+          </nestedClassifier>
+        </packagedElement>
+        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hGP7MDjQEeu2ZfOLFtbVEA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hGX3ADjQEeu2ZfOLFtbVEA" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hGX3ATjQEeu2ZfOLFtbVEA" key="Version" value="0.0.1"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hGX3AjjQEeu2ZfOLFtbVEA" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hGX3AzjQEeu2ZfOLFtbVEA" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hGX3BDjQEeu2ZfOLFtbVEA" key="Date" value="2020-12-05"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hGX3BTjQEeu2ZfOLFtbVEA" key="Author" value=""/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hGWB0DjQEeu2ZfOLFtbVEA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="ecore:EPackage" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
+          </eAnnotations>
+          <appliedProfile xmi:type="uml:Profile" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
         </profileApplication>
       </packagedElement>
     </packagedElement>
@@ -693,14 +693,14 @@
   <Requirements:DeriveReqt xmi:id="_V4SwwDwMEeuJotLiTc-xXw" base_DirectedRelationship="_V4KN4DwMEeuJotLiTc-xXw" base_Abstraction="_V4KN4DwMEeuJotLiTc-xXw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_dWDVIDjSEeu2ZfOLFtbVEA" base_NamedElement="_29AqAC6GEeuR2IwYJyJWjw" id="DM-13" text="The drones must be equiped with a plate attached to the housing that states the serial number, manufacturer, pilot name and contact details" base_Class="_29AqAC6GEeuR2IwYJyJWjw" Author="Jaime de Castro" Priority="3.0" Risk="1.0" Complexity="3.0" Cost="2.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_AlVlsDyqEeufadr_w3Hx0w" base_NamedElement="_5Xo5kCnJEeu7zOJEOUkFAA"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_mqDucDy0Eeuh1sLhdT3A9g" base_NamedElement="_Og_7YDikEeujVsKs6DHBuw" id="BM-11" text=" The dead battery of the dron that has landed must be charged." base_Class="_Og_7YDikEeujVsKs6DHBuw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_mqDucDy0Eeuh1sLhdT3A9g" base_NamedElement="_Og_7YDikEeujVsKs6DHBuw" id="BM-07" text=" The dead battery of the dron that has landed must be charged." base_Class="_Og_7YDikEeujVsKs6DHBuw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_1QV7ADy3Eeuh1sLhdT3A9g" base_NamedElement="_Og_7WTikEeujVsKs6DHBuw" id="BM-01" text=" Every point in battery management must be completed in a mission." base_Class="_Og_7WTikEeujVsKs6DHBuw"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_NI3PUDy4Eeuh1sLhdT3A9g" base_NamedElement="_Og_7UzikEeujVsKs6DHBuw" id="BM-07" text=" The drone must control the battery level during flight." base_Class="_Og_7UzikEeujVsKs6DHBuw"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_vBRUMDy4Eeuh1sLhdT3A9g" base_NamedElement="_Og_7VTikEeujVsKs6DHBuw" id="BM-06" text=" The drone must analyze how far and how much time it can fly until it has to return to the base." base_Class="_Og_7VTikEeujVsKs6DHBuw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_NI3PUDy4Eeuh1sLhdT3A9g" base_NamedElement="_Og_7UzikEeujVsKs6DHBuw" id="BM-05" text=" The drone must control the battery level during flight." base_Class="_Og_7UzikEeujVsKs6DHBuw" Author="Guillermo García-Villamil" Priority="3.0" Risk="1.0" Complexity="3.0" Cost="3.0"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_vBRUMDy4Eeuh1sLhdT3A9g" base_NamedElement="_Og_7VTikEeujVsKs6DHBuw" id="BM-52" text=" The drone must analyze how far and how much time it can fly until it has to return to the base." base_Class="_Og_7VTikEeujVsKs6DHBuw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_3yZyoDy4Eeuh1sLhdT3A9g" base_NamedElement="_Og_7XzikEeujVsKs6DHBuw" id="BM-08" text="The drone must have a spare battery." base_Class="_Og_7XzikEeujVsKs6DHBuw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_FZprcDy5Eeuh1sLhdT3A9g" base_NamedElement="_Og_7WDikEeujVsKs6DHBuw" id="BM-03" text="Before the taking off, battery must be charged." base_Class="_Og_7WDikEeujVsKs6DHBuw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_M8w3kDy5Eeuh1sLhdT3A9g" base_NamedElement="_Og_7VjikEeujVsKs6DHBuw" id="BM-02" text=" The system must complete the mision and return to the base without running out of battery." base_Class="_Og_7VjikEeujVsKs6DHBuw"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_Ve9iIDy5Eeuh1sLhdT3A9g" base_NamedElement="_Og_7XTikEeujVsKs6DHBuw" id="BM-10" text=" The battery of the drone that has landed after the mission must be replaced with a fully charged one." base_Class="_Og_7XTikEeujVsKs6DHBuw"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_llBmwDy5Eeuh1sLhdT3A9g" base_NamedElement="_Og_7VDikEeujVsKs6DHBuw" id="BM-05" text=" The drone must carry a LIPO battery.&#xD;&#xA;&#xD;&#xA;" base_Class="_Og_7VDikEeujVsKs6DHBuw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_Ve9iIDy5Eeuh1sLhdT3A9g" base_NamedElement="_Og_7XTikEeujVsKs6DHBuw" id="BM-06" text=" The battery of the drone that has landed after the mission must be replaced with a fully charged one." base_Class="_Og_7XTikEeujVsKs6DHBuw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_llBmwDy5Eeuh1sLhdT3A9g" base_NamedElement="_Og_7VDikEeujVsKs6DHBuw" id="BM-51" text=" The drone must carry a LIPO battery.&#xD;&#xA;&#xD;&#xA;" base_Class="_Og_7VDikEeujVsKs6DHBuw" Author="Guillermo García-Villamil" Priority="1.0" Risk="2.0" Complexity="1.0" Cost="2.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_0_GnwDy8Eeuh1sLhdT3A9g" base_NamedElement="_Og_7XDikEeujVsKs6DHBuw" id="BM-09" text="The status of the battery must be checked after landing." base_Class="_Og_7XDikEeujVsKs6DHBuw"/>
 </xmi:XMI>
