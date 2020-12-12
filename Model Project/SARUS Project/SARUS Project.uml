@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:reqSARUSprofile="http:///schemas/reqSARUSprofile/_rZMNkDcCEeukNt1nHn1nkQ/0" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements http:///schemas/reqSARUSprofile/_rZMNkDcCEeukNt1nHn1nkQ/0 ../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:reqSARUSprofile="http:///schemas/reqSARUSprofile/_rZMNkDcCEeukNt1nHn1nkQ/0" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements http:///schemas/reqSARUSprofile/_rZMNkDcCEeukNt1nHn1nkQ/0 ../TDF-SARUS/Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ">
   <uml:Model xmi:id="_deIcECnJEeu7zOJEOUkFAA" name="SARUS Project">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_dh6I0CnJEeu7zOJEOUkFAA">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -277,22 +277,6 @@
           <appliedProfile xmi:type="uml:Profile" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
         </profileApplication>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_yB-6oCnJEeu7zOJEOUkFAA" name="Battery Management">
-        <packagedElement xmi:type="uml:Class" xmi:id="_GmNMoCnKEeu7zOJEOUkFAA" name="Example REQ-BM"/>
-        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_he9HIDcEEeukNt1nHn1nkQ">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_he9uMTcEEeukNt1nHn1nkQ" source="PapyrusVersion">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_he9uMjcEEeukNt1nHn1nkQ" key="Version" value="0.0.1"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_he9uMzcEEeukNt1nHn1nkQ" key="Comment" value=""/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_he9uNDcEEeukNt1nHn1nkQ" key="Copyright" value=""/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_he9uNTcEEeukNt1nHn1nkQ" key="Date" value="2020-12-05"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_he9uNjcEEeukNt1nHn1nkQ" key="Author" value=""/>
-          </eAnnotations>
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_he9uMDcEEeukNt1nHn1nkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
-            <references xmi:type="ecore:EPackage" href="../reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
-          </eAnnotations>
-          <appliedProfile xmi:type="uml:Profile" href="../reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
-        </profileApplication>
-      </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_yGVPICnJEeu7zOJEOUkFAA" name="Airspace Conditions">
         <packagedElement xmi:type="uml:Class" xmi:id="_Gr-dcCnKEeu7zOJEOUkFAA" name="OPERATIONAL SCENARIOS" visibility="public">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_YdhZ8CzfEeunBNSDKjsaEQ" name="Normal operation"/>
@@ -383,7 +367,7 @@
           <appliedProfile xmi:type="uml:Profile" href="../Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
         </profileApplication>
       </packagedElement>
-      <packagedElement xmi:type="uml:Model" xmi:id="_Og_7UDikEeujVsKs6DHBuw" name="Battery Manangment Guille">
+      <packagedElement xmi:type="uml:Model" xmi:id="_Og_7UDikEeujVsKs6DHBuw" name="Battery Manangment">
         <packageImport xmi:type="uml:PackageImport" xmi:id="_Og_7UTikEeujVsKs6DHBuw">
           <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
         </packageImport>
@@ -394,22 +378,21 @@
           <nestedClassifier xmi:type="uml:Class" xmi:id="_Og_7VDikEeujVsKs6DHBuw" name="LIPO battery"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_Og_7VTikEeujVsKs6DHBuw" name="Battery level Management"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_Og_7VjikEeujVsKs6DHBuw" name="Battery level"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Og_7VzikEeujVsKs6DHBuw" name="DeriveReqt17" client="_Og_7VjikEeujVsKs6DHBuw" supplier="_Og_7VTikEeujVsKs6DHBuw"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Og_7VjikEeujVsKs6DHBuw" name="Battery level" visibility="public"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Og_7VzikEeujVsKs6DHBuw" name="DeriveReqt17" client="_Og_7UDikEeujVsKs6DHBuw" supplier="_Og_7UDikEeujVsKs6DHBuw"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Og_7WDikEeujVsKs6DHBuw" name="Battery Management before taking off"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Og_7WTikEeujVsKs6DHBuw" name="Battery Management"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Og_7WjikEeujVsKs6DHBuw" name="DeriveReqt18" client="_Og_7UzikEeujVsKs6DHBuw" supplier="_Og_7WTikEeujVsKs6DHBuw"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Og_7WzikEeujVsKs6DHBuw" name="DeriveReqt19" client="_Og_7WDikEeujVsKs6DHBuw" supplier="_Og_7WTikEeujVsKs6DHBuw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Og_7WjikEeujVsKs6DHBuw" name="DeriveReqt18" client="_Og_7UzikEeujVsKs6DHBuw" supplier="_Og_7UDikEeujVsKs6DHBuw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Og_7WzikEeujVsKs6DHBuw" name="DeriveReqt19" client="_Og_7UDikEeujVsKs6DHBuw" supplier="_Og_7WTikEeujVsKs6DHBuw"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Og_7XDikEeujVsKs6DHBuw" name="Battery Management after landing"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Og_7XTikEeujVsKs6DHBuw" name="Charge dead battery"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_Og_7XjikEeujVsKs6DHBuw" name="Replace dead battery"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Og_7XzikEeujVsKs6DHBuw" name="Spare batterys"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Og_7YDikEeujVsKs6DHBuw" name="Charger"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_Og_7YTikEeujVsKs6DHBuw" name="DeriveReqt25" client="_Og_7UDikEeujVsKs6DHBuw" supplier="_Og_7UDikEeujVsKs6DHBuw"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_Og_7YjikEeujVsKs6DHBuw" name="DeriveReqt26" client="_Og_7YDikEeujVsKs6DHBuw" supplier="_Og_7WDikEeujVsKs6DHBuw"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Og_7YzikEeujVsKs6DHBuw" name="DeriveReqt27" client="_Og_7XjikEeujVsKs6DHBuw" supplier="_Og_7UDikEeujVsKs6DHBuw"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_Og_7ZDikEeujVsKs6DHBuw" name="DeriveReqt28" client="_Og_7UDikEeujVsKs6DHBuw" supplier="_Og_7UDikEeujVsKs6DHBuw"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Og_7ZTikEeujVsKs6DHBuw" name="DeriveReqt29" client="_Og_7XDikEeujVsKs6DHBuw" supplier="_Og_7WTikEeujVsKs6DHBuw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_Og_7ZTikEeujVsKs6DHBuw" name="DeriveReqt29" client="_Og_7UDikEeujVsKs6DHBuw" supplier="_Og_7UDikEeujVsKs6DHBuw"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_lUgXIDy8Eeuh1sLhdT3A9g" name="DeriveReqt" client="_Og_7VDikEeujVsKs6DHBuw" supplier="_Og_7XzikEeujVsKs6DHBuw"/>
         <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Og_7ZjikEeujVsKs6DHBuw">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Og_7ZzikEeujVsKs6DHBuw" source="http://www.eclipse.org/uml2/2.0.0/UML">
             <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -469,6 +452,19 @@
             <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
           </eAnnotations>
           <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+        </profileApplication>
+        <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_kgG_YDy0Eeuh1sLhdT3A9g">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kgOUIDy0Eeuh1sLhdT3A9g" source="PapyrusVersion">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kgOUITy0Eeuh1sLhdT3A9g" key="Version" value="0.0.1"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kgOUIjy0Eeuh1sLhdT3A9g" key="Comment" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kgOUIzy0Eeuh1sLhdT3A9g" key="Copyright" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kgOUJDy0Eeuh1sLhdT3A9g" key="Date" value="2020-12-05"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kgOUJTy0Eeuh1sLhdT3A9g" key="Author" value=""/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kgNtEDy0Eeuh1sLhdT3A9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="ecore:EPackage" href="../TDF-SARUS/Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_rZMNkjcCEeukNt1nHn1nkQ"/>
+          </eAnnotations>
+          <appliedProfile xmi:type="uml:Profile" href="../TDF-SARUS/Model%20Project/reqSARUS%20profile/reqSARUS%20profile.profile.uml#_LMh40DcCEeukNt1nHn1nkQ"/>
         </profileApplication>
       </packagedElement>
     </packagedElement>
@@ -593,24 +589,24 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_ktQeIDjQEeu2ZfOLFtbVEA" base_NamedElement="_GxUQcCnKEeu7zOJEOUkFAA" id="DM-01" text="The system must comply with aplicable regulations" base_Class="_GxUQcCnKEeu7zOJEOUkFAA" Author="Jaime de Castro" Priority="1.0" Risk="5.0" Complexity="4.0" Cost="3.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_y_hp4DjQEeu2ZfOLFtbVEA" base_NamedElement="_fvu40C6LEeuR2IwYJyJWjw" id="DM-11" text="The system must comply with  AESA's regulations" base_Class="_fvu40C6LEeuR2IwYJyJWjw" Author="Jaime de Castro" Priority="1.0" Risk="5.0" Complexity="4.0" Cost="3.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_ArtGADjREeu2ZfOLFtbVEA" base_NamedElement="_7HJyYC6KEeuR2IwYJyJWjw" id="DM-111" text="The drones must comply with AESA's regulations for night time operation" base_Class="_7HJyYC6KEeuR2IwYJyJWjw" Author="Jaime de Castro" Priority="1.0" Risk="3.0" Complexity="3.0" Cost="4.0"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_Qjdo4DjREeu2ZfOLFtbVEA" base_NamedElement="_MleVUC6JEeuR2IwYJyJWjw" id="DM-1111" text="The drones' take-off weight during night time must be below 10 kg" base_Class="_MleVUC6JEeuR2IwYJyJWjw" Author="Laura Gallego" Priority="1.0"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_eTaxwDjREeu2ZfOLFtbVEA" base_NamedElement="_0rAVsC6HEeuR2IwYJyJWjw" id="DM-1112" text="The drones must be visible during operation conditions, including the necessary visual elements like  eye-catching paint, reflective bands, lights, etc for night-time operations" base_Class="_0rAVsC6HEeuR2IwYJyJWjw" Author="Laura Gallego"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_or8r0DjREeu2ZfOLFtbVEA" base_NamedElement="_INZP4C6LEeuR2IwYJyJWjw" id="DM-1113" text="The company must have a specific aeronautical safe study (SORA)." base_Class="_INZP4C6LEeuR2IwYJyJWjw" Author="Laura Gallego"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_o1BS0DjSEeu2ZfOLFtbVEA" base_NamedElement="_rzB9gC6JEeuR2IwYJyJWjw" id="DM-121" text="In order to fly in CTR zones:The drone must be equipped with mode S transponder" base_Class="_rzB9gC6JEeuR2IwYJyJWjw" Author="Laura Gallego"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_6OJh0DjSEeu2ZfOLFtbVEA" base_NamedElement="_uBegIC6LEeuR2IwYJyJWjw" id="DM-122" text="The system operator must be accredited with the aeronautical radiooperatortitle and a language certificate in which the conversations are going to be taken" base_Class="_uBegIC6LEeuR2IwYJyJWjw" Author="Laura Gallego"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_Qjdo4DjREeu2ZfOLFtbVEA" base_NamedElement="_MleVUC6JEeuR2IwYJyJWjw" id="DM-1111" text="The drones' take-off weight during night time must be below 10 kg" base_Class="_MleVUC6JEeuR2IwYJyJWjw" Author="Laura Gallego" Priority="1.0" Risk="2.0" Complexity="3.0" Cost="3.0"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_eTaxwDjREeu2ZfOLFtbVEA" base_NamedElement="_0rAVsC6HEeuR2IwYJyJWjw" id="DM-1112" text="The drones must be visible during operation conditions, including the necessary visual elements like  eye-catching paint, reflective bands, lights, etc for night-time operations" base_Class="_0rAVsC6HEeuR2IwYJyJWjw" Author="Laura Gallego" Priority="2.0" Risk="1.0" Complexity="3.0" Cost="1.0"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_or8r0DjREeu2ZfOLFtbVEA" base_NamedElement="_INZP4C6LEeuR2IwYJyJWjw" id="DM-1113" text="The company must have a specific aeronautical safe study (SORA)." base_Class="_INZP4C6LEeuR2IwYJyJWjw" Author="Laura Gallego" Priority="1.0" Risk="1.0" Complexity="2.0" Cost="1.0"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_o1BS0DjSEeu2ZfOLFtbVEA" base_NamedElement="_rzB9gC6JEeuR2IwYJyJWjw" id="DM-121" text="In order to fly in CTR zones:The drone must be equipped with mode S transponder" base_Class="_rzB9gC6JEeuR2IwYJyJWjw" Author="Laura Gallego" Priority="1.0" Risk="3.0" Complexity="2.0" Cost="3.0"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_6OJh0DjSEeu2ZfOLFtbVEA" base_NamedElement="_uBegIC6LEeuR2IwYJyJWjw" id="DM-122" text="The system operator must be accredited with the aeronautical radiooperatortitle and a language certificate in which the conversations are going to be taken" base_Class="_uBegIC6LEeuR2IwYJyJWjw" Author="Laura Gallego" Priority="1.0" Risk="1.0" Complexity="2.0" Cost="2.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_WfhFsDjTEeu2ZfOLFtbVEA" base_NamedElement="_nokPkC6GEeuR2IwYJyJWjw" id="DM-14" text="The drones' take-off weight must be below 25 kg" base_Class="_nokPkC6GEeuR2IwYJyJWjw" Author="Jaime de Castro" Priority="5.0" Risk="1.0" Complexity="1.0" Cost="1.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_hOl3gDjTEeu2ZfOLFtbVEA" base_NamedElement="_N-vVsC6GEeuR2IwYJyJWjw" id="DM-15" text="The system operator must have a drone pilot's license " base_Class="_N-vVsC6GEeuR2IwYJyJWjw" Author="Jaime de Castro" Priority="4.0" Risk="2.0" Complexity="2.0" Cost="3.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_qJD4IDjTEeu2ZfOLFtbVEA" base_NamedElement="_YZLe0C6HEeuR2IwYJyJWjw" id="DM-16" text="The base station must have a label with the pilot name and contact info" base_Class="_YZLe0C6HEeuR2IwYJyJWjw" Author="Jaime de Castro" Priority="4.0" Risk="1.0" Complexity="1.0" Cost="1.0"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_ypavoDjTEeu2ZfOLFtbVEA" base_NamedElement="_wqm7AC6KEeuR2IwYJyJWjw" id="DM-17" text="The drones must comply with AESA's regulations for Beyond-line-of-sight operation" base_Class="_wqm7AC6KEeuR2IwYJyJWjw" Author="Jaime de Castro" Priority="1.0" Risk="4.0" Complexity="5.0" Cost="5.0"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_E0ex4DjUEeu2ZfOLFtbVEA" base_NamedElement="_pDKBcC6KEeuR2IwYJyJWjw" id="DM-171" text="AESA’s authorization will be needed along with a security report." base_Class="_pDKBcC6KEeuR2IwYJyJWjw" Author="Laura Gallego"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_NKNGsDjUEeu2ZfOLFtbVEA" base_NamedElement="_aqAKkC6KEeuR2IwYJyJWjw" id="DM-172" text="The drone must have systems to detect and avoid other airspace users" base_Class="_aqAKkC6KEeuR2IwYJyJWjw" Author="Laura Gallego"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_aIe7ADjUEeu2ZfOLFtbVEA" base_NamedElement="_RL-w8C6KEeuR2IwYJyJWjw" id="DM-173" text="The drone must have a forward-facing camera." base_Class="_RL-w8C6KEeuR2IwYJyJWjw" Author="Laura Gallego"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_hnPLkDjUEeu2ZfOLFtbVEA" base_NamedElement="_3UEUkC6FEeuR2IwYJyJWjw" id="DM-174" text="The drones must fly below 120 m of vertical height." base_Class="_3UEUkC6FEeuR2IwYJyJWjw" Author="Laura Gallego"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_oByNIDjUEeu2ZfOLFtbVEA" base_NamedElement="_v_l6AC6IEeuR2IwYJyJWjw" id="DM-175" text="The drones must fly within 150 m" base_Class="_v_l6AC6IEeuR2IwYJyJWjw" Author="Laura Gallego"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_ypavoDjTEeu2ZfOLFtbVEA" base_NamedElement="_wqm7AC6KEeuR2IwYJyJWjw" id="DM-17" text="The drones must comply with AESA's regulations for Beyond-line-of-sight operation" base_Class="_wqm7AC6KEeuR2IwYJyJWjw" Author="Jaime de Castro" Priority="1.0" Risk="4.0" Complexity="5.0" Cost="1.0"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_E0ex4DjUEeu2ZfOLFtbVEA" base_NamedElement="_pDKBcC6KEeuR2IwYJyJWjw" id="DM-171" text="AESA’s authorization will be needed along with a security report." base_Class="_pDKBcC6KEeuR2IwYJyJWjw" Author="Laura Gallego" Priority="3.0" Risk="1.0" Complexity="2.0" Cost="2.0"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_NKNGsDjUEeu2ZfOLFtbVEA" base_NamedElement="_aqAKkC6KEeuR2IwYJyJWjw" id="DM-172" text="The drone must have systems to detect and avoid other airspace users" base_Class="_aqAKkC6KEeuR2IwYJyJWjw" Author="Laura Gallego" Priority="1.0" Risk="1.0" Complexity="3.0" Cost="1.0"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_aIe7ADjUEeu2ZfOLFtbVEA" base_NamedElement="_RL-w8C6KEeuR2IwYJyJWjw" id="DM-173" text="The drone must have a forward-facing camera." base_Class="_RL-w8C6KEeuR2IwYJyJWjw" Author="Laura Gallego" Priority="2.0" Risk="1.0" Complexity="1.0" Cost="3.0"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_hnPLkDjUEeu2ZfOLFtbVEA" base_NamedElement="_3UEUkC6FEeuR2IwYJyJWjw" id="DM-174" text="The drones must fly below 120 m of vertical height." base_Class="_3UEUkC6FEeuR2IwYJyJWjw" Author="Laura Gallego" Priority="1.0" Risk="1.0" Complexity="4.0" Cost="4.0"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_oByNIDjUEeu2ZfOLFtbVEA" base_NamedElement="_v_l6AC6IEeuR2IwYJyJWjw" id="DM-175" text="The drones must fly within 150 m" base_Class="_v_l6AC6IEeuR2IwYJyJWjw" Author="Laura Gallego" Priority="5.0" Risk="2.0" Complexity="4.0" Cost="4.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_zLlMEDjUEeu2ZfOLFtbVEA" base_NamedElement="_yx664C6MEeuR2IwYJyJWjw" id="DM-12" text="The system must comply with data protection regulations" base_Class="_yx664C6MEeuR2IwYJyJWjw" Author="Jaime de Castro" Priority="3.0" Risk="2.0" Complexity="2.0" Cost="2.0"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="__8LwwDjUEeu2ZfOLFtbVEA" base_NamedElement="_qM17cC6MEeuR2IwYJyJWjw" id="DM-121" text="The Drone Face will provide information about data collection and obtain the people’s consent in case personal data needs to be stored" base_Class="_qM17cC6MEeuR2IwYJyJWjw" Author="Laura Gallego"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_HSvuoDjVEeu2ZfOLFtbVEA" base_NamedElement="_el0N8C6MEeuR2IwYJyJWjw" id="DM-122" text="All the data of people in the mountain captured by the drone’s cameras must be anonymized" base_Class="_el0N8C6MEeuR2IwYJyJWjw" Author="Laura Gallego"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_U7mxADjVEeu2ZfOLFtbVEA" base_NamedElement="_KBUBYC6HEeuR2IwYJyJWjw" id="DM-131" text="The information shall be marked on the plate by any approved fire-retardant method.&#xD;&#xA;" base_Class="_KBUBYC6HEeuR2IwYJyJWjw" Author="Laura Gallego"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="__8LwwDjUEeu2ZfOLFtbVEA" base_NamedElement="_qM17cC6MEeuR2IwYJyJWjw" id="DM-121" text="The Drone Face will provide information about data collection and obtain the people’s consent in case personal data needs to be stored" base_Class="_qM17cC6MEeuR2IwYJyJWjw" Author="Laura Gallego" Priority="1.0" Risk="1.0" Complexity="1.0" Cost="1.0"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_HSvuoDjVEeu2ZfOLFtbVEA" base_NamedElement="_el0N8C6MEeuR2IwYJyJWjw" id="DM-122" text="All the data of people in the mountain captured by the drone’s cameras must be anonymized" base_Class="_el0N8C6MEeuR2IwYJyJWjw" Author="Laura Gallego" Priority="1.0" Risk="1.0" Complexity="1.0" Cost="1.0"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_U7mxADjVEeu2ZfOLFtbVEA" base_NamedElement="_KBUBYC6HEeuR2IwYJyJWjw" id="DM-131" text="The information shall be marked on the plate by any approved fire-retardant method.&#xD;&#xA;" base_Class="_KBUBYC6HEeuR2IwYJyJWjw" Author="Laura Gallego" Priority="2.0" Risk="1.0" Complexity="1.0" Cost="2.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_QoAUMDjdEeuyydLqknH_2g" base_NamedElement="_Gr-dcCnKEeu7zOJEOUkFAA" id="AC-01" text="The drones must fly in its different operational scenarios" base_Class="_Gr-dcCnKEeu7zOJEOUkFAA" Author="Óscar Ramos" Priority="4.0" Risk="4.0" Complexity="5.0" Cost="5.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_D8OIoDjeEeuyydLqknH_2g" base_NamedElement="_fHbQsCzgEeunBNSDKjsaEQ" id="AC-04" text="After the search operation ends, the drones shall land in an area prepared by the ground station operators." base_Class="_fHbQsCzgEeunBNSDKjsaEQ" Author="Óscar Ramos" Priority="1.0" Risk="2.0" Complexity="1.0" Cost="1.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="__ZRscDjeEeuyydLqknH_2g" base_NamedElement="_0uiYgCzfEeunBNSDKjsaEQ" id="AC-02" text="The navigation plan must be designed to avoid collisions" base_Class="_0uiYgCzfEeunBNSDKjsaEQ" Author="Óscar Ramos" Priority="5.0" Risk="5.0" Complexity="4.0" Cost="2.0"/>
@@ -683,8 +679,8 @@
   <reqSARUSprofile:RequirementSARUS xmi:id="_m5-RsDjuEeuzQrwgWYJmRA" base_NamedElement="_WCsWECy6EeuESP3ABfdsrQ" id="CM-03" text="The drone must attempt to reestablish communication in case of loss" base_Class="_WCsWECy6EeuESP3ABfdsrQ" Author="Blanca Ruíz de Assín" Priority="4.0" Risk="4.0" Complexity="5.0" Cost="5.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_tqrwgDjuEeuzQrwgWYJmRA" base_NamedElement="_ejhxkDMDEeuKG_RWql4dxw" id="CM-04" text="The system interface must be easy to use" base_Class="_ejhxkDMDEeuKG_RWql4dxw" Author="Blanca Ruíz de Assín" Priority="2.0" Risk="2.0" Complexity="3.0" Cost="4.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_0m7J4DjuEeuzQrwgWYJmRA" base_NamedElement="_1NBuADMDEeuKG_RWql4dxw" id="CM-05" text="Users without specific training must be able to use the interface" base_Class="_1NBuADMDEeuKG_RWql4dxw" Author="Blanca Ruíz de Assín" Priority="2.0" Risk="2.0" Complexity="3.0" Cost="3.0"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_WtUAYDjvEeuzQrwgWYJmRA" base_NamedElement="_dOWhMC6LEeuR2IwYJyJWjw" id="DM-12" text="The drones must comply with AESA's regulations to flight in CTR zones" base_Class="_dOWhMC6LEeuR2IwYJyJWjw" Author="Jaime de Castro" Priority="1.0" Risk="1.0" Complexity="4.0" Cost="5.0"/>
-  <reqSARUSprofile:RequirementSARUS xmi:id="_maUr0DjvEeuzQrwgWYJmRA" base_NamedElement="_2lzRoC6LEeuR2IwYJyJWjw" id="DM-123" text="The system operators must have AESA's autorization along a security report" base_Class="_2lzRoC6LEeuR2IwYJyJWjw" Author="Laura Gallego"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_WtUAYDjvEeuzQrwgWYJmRA" base_NamedElement="_dOWhMC6LEeuR2IwYJyJWjw" id="DM-12" text="The drones must comply with AESA's regulations to flight in CTR zones" base_Class="_dOWhMC6LEeuR2IwYJyJWjw" Author="Jaime de Castro" Priority="1.0" Risk="1.0" Complexity="3.0" Cost="5.0"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_maUr0DjvEeuzQrwgWYJmRA" base_NamedElement="_2lzRoC6LEeuR2IwYJyJWjw" id="DM-123" text="The system operators must have AESA's autorization along a security report" base_Class="_2lzRoC6LEeuR2IwYJyJWjw" Author="Laura Gallego" Priority="2.0" Risk="1.0" Complexity="1.0" Cost="2.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_mgPdYDo-Eeu-aPC57fF5vg" base_NamedElement="_JxUBMC0AEeu6idVRQenvHQ" id="FM-02" text="Drone must return home" base_Class="_JxUBMC0AEeu6idVRQenvHQ" Author="Víctor Gutiérrez" Priority="2.0" Risk="3.0" Complexity="3.0" Cost="3.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_qoDnUDo-Eeu-aPC57fF5vg" base_NamedElement="_IxqiEC0AEeu6idVRQenvHQ" id="FM-11" text="The drone must stop if it is unable to reach 70% of its nominal flight speed." base_Class="_IxqiEC0AEeu6idVRQenvHQ" Author="Víctor Gutiérrez" Priority="3.0" Risk="3.0" Complexity="3.0" Cost="4.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_vMGaQDo-Eeu-aPC57fF5vg" base_NamedElement="_Kv5JUC0AEeu6idVRQenvHQ" id="FM-04" text="Drone must land in order to avoid further damages." base_Class="_Kv5JUC0AEeu6idVRQenvHQ" Author="Víctor Gutiérrez" Priority="2.0" Risk="3.0" Complexity="3.0" Cost="3.0"/>
@@ -697,4 +693,14 @@
   <Requirements:DeriveReqt xmi:id="_V4SwwDwMEeuJotLiTc-xXw" base_DirectedRelationship="_V4KN4DwMEeuJotLiTc-xXw" base_Abstraction="_V4KN4DwMEeuJotLiTc-xXw"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_dWDVIDjSEeu2ZfOLFtbVEA" base_NamedElement="_29AqAC6GEeuR2IwYJyJWjw" id="DM-13" text="The drones must be equiped with a plate attached to the housing that states the serial number, manufacturer, pilot name and contact details" base_Class="_29AqAC6GEeuR2IwYJyJWjw" Author="Jaime de Castro" Priority="3.0" Risk="1.0" Complexity="3.0" Cost="2.0"/>
   <reqSARUSprofile:RequirementSARUS xmi:id="_AlVlsDyqEeufadr_w3Hx0w" base_NamedElement="_5Xo5kCnJEeu7zOJEOUkFAA"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_mqDucDy0Eeuh1sLhdT3A9g" base_NamedElement="_Og_7YDikEeujVsKs6DHBuw" id="BM-11" text=" The dead battery of the dron that has landed must be charged." base_Class="_Og_7YDikEeujVsKs6DHBuw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_1QV7ADy3Eeuh1sLhdT3A9g" base_NamedElement="_Og_7WTikEeujVsKs6DHBuw" id="BM-01" text=" Every point in battery management must be completed in a mission." base_Class="_Og_7WTikEeujVsKs6DHBuw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_NI3PUDy4Eeuh1sLhdT3A9g" base_NamedElement="_Og_7UzikEeujVsKs6DHBuw" id="BM-07" text=" The drone must control the battery level during flight." base_Class="_Og_7UzikEeujVsKs6DHBuw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_vBRUMDy4Eeuh1sLhdT3A9g" base_NamedElement="_Og_7VTikEeujVsKs6DHBuw" id="BM-06" text=" The drone must analyze how far and how much time it can fly until it has to return to the base." base_Class="_Og_7VTikEeujVsKs6DHBuw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_3yZyoDy4Eeuh1sLhdT3A9g" base_NamedElement="_Og_7XzikEeujVsKs6DHBuw" id="BM-08" text="The drone must have a spare battery." base_Class="_Og_7XzikEeujVsKs6DHBuw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_FZprcDy5Eeuh1sLhdT3A9g" base_NamedElement="_Og_7WDikEeujVsKs6DHBuw" id="BM-03" text="Before the taking off, battery must be charged." base_Class="_Og_7WDikEeujVsKs6DHBuw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_M8w3kDy5Eeuh1sLhdT3A9g" base_NamedElement="_Og_7VjikEeujVsKs6DHBuw" id="BM-02" text=" The system must complete the mision and return to the base without running out of battery." base_Class="_Og_7VjikEeujVsKs6DHBuw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_Ve9iIDy5Eeuh1sLhdT3A9g" base_NamedElement="_Og_7XTikEeujVsKs6DHBuw" id="BM-10" text=" The battery of the drone that has landed after the mission must be replaced with a fully charged one." base_Class="_Og_7XTikEeujVsKs6DHBuw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_llBmwDy5Eeuh1sLhdT3A9g" base_NamedElement="_Og_7VDikEeujVsKs6DHBuw" id="BM-05" text=" The drone must carry a LIPO battery.&#xD;&#xA;&#xD;&#xA;" base_Class="_Og_7VDikEeujVsKs6DHBuw"/>
+  <reqSARUSprofile:RequirementSARUS xmi:id="_0_GnwDy8Eeuh1sLhdT3A9g" base_NamedElement="_Og_7XDikEeujVsKs6DHBuw" id="BM-09" text="The status of the battery must be checked after landing." base_Class="_Og_7XDikEeujVsKs6DHBuw"/>
 </xmi:XMI>
