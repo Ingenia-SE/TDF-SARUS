@@ -12,7 +12,7 @@
 			<_id type="a">GUID 0e1de2c3-2d95-452a-a901-c28a7a24b62a</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">TakeOff</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::8:21:44</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.8.2021::16:52:10</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -22,9 +22,9 @@
 					<_hid type="a">GUID 343c5482-58ae-4d7b-954c-99f135df336b</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.8.2021::8:24:27</_modifiedTime>
+			<_modifiedTime type="a">2.8.2021::16:52:10</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">2.8.2021::8:21:44</weakCGTime>
+			<weakCGTime type="a">2.8.2021::16:52:10</weakCGTime>
 			<strongCGTime type="a">2.7.2021::14:40:54</strongCGTime>
 			<_defaultComposite type="s">GUID 1dbabf3d-ad01-413b-bc22-b1e8c4d22978</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -45,8 +45,8 @@
 			<_id type="a">GUID e96a988f-1655-4842-8b63-94525b3dd8a3</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">NO-02</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::8:21:44</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::8:21:44</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.8.2021::16:52:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::16:52:10</_modifiedTime>
 			<_lastID type="a">5</_lastID>
 			<_body type="a">The system must allow the incorporation of drones to the mission before the system operator starts the mission.</_body>
 			<reqID type="a">NO-02</reqID>
@@ -62,8 +62,21 @@
 			<_id type="a">GUID f6e22575-1930-41de-ba98-40ce40be3a68</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">NO-01</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::8:21:44</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::8:21:44</_modifiedTime>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::ModelElements</_hsubsystem>
+							<_hname type="a">refine</_hname>
+							<_hid type="a">GUID daa19553-3ef8-4893-93f5-79989a9c6916</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.8.2021::16:52:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::16:52:10</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
@@ -1232,8 +1245,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::8:22:9</_modifiedTime>
-			<_lastModifiedTime type="a">2.8.2021::8:22:9</_lastModifiedTime>
+			<_modifiedTime type="a">2.8.2021::16:52:10</_modifiedTime>
+			<_lastModifiedTime type="a">2.8.2021::16:52:10</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2316,6 +2329,7 @@
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
+					<m_str type="a">refine</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
