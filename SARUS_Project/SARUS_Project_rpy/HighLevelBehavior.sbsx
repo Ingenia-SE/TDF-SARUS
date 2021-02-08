@@ -13,8 +13,8 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">HighLevelBehavior</_name>
 			<_modifiedTimeWeak type="a">2.8.2021::17:50:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::18:27:48</_modifiedTime>
-			<weakCGTime type="a">2.8.2021::18:32:8</weakCGTime>
+			<_modifiedTime type="a">2.8.2021::18:37:48</_modifiedTime>
+			<weakCGTime type="a">2.8.2021::18:39:54</weakCGTime>
 			<strongCGTime type="a">2.8.2021::17:59:31</strongCGTime>
 			<_defaultComposite type="s">GUID 6e22a1ea-137e-45eb-83ca-371f3b4b076c</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -27,10 +27,10 @@
 			<_id type="a">GUID 6e22a1ea-137e-45eb-83ca-371f3b4b076c</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::18:32:8</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.8.2021::18:39:54</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.8.2021::17:55:2</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">2.8.2021::18:32:8</weakCGTime>
+			<weakCGTime type="a">2.8.2021::18:39:54</weakCGTime>
 			<strongCGTime type="a">2.8.2021::17:51:17</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -368,10 +368,10 @@
 			<_id type="a">GUID 27f0ed4a-95fc-48d8-800d-37123e32c084</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">searchAreaDefinition</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::18:32:8</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::18:32:8</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.8.2021::18:39:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::18:39:54</_modifiedTime>
 			<_lastID type="a">38</_lastID>
-			<weakCGTime type="a">2.8.2021::18:32:8</weakCGTime>
+			<weakCGTime type="a">2.8.2021::18:39:54</weakCGTime>
 			<strongCGTime type="a">2.8.2021::17:59:31</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -379,7 +379,7 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">11</_defNumber>
-			<_version type="a">2.8.2021::19:32:10</_version>
+			<_version type="a">2.8.2021::19:39:54</_version>
 			<_baseVersion type="a">1.1.1970::1:0:0</_baseVersion>
 			<_diagram type="s">GUID 1175e278-591e-48d4-92ab-d81e18795c5f</_diagram>
 			<_AnalysisMode type="a">1</_AnalysisMode>
@@ -494,8 +494,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.8.2021::18:17:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::18:17:19</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.8.2021::18:39:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::18:39:43</_modifiedTime>
 			<_itsTarget type="s">GUID c86232b5-4019-457a-9841-8944421366bf</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 8ba4fb51-4035-4b18-baf6-a5ba1b389efc</_itsSource>
@@ -505,8 +505,8 @@
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 19dbb9fd-14d1-4f19-a387-3a8cee91c1a4</_id>
-			<_modifiedTimeWeak type="a">2.8.2021::18:17:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::18:17:19</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.8.2021::18:39:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::18:39:43</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsAction>NULL</_itsAction>
 			<AggregatesList type="e">
@@ -515,9 +515,9 @@
 		</ILabel>
 		<IGuard type="e">
 			<_id type="a">GUID 1fb23aeb-928e-47a4-bd23-aa6c78e8e129</_id>
-			<_modifiedTimeWeak type="a">2.8.2021::18:17:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::18:17:19</_modifiedTime>
-			<_body type="a">numberOfPoints &lt; 2</_body>
+			<_modifiedTimeWeak type="a">2.8.2021::18:39:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::18:39:43</_modifiedTime>
+			<_body type="a">numberOfPoints &lt; 2 || stopOperation == false</_body>
 		</IGuard>
 		<ITransition type="e">
 			<_id type="a">GUID 4c9e1dcb-9542-40bb-94c0-204591aa46f5</_id>
@@ -568,8 +568,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.8.2021::18:21:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::18:21:43</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.8.2021::18:39:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::18:39:54</_modifiedTime>
 			<_itsTarget type="s">GUID dc921d0f-c431-456c-bb8c-55bf03c70550</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID c74b9219-fdb9-4aff-98e8-76a0eb8b630c</_itsSource>
@@ -579,8 +579,8 @@
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 76be5522-72ae-4c90-bba8-97a8b4005995</_id>
-			<_modifiedTimeWeak type="a">2.8.2021::18:21:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::18:21:43</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.8.2021::18:39:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::18:39:54</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsAction>NULL</_itsAction>
 			<AggregatesList type="e">
@@ -589,9 +589,9 @@
 		</ILabel>
 		<IGuard type="e">
 			<_id type="a">GUID 1d16425f-61ac-484d-8ab1-4e155e54bce4</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
-			<_body type="a">numberOfPoints &lt; 2</_body>
+			<_modifiedTimeWeak type="a">2.8.2021::18:39:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::18:39:54</_modifiedTime>
+			<_body type="a">numberOfPoints &lt; 2 || stopOperation == false</_body>
 		</IGuard>
 		<ITransition type="e">
 			<_id type="a">GUID d20c94cb-ec69-4183-85db-36fc039a7004</_id>
@@ -609,8 +609,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.8.2021::18:22:51</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::18:22:51</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.8.2021::18:39:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::18:39:28</_modifiedTime>
 			<_itsTarget type="s">GUID dceeb377-9cbe-48a6-b862-e8c32ad782c6</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID c74b9219-fdb9-4aff-98e8-76a0eb8b630c</_itsSource>
@@ -620,8 +620,8 @@
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 7618f932-b9b6-4240-9ca6-d49916a3da69</_id>
-			<_modifiedTimeWeak type="a">2.8.2021::18:22:51</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::18:22:51</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.8.2021::18:39:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::18:39:28</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsAction>NULL</_itsAction>
 			<AggregatesList type="e">
@@ -630,9 +630,9 @@
 		</ILabel>
 		<IGuard type="e">
 			<_id type="a">GUID f139d8d3-905c-4d65-af06-fff4bc8437b8</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
-			<_body type="a">numberOfPoints &gt; 2 &amp;&amp; stopOperation</_body>
+			<_modifiedTimeWeak type="a">2.8.2021::18:39:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::18:39:28</_modifiedTime>
+			<_body type="a">numberOfPoints &gt; 2 &amp;&amp; stopOperation == true</_body>
 		</IGuard>
 		<IDefaultDrvdTrans type="e">
 			<_id type="a">GUID 0fc57c9c-466b-4088-835a-1c5fa68e9973</_id>
@@ -672,8 +672,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.8.2021::18:27:20</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::18:27:20</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.8.2021::18:38:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::18:38:22</_modifiedTime>
 			<_itsTarget type="s">GUID 5d5660bb-bb41-47cb-be3a-ac1ee6e884f9</_itsTarget>
 			<_staticReaction type="a">0</_staticReaction>
 			<_itsSource type="s">GUID 8ba4fb51-4035-4b18-baf6-a5ba1b389efc</_itsSource>
@@ -683,8 +683,8 @@
 		</ITransition>
 		<ILabel type="e">
 			<_id type="a">GUID 95b3cdd7-3f41-4ba9-8717-9d66b886017e</_id>
-			<_modifiedTimeWeak type="a">2.8.2021::18:27:20</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::18:27:20</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.8.2021::18:38:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::18:38:22</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsAction>NULL</_itsAction>
 			<AggregatesList type="e">
@@ -693,9 +693,9 @@
 		</ILabel>
 		<IGuard type="e">
 			<_id type="a">GUID 96a1d1e4-bcce-439b-b982-683a6ceef01d</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
-			<_body type="a">numberOfPoints &gt; 2 &amp;&amp; stopOperation</_body>
+			<_modifiedTimeWeak type="a">2.8.2021::18:38:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::18:38:22</_modifiedTime>
+			<_body type="a">numberOfPoints &gt; 2 &amp;&amp; stopOperation == true</_body>
 		</IGuard>
 		<ITransition type="e">
 			<_id type="a">GUID 66bd69b5-cfb0-4cdc-accc-7079f3cbd4b4</_id>
@@ -1288,7 +1288,7 @@
 			<_name type="a">activitydiagram_0</_name>
 			<_modifiedTimeWeak type="a">2.8.2021::18:28:42</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.8.2021::18:32:8</_modifiedTime>
-			<_lastModifiedTime type="a">2.8.2021::18:34:25</_lastModifiedTime>
+			<_lastModifiedTime type="a">2.8.2021::18:39:54</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1844,7 +1844,7 @@
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">[numberOfPoints &lt; 2]</m_str>
+					<m_str type="a">[numberOfPoints &lt; 2 || stopOperation == false]</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2097,7 +2097,7 @@
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">[numberOfPoints &lt; 2]</m_str>
+					<m_str type="a">[numberOfPoints &lt; 2 || stopOperation == false]</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2250,7 +2250,7 @@
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">[numberOfPoints &gt; 2 &amp;&amp; stopOperation]</m_str>
+					<m_str type="a">[numberOfPoints &gt; 2 &amp;&amp; stopOperation == true]</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2464,7 +2464,7 @@
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
-					<m_str type="a">[numberOfPoints &gt; 2 &amp;&amp; stopOperation]</m_str>
+					<m_str type="a">[numberOfPoints &gt; 2 &amp;&amp; stopOperation == true]</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
