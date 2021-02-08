@@ -12,14 +12,14 @@
 			<_id type="a">GUID 0de0958d-a394-402f-bb6f-193518a836ab</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Communication</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::16:57:3</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.8.2021::17:26:17</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Package that includes and stablishes relationships between communication requirements</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">2.8.2021::16:57:3</_modifiedTime>
+			<_modifiedTime type="a">2.8.2021::17:26:17</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">2.8.2021::16:57:3</weakCGTime>
+			<weakCGTime type="a">2.8.2021::17:26:17</weakCGTime>
 			<strongCGTime type="a">2.6.2021::21:26:27</strongCGTime>
 			<_defaultComposite type="s">GUID fcbb0421-177f-4c08-bf40-d1faba90d858</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -1289,14 +1289,120 @@
 			<_id type="a">GUID f2bd6428-e02e-4bd4-b58c-e1d199dfc3f4</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">CM-02</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::16:57:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::16:57:3</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.8.2021::17:26:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::17:26:17</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20\par%0D
+\viewkind4\uc1\pard\fs20 The drone has to able to communicate with the command post\par%0D
 }%0D
 </_body>
 			<reqID type="a">CM-02</reqID>
+			<AggregatesList type="e">
+				<value>GUID bec5f1a1-f1d6-4e0a-a6ae-b436b50566d1</value>
+				<value>GUID 2e11e572-17aa-40d3-b792-6f5d4b07efeb</value>
+				<value>GUID ad8acaa4-8c69-4ccd-a704-ac577cc0977b</value>
+				<value>GUID d01fd726-bfe8-43df-9cc1-e679ce251a43</value>
+			</AggregatesList>
 		</IRequirement>
+		<ITag type="e">
+			<_id type="a">GUID bec5f1a1-f1d6-4e0a-a6ae-b436b50566d1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">2.8.2021::17:26:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::17:26:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 6af3d0be-7a8e-4065-a135-8003a689947b</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 6af3d0be-7a8e-4065-a135-8003a689947b</_id>
+			<_modifiedTimeWeak type="a">2.8.2021::17:26:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::17:26:0</_modifiedTime>
+			<_value type="a">3</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 2e11e572-17aa-40d3-b792-6f5d4b07efeb</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">2.8.2021::17:26:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::17:26:6</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 728c5b68-0422-4b18-9824-88e13d3af226</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 728c5b68-0422-4b18-9824-88e13d3af226</_id>
+			<_modifiedTimeWeak type="a">2.8.2021::17:26:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::17:26:6</_modifiedTime>
+			<_value type="a">2</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID ad8acaa4-8c69-4ccd-a704-ac577cc0977b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Complexity</_name>
+			<_modifiedTimeWeak type="a">2.8.2021::17:26:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::17:26:11</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID e1271f3a-5645-4cc0-bc6b-77ade754a4a1</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID e1271f3a-5645-4cc0-bc6b-77ade754a4a1</_id>
+			<_modifiedTimeWeak type="a">2.8.2021::17:26:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::17:26:11</_modifiedTime>
+			<_value type="a">4</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID d01fd726-bfe8-43df-9cc1-e679ce251a43</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Cost</_name>
+			<_modifiedTimeWeak type="a">2.8.2021::17:26:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::17:26:17</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 45268dcb-d545-469b-a4e3-d39b62be41d7</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 45268dcb-d545-469b-a4e3-d39b62be41d7</_id>
+			<_modifiedTimeWeak type="a">2.8.2021::17:26:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::17:26:17</_modifiedTime>
+			<_value type="a">5</_value>
+		</ILiteralSpecification>
 		<IDiagram type="e">
 			<_id type="a">GUID c603c3ea-488f-4713-9f94-a2df228dc643</_id>
 			<_myState type="a">8192</_myState>
@@ -1526,8 +1632,8 @@
 				<_text type="a">Communication requirements diagram</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">2.8.2021::16:57:15</_modifiedTime>
-			<_lastModifiedTime type="a">2.8.2021::16:57:15</_lastModifiedTime>
+			<_modifiedTime type="a">2.8.2021::17:25:51</_modifiedTime>
+			<_lastModifiedTime type="a">2.8.2021::17:25:51</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
