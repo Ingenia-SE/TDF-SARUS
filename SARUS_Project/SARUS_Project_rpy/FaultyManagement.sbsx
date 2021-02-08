@@ -12,10 +12,10 @@
 			<_id type="a">GUID ed4b4cb0-d93f-40e4-9f9b-a1d08bf7795b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">FaultyManagement</_name>
-			<_modifiedTimeWeak type="a">2.7.2021::12:18:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::12:22:1</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">2.7.2021::12:18:50</weakCGTime>
+			<_modifiedTimeWeak type="a">2.8.2021::8:40:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::8:40:26</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">2.8.2021::8:40:26</weakCGTime>
 			<strongCGTime type="a">2.6.2021::21:26:34</strongCGTime>
 			<_defaultComposite type="s">GUID fd7dce31-9295-434c-af4c-c40606d02487</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -24,10 +24,7 @@
 				<value>GUID 9d82ab97-4f4f-4b6e-81c3-936379d2208c</value>
 				<value>GUID 179b47da-a2d4-453c-9c76-99b7d2d09da8</value>
 				<value>GUID 88266ca7-1999-4838-9c6e-9b0ed34cc93e</value>
-				<value>GUID 17923260-4535-4f14-925a-6a91b26274f9</value>
-				<value>GUID a9004eda-41d1-48b7-a4b9-18c933a3eea2</value>
-				<value>GUID 52463537-a11f-425a-9235-af24a7ddefd9</value>
-				<value>GUID dd782138-63a9-49fc-ba56-ff66b3550f8d</value>
+				<value>GUID 104d001c-aabe-4ff9-9c45-50a13ef08e52</value>
 				<value>GUID 38512ab6-e383-4b42-972c-c3ca6e9a485f</value>
 				<value>GUID fd7dce31-9295-434c-af4c-c40606d02487</value>
 			</AggregatesList>
@@ -152,10 +149,6 @@
 			<_id type="a">GUID 179b47da-a2d4-453c-9c76-99b7d2d09da8</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">FM-03</_name>
-			<OwnedDependencies type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</OwnedDependencies>
 			<_modifiedTimeWeak type="a">2.7.2021::12:18:50</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.7.2021::12:18:50</_modifiedTime>
 			<_lastID type="a">6</_lastID>
@@ -385,11 +378,32 @@
 			<_value type="a">3</_value>
 		</ILiteralSpecification>
 		<IRequirement type="e">
+			<_id type="a">GUID 104d001c-aabe-4ff9-9c45-50a13ef08e52</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">FM-01</_name>
+			<_modifiedTimeWeak type="a">2.8.2021::8:40:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::8:40:26</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The drone faulty status must be OK in order to start or keep going the nomal operation of the mission.\par%0D
+}%0D
+</_body>
+			<AggregatesList type="e">
+				<value>GUID 17923260-4535-4f14-925a-6a91b26274f9</value>
+				<value>GUID a9004eda-41d1-48b7-a4b9-18c933a3eea2</value>
+				<value>GUID 52463537-a11f-425a-9235-af24a7ddefd9</value>
+				<value>GUID dd782138-63a9-49fc-ba56-ff66b3550f8d</value>
+				<value>GUID 597db37a-105c-47f6-be63-ff320fd64576</value>
+				<value>GUID fa58bdf4-3211-4613-b96e-d90cc5c3d792</value>
+				<value>GUID ad16436c-62b2-4712-adf1-23ee836e50db</value>
+				<value>GUID ab016316-5c7a-47f6-a196-be61dfb46cd8</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
 			<_id type="a">GUID 17923260-4535-4f14-925a-6a91b26274f9</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">FM-11</_name>
-			<_modifiedTimeWeak type="a">2.7.2021::12:4:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::12:4:31</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.8.2021::8:36:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::8:36:8</_modifiedTime>
 			<_lastID type="a">4</_lastID>
 			<_body type="a">The drone must stop if it is unable to reach 70%25 of its nominal flight speed.</_body>
 			<reqID type="a">FM-11</reqID>
@@ -504,8 +518,8 @@
 			<_id type="a">GUID a9004eda-41d1-48b7-a4b9-18c933a3eea2</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">FM-12</_name>
-			<_modifiedTimeWeak type="a">2.7.2021::12:10:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::12:10:43</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.8.2021::8:36:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::8:36:8</_modifiedTime>
 			<_lastID type="a">4</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The drone\'b4s system must stop working in case of a collission is detected\par%0D
@@ -623,8 +637,8 @@
 			<_id type="a">GUID 52463537-a11f-425a-9235-af24a7ddefd9</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">FM-13</_name>
-			<_modifiedTimeWeak type="a">2.7.2021::12:4:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::12:4:31</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.8.2021::8:36:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::8:36:8</_modifiedTime>
 			<_lastID type="a">4</_lastID>
 			<_body type="a">The drone must stop working in order to reduce further risks</_body>
 			<reqID type="a">FM-13</reqID>
@@ -739,8 +753,8 @@
 			<_id type="a">GUID dd782138-63a9-49fc-ba56-ff66b3550f8d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">FM-14</_name>
-			<_modifiedTimeWeak type="a">2.7.2021::12:4:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::12:4:31</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.8.2021::8:36:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::8:36:8</_modifiedTime>
 			<_lastID type="a">4</_lastID>
 			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\ltrpar\fs20 The stabilizer system of the drone must ensure pitch and roll angles lower than 5\'c2\'ba.\par%0D
@@ -852,6 +866,106 @@
 			<_id type="a">GUID ffc75fa5-3bfa-4414-b1a6-0f2153a5397e</_id>
 			<_modifiedTimeWeak type="a">2.7.2021::0:53:23</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.7.2021::0:53:23</_modifiedTime>
+			<_value type="a">4</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 597db37a-105c-47f6-be63-ff320fd64576</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Priority</_name>
+			<_modifiedTimeWeak type="a">2.8.2021::8:40:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::8:40:7</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID d0369ccc-f728-4ff3-8e40-99260613e226</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID d0369ccc-f728-4ff3-8e40-99260613e226</_id>
+			<_modifiedTimeWeak type="a">2.8.2021::8:40:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::8:40:7</_modifiedTime>
+			<_value type="a">3</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID fa58bdf4-3211-4613-b96e-d90cc5c3d792</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Risk</_name>
+			<_modifiedTimeWeak type="a">2.8.2021::8:40:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::8:40:13</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 5e4da449-0991-42ac-9944-db869a030195</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 5e4da449-0991-42ac-9944-db869a030195</_id>
+			<_modifiedTimeWeak type="a">2.8.2021::8:40:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::8:40:13</_modifiedTime>
+			<_value type="a">4</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID ad16436c-62b2-4712-adf1-23ee836e50db</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Complexity</_name>
+			<_modifiedTimeWeak type="a">2.8.2021::8:40:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::8:40:20</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 44777239-0f45-42e3-973d-e9598f25ed4f</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 44777239-0f45-42e3-973d-e9598f25ed4f</_id>
+			<_modifiedTimeWeak type="a">2.8.2021::8:40:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::8:40:20</_modifiedTime>
+			<_value type="a">4</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID ab016316-5c7a-47f6-a196-be61dfb46cd8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Cost</_name>
+			<_modifiedTimeWeak type="a">2.8.2021::8:40:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::8:40:26</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 059d601d-6954-411c-b7b2-dea66a63667c</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 059d601d-6954-411c-b7b2-dea66a63667c</_id>
+			<_modifiedTimeWeak type="a">2.8.2021::8:40:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.8.2021::8:40:26</_modifiedTime>
 			<_value type="a">4</_value>
 		</ILiteralSpecification>
 		<IDiagram type="e">
@@ -1047,8 +1161,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::12:20:1</_modifiedTime>
-			<_lastModifiedTime type="a">2.7.2021::12:20:1</_lastModifiedTime>
+			<_modifiedTime type="a">2.8.2021::8:36:8</_modifiedTime>
+			<_lastModifiedTime type="a">2.8.2021::8:36:8</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
