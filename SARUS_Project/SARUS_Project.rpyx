@@ -24,8 +24,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.9.2021::8:43:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.9.2021::8:43:52</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.9.2021::17:32:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.9.2021::17:49:46</_modifiedTime>
 			<_lastID type="a">3</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
@@ -651,10 +651,10 @@ Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.9.2021::8:43:1</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.9.2021::17:32:3</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.8.2021::17:20:7</_modifiedTime>
 			<_lastID type="a">31</_lastID>
-			<weakCGTime type="a">2.9.2021::8:43:1</weakCGTime>
+			<weakCGTime type="a">2.9.2021::17:32:3</weakCGTime>
 			<strongCGTime type="a">2.9.2021::8:43:1</strongCGTime>
 			<_defaultComposite type="s">GUID 20e82310-789b-4ab3-9364-7dd43ae10359</_defaultComposite>
 			<_eventsBaseID type="a">29401</_eventsBaseID>
@@ -2635,7 +2635,7 @@ Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
 			<_modifiedTimeWeak type="a">2.8.2021::20:2:38</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.8.2021::17:21:38</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">2.8.2021::20:2:38</weakCGTime>
+			<weakCGTime type="a">2.9.2021::17:32:3</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -2661,10 +2661,10 @@ Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
 			<_id type="a">GUID 67c34d7c-a5eb-42ec-b428-07bec95acf19</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">UseCaseSpecification</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::20:2:38</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.9.2021::17:32:3</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.8.2021::19:42:18</_modifiedTime>
 			<_lastID type="a">22</_lastID>
-			<weakCGTime type="a">2.8.2021::20:2:38</weakCGTime>
+			<weakCGTime type="a">2.9.2021::17:32:3</weakCGTime>
 			<strongCGTime type="a">2.8.2021::17:52:18</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3145,8 +3145,8 @@ Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.8.2021::17:53:35</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::17:53:35</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.9.2021::17:32:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.9.2021::17:32:3</_modifiedTime>
 			<_parent type="s">GUID b0de50f1-0b58-463a-ac02-c2580a7e65a6</_parent>
 			<_stateType type="a">ReferenceActivity</_stateType>
 			<_defaultTrans type="s"></_defaultTrans>
@@ -3158,6 +3158,15 @@ Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
 				<_body type="a">Execute mission</_body>
 			</IAction>
 			</_entryAction>
+			<_referencedActivity type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IActivityGraph</_hm2Class>
+					<_hsubsystem type="a">ActivityModeling::HighLevelBehavior</_hsubsystem>
+					<_hclass type="a">TopLevel</_hclass>
+					<_hname type="a">executeMission</_hname>
+					<_hid type="a">GUID 24be8168-4127-443f-aedd-cc21aa2997f0</_hid>
+				</IHandle>
+			</_referencedActivity>
 			<AggregatesList type="e">
 				<value>GUID 005a472a-a7a8-401e-bf18-524af7384d46</value>
 			</AggregatesList>
