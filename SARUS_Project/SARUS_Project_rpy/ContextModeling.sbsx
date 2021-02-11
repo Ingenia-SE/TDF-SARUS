@@ -12,17 +12,13 @@
 			<_id type="a">GUID 892d1db3-d120-473e-8d2c-67a8b17ebd4c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ContextModeling</_name>
-			<_modifiedTimeWeak type="a">2.9.2021::9:45:59</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.9.2021::9:45:18</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.11.2021::15:48:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.11.2021::15:50:1</_modifiedTime>
 			<_lastID type="a">42</_lastID>
-			<weakCGTime type="a">2.9.2021::9:45:59</weakCGTime>
+			<weakCGTime type="a">2.11.2021::15:48:45</weakCGTime>
 			<strongCGTime type="a">2.9.2021::8:43:1</strongCGTime>
 			<_defaultComposite type="s">GUID 64eb1c01-40ea-4811-b7f8-828bf2018136</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<InstanceSpecifications type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</InstanceSpecifications>
 			<_configurationRelatedTime type="a">2.9.2021::9:41:4</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 061a97f7-3cfc-409b-81a5-2798efba85e8</value>
@@ -2750,10 +2746,6 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
-							<_hfilename type="a">.\ContextModeling.sbsx</_hfilename>
-							<_hsubsystem type="a">BlockModeling::ContextModeling</_hsubsystem>
-							<_hclass type="a">GPS_satellites</_hclass>
-							<_hname type="a">input</_hname>
 							<_hid type="a">GUID 4d2055d1-6453-47a2-a171-dcec78d66272</_hid>
 						</IHandle>
 					
@@ -2879,10 +2871,6 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
-							<_hfilename type="a">.\ContextModeling.sbsx</_hfilename>
-							<_hsubsystem type="a">BlockModeling::ContextModeling</_hsubsystem>
-							<_hclass type="a">Environment_Database</_hclass>
-							<_hname type="a">input</_hname>
 							<_hid type="a">GUID 7aaf77d4-7f54-4aa3-b360-9918eef4578b</_hid>
 						</IHandle>
 					
@@ -3160,10 +3148,6 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
-							<_hfilename type="a">.\ContextModeling.sbsx</_hfilename>
-							<_hsubsystem type="a">BlockModeling::ContextModeling</_hsubsystem>
-							<_hclass type="a">Climatology</_hclass>
-							<_hname type="a">input</_hname>
 							<_hid type="a">GUID f4121ae7-72e2-4494-9513-68685f9af5ce</_hid>
 						</IHandle>
 					
@@ -4295,10 +4279,6 @@
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<Associations type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
 		</IClass>
 		<IClass type="e">
@@ -4411,10 +4391,6 @@
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<Associations type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
 				<value>GUID cae48eec-f16c-4f0d-a708-227dcdc5523a</value>
@@ -4494,16 +4470,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.9.2021::9:24:2</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.11.2021::15:48:45</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 061a97f7-3cfc-409b-81a5-2798efba85e8</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.9.2021::9:24:2</_modifiedTime>
+			<_modifiedTime type="a">2.11.2021::15:48:45</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">2.9.2021::9:24:2</weakCGTime>
+			<weakCGTime type="a">2.11.2021::15:48:45</weakCGTime>
 			<strongCGTime type="a">2.9.2021::9:24:2</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -4514,6 +4490,7 @@
 				<value>GUID f2e0e520-8fc4-4083-b588-6e678c6ceda2</value>
 				<value>GUID 51ef5061-51a2-46bd-ae78-ce4c7708b044</value>
 				<value>GUID 7aaf77d4-7f54-4aa3-b360-9918eef4578b</value>
+				<value>GUID 45ce653c-3beb-4e09-98d7-67cfebaa8058</value>
 			</AggregatesList>
 		</IClass>
 		<IDependency type="e">
@@ -4586,6 +4563,35 @@
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
 		</IAttribute>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 45ce653c-3beb-4e09-98d7-67cfebaa8058</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsMission_Planner</_name>
+			<_modifiedTimeWeak type="a">2.11.2021::15:48:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.11.2021::15:48:45</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\MissionPlanning_Modeling.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::MissionPlanning_Modeling</_hsubsystem>
+					<_hname type="a">Mission_Planner</_hname>
+					<_hid type="a">GUID 5d9d1c5f-0f63-4c40-bb2f-2e7a0f53ea3e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MissionPlanning_Modeling.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::MissionPlanning_Modeling</_hsubsystem>
+					<_hclass type="a">Mission_Planner</_hclass>
+					<_hname type="a">itsEnvironment_database</_hname>
+					<_hid type="a">GUID ca16d0be-c867-4e42-b72c-5fbc5d695bac</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
 		<IClass type="e">
 			<_id type="a">GUID ee1844d9-e81b-44d6-bb16-f87e224be574</_id>
 			<_myState type="a">8192</_myState>
@@ -4618,10 +4624,6 @@
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<Associations type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
 				<value>GUID 76eae415-4e32-4f61-a236-1a0b127243dd</value>
@@ -5165,10 +5167,6 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">environmentMap</_name>
 			<_modifiedTimeWeak type="a">2.9.2021::9:21:22</_modifiedTimeWeak>
-			<Tags type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Tags>
 			<_modifiedTime type="a">2.9.2021::9:21:22</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
