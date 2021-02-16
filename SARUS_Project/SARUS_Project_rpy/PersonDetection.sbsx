@@ -12,13 +12,17 @@
 			<_id type="a">GUID 1d012150-022e-4675-b138-db3e50b28627</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PersonDetection</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::16:45:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::16:51:23</_modifiedTime>
-			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">2.8.2021::16:45:22</weakCGTime>
-			<strongCGTime type="a">2.6.2021::21:26:13</strongCGTime>
+			<_modifiedTimeWeak type="a">2.16.2021::9:15:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.16.2021::9:18:49</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<weakCGTime type="a">2.16.2021::9:15:13</weakCGTime>
+			<strongCGTime type="a">2.16.2021::9:11:43</strongCGTime>
 			<_defaultComposite type="s">GUID c46eb9f0-2ffc-4d15-934c-516cfcc1309e</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<UseCases type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</UseCases>
 			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 225459ba-617b-49d3-bd70-e87421a67215</value>
@@ -30,7 +34,7 @@
 			<_id type="a">GUID 225459ba-617b-49d3-bd70-e87421a67215</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PD-01</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::16:45:22</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.16.2021::9:11:43</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.8.2021::16:45:22</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The system must be capable of detecting as well as classifying  possible persons in the rescue area.\par%0D
@@ -1243,6 +1247,56 @@
 										</Properties>
 									</IPropertyMetaclass>
 									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">UseCase</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">DefaultSize</_Name>
+													<_Value type="a">0,0,140,65</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">255,255,255</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.NameCompartment@Name</_Name>
+													<_Value type="a">700</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">109,163,217</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
 								</IRPYRawContainer>
 							</Metaclasses>
 						</IPropertySubject>
@@ -1288,8 +1342,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::16:46:13</_modifiedTime>
-			<_lastModifiedTime type="a">2.8.2021::16:46:13</_lastModifiedTime>
+			<_modifiedTime type="a">2.16.2021::9:15:13</_modifiedTime>
+			<_lastModifiedTime type="a">2.16.2021::9:15:13</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2729,10 +2783,10 @@
 			<_myState type="a">40960</_myState>
 			<_rmmServerID type="a">-1</_rmmServerID>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.16.2021::9:11:43</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<weakCGTime type="a">2.16.2021::9:11:43</weakCGTime>
+			<strongCGTime type="a">2.16.2021::9:11:43</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
