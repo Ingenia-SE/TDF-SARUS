@@ -12,10 +12,10 @@
 			<_id type="a">GUID 30587312-7769-42ff-955a-b2edc5451cde</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">UI_Modeling</_name>
-			<_modifiedTimeWeak type="a">2.16.2021::20:14:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.16.2021::20:53:55</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.17.2021::12:13:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.17.2021::12:20:29</_modifiedTime>
 			<_lastID type="a">19</_lastID>
-			<weakCGTime type="a">2.16.2021::20:14:0</weakCGTime>
+			<weakCGTime type="a">2.17.2021::12:13:7</weakCGTime>
 			<strongCGTime type="a">2.9.2021::17:49:21</strongCGTime>
 			<_defaultComposite type="s">GUID b8ee2d3f-37ad-4633-981c-404f415aaaa0</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -326,8 +326,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.16.2021::20:14:0</_modifiedTime>
-			<_lastModifiedTime type="a">2.16.2021::20:14:0</_lastModifiedTime>
+			<_modifiedTime type="a">2.17.2021::12:23:52</_modifiedTime>
+			<_lastModifiedTime type="a">2.17.2021::12:23:52</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1480,8 +1480,16 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IAttribute</_hm2Class>
+							<_hid type="a">GUID 031d8f26-7592-4968-8ef1-b6d920cf9176</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</Items>
+			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGICompartment type="e">
 			<_id type="a">GUID 2c630aa6-0673-472d-8fde-e645d7e71693</_id>
@@ -1491,8 +1499,16 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+							<_hid type="a">GUID a7735940-2e63-4163-a20d-5d064b090332</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</Items>
+			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIClass type="e">
 			<_id type="a">GUID 47014b54-0e4c-4a07-a1e8-11af164ccdfd</_id>
@@ -2723,10 +2739,12 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -8 -11  156 -11  156 5  -8 5  </m_position>
 					<m_nIdent type="a">3</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nVerticalSpacing type="a">-7</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 1331 975 </m_transform>
+					<m_nHorizontalSpacing type="a">-6</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-56</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_targetRole>
@@ -2903,10 +2921,12 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -8 -11  203 -11  203 5  -8 5  </m_position>
 					<m_nIdent type="a">3</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nVerticalSpacing type="a">-7</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 1621 980 </m_transform>
+					<m_nHorizontalSpacing type="a">-13</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-50</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_targetRole>
@@ -3082,10 +3102,12 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -8 -11  181 -11  181 5  -8 5  </m_position>
 					<m_nIdent type="a">3</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nVerticalSpacing type="a">-7</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 333 959 </m_transform>
+					<m_nHorizontalSpacing type="a">-14</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-95</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_targetRole>
@@ -3261,10 +3283,12 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -8 -11  112 -11  112 5  -8 5  </m_position>
 					<m_nIdent type="a">3</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nVerticalSpacing type="a">-7</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 1053 1482 </m_transform>
+					<m_nHorizontalSpacing type="a">-10</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-48</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_targetRole>
@@ -3439,10 +3463,12 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -8 -11  78 -11  78 5  -8 5  </m_position>
 					<m_nIdent type="a">3</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nVerticalSpacing type="a">-7</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 1408 1486 </m_transform>
+					<m_nHorizontalSpacing type="a">-10</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-43</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_targetRole>
@@ -3622,9 +3648,9 @@
 					<m_position type="a">4 -8 -11  125 -11  125 5  -8 5  </m_position>
 					<m_nIdent type="a">3</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 1987 1517 </m_transform>
-					<m_nHorizontalSpacing type="a">151</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">-59</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 1700 1486 </m_transform>
+					<m_nHorizontalSpacing type="a">-18</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-54</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_targetRole>
@@ -3800,10 +3826,12 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -8 -11  159 -11  159 5  -8 5  </m_position>
 					<m_nIdent type="a">3</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nVerticalSpacing type="a">-7</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 348 1481 </m_transform>
+					<m_nHorizontalSpacing type="a">-18</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-58</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_targetRole>
@@ -3980,10 +4008,12 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -8 -11  105 -11  105 5  -8 5  </m_position>
 					<m_nIdent type="a">3</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nVerticalSpacing type="a">-7</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 728 1497 </m_transform>
+					<m_nHorizontalSpacing type="a">-6</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-42</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_targetRole>
@@ -4160,10 +4190,12 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -8 -11  127 -11  127 5  -8 5  </m_position>
 					<m_nIdent type="a">3</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nVerticalSpacing type="a">-7</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 79 1480 </m_transform>
+					<m_nHorizontalSpacing type="a">-6</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-50</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_targetRole>
@@ -5722,16 +5754,20 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.16.2021::19:4:3</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.17.2021::12:27:16</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 2a3cbd2e-d73c-479b-b492-7dd7678fdb88</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.16.2021::19:4:3</_modifiedTime>
-			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">2.16.2021::19:4:3</weakCGTime>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Takes care of validating the status of the swarm and reflecting the operational status of each drone</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.17.2021::12:27:16</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">2.17.2021::12:27:16</weakCGTime>
 			<strongCGTime type="a">2.9.2021::18:48:57</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -5741,6 +5777,8 @@
 			<AggregatesList type="e">
 				<value>GUID cc15ac0a-fa07-4bc9-b1d5-3729be9d2ae6</value>
 				<value>GUID 017f5f24-9f19-4207-832a-5d27e83622b7</value>
+				<value>GUID a7735940-2e63-4163-a20d-5d064b090332</value>
+				<value>GUID 031d8f26-7592-4968-8ef1-b6d920cf9176</value>
 				<value>GUID 6700d877-7bb4-4a4a-b197-509521ba30e7</value>
 				<value>GUID b66daa8c-7bcd-43e7-82b6-cf55113fc52a</value>
 			</AggregatesList>
@@ -5785,6 +5823,65 @@
 			</end2_>
 			<direction_ type="a">toEnd2</direction_>
 		</IInformationFlow>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID a7735940-2e63-4163-a20d-5d064b090332</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Check_Swarm</_name>
+			<_modifiedTimeWeak type="a">2.17.2021::12:24:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.17.2021::12:24:7</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IAttribute type="e">
+			<_id type="a">GUID 031d8f26-7592-4968-8ef1-b6d920cf9176</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Swarm_Parametres</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.17.2021::12:23:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.17.2021::12:23:18</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 6700d877-7bb4-4a4a-b197-509521ba30e7</_id>
 			<_myState type="a">10240</_myState>
