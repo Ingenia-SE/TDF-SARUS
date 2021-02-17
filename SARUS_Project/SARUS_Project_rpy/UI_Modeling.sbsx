@@ -12,10 +12,10 @@
 			<_id type="a">GUID 30587312-7769-42ff-955a-b2edc5451cde</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">UI_Modeling</_name>
-			<_modifiedTimeWeak type="a">2.17.2021::12:57:36</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.17.2021::13:3:24</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.17.2021::12:51:47</_modifiedTime>
 			<_lastID type="a">19</_lastID>
-			<weakCGTime type="a">2.17.2021::12:57:36</weakCGTime>
+			<weakCGTime type="a">2.17.2021::13:3:24</weakCGTime>
 			<strongCGTime type="a">2.9.2021::17:49:21</strongCGTime>
 			<_defaultComposite type="s">GUID b8ee2d3f-37ad-4633-981c-404f415aaaa0</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -326,8 +326,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.17.2021::12:58:21</_modifiedTime>
-			<_lastModifiedTime type="a">2.17.2021::12:58:21</_lastModifiedTime>
+			<_modifiedTime type="a">2.17.2021::13:4:43</_modifiedTime>
+			<_lastModifiedTime type="a">2.17.2021::13:4:43</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1092,8 +1092,16 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IAttribute</_hm2Class>
+							<_hid type="a">GUID 74820d2f-b2ec-45dd-84b7-e162bdc6ecf3</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</Items>
+			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGICompartment type="e">
 			<_id type="a">GUID ce2d95a1-119f-403f-97f8-18e9e99e16c5</_id>
@@ -1103,8 +1111,16 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+							<_hid type="a">GUID aebef473-a7b5-4812-bbce-9611c8e6aa98</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</Items>
+			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIClass type="e">
 			<_id type="a">GUID 44f61ef1-434b-4ea0-91b5-8f2dc4b66947</_id>
@@ -5742,16 +5758,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.9.2021::19:23:19</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.17.2021::13:4:53</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 2a3cbd2e-d73c-479b-b492-7dd7678fdb88</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.9.2021::19:23:19</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">2.9.2021::19:23:19</weakCGTime>
+			<_modifiedTime type="a">2.17.2021::13:4:53</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<weakCGTime type="a">2.17.2021::13:4:53</weakCGTime>
 			<strongCGTime type="a">2.9.2021::18:36:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -5760,6 +5776,8 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
 				<value>GUID cecda9aa-fd88-4581-8b13-a306394c63bd</value>
+				<value>GUID aebef473-a7b5-4812-bbce-9611c8e6aa98</value>
+				<value>GUID 74820d2f-b2ec-45dd-84b7-e162bdc6ecf3</value>
 			</AggregatesList>
 		</IClass>
 		<IInformationFlow type="e">
@@ -5782,6 +5800,65 @@
 			</end2_>
 			<direction_ type="a">toEnd2</direction_>
 		</IInformationFlow>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID aebef473-a7b5-4812-bbce-9611c8e6aa98</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Get_Heat_Map</_name>
+			<_modifiedTimeWeak type="a">2.17.2021::13:4:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.17.2021::13:4:53</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IAttribute type="e">
+			<_id type="a">GUID 74820d2f-b2ec-45dd-84b7-e162bdc6ecf3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Heat_Map_Frames</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.17.2021::13:4:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.17.2021::13:4:38</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
 		<IClass type="e">
 			<_id type="a">GUID 658a496f-89f9-4923-96f2-099cf782d35d</_id>
 			<_myState type="a">8192</_myState>
