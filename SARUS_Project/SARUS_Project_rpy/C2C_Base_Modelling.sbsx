@@ -12,10 +12,10 @@
 			<_id type="a">GUID 30587312-7769-42ff-955a-b2edc5451cde</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">C2C_Base_Modelling</_name>
-			<_modifiedTimeWeak type="a">2.18.2021::15:52:45</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.18.2021::15:52:45</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.18.2021::16:17:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.18.2021::16:17:42</_modifiedTime>
 			<_lastID type="a">23</_lastID>
-			<weakCGTime type="a">2.18.2021::15:52:45</weakCGTime>
+			<weakCGTime type="a">2.18.2021::16:18:20</weakCGTime>
 			<strongCGTime type="a">2.18.2021::15:52:45</strongCGTime>
 			<_defaultComposite type="s">GUID b8ee2d3f-37ad-4633-981c-404f415aaaa0</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -7997,9 +7997,9 @@
 			<_id type="a">GUID b8ee2d3f-37ad-4633-981c-404f415aaaa0</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">2.18.2021::15:50:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.18.2021::15:50:14</_modifiedTime>
-			<weakCGTime type="a">2.18.2021::15:50:14</weakCGTime>
+			<_modifiedTimeWeak type="a">2.18.2021::16:18:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.18.2021::16:18:20</_modifiedTime>
+			<weakCGTime type="a">2.18.2021::16:18:20</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -8397,8 +8397,8 @@
 			<_id type="a">GUID 3866a8be-7493-4b32-9591-735d5c21fb0b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SIM_Card_Base</_name>
-			<_modifiedTimeWeak type="a">2.18.2021::15:49:21</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.18.2021::15:49:21</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.18.2021::16:17:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.18.2021::16:17:42</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -8414,16 +8414,16 @@
 				<_id type="a">GUID 24c1d685-1300-4598-bfe1-71b231533d7f</_id>
 				<_myState type="a">10240</_myState>
 				<_name type="a">SIM_Card_Base</_name>
-				<_modifiedTimeWeak type="a">2.18.2021::15:49:32</_modifiedTimeWeak>
+				<_modifiedTimeWeak type="a">2.18.2021::16:17:46</_modifiedTimeWeak>
 				<_theMainDiagram type="r">
 					<IHandle type="e">
 						<_hm2Class type="a">IDiagram</_hm2Class>
 						<_hid type="a">GUID 6049121a-bbe6-4242-ab0f-cce7bdc4b6a1</_hid>
 					</IHandle>
 				</_theMainDiagram>
-				<_modifiedTime type="a">2.18.2021::15:49:32</_modifiedTime>
-				<_lastID type="a">2</_lastID>
-				<weakCGTime type="a">2.18.2021::15:49:32</weakCGTime>
+				<_modifiedTime type="a">2.18.2021::16:17:46</_modifiedTime>
+				<_lastID type="a">3</_lastID>
+				<weakCGTime type="a">2.18.2021::16:17:46</weakCGTime>
 				<strongCGTime type="a">2.18.2021::15:46:50</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -8431,11 +8431,70 @@
 				</_itsStateChart>
 				<_classModifier type="a">Unspecified</_classModifier>
 				<AggregatesList type="e">
+					<value>GUID 98758631-a499-48bd-b9dd-b4adef98ef19</value>
+					<value>GUID 8c51ed70-98fe-40fc-b6e0-b03d865cc01e</value>
 					<value>GUID f3b6a85a-b00a-4d55-af76-bc3e31832641</value>
 					<value>GUID 49415d14-2895-4a8b-913c-8b1fd38b99d4</value>
 					<value>GUID c459dee6-bc68-4878-ac6f-87cce2204a9c</value>
 				</AggregatesList>
 			</IClass>
+			<IInformationFlow type="e">
+				<_id type="a">GUID 98758631-a499-48bd-b9dd-b4adef98ef19</_id>
+				<_myState type="a">2048</_myState>
+				<_name type="a">SIM_Card_Base_SIM_Card_Drone</_name>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">2.18.2021::16:17:46</_modifiedTime>
+				<Conveyed type="c">
+					<IRPYRawContainer type="e">
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IInformationItem</_hm2Class>
+								<_hid type="a">GUID 8c51ed70-98fe-40fc-b6e0-b03d865cc01e</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Conveyed>
+				<end1_ type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IPart</_hm2Class>
+						<_hid type="a">GUID 3866a8be-7493-4b32-9591-735d5c21fb0b</_hid>
+					</IHandle>
+				</end1_>
+				<end1ObjectPort_ type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IPort</_hm2Class>
+						<_hid type="a">GUID 49415d14-2895-4a8b-913c-8b1fd38b99d4</_hid>
+					</IHandle>
+				</end1ObjectPort_>
+				<end2_ type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IPart</_hm2Class>
+						<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
+						<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+						<_hclass type="a">TopLevel</_hclass>
+						<_hname type="a">SIM_Card_Drone</_hname>
+						<_hid type="a">GUID 7baebd9d-b778-4ca8-bff7-dda6037651bf</_hid>
+					</IHandle>
+				</end2_>
+				<end2ObjectPort_ type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IPort</_hm2Class>
+						<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
+						<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+						<_hclass type="a">TopLevel.SIM_Card_Drone</_hclass>
+						<_hname type="a">GSM_In_Drone</_hname>
+						<_hid type="a">GUID 3b928f7d-bdd0-447d-a431-05b9e41b1323</_hid>
+					</IHandle>
+				</end2ObjectPort_>
+				<direction_ type="a">toEnd2</direction_>
+			</IInformationFlow>
+			<IInformationItem type="e">
+				<_id type="a">GUID 8c51ed70-98fe-40fc-b6e0-b03d865cc01e</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">uplink_GSM</_name>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">2.18.2021::16:17:46</_modifiedTime>
+			</IInformationItem>
 			<IPort type="e">
 				<_id type="a">GUID f3b6a85a-b00a-4d55-af76-bc3e31832641</_id>
 				<_myState type="a">8192</_myState>
@@ -8554,8 +8613,8 @@
 			<_id type="a">GUID 12f4297b-f3f3-4927-9794-d70a517e2649</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Radio_Base</_name>
-			<_modifiedTimeWeak type="a">2.18.2021::15:47:34</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.18.2021::15:47:34</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.18.2021::16:18:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.18.2021::16:18:20</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -8571,16 +8630,16 @@
 				<_id type="a">GUID cfcdf35a-de9d-4906-8a77-98f1ff924f6c</_id>
 				<_myState type="a">10240</_myState>
 				<_name type="a">Radio_Base</_name>
-				<_modifiedTimeWeak type="a">2.18.2021::15:49:16</_modifiedTimeWeak>
+				<_modifiedTimeWeak type="a">2.18.2021::16:18:25</_modifiedTimeWeak>
 				<_theMainDiagram type="r">
 					<IHandle type="e">
 						<_hm2Class type="a">IDiagram</_hm2Class>
 						<_hid type="a">GUID 6049121a-bbe6-4242-ab0f-cce7bdc4b6a1</_hid>
 					</IHandle>
 				</_theMainDiagram>
-				<_modifiedTime type="a">2.18.2021::15:49:16</_modifiedTime>
-				<_lastID type="a">2</_lastID>
-				<weakCGTime type="a">2.18.2021::15:49:16</weakCGTime>
+				<_modifiedTime type="a">2.18.2021::16:18:25</_modifiedTime>
+				<_lastID type="a">3</_lastID>
+				<weakCGTime type="a">2.18.2021::16:18:25</weakCGTime>
 				<strongCGTime type="a">2.18.2021::15:47:34</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -8588,11 +8647,70 @@
 				</_itsStateChart>
 				<_classModifier type="a">Unspecified</_classModifier>
 				<AggregatesList type="e">
+					<value>GUID fc9d7396-33e1-4325-b213-adb66d57ca1a</value>
+					<value>GUID c1df5084-41ee-4147-b659-add22e8a9678</value>
 					<value>GUID 2c3a8e4f-1649-4aaf-bcb2-894553ede8da</value>
 					<value>GUID 2105c8aa-97f3-4e17-9a9d-bd58cfa5cd93</value>
 					<value>GUID 84ad66eb-e63c-431f-90e5-930890d376f0</value>
 				</AggregatesList>
 			</IClass>
+			<IInformationFlow type="e">
+				<_id type="a">GUID fc9d7396-33e1-4325-b213-adb66d57ca1a</_id>
+				<_myState type="a">2048</_myState>
+				<_name type="a">Radio_Base_Radio_Drone</_name>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">2.18.2021::16:18:25</_modifiedTime>
+				<Conveyed type="c">
+					<IRPYRawContainer type="e">
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IInformationItem</_hm2Class>
+								<_hid type="a">GUID c1df5084-41ee-4147-b659-add22e8a9678</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Conveyed>
+				<end1_ type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IPart</_hm2Class>
+						<_hid type="a">GUID 12f4297b-f3f3-4927-9794-d70a517e2649</_hid>
+					</IHandle>
+				</end1_>
+				<end1ObjectPort_ type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IPort</_hm2Class>
+						<_hid type="a">GUID 2105c8aa-97f3-4e17-9a9d-bd58cfa5cd93</_hid>
+					</IHandle>
+				</end1ObjectPort_>
+				<end2_ type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IPart</_hm2Class>
+						<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
+						<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+						<_hclass type="a">TopLevel</_hclass>
+						<_hname type="a">Radio_Drone</_hname>
+						<_hid type="a">GUID 5ea65c45-3926-406a-aa81-780b25f8ead2</_hid>
+					</IHandle>
+				</end2_>
+				<end2ObjectPort_ type="r">
+					<IHandle type="e">
+						<_hm2Class type="a">IPort</_hm2Class>
+						<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
+						<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+						<_hclass type="a">TopLevel.Radio_Drone</_hclass>
+						<_hname type="a">WIFI_In_Drone</_hname>
+						<_hid type="a">GUID 16676af4-b701-4d17-a25f-41da14eac152</_hid>
+					</IHandle>
+				</end2ObjectPort_>
+				<direction_ type="a">toEnd2</direction_>
+			</IInformationFlow>
+			<IInformationItem type="e">
+				<_id type="a">GUID c1df5084-41ee-4147-b659-add22e8a9678</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">uplink_WIFI</_name>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">2.18.2021::16:18:25</_modifiedTime>
+			</IInformationItem>
 			<IPort type="e">
 				<_id type="a">GUID 2c3a8e4f-1649-4aaf-bcb2-894553ede8da</_id>
 				<_myState type="a">8192</_myState>
