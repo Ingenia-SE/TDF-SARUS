@@ -18,23 +18,16 @@
 			<m_configActive type="r">
 				<ICodeGenConfigInfoHandle type="e">
 					<_hm2Class type="a">ICodeGenConfigInfo</_hm2Class>
-					<_hid type="a">GUID f6d43330-ba84-419a-a61a-866716332951</_hid>
+					<_hname type="a">DefaultConfig</_hname>
+					<_hid type="a">GUID a4ba4489-7984-42cc-903b-5d11e95dc741</_hid>
 				</ICodeGenConfigInfoHandle>
 			</m_configActive>
 			<HandlesInMe type="c">
 				<IRPYRawContainer type="e">
 					
 						<IHandle type="e">
-							<_hm2Class type="a">ISubsystem</_hm2Class>
-							<_hfilename type="a">.\Default.sbsx</_hfilename>
-							<_hname type="a">Default</_hname>
-							<_hid type="a">GUID d3d28eac-6a36-4436-b82f-6d58a5a4a5de</_hid>
-						</IHandle>
-					
-					
-						<IHandle type="e">
 							<_hm2Class type="a">IProfile</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
 							<_hname type="a">SysML</_hname>
 							<_hid type="a">GUID d9689b73-885e-44c4-896b-de43defa0a33</_hid>
 						</IHandle>
@@ -45,6 +38,210 @@
 							<_hfilename type="a">$OMROOT\Settings\SysMLPerspectives\SysMLPerspectives.sbsx</_hfilename>
 							<_hname type="a">SysMLPerspectives</_hname>
 							<_hid type="a">GUID ab285915-0966-4322-a029-ffac3e6ef3df</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\NormalOperation.sbsx</_hfilename>
+							<_hsubsystem type="a">SystemRequirements</_hsubsystem>
+							<_hname type="a">NormalOperation</_hname>
+							<_hid type="a">GUID a72f389e-cd53-4354-b2c4-806eb24bfcc1</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\TakeOff.sbsx</_hfilename>
+							<_hsubsystem type="a">SystemRequirements::NormalOperation</_hsubsystem>
+							<_hname type="a">TakeOff</_hname>
+							<_hid type="a">GUID 0e1de2c3-2d95-452a-a901-c28a7a24b62a</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Landing.sbsx</_hfilename>
+							<_hsubsystem type="a">SystemRequirements::NormalOperation</_hsubsystem>
+							<_hname type="a">Landing</_hname>
+							<_hid type="a">GUID bb5bcd40-7c74-410c-b592-03130da53b8b</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\MissionPlanning.sbsx</_hfilename>
+							<_hsubsystem type="a">SystemRequirements::NormalOperation</_hsubsystem>
+							<_hname type="a">MissionPlanning</_hname>
+							<_hid type="a">GUID 2ce5fd88-b25d-48ab-8661-04dbbeeb3e9b</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\SearchAreaDefinition.sbsx</_hfilename>
+							<_hsubsystem type="a">SystemRequirements::NormalOperation</_hsubsystem>
+							<_hname type="a">SearchAreaDefinition</_hname>
+							<_hid type="a">GUID 7ea1f643-d222-4083-bfe2-811ad2c96b7b</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Flight.sbsx</_hfilename>
+							<_hsubsystem type="a">SystemRequirements::NormalOperation</_hsubsystem>
+							<_hname type="a">Flight</_hname>
+							<_hid type="a">GUID f39361cb-08f0-45cb-8d81-1232a1f5a134</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\PersonDetection.sbsx</_hfilename>
+							<_hsubsystem type="a">SystemRequirements</_hsubsystem>
+							<_hname type="a">PersonDetection</_hname>
+							<_hid type="a">GUID 1d012150-022e-4675-b138-db3e50b28627</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Communication.sbsx</_hfilename>
+							<_hsubsystem type="a">SystemRequirements</_hsubsystem>
+							<_hname type="a">Communication</_hname>
+							<_hid type="a">GUID 0de0958d-a394-402f-bb6f-193518a836ab</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\FaultyManagement.sbsx</_hfilename>
+							<_hsubsystem type="a">SystemRequirements</_hsubsystem>
+							<_hname type="a">FaultyManagement</_hname>
+							<_hid type="a">GUID ed4b4cb0-d93f-40e4-9f9b-a1d08bf7795b</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\BatteryManagement.sbsx</_hfilename>
+							<_hsubsystem type="a">SystemRequirements</_hsubsystem>
+							<_hname type="a">BatteryManagement</_hname>
+							<_hid type="a">GUID 866af1d3-fb6b-4981-ad84-1e096ede7e18</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+							<_hsubsystem type="a">SystemRequirements</_hsubsystem>
+							<_hname type="a">AirspaceConditions</_hname>
+							<_hid type="a">GUID 67bdb984-33c0-48dc-ac01-1730a81dfa42</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Domain.sbsx</_hfilename>
+							<_hsubsystem type="a">SystemRequirements</_hsubsystem>
+							<_hname type="a">Domain</_hname>
+							<_hid type="a">GUID d64e89a6-e95b-4af7-b221-829944af301d</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\RequirementsProfile.sbsx</_hfilename>
+							<_hsubsystem type="a">SystemRequirements</_hsubsystem>
+							<_hname type="a">RequirementsProfile</_hname>
+							<_hid type="a">GUID 463c763b-d1e2-40bc-8d19-8b40ccad2cdc</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\ContextModeling.sbsx</_hfilename>
+							<_hsubsystem type="a">BlockModeling</_hsubsystem>
+							<_hname type="a">ContextModeling</_hname>
+							<_hid type="a">GUID 892d1db3-d120-473e-8d2c-67a8b17ebd4c</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\UI_Modeling.sbsx</_hfilename>
+							<_hsubsystem type="a">BlockModeling</_hsubsystem>
+							<_hname type="a">UI_Modeling</_hname>
+							<_hid type="a">GUID 30587312-7769-42ff-955a-b2edc5451cde</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\MissionPlanning_Modeling.sbsx</_hfilename>
+							<_hsubsystem type="a">BlockModeling</_hsubsystem>
+							<_hname type="a">MissionPlanning_Modeling</_hname>
+							<_hid type="a">GUID cb542476-8691-4ab8-9deb-b79007c082cb</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\BaseCommunications.sbsx</_hfilename>
+							<_hsubsystem type="a">BlockModeling</_hsubsystem>
+							<_hname type="a">BaseCommunications</_hname>
+							<_hid type="a">GUID d4035ed9-09a3-4cf6-b1df-b4cb69645791</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\SwarmModeling.sbsx</_hfilename>
+							<_hsubsystem type="a">BlockModeling</_hsubsystem>
+							<_hname type="a">SwarmModeling</_hname>
+							<_hid type="a">GUID e2ab43c3-a131-45f4-9abc-22918814ebd7</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\HighLevelBehavior.sbsx</_hfilename>
+							<_hsubsystem type="a">ActivityModeling</_hsubsystem>
+							<_hname type="a">HighLevelBehavior</_hname>
+							<_hid type="a">GUID 48bccc5b-32ec-4107-8457-3c1ef8ff9ee9</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\BaseBehavior.sbsx</_hfilename>
+							<_hsubsystem type="a">ActivityModeling</_hsubsystem>
+							<_hname type="a">BaseBehavior</_hname>
+							<_hid type="a">GUID 1992c3f3-8cdb-41f9-a4dc-08c3ca20afd8</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\package_4.sbsx</_hfilename>
+							<_hname type="a">package_4</_hname>
+							<_hid type="a">GUID 332174ef-9df0-4637-a494-970c6ec6414e</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\package_5.sbsx</_hfilename>
+							<_hname type="a">package_5</_hname>
+							<_hid type="a">GUID 197850f2-7fe8-4aae-91c2-d5d3f5d668b9</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\package_6.sbsx</_hfilename>
+							<_hname type="a">package_6</_hname>
+							<_hid type="a">GUID f9520e94-3d61-4014-94e5-6880f77d6343</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
