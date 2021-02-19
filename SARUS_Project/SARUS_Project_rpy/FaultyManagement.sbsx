@@ -12,10 +12,10 @@
 			<_id type="a">GUID ed4b4cb0-d93f-40e4-9f9b-a1d08bf7795b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">FaultyManagement</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::14:58:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::14:58:29</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::15:0:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::15:0:22</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">2.19.2021::14:58:29</weakCGTime>
+			<weakCGTime type="a">2.19.2021::15:0:22</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:15:41</strongCGTime>
 			<_defaultComposite type="s">GUID fd7dce31-9295-434c-af4c-c40606d02487</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -1521,7 +1521,7 @@
 											<IRPYRawContainer type="e">
 												<IProperty type="e">
 													<_Name type="a">SmartRouting</_Name>
-													<_Value type="a">False</_Value>
+													<_Value type="a">True</_Value>
 													<_Type type="a">Bool</_Type>
 												</IProperty>
 												
@@ -1552,8 +1552,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::14:58:40</_modifiedTime>
-			<_lastModifiedTime type="a">2.19.2021::14:58:40</_lastModifiedTime>
+			<_modifiedTime type="a">2.19.2021::15:0:32</_modifiedTime>
+			<_lastModifiedTime type="a">2.19.2021::15:0:32</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1653,7 +1653,7 @@
 				<value>GUID afdd200c-69b9-4d1b-9d4d-3c8fca448b2e</value>
 				<value>GUID 090a665e-df6b-4814-bbe4-7f75af6d4f27</value>
 				<value>GUID d9e55e87-d2c3-4239-868b-5cb334f1b1b4</value>
-				<value>GUID b887f4fa-eb0b-4c7d-8137-86ef234b10f4</value>
+				<value>GUID 2b58365d-b5b0-4fcb-ac35-ff17ac39059f</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
@@ -4650,7 +4650,7 @@
 			</Items>
 		</CGICompartment>
 		<CGIInheritance type="e">
-			<_id type="a">GUID b887f4fa-eb0b-4c7d-8137-86ef234b10f4</_id>
+			<_id type="a">GUID 2b58365d-b5b0-4fcb-ac35-ff17ac39059f</_id>
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -4658,14 +4658,14 @@
 					<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
 					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
 					<_hclass type="a">Drone</_hclass>
-					<_hname type="a">FM-01</_hname>
-					<_hid type="a">GUID 481be017-9333-4e24-98df-b9028dbb8ed0</_hid>
+					<_hname type="a">FM-01_0</_hname>
+					<_hid type="a">GUID e5023623-e80d-4487-a230-4e35043aa28f</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">FM-01</m_str>
+					<m_str type="a">FM-01_0</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4707,8 +4707,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">2 846 </m_SourcePort>
-			<m_TargetPort type="a">1084 407 </m_TargetPort>
+			<m_SourcePort type="a">2 1080 </m_SourcePort>
+			<m_TargetPort type="a">1084 474 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
