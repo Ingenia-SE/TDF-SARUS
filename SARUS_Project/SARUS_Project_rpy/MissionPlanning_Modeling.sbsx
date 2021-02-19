@@ -12,10 +12,10 @@
 			<_id type="a">GUID cb542476-8691-4ab8-9deb-b79007c082cb</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">MissionPlanning_Modeling</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::14:29:59</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.17.2021::18:10:4</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::14:15:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::14:26:51</_modifiedTime>
 			<_lastID type="a">19</_lastID>
-			<weakCGTime type="a">2.19.2021::14:29:59</weakCGTime>
+			<weakCGTime type="a">2.19.2021::14:15:41</weakCGTime>
 			<strongCGTime type="a">2.11.2021::15:22:11</strongCGTime>
 			<_defaultComposite type="s">GUID bb82427f-9f3a-4a00-bdd9-ccb43033b5e2</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -243,8 +243,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.11.2021::15:48:55</_modifiedTime>
-			<_lastModifiedTime type="a">2.11.2021::15:48:55</_lastModifiedTime>
+			<_modifiedTime type="a">2.19.2021::14:15:41</_modifiedTime>
+			<_lastModifiedTime type="a">2.19.2021::14:15:41</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -600,7 +600,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.170916 0 0 0.0606061 157.658 159.061 </m_transform>
+			<m_transform type="a">0.170916 0 0 0.1123 157.658 142.054 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -764,8 +764,6 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
-							<_hclass type="a">Path_Generation</_hclass>
-							<_hname type="a">path</_hname>
 							<_hid type="a">GUID ec49abfc-cb80-4c81-baab-3d6862b5d495</_hid>
 						</IHandle>
 					
@@ -1006,8 +1004,6 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
-							<_hclass type="a">Constrained_Generation</_hclass>
-							<_hname type="a">restrictions</_hname>
 							<_hid type="a">GUID 5b766c30-9d78-4116-8499-918c6bcd7db2</_hid>
 						</IHandle>
 					
@@ -1132,8 +1128,6 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
-							<_hclass type="a">Cost_Function</_hclass>
-							<_hname type="a">objValue</_hname>
 							<_hid type="a">GUID 828d6e9f-19e5-4c86-a654-7f695d8a70c3</_hid>
 						</IHandle>
 					
@@ -1269,8 +1263,6 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
-							<_hclass type="a">Assessment</_hclass>
-							<_hname type="a">isValidPath</_hname>
 							<_hid type="a">GUID cab2bd03-8b3d-4453-9605-c26ec94a4851</_hid>
 						</IHandle>
 					
@@ -1395,8 +1387,6 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
-							<_hclass type="a">Path_Encoder</_hclass>
-							<_hname type="a">path2Send</_hname>
 							<_hid type="a">GUID ddce6ab0-ac81-48b7-9b66-4bcffbbf1d01</_hid>
 						</IHandle>
 					
@@ -2780,8 +2770,6 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
-							<_hclass type="a">UI</_hclass>
-							<_hname type="a">areaPoints</_hname>
 							<_hid type="a">GUID 87af0b79-9b4c-424b-bd2c-a1e001c66b3b</_hid>
 						</IHandle>
 					
@@ -3092,6 +3080,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
+							<_hfilename type="a">.\ContextModeling.sbsx</_hfilename>
 							<_hsubsystem type="a">BlockModeling::ContextModeling</_hsubsystem>
 							<_hclass type="a">Environment_database</_hclass>
 							<_hname type="a">input</_hname>
@@ -3628,16 +3617,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.19.2021::14:29:59</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.17.2021::17:37:9</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 02b18bf5-1e64-49c0-ba1c-022eb11ebe89</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.19.2021::14:29:59</_modifiedTime>
-			<_lastID type="a">6</_lastID>
-			<weakCGTime type="a">2.19.2021::14:29:59</weakCGTime>
+			<_modifiedTime type="a">2.17.2021::17:37:9</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">2.17.2021::17:37:9</weakCGTime>
 			<strongCGTime type="a">2.11.2021::15:26:45</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3649,7 +3638,6 @@
 				<value>GUID 08f731f5-7c6f-4ccf-a8d9-8b6994aba817</value>
 				<value>GUID 67780586-0b70-4ec9-b9b8-7b63140c8657</value>
 				<value>GUID 1017551e-bad2-4c2f-bba0-9af6af70ab24</value>
-				<value>GUID 4e132f91-b283-4e3b-93a1-ba3d61735f0b</value>
 				<value>GUID ec49abfc-cb80-4c81-baab-3d6862b5d495</value>
 				<value>GUID fff66fe4-0dc0-48ad-aefa-bf4274541b29</value>
 				<value>GUID 3c1ee4bd-9196-4d15-8757-56eca58c183b</value>
@@ -3782,40 +3770,6 @@
 					<_hsubsystem type="a">SystemRequirements::NormalOperation::MissionPlanning</_hsubsystem>
 					<_hname type="a">NO-41</_hname>
 					<_hid type="a">GUID de28463b-1017-4b56-bfe1-bb4e6f5a8067</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 98ecb378-42ec-4fc9-b718-fce9bda9771a</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
-		<IDependency type="e">
-			<_id type="a">GUID 4e132f91-b283-4e3b-93a1-ba3d61735f0b</_id>
-			<_myState type="a">2048</_myState>
-			<_name type="a">AC-02</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-							<_hname type="a">satisfy</_hname>
-							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.19.2021::14:29:59</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::14:29:59</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
-					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
-					<_hname type="a">AC-02</_hname>
-					<_hid type="a">GUID b3402244-a7ad-493d-bdbf-9d781f6244b0</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">

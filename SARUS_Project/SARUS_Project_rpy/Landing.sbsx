@@ -12,7 +12,7 @@
 			<_id type="a">GUID bb5bcd40-7c74-410c-b592-03130da53b8b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Landing</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::14:35:16</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::14:39:40</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -22,9 +22,9 @@
 					<_hid type="a">GUID 343c5482-58ae-4d7b-954c-99f135df336b</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.19.2021::14:35:16</_modifiedTime>
+			<_modifiedTime type="a">2.19.2021::14:39:40</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">2.19.2021::14:35:16</weakCGTime>
+			<weakCGTime type="a">2.19.2021::14:39:40</weakCGTime>
 			<strongCGTime type="a">2.17.2021::18:15:20</strongCGTime>
 			<_defaultComposite type="s">GUID 6b9d7552-c38c-4c30-96f3-f9d0acd26def</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -1124,8 +1124,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::14:35:16</_modifiedTime>
-			<_lastModifiedTime type="a">2.19.2021::14:35:16</_lastModifiedTime>
+			<_modifiedTime type="a">2.19.2021::14:40:5</_modifiedTime>
+			<_lastModifiedTime type="a">2.19.2021::14:40:5</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1882,8 +1882,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
 					<_hname type="a">FlightControl</_hname>
 					<_hid type="a">GUID 36f7c87f-3753-445f-8e43-f14339c486f4</_hid>
 				</IHandle>
@@ -1891,7 +1891,7 @@
 			<m_pParent type="s">GUID 139de6ed-3252-442e-9a93-f3b8533ddf49</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::Swarm_and_Drone_Modelling::FlightControl</m_str>
+					<m_str type="a">BlockModeling::Swarm_and_Drone_Structure::FlightControl</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1972,8 +1972,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
 					<_hclass type="a">FlightControl</_hclass>
 					<_hname type="a">NO-81</_hname>
 					<_hid type="a">GUID f19e87d5-af49-4395-9031-b194ed2a93a7</_hid>
@@ -2064,8 +2064,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\C2C_Base_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::C2C_Base_Modelling</_hsubsystem>
+					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
 					<_hname type="a">Swarm_Control_Panel</_hname>
 					<_hid type="a">GUID a1290ca0-a4be-4c76-bcf1-b3b35bf9cce0</_hid>
 				</IHandle>
@@ -2073,7 +2073,7 @@
 			<m_pParent type="s">GUID 139de6ed-3252-442e-9a93-f3b8533ddf49</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::C2C_Base_Modelling::Swarm_Control_Panel</m_str>
+					<m_str type="a">BlockModeling::C2_Base_Structure::Swarm_Control_Panel</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2155,7 +2155,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\..\..\..\..\..\..\..\Downloads\TDF-SARUS\SARUS_Project\SARUS_Project_rpy\UI_Modeling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::C2C_Base_Modelling</_hsubsystem>
+					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
 					<_hclass type="a">Swarm_Control_Panel</_hclass>
 					<_hname type="a">NO-82</_hname>
 					<_hid type="a">GUID d239f6d8-2e9e-4b36-95c9-efe29fa17fc1</_hid>
@@ -2246,8 +2246,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\C2C_Base_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::C2C_Base_Modelling</_hsubsystem>
+					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
 					<_hname type="a">Swarm_Control_Panel</_hname>
 					<_hid type="a">GUID a1290ca0-a4be-4c76-bcf1-b3b35bf9cce0</_hid>
 				</IHandle>
@@ -2255,7 +2255,7 @@
 			<m_pParent type="s">GUID 139de6ed-3252-442e-9a93-f3b8533ddf49</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::C2C_Base_Modelling::Swarm_Control_Panel</m_str>
+					<m_str type="a">BlockModeling::C2_Base_Structure::Swarm_Control_Panel</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2337,7 +2337,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\..\..\..\..\..\..\..\Downloads\TDF-SARUS\SARUS_Project\SARUS_Project_rpy\UI_Modeling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::C2C_Base_Modelling</_hsubsystem>
+					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
 					<_hclass type="a">Swarm_Control_Panel</_hclass>
 					<_hname type="a">NO-821</_hname>
 					<_hid type="a">GUID 5284ca1c-8ee9-4e6c-a250-77f5c198224d</_hid>
@@ -2428,8 +2428,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
-					<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
 					<_hname type="a">Actuators</_hname>
 					<_hid type="a">GUID d16e294d-62ab-4c80-865a-0ff69e25df70</_hid>
@@ -2528,8 +2528,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
 					<_hname type="a">Actuators.NO-821</_hname>
 					<_hid type="a">GUID 7d2deee2-1648-46dd-b873-a27ec70acb69</_hid>
@@ -2620,8 +2620,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
-					<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
 					<_hname type="a">Battery</_hname>
 					<_hid type="a">GUID e1ed73b5-fa3a-4b0b-a11b-6381c2d70e4d</_hid>
@@ -2720,8 +2720,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
 					<_hname type="a">Battery.NO-83</_hname>
 					<_hid type="a">GUID 7bc208d1-2f14-4d49-bcc5-d62c537efca4</_hid>
@@ -2812,8 +2812,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\MissionPlanning_Modeling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::MissionPlanning_Modeling</_hsubsystem>
+					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
 					<_hname type="a">Path_Encoder</_hname>
 					<_hid type="a">GUID 9ff2d6b4-6507-4629-b079-ccfbd3aab3f7</_hid>
 				</IHandle>
@@ -2821,7 +2821,7 @@
 			<m_pParent type="s">GUID 139de6ed-3252-442e-9a93-f3b8533ddf49</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::MissionPlanning_Modeling::Path_Encoder</m_str>
+					<m_str type="a">BlockModeling::C2_Base_Structure::Path_Encoder</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2902,8 +2902,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\MissionPlanning_Modeling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::MissionPlanning_Modeling</_hsubsystem>
+					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
 					<_hclass type="a">Path_Encoder</_hclass>
 					<_hname type="a">NO-811</_hname>
 					<_hid type="a">GUID f7457888-8508-4495-b90e-c96fd54e27a8</_hid>
@@ -2994,8 +2994,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
-					<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
 					<_hname type="a">Actuators</_hname>
 					<_hid type="a">GUID d16e294d-62ab-4c80-865a-0ff69e25df70</_hid>
@@ -3094,8 +3094,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
 					<_hname type="a">Actuators.NO-811</_hname>
 					<_hid type="a">GUID 7b363131-1189-46d3-8d84-51beb0e24b62</_hid>
