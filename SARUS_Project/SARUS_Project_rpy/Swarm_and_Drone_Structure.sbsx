@@ -12,10 +12,10 @@
 			<_id type="a">GUID e2ab43c3-a131-45f4-9abc-22918814ebd7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Swarm_and_Drone_Structure</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::16:31:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::16:31:50</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::22:59:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::23:38:46</_modifiedTime>
 			<_lastID type="a">41</_lastID>
-			<weakCGTime type="a">2.19.2021::16:31:50</weakCGTime>
+			<weakCGTime type="a">2.19.2021::23:16:45</weakCGTime>
 			<strongCGTime type="a">2.19.2021::14:40:5</strongCGTime>
 			<_defaultComposite type="s">GUID 4e32f1e0-a930-4ffc-af01-3eebf8522778</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -9135,10 +9135,14 @@
 			<_id type="a">GUID 4e32f1e0-a930-4ffc-af01-3eebf8522778</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::13:38:55</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::13:38:55</_modifiedTime>
+			<OwnedDependencies type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</OwnedDependencies>
+			<_modifiedTimeWeak type="a">2.19.2021::23:16:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::23:16:45</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">2.19.2021::13:38:55</weakCGTime>
+			<weakCGTime type="a">2.19.2021::23:16:45</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:20:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -10661,8 +10665,12 @@
 			<_id type="a">GUID 7db759a1-695e-46d5-b4b7-dadc9fb8d639</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Gyroscope</_name>
-			<_modifiedTimeWeak type="a">2.18.2021::15:58:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.18.2021::15:58:32</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::22:59:41</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Outputs Gyroscope data</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::22:59:41</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -10725,8 +10733,13 @@
 			<_id type="a">GUID 2b8d4c13-ac05-43e1-950c-b2d1b4736669</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GPS</_name>
-			<_modifiedTimeWeak type="a">2.18.2021::16:2:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.18.2021::16:2:1</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::22:59:58</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Outputs GPS data%0D
+</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::22:59:58</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -10920,8 +10933,12 @@
 			<_id type="a">GUID 766c7f70-ff17-4a4e-a196-f71417dbe331</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Vision_Camera</_name>
-			<_modifiedTimeWeak type="a">2.18.2021::15:59:51</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.18.2021::15:59:51</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::23:16:45</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Vision camera outputs data</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::23:16:45</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -10984,8 +11001,12 @@
 			<_id type="a">GUID d14171ad-594d-4e46-a53c-7546fe19ceaa</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Thermal_Camera</_name>
-			<_modifiedTimeWeak type="a">2.18.2021::16:0:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.18.2021::16:0:3</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::23:16:26</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Termal camera output data</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::23:16:26</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -11548,16 +11569,20 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.17.2021::18:26:5</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::23:24:43</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IStructureDiagram</_hm2Class>
 					<_hid type="a">GUID 76051831-6074-495d-87ca-41b2e5923ba1</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.17.2021::18:26:5</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Control of the angle and motor commands for dron stabilization</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::23:24:43</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">2.17.2021::18:26:5</weakCGTime>
+			<weakCGTime type="a">2.19.2021::23:24:43</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:20:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -11758,16 +11783,20 @@ Blades</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.19.2021::13:40:14</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::23:22:32</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IStructureDiagram</_hm2Class>
 					<_hid type="a">GUID 76051831-6074-495d-87ca-41b2e5923ba1</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.19.2021::13:40:14</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Input and output  managment for flight control</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::23:22:32</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">2.19.2021::13:40:14</weakCGTime>
+			<weakCGTime type="a">2.19.2021::23:22:32</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:20:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -11919,16 +11948,20 @@ Blades</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.18.2021::16:3:44</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::23:43:41</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IStructureDiagram</_hm2Class>
 					<_hid type="a">GUID 76051831-6074-495d-87ca-41b2e5923ba1</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.18.2021::16:3:44</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Comunication intersection between base and swarn comunications</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::23:43:41</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">2.18.2021::16:3:44</weakCGTime>
+			<weakCGTime type="a">2.19.2021::23:43:41</weakCGTime>
 			<strongCGTime type="a">2.18.2021::16:3:44</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -11995,16 +12028,20 @@ Blades</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.17.2021::17:20:49</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::23:19:37</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IStructureDiagram</_hm2Class>
 					<_hid type="a">GUID 76051831-6074-495d-87ca-41b2e5923ba1</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.17.2021::12:34:9</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Thermal and Vision camara fusion data processing to detect humans</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::23:19:37</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">2.17.2021::17:20:49</weakCGTime>
+			<weakCGTime type="a">2.19.2021::23:19:37</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:20:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -12100,8 +12137,12 @@ Blades</_text>
 			<_id type="a">GUID 684aec45-30be-4a73-8f70-f459f3ade9ec</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ThermalCameraImaging</_name>
-			<_modifiedTimeWeak type="a">2.17.2021::12:29:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.17.2021::12:29:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::23:18:44</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Processing of thermal camera data to detect humans</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::23:18:44</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -12139,8 +12180,12 @@ Blades</_text>
 			<_id type="a">GUID 449daeee-1a4f-4764-8152-dfd26ae3c939</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">VisionCameraProcessing</_name>
-			<_modifiedTimeWeak type="a">2.17.2021::12:32:12</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.17.2021::12:32:12</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::23:18:19</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Processing of vision camera data to detect humans</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::23:18:19</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -12191,16 +12236,20 @@ Blades</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.19.2021::13:35:1</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::23:15:48</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IStructureDiagram</_hm2Class>
 					<_hid type="a">GUID 76051831-6074-495d-87ca-41b2e5923ba1</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.19.2021::13:35:1</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Battery manangment to control the battery level and activate return to base mode when the battery is low</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::23:15:48</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">2.19.2021::13:35:1</weakCGTime>
+			<weakCGTime type="a">2.19.2021::23:15:48</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:20:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -12387,6 +12436,10 @@ Blades</_text>
 			<_id type="a">GUID 7831871c-b002-49a5-965e-0eac89216b11</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SensorFusionForControl</_name>
+			<OwnedDependencies type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</OwnedDependencies>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -12400,15 +12453,19 @@ Blades</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.17.2021::17:20:49</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::23:13:0</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IStructureDiagram</_hm2Class>
 					<_hid type="a">GUID 76051831-6074-495d-87ca-41b2e5923ba1</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.17.2021::12:40:44</_modifiedTime>
-			<weakCGTime type="a">2.17.2021::17:20:49</weakCGTime>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Combines IMU, GPS and vision data by an extended kalman filter for the flight control</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::23:13:0</_modifiedTime>
+			<weakCGTime type="a">2.19.2021::23:13:0</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:20:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -12465,8 +12522,12 @@ Blades</_text>
 			<_id type="a">GUID 7ba32a22-7ff9-411c-a31c-949c4d24c1d4</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GPSProcessing</_name>
-			<_modifiedTimeWeak type="a">2.17.2021::12:33:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.17.2021::12:33:48</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::23:10:53</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">GPS deserialization and converting global coordinates to local</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::23:10:53</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -12504,8 +12565,12 @@ Blades</_text>
 			<_id type="a">GUID 141bea49-6b89-46c8-a3a8-5cf9da9ef6ad</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">IMUProcessing</_name>
-			<_modifiedTimeWeak type="a">2.17.2021::12:40:44</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.17.2021::12:40:44</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::23:1:4</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Proccess IMU data to obtain angles of rotation and velocity</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::23:1:4</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -12543,8 +12608,12 @@ Blades</_text>
 			<_id type="a">GUID 20ca954f-3cfa-46ad-85a7-55cda1a48a39</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ComputerVision_SLAM</_name>
-			<_modifiedTimeWeak type="a">2.17.2021::12:18:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.17.2021::12:18:57</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::23:5:37</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Image processing to avoid obstacles</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::23:5:37</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -12595,15 +12664,19 @@ Blades</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.17.2021::17:20:49</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::23:20:27</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IStructureDiagram</_hm2Class>
 					<_hid type="a">GUID 76051831-6074-495d-87ca-41b2e5923ba1</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.17.2021::12:15:6</_modifiedTime>
-			<weakCGTime type="a">2.17.2021::17:20:49</weakCGTime>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Internal comunications managment</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::23:20:27</_modifiedTime>
+			<weakCGTime type="a">2.19.2021::23:20:27</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:20:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -12628,16 +12701,20 @@ Blades</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.18.2021::16:6:58</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::23:25:38</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 658223c7-881b-432c-86dd-9833cbda5aa6</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.18.2021::16:6:58</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">SIM Card comunication for each dron with the base or swarn</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.19.2021::23:25:38</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">2.18.2021::16:6:58</weakCGTime>
+			<weakCGTime type="a">2.19.2021::23:25:38</weakCGTime>
 			<strongCGTime type="a">2.18.2021::16:5:29</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
