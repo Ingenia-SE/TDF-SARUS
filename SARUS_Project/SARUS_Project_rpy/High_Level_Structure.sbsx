@@ -12,10 +12,10 @@
 			<_id type="a">GUID a84c4fc4-e84c-4719-aef0-dec1650c47a0</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">High_Level_Structure</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::15:34:40</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::16:14:27</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::16:33:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::16:33:45</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">2.19.2021::15:34:40</weakCGTime>
+			<weakCGTime type="a">2.19.2021::16:33:45</weakCGTime>
 			<strongCGTime type="a">2.19.2021::14:41:46</strongCGTime>
 			<_defaultComposite type="s">GUID fc508e93-706a-4f9a-86c0-5d3d5151174d</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -334,8 +334,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::15:25:12</_modifiedTime>
-			<_lastModifiedTime type="a">2.19.2021::15:25:12</_lastModifiedTime>
+			<_modifiedTime type="a">2.19.2021::16:31:50</_modifiedTime>
+			<_lastModifiedTime type="a">2.19.2021::16:31:50</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -378,7 +378,7 @@
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<elementList type="a">11</elementList>
+			<elementList type="a">10</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -398,7 +398,6 @@
 				<value>GUID 36fcad7c-f844-4647-a154-575e37842137</value>
 				<value>GUID 466042c8-7f90-457d-bd5e-4651693646fb</value>
 				<value>GUID bf4a6ab1-c47b-42b5-812e-e804a2c2f92e</value>
-				<value>GUID 1ee3ae69-a521-4739-9436-c8a863ec545f</value>
 				<value>GUID 4153af58-9b0f-4908-ac96-37d1a7e2c7b2</value>
 				<value>GUID 11b7359c-6433-475a-997a-60e8b34f4987</value>
 				<value>GUID d0e94d8b-cc36-47af-ad55-4567bbd3df19</value>
@@ -636,7 +635,7 @@
 					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
 					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
 					<_hname type="a">C2_Base</_hname>
-					<_hid type="a">GUID ce4341f3-bb8b-4e7a-85e9-d7d12ba1bc80</_hid>
+					<_hid type="a">GUID fb4d1be2-bd88-4d7f-8b71-737c4fd261b8</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID f0b48fff-8476-4ccd-aae1-807a4635845c</m_pParent>
@@ -984,6 +983,7 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsSwarm</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1001,6 +1001,7 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsDrone</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1036,195 +1037,6 @@
 			<m_targetMultiplicity type="p">
 				<CGIText type="e">
 					<m_str type="a">n</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">5</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">6</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_targetMultiplicity>
-			<m_sourceQualifier type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">6</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_sourceQualifier>
-			<m_targetQualifier type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">7</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_targetQualifier>
-			<m_specificType type="a">symmetric_type</m_specificType>
-		</CGIAssociationEnd>
-		<CGIAssociationEnd type="e">
-			<_id type="a">GUID 1ee3ae69-a521-4739-9436-c8a863ec545f</_id>
-			<m_type type="a">93</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\Context_Structure.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Context_Structure</_hsubsystem>
-					<_hclass type="a">SARUS_system</_hclass>
-					<_hname type="a">itsC2_Base</_hname>
-					<_hid type="a">GUID 77fe98aa-81be-40e0-86df-5deb9beafd4f</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 728eb416-b327-44ea-8348-71c99476f55b</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID ca29a54f-58cd-4362-bf1f-705abb98175d</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">532 1458 </m_SourcePort>
-			<m_TargetPort type="a">531 329 </m_TargetPort>
-			<m_pInverseModelObject type="r">
-				<IAssociationEndHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
-					<_hclass type="a">C2_Base</_hclass>
-					<_hname type="a">itsSARUS_system</_hname>
-					<_hid type="a">GUID c9805765-412c-46dd-89fd-dc3016e3faab</_hid>
-				</IAssociationEndHandle>
-			</m_pInverseModelObject>
-			<m_pInstance type="r">
-				<IObjectLinkHandle type="e">
-				</IObjectLinkHandle>
-			</m_pInstance>
-			<m_pInverseInstance type="r">
-				<IObjectLinkHandle type="e">
-				</IObjectLinkHandle>
-			</m_pInverseInstance>
-			<m_bShowSourceMultiplicity type="a">1</m_bShowSourceMultiplicity>
-			<m_bShowSourceRole type="a">1</m_bShowSourceRole>
-			<m_bShowTargetMultiplicity type="a">1</m_bShowTargetMultiplicity>
-			<m_bShowTargetRole type="a">1</m_bShowTargetRole>
-			<m_bShowLinkName type="a">1</m_bShowLinkName>
-			<m_bShowSpecificType type="a">0</m_bShowSpecificType>
-			<m_bInstance type="a">0</m_bInstance>
-			<m_bShowQualifier1 type="a">1</m_bShowQualifier1>
-			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
-			<m_sourceRole type="p">
-				<CGIText type="e">
-					<m_str type="a">itsSARUS_system</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">2</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nVerticalSpacing type="a">7</m_nVerticalSpacing>
-					<m_nOrientationCtrlPt type="a">2</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_sourceRole>
-			<m_targetRole type="p">
-				<CGIText type="e">
-					<m_str type="a">itsC2_Base</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">3</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_targetRole>
-			<m_sourceMultiplicity type="p">
-				<CGIText type="e">
-					<m_str type="a">1</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">4</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nVerticalSpacing type="a">7</m_nVerticalSpacing>
-					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_sourceMultiplicity>
-			<m_targetMultiplicity type="p">
-				<CGIText type="e">
-					<m_str type="a">1</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2069,8 +1881,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::16:14:18</_modifiedTime>
-			<_lastModifiedTime type="a">2.19.2021::16:14:18</_lastModifiedTime>
+			<_modifiedTime type="a">2.19.2021::16:33:50</_modifiedTime>
+			<_lastModifiedTime type="a">2.19.2021::16:33:50</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2113,7 +1925,7 @@
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<elementList type="a">27</elementList>
+			<elementList type="a">28</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -2139,20 +1951,21 @@
 				<value>GUID 9dad51df-03de-4e34-9f20-61b40c38e0a3</value>
 				<value>GUID 010548dd-f14c-429e-a6fc-bf3e5a467055</value>
 				<value>GUID 67682394-cd12-4d0f-bb66-8d7dc3c63ba8</value>
-				<value>GUID 6b7006b8-9375-4b24-9752-fa8346bf0ba0</value>
 				<value>GUID c2ff5cd5-e388-48fc-9417-8fe720117973</value>
-				<value>GUID 65a380ba-b672-4607-b512-14377c58f683</value>
-				<value>GUID feae7d9b-8674-4a0e-9547-55fa56c72223</value>
 				<value>GUID e8878d3e-0354-4c26-9051-ea4f48d18da9</value>
 				<value>GUID 3621d3ec-e88f-4aee-b26b-c67455274fe4</value>
-				<value>GUID 76866bba-1d2e-4280-be83-7e7035229fef</value>
-				<value>GUID d9b2f33b-35de-44b7-9642-407bf68dfd09</value>
-				<value>GUID 8f62e03e-8158-4e18-a517-443d84ec1bb7</value>
-				<value>GUID df8488ed-5823-440e-8b2b-6b69275b0f5f</value>
-				<value>GUID 7a82742e-e022-47b0-a07e-b2dc27ca725c</value>
+				<value>GUID e8f39a7b-a96d-48d7-b7fe-c9ae60a15184</value>
+				<value>GUID 52f1e824-ce02-4f42-a163-2111c765d10c</value>
+				<value>GUID 9976f8ca-9854-4a3e-af7b-9e4b8f8fe022</value>
+				<value>GUID a8bc2598-46e7-4646-804a-d806537c43ce</value>
+				<value>GUID 68649e1b-1a94-499f-aaa3-6da6461c9a23</value>
+				<value>GUID a2f449be-5511-42d4-81a4-72b26c75e38a</value>
+				<value>GUID 1e65ff66-2cd2-4471-89c9-2996cf058077</value>
+				<value>GUID 38ef772e-d108-4af1-85b7-6f62bf186f6d</value>
+				<value>GUID 89f757dc-0eff-43bc-886c-0a0026cd1974</value>
+				<value>GUID 32ba4a33-5c93-4a34-8732-5a23d5536346</value>
 				<value>GUID 32c11195-2266-44af-a302-56aac73ea181</value>
 				<value>GUID 3b8a405b-e434-4803-ae64-02b76ebc9d1e</value>
-				<value>GUID c74accc2-812f-4c24-aa19-7fbec7886c1e</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
@@ -3537,7 +3350,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 614 700  422 700  </m_arrow>
+			<m_arrow type="a">2 652 700  422 700  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -3565,103 +3378,6 @@
 			<m_conveyed type="p">
 				<CGIText type="e">
 					<m_str type="a">InformationRescueArea</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_conveyed>
-			<m_flow_direction type="a">type_122</m_flow_direction>
-		</CGIInformationFlow>
-		<CGIInformationFlow type="e">
-			<_id type="a">GUID 6b7006b8-9375-4b24-9752-fa8346bf0ba0</_id>
-			<m_type type="a">180</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IInformationFlow</_hm2Class>
-					<_hfilename type="a">.\Context_Structure.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Context_Structure</_hsubsystem>
-					<_hclass type="a">SARUS_system</_hclass>
-					<_hname type="a">MaintainancePort_C2_Base</_hname>
-					<_hid type="a">GUID f1745a54-79d7-4631-9dc1-f6c502a84f9b</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 67d5be45-40a7-44e0-be03-aedac3e3e36e</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 7a82742e-e022-47b0-a07e-b2dc27ca725c</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_arrow type="a">1 1212 642  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 45 </m_SourcePort>
-			<m_TargetPort type="a">1097 1413 </m_TargetPort>
-			<m_bShowKeyword type="a">1</m_bShowKeyword>
-			<m_showConveyed type="a">name</m_showConveyed>
-			<m_keyword type="p">
-				<CGIText type="e">
-					<m_str type="a">%ABflow%BB</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_keyword>
-			<m_conveyed type="p">
-				<CGIText type="e">
-					<m_str type="a">Maintenance</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3779,200 +3495,6 @@
 			<m_flow_direction type="a">type_122</m_flow_direction>
 		</CGIInformationFlow>
 		<CGIInformationFlow type="e">
-			<_id type="a">GUID 65a380ba-b672-4607-b512-14377c58f683</_id>
-			<m_type type="a">180</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IInformationFlow</_hm2Class>
-					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
-					<_hclass type="a">Swarm</_hclass>
-					<_hname type="a">Swarm_C2_Base</_hname>
-					<_hid type="a">GUID 88ddbac9-5511-4fba-8be0-53217413f7df</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 32c11195-2266-44af-a302-56aac73ea181</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 7a82742e-e022-47b0-a07e-b2dc27ca725c</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_arrow type="a">2 846 246  846 249  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1196 624 </m_SourcePort>
-			<m_TargetPort type="a">3 621 </m_TargetPort>
-			<m_bShowKeyword type="a">1</m_bShowKeyword>
-			<m_showConveyed type="a">name</m_showConveyed>
-			<m_keyword type="p">
-				<CGIText type="e">
-					<m_str type="a">%ABflow%BB</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_keyword>
-			<m_conveyed type="p">
-				<CGIText type="e">
-					<m_str type="a">Downlink</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_conveyed>
-			<m_flow_direction type="a">type_122</m_flow_direction>
-		</CGIInformationFlow>
-		<CGIInformationFlow type="e">
-			<_id type="a">GUID feae7d9b-8674-4a0e-9547-55fa56c72223</_id>
-			<m_type type="a">180</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IInformationFlow</_hm2Class>
-					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
-					<_hclass type="a">C2_Base</_hclass>
-					<_hname type="a">C2_Base_Swarm</_hname>
-					<_hid type="a">GUID 9ea3c654-25da-466a-8740-ef9531923220</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 7a82742e-e022-47b0-a07e-b2dc27ca725c</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 32c11195-2266-44af-a302-56aac73ea181</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_arrow type="a">2 866 327  866 326  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">3 1119 </m_SourcePort>
-			<m_TargetPort type="a">1196 1116 </m_TargetPort>
-			<m_bShowKeyword type="a">1</m_bShowKeyword>
-			<m_showConveyed type="a">name</m_showConveyed>
-			<m_keyword type="p">
-				<CGIText type="e">
-					<m_str type="a">%ABflow%BB</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_keyword>
-			<m_conveyed type="p">
-				<CGIText type="e">
-					<m_str type="a">Uplink</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_conveyed>
-			<m_flow_direction type="a">type_122</m_flow_direction>
-		</CGIInformationFlow>
-		<CGIInformationFlow type="e">
 			<_id type="a">GUID e8878d3e-0354-4c26-9051-ea4f48d18da9</_id>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
@@ -4030,7 +3552,7 @@
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">32 45 </m_SourcePort>
-			<m_TargetPort type="a">5 772 </m_TargetPort>
+			<m_TargetPort type="a">2 772 </m_TargetPort>
 			<m_bShowKeyword type="a">1</m_bShowKeyword>
 			<m_showConveyed type="a">name</m_showConveyed>
 			<m_keyword type="p">
@@ -4122,7 +3644,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 708 695  </m_arrow>
+			<m_arrow type="a">1 767 695  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -4166,8 +3688,290 @@
 			</m_conveyed>
 			<m_flow_direction type="a">type_122</m_flow_direction>
 		</CGIInformationFlow>
+		<CGIAssociationEnd type="e">
+			<_id type="a">GUID e8f39a7b-a96d-48d7-b7fe-c9ae60a15184</_id>
+			<m_type type="a">93</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\Context_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Context_Structure</_hsubsystem>
+					<_hclass type="a">SARUS_system</_hclass>
+					<_hname type="a">itsC2_Base</_hname>
+					<_hid type="a">GUID 77fe98aa-81be-40e0-86df-5deb9beafd4f</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID eb7a2022-2a99-4e0a-b97f-e9be679918ed</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 32ba4a33-5c93-4a34-8732-5a23d5536346</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_arrow type="a">2 1433 266  1433 302  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">1195 551 </m_SourcePort>
+			<m_TargetPort type="a">1196 691 </m_TargetPort>
+			<m_pInverseModelObject type="r">
+				<IAssociationEndHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hname type="a">itsSARUS_system</_hname>
+					<_hid type="a">GUID c9805765-412c-46dd-89fd-dc3016e3faab</_hid>
+				</IAssociationEndHandle>
+			</m_pInverseModelObject>
+			<m_pInstance type="r">
+				<IObjectLinkHandle type="e">
+				</IObjectLinkHandle>
+			</m_pInstance>
+			<m_pInverseInstance type="r">
+				<IObjectLinkHandle type="e">
+				</IObjectLinkHandle>
+			</m_pInverseInstance>
+			<m_bShowSourceMultiplicity type="a">1</m_bShowSourceMultiplicity>
+			<m_bShowSourceRole type="a">1</m_bShowSourceRole>
+			<m_bShowTargetMultiplicity type="a">1</m_bShowTargetMultiplicity>
+			<m_bShowTargetRole type="a">1</m_bShowTargetRole>
+			<m_bShowLinkName type="a">1</m_bShowLinkName>
+			<m_bShowSpecificType type="a">0</m_bShowSpecificType>
+			<m_bInstance type="a">0</m_bInstance>
+			<m_bShowQualifier1 type="a">1</m_bShowQualifier1>
+			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
+			<m_sourceRole type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">2</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nHorizontalSpacing type="a">7</m_nHorizontalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_sourceRole>
+			<m_targetRole type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">3</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_targetRole>
+			<m_sourceMultiplicity type="p">
+				<CGIText type="e">
+					<m_str type="a">1</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">4</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nHorizontalSpacing type="a">7</m_nHorizontalSpacing>
+					<m_nOrientationCtrlPt type="a">6</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_sourceMultiplicity>
+			<m_targetMultiplicity type="p">
+				<CGIText type="e">
+					<m_str type="a">1</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">5</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">6</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_targetMultiplicity>
+			<m_sourceQualifier type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">6</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_sourceQualifier>
+			<m_targetQualifier type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">7</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_targetQualifier>
+			<m_specificType type="a">symmetric_type</m_specificType>
+		</CGIAssociationEnd>
 		<CGIInformationFlow type="e">
-			<_id type="a">GUID 76866bba-1d2e-4280-be83-7e7035229fef</_id>
+			<_id type="a">GUID 52f1e824-ce02-4f42-a163-2111c765d10c</_id>
+			<m_type type="a">180</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IInformationFlow</_hm2Class>
+					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
+					<_hclass type="a">Geo_Database</_hclass>
+					<_hname type="a">C2_Base_Swarm</_hname>
+					<_hid type="a">GUID f88d2a4e-18a2-4471-a786-a352b7929c59</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 32ba4a33-5c93-4a34-8732-5a23d5536346</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 32c11195-2266-44af-a302-56aac73ea181</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_arrow type="a">2 875 321  875 281  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">4 837 </m_SourcePort>
+			<m_TargetPort type="a">1196 839 </m_TargetPort>
+			<m_bShowKeyword type="a">1</m_bShowKeyword>
+			<m_showConveyed type="a">name</m_showConveyed>
+			<m_keyword type="p">
+				<CGIText type="e">
+					<m_str type="a">%ABflow%BB</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_keyword>
+			<m_conveyed type="p">
+				<CGIText type="e">
+					<m_str type="a">Uplink</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_conveyed>
+			<m_flow_direction type="a">type_122</m_flow_direction>
+		</CGIInformationFlow>
+		<CGIInformationFlow type="e">
+			<_id type="a">GUID 9976f8ca-9854-4a3e-af7b-9e4b8f8fe022</_id>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -4197,10 +4001,10 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_pSource type="s">GUID b49506b7-206d-4001-bfaf-5362ef99c527</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 7a82742e-e022-47b0-a07e-b2dc27ca725c</m_pTarget>
+			<m_pTarget type="s">GUID 32ba4a33-5c93-4a34-8732-5a23d5536346</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -4219,12 +4023,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">3 1197 548  1287 548  1287 320  </m_arrow>
+			<m_arrow type="a">2 1197 564  1118 564  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">32 45 </m_SourcePort>
-			<m_TargetPort type="a">1194 1074 </m_TargetPort>
+			<m_TargetPort type="a">599 1410 </m_TargetPort>
 			<m_bShowKeyword type="a">1</m_bShowKeyword>
 			<m_showConveyed type="a">name</m_showConveyed>
 			<m_keyword type="p">
@@ -4264,12 +4068,16 @@
 			<m_flow_direction type="a">type_122</m_flow_direction>
 		</CGIInformationFlow>
 		<CGIInformationFlow type="e">
-			<_id type="a">GUID d9b2f33b-35de-44b7-9642-407bf68dfd09</_id>
+			<_id type="a">GUID a8bc2598-46e7-4646-804a-d806537c43ce</_id>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IInformationFlow</_hm2Class>
-					<_hid type="a">GUID d9c7db8a-418f-49f5-94c8-47f865f0c29f</_hid>
+					<_hfilename type="a">.\Context_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Context_Structure</_hsubsystem>
+					<_hclass type="a">SARUS_system</_hclass>
+					<_hname type="a">MaintainancePort_C2_Base</_hname>
+					<_hid type="a">GUID f1745a54-79d7-4631-9dc1-f6c502a84f9b</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -4290,10 +4098,10 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 3b8a405b-e434-4803-ae64-02b76ebc9d1e</m_pSource>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 67d5be45-40a7-44e0-be03-aedac3e3e36e</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 7a82742e-e022-47b0-a07e-b2dc27ca725c</m_pTarget>
+			<m_pTarget type="s">GUID 32ba4a33-5c93-4a34-8732-5a23d5536346</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -4312,12 +4120,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 846 496  846 363  </m_arrow>
+			<m_arrow type="a">2 615 642  615 321  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1196 463 </m_SourcePort>
-			<m_TargetPort type="a">3 1349 </m_TargetPort>
+			<m_SourcePort type="a">32 45 </m_SourcePort>
+			<m_TargetPort type="a">4 837 </m_TargetPort>
 			<m_bShowKeyword type="a">1</m_bShowKeyword>
 			<m_showConveyed type="a">name</m_showConveyed>
 			<m_keyword type="p">
@@ -4339,7 +4147,7 @@
 			</m_keyword>
 			<m_conveyed type="p">
 				<CGIText type="e">
-					<m_str type="a">MissionSpecification</m_str>
+					<m_str type="a">Maintenance</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4348,115 +4156,16 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -63 -8  69 -8  69 8  -63 8  </m_position>
+					<m_position type="a">1 0 0  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 911 394 </m_transform>
-					<m_nHorizontalSpacing type="a">-13</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">-35</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_conveyed>
 			<m_flow_direction type="a">type_122</m_flow_direction>
 		</CGIInformationFlow>
 		<CGIInformationFlow type="e">
-			<_id type="a">GUID 8f62e03e-8158-4e18-a517-443d84ec1bb7</_id>
-			<m_type type="a">180</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IInformationFlow</_hm2Class>
-					<_hid type="a">GUID 22a26740-4087-4023-8161-9aaa7cf5ad6f</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 3b8a405b-e434-4803-ae64-02b76ebc9d1e</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 7a82742e-e022-47b0-a07e-b2dc27ca725c</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_arrow type="a">1 1015 513  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1196 567 </m_SourcePort>
-			<m_TargetPort type="a">388 1413 </m_TargetPort>
-			<m_bShowKeyword type="a">1</m_bShowKeyword>
-			<m_showConveyed type="a">name</m_showConveyed>
-			<m_keyword type="p">
-				<CGIText type="e">
-					<m_str type="a">%ABflow%BB</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_keyword>
-			<m_conveyed type="p">
-				<CGIText type="e">
-					<m_str type="a">SwarmCommands</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">4 -58 -8  65 -8  65 8  -58 8  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 951 501 </m_transform>
-					<m_nHorizontalSpacing type="a">-78</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">3</m_nVerticalSpacing>
-					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_conveyed>
-			<m_flow_direction type="a">type_122</m_flow_direction>
-		</CGIInformationFlow>
-		<CGIInformationFlow type="e">
-			<_id type="a">GUID df8488ed-5823-440e-8b2b-6b69275b0f5f</_id>
+			<_id type="a">GUID 68649e1b-1a94-499f-aaa3-6da6461c9a23</_id>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -4486,10 +4195,10 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_pSource type="s">GUID 5bdad940-26a7-4f64-b2d6-3b4e95323ff9</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 7a82742e-e022-47b0-a07e-b2dc27ca725c</m_pTarget>
+			<m_pTarget type="s">GUID 32ba4a33-5c93-4a34-8732-5a23d5536346</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -4508,12 +4217,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 1371 223  1371 222  </m_arrow>
+			<m_arrow type="a">2 1451 223  1451 321  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">32 45 </m_SourcePort>
-			<m_TargetPort type="a">1194 449 </m_TargetPort>
+			<m_TargetPort type="a">1196 837 </m_TargetPort>
 			<m_bShowKeyword type="a">1</m_bShowKeyword>
 			<m_showConveyed type="a">name</m_showConveyed>
 			<m_keyword type="p">
@@ -4544,48 +4253,396 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -91 -8  100 -8  100 8  -91 8  </m_position>
+					<m_position type="a">1 0 0  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 1373 209 </m_transform>
-					<m_nHorizontalSpacing type="a">-89</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">1</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_conveyed>
+			<m_flow_direction type="a">type_122</m_flow_direction>
+		</CGIInformationFlow>
+		<CGIInformationFlow type="e">
+			<_id type="a">GUID a2f449be-5511-42d4-81a4-72b26c75e38a</_id>
+			<m_type type="a">180</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IInformationFlow</_hm2Class>
+					<_hfilename type="a">.\Context_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Context_Structure</_hsubsystem>
+					<_hclass type="a">SARUS_system</_hclass>
+					<_hname type="a">SimulationPort_C2_Base_0</_hname>
+					<_hid type="a">GUID 31abfa7f-b79f-4ee0-b01e-8c00c83e7194</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 5bdad940-26a7-4f64-b2d6-3b4e95323ff9</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 32ba4a33-5c93-4a34-8732-5a23d5536346</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_arrow type="a">2 1450 223  1450 347  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">32 45 </m_SourcePort>
+			<m_TargetPort type="a">1196 1039 </m_TargetPort>
+			<m_bShowKeyword type="a">1</m_bShowKeyword>
+			<m_showConveyed type="a">name</m_showConveyed>
+			<m_keyword type="p">
+				<CGIText type="e">
+					<m_str type="a">%ABflow%BB</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_keyword>
+			<m_conveyed type="p">
+				<CGIText type="e">
+					<m_str type="a">SimulatedSwarmCommands</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_conveyed>
+			<m_flow_direction type="a">type_122</m_flow_direction>
+		</CGIInformationFlow>
+		<CGIInformationFlow type="e">
+			<_id type="a">GUID 1e65ff66-2cd2-4471-89c9-2996cf058077</_id>
+			<m_type type="a">180</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IInformationFlow</_hm2Class>
+					<_hid type="a">GUID d9c7db8a-418f-49f5-94c8-47f865f0c29f</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 3b8a405b-e434-4803-ae64-02b76ebc9d1e</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 32ba4a33-5c93-4a34-8732-5a23d5536346</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_arrow type="a">1 1118 557  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">1196 838 </m_SourcePort>
+			<m_TargetPort type="a">599 1410 </m_TargetPort>
+			<m_bShowKeyword type="a">1</m_bShowKeyword>
+			<m_showConveyed type="a">name</m_showConveyed>
+			<m_keyword type="p">
+				<CGIText type="e">
+					<m_str type="a">%ABflow%BB</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_keyword>
+			<m_conveyed type="p">
+				<CGIText type="e">
+					<m_str type="a">MissionSpecification</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_conveyed>
+			<m_flow_direction type="a">type_122</m_flow_direction>
+		</CGIInformationFlow>
+		<CGIInformationFlow type="e">
+			<_id type="a">GUID 38ef772e-d108-4af1-85b7-6f62bf186f6d</_id>
+			<m_type type="a">180</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IInformationFlow</_hm2Class>
+					<_hid type="a">GUID 22a26740-4087-4023-8161-9aaa7cf5ad6f</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 3b8a405b-e434-4803-ae64-02b76ebc9d1e</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 32ba4a33-5c93-4a34-8732-5a23d5536346</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_arrow type="a">1 1141 592  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">1196 1054 </m_SourcePort>
+			<m_TargetPort type="a">668 1410 </m_TargetPort>
+			<m_bShowKeyword type="a">1</m_bShowKeyword>
+			<m_showConveyed type="a">name</m_showConveyed>
+			<m_keyword type="p">
+				<CGIText type="e">
+					<m_str type="a">%ABflow%BB</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_keyword>
+			<m_conveyed type="p">
+				<CGIText type="e">
+					<m_str type="a">SwarmCommands</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_conveyed>
+			<m_flow_direction type="a">type_122</m_flow_direction>
+		</CGIInformationFlow>
+		<CGIInformationFlow type="e">
+			<_id type="a">GUID 89f757dc-0eff-43bc-886c-0a0026cd1974</_id>
+			<m_type type="a">180</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IInformationFlow</_hm2Class>
+					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
+					<_hclass type="a">Swarm</_hclass>
+					<_hname type="a">Swarm_C2_Base</_hname>
+					<_hid type="a">GUID 88ddbac9-5511-4fba-8be0-53217413f7df</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 32c11195-2266-44af-a302-56aac73ea181</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 32ba4a33-5c93-4a34-8732-5a23d5536346</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_arrow type="a">2 871 316  871 349  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">1196 1055 </m_SourcePort>
+			<m_TargetPort type="a">4 1054 </m_TargetPort>
+			<m_bShowKeyword type="a">1</m_bShowKeyword>
+			<m_showConveyed type="a">name</m_showConveyed>
+			<m_keyword type="p">
+				<CGIText type="e">
+					<m_str type="a">%ABflow%BB</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_keyword>
+			<m_conveyed type="p">
+				<CGIText type="e">
+					<m_str type="a">Downlink</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_conveyed>
 			<m_flow_direction type="a">type_122</m_flow_direction>
 		</CGIInformationFlow>
 		<CGIClass type="e">
-			<_id type="a">GUID 7a82742e-e022-47b0-a07e-b2dc27ca725c</_id>
-			<_properties type="p"><IPropertyContainer type="e">
-				<Subjects type="c">
-					<IRPYRawContainer type="e">
-						<IPropertySubject type="e">
-							<_Name type="a">General</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<IPropertyMetaclass type="e">
-										<_Name type="a">Graphics</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<IProperty type="e">
-													<_Name type="a">FitBoxToItsTextuals</_Name>
-													<_Value type="a">False</_Value>
-													<_Type type="a">Bool</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-					</IRPYRawContainer>
-				</Subjects>
-			</IPropertyContainer>
-			</_properties>
+			<_id type="a">GUID 32ba4a33-5c93-4a34-8732-5a23d5536346</_id>
 			<m_type type="a">105</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -4593,7 +4650,7 @@
 					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
 					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
 					<_hname type="a">C2_Base</_hname>
-					<_hid type="a">GUID ce4341f3-bb8b-4e7a-85e9-d7d12ba1bc80</_hid>
+					<_hid type="a">GUID fb4d1be2-bd88-4d7f-8b71-737c4fd261b8</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID eb7a2022-2a99-4e0a-b97f-e9be679918ed</m_pParent>
@@ -4615,7 +4672,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.257008 0 0 0.263415 637.598 358.603 </m_transform>
+			<m_transform type="a">0.306438 0 0 0.217327 649.023 461.292 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
@@ -4637,6 +4694,9 @@
 			<m_polygon type="a">4 3 265  3 1410  1195 1410  1195 265  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=50%25,50%25&gt;
+&lt;frame name=AttributeListCompartment&gt;
+&lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -4646,12 +4706,12 @@
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
-				<value>GUID 71f4139f-1282-4cd9-9aa9-7e0f479e64c3</value>
-				<value>GUID e1b2824c-2878-4d91-b25f-0085421ea2a1</value>
+				<value>GUID 255a813f-7246-4162-96a5-b5655d6774ae</value>
+				<value>GUID 9ce19077-e0a9-424d-b337-c935e59bce3b</value>
 			</AggregatesList>
 		</CGIClass>
 		<CGICompartment type="e">
-			<_id type="a">GUID 71f4139f-1282-4cd9-9aa9-7e0f479e64c3</_id>
+			<_id type="a">GUID 255a813f-7246-4162-96a5-b5655d6774ae</_id>
 			<m_name type="a">Attribute</m_name>
 			<m_displayOption type="a">Explicit</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
@@ -4662,7 +4722,7 @@
 			</Items>
 		</CGICompartment>
 		<CGICompartment type="e">
-			<_id type="a">GUID e1b2824c-2878-4d91-b25f-0085421ea2a1</_id>
+			<_id type="a">GUID 9ce19077-e0a9-424d-b337-c935e59bce3b</_id>
 			<m_name type="a">Operation</m_name>
 			<m_displayOption type="a">Explicit</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
@@ -4732,7 +4792,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.26242 0 0 0.273063 209.82 346.854 </m_transform>
+			<m_transform type="a">0.306674 0 0 0.273063 209.648 346.854 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
@@ -4830,7 +4890,7 @@
 			<m_pParent type="s">GUID eb7a2022-2a99-4e0a-b97f-e9be679918ed</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Operator</m_str>
+					<m_str type="a">BlockModeling::High_Level_Structure::Operator</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4846,7 +4906,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.262717 0 0 0.273063 209.441 811.24 </m_transform>
+			<m_transform type="a">0.321615 0 0 0.273063 209.334 811.24 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
@@ -4903,106 +4963,6 @@
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
-		<CGIInformationFlow type="e">
-			<_id type="a">GUID c74accc2-812f-4c24-aa19-7fbec7886c1e</_id>
-			<m_type type="a">180</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IInformationFlow</_hm2Class>
-					<_hfilename type="a">.\Context_Structure.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Context_Structure</_hsubsystem>
-					<_hclass type="a">SARUS_system</_hclass>
-					<_hname type="a">SimulationPort_C2_Base_0</_hname>
-					<_hid type="a">GUID 31abfa7f-b79f-4ee0-b01e-8c00c83e7194</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 5bdad940-26a7-4f64-b2d6-3b4e95323ff9</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 7a82742e-e022-47b0-a07e-b2dc27ca725c</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_arrow type="a">2 1371 223  1371 269  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">32 45 </m_SourcePort>
-			<m_TargetPort type="a">1194 749 </m_TargetPort>
-			<m_bShowKeyword type="a">1</m_bShowKeyword>
-			<m_showConveyed type="a">name</m_showConveyed>
-			<m_keyword type="p">
-				<CGIText type="e">
-					<m_str type="a">%ABflow%BB</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_keyword>
-			<m_conveyed type="p">
-				<CGIText type="e">
-					<m_str type="a">SimulatedSwarmCommands</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">4 -87 -8  95 -8  95 8  -87 8  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 1449 242 </m_transform>
-					<m_nHorizontalSpacing type="a">-9</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">11</m_nVerticalSpacing>
-					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_conveyed>
-			<m_flow_direction type="a">type_122</m_flow_direction>
-		</CGIInformationFlow>
 		<IClass type="e">
 			<_id type="a">GUID fc508e93-706a-4f9a-86c0-5d3d5151174d</_id>
 			<_myState type="a">40960</_myState>
@@ -5034,21 +4994,17 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.19.2021::16:13:13</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::16:31:50</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 6ce00d37-fbbc-4106-8d7b-d02bdf8c6dbb</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.19.2021::16:13:13</_modifiedTime>
+			<_modifiedTime type="a">2.19.2021::16:31:50</_modifiedTime>
 			<_lastID type="a">9</_lastID>
-			<weakCGTime type="a">2.19.2021::16:13:13</weakCGTime>
+			<weakCGTime type="a">2.19.2021::16:31:50</weakCGTime>
 			<strongCGTime type="a">2.19.2021::15:5:6</strongCGTime>
-			<Ports type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Ports>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -5134,7 +5090,6 @@
 					<_hm2Class type="a">IPort</_hm2Class>
 					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
 					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
-					<_hclass type="a">C2_Base</_hclass>
 					<_hname type="a">MissionSpecificationPort</_hname>
 					<_hid type="a">GUID 2d1d4523-779f-452b-b269-74acf1d54983</_hid>
 				</IHandle>
@@ -5175,7 +5130,6 @@
 					<_hm2Class type="a">IPort</_hm2Class>
 					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
 					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
-					<_hclass type="a">C2_Base</_hclass>
 					<_hname type="a">SwarmCommands</_hname>
 					<_hid type="a">GUID 865c42e2-31a6-4212-af88-e68d861785e2</_hid>
 				</IHandle>
@@ -5194,7 +5148,7 @@
 			<_myState type="a">2048</_myState>
 			<_name type="a">Operator_C2_Base</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::16:12:31</_modifiedTime>
+			<_modifiedTime type="a">2.19.2021::16:31:50</_modifiedTime>
 			<Conveyed type="c">
 				<IRPYRawContainer type="e">
 					
@@ -5217,7 +5171,7 @@
 					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
 					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
 					<_hname type="a">C2_Base</_hname>
-					<_hid type="a">GUID ce4341f3-bb8b-4e7a-85e9-d7d12ba1bc80</_hid>
+					<_hid type="a">GUID fb4d1be2-bd88-4d7f-8b71-737c4fd261b8</_hid>
 				</IHandle>
 			</end2_>
 			<direction_ type="a">toEnd2</direction_>
@@ -5227,7 +5181,7 @@
 			<_myState type="a">2048</_myState>
 			<_name type="a">Operator_C2_Base_0</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::16:13:22</_modifiedTime>
+			<_modifiedTime type="a">2.19.2021::16:31:50</_modifiedTime>
 			<Conveyed type="c">
 				<IRPYRawContainer type="e">
 					
@@ -5250,7 +5204,7 @@
 					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
 					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
 					<_hname type="a">C2_Base</_hname>
-					<_hid type="a">GUID ce4341f3-bb8b-4e7a-85e9-d7d12ba1bc80</_hid>
+					<_hid type="a">GUID fb4d1be2-bd88-4d7f-8b71-737c4fd261b8</_hid>
 				</IHandle>
 			</end2_>
 			<direction_ type="a">toEnd2</direction_>
@@ -5281,10 +5235,6 @@
 					<_hid type="a">GUID 0da482e6-278f-4f12-bfe7-b519ddedc064</_hid>
 				</IHandle>
 			</_inverse>
-			<Qualifiers type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Qualifiers>
 			<_linkType type="a">Assoc</_linkType>
 			<_navigability type="a">Navigable</_navigability>
 		</IAssociationEnd>
