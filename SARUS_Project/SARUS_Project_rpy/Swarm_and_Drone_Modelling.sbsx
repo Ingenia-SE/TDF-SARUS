@@ -12,10 +12,10 @@
 			<_id type="a">GUID e2ab43c3-a131-45f4-9abc-22918814ebd7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Swarm_and_Drone_Modelling</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::13:33:44</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::13:32:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::13:38:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:38:50</_modifiedTime>
 			<_lastID type="a">41</_lastID>
-			<weakCGTime type="a">2.19.2021::13:33:44</weakCGTime>
+			<weakCGTime type="a">2.19.2021::13:38:55</weakCGTime>
 			<strongCGTime type="a">2.18.2021::16:12:22</strongCGTime>
 			<_defaultComposite type="s">GUID 4e32f1e0-a930-4ffc-af01-3eebf8522778</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -442,8 +442,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::13:33:14</_modifiedTime>
-			<_lastModifiedTime type="a">2.19.2021::13:33:14</_lastModifiedTime>
+			<_modifiedTime type="a">2.19.2021::13:38:55</_modifiedTime>
+			<_lastModifiedTime type="a">2.19.2021::13:38:55</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -9135,10 +9135,10 @@
 			<_id type="a">GUID 4e32f1e0-a930-4ffc-af01-3eebf8522778</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::13:33:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::13:33:14</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::13:38:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:38:55</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">2.19.2021::13:33:14</weakCGTime>
+			<weakCGTime type="a">2.19.2021::13:38:55</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:20:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -9512,9 +9512,9 @@
 			<_id type="a">GUID d16e294d-62ab-4c80-865a-0ff69e25df70</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Actuators</_name>
-			<_modifiedTimeWeak type="a">2.17.2021::18:20:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.17.2021::18:20:18</_modifiedTime>
-			<_lastID type="a">3</_lastID>
+			<_modifiedTimeWeak type="a">2.19.2021::13:38:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:38:55</_modifiedTime>
+			<_lastID type="a">4</_lastID>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -9576,6 +9576,7 @@
 				<value>GUID 7d2deee2-1648-46dd-b873-a27ec70acb69</value>
 				<value>GUID 7b363131-1189-46d3-8d84-51beb0e24b62</value>
 				<value>GUID 59150962-13ae-4e98-bb34-05ed620beb18</value>
+				<value>GUID dcb6816e-746e-4917-958a-5b778e0f666b</value>
 			</AggregatesList>
 		</IPart>
 		<IDependency type="e">
@@ -9671,6 +9672,40 @@
 					<_hsubsystem type="a">SystemRequirements::NormalOperation::Flight</_hsubsystem>
 					<_hname type="a">NO-61</_hname>
 					<_hid type="a">GUID e22ae139-6432-4fe5-8fbf-08b26293e815</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID d16e294d-62ab-4c80-865a-0ff69e25df70</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID dcb6816e-746e-4917-958a-5b778e0f666b</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-16</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:38:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:38:55</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-16</_hname>
+					<_hid type="a">GUID 97713e5f-575b-47a7-a179-bab7705ec997</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">
@@ -10408,9 +10443,9 @@
 			<_id type="a">GUID 7bc49e27-f075-4de0-9798-1881a226a23a</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Flight_Controller</_name>
-			<_modifiedTimeWeak type="a">2.18.2021::15:58:28</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.18.2021::15:58:28</_modifiedTime>
-			<_lastID type="a">2</_lastID>
+			<_modifiedTimeWeak type="a">2.19.2021::13:38:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:38:50</_modifiedTime>
+			<_lastID type="a">3</_lastID>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -10517,6 +10552,7 @@
 			<AggregatesList type="e">
 				<value>GUID 444a789e-9f95-4bb7-9507-cad6a69725e6</value>
 				<value>GUID 9e234a10-495e-4d1f-ae3c-62500031c60f</value>
+				<value>GUID 9dc3c11b-b9fb-466b-9265-b08d211acb12</value>
 			</AggregatesList>
 		</IPart>
 		<IDependency type="e">
@@ -10578,6 +10614,40 @@
 					<_hsubsystem type="a">SystemRequirements::NormalOperation::Flight</_hsubsystem>
 					<_hname type="a">NO-61</_hname>
 					<_hid type="a">GUID e22ae139-6432-4fe5-8fbf-08b26293e815</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID 7bc49e27-f075-4de0-9798-1881a226a23a</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 9dc3c11b-b9fb-466b-9265-b08d211acb12</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-16</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:38:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:38:50</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-16</_hname>
+					<_hid type="a">GUID 97713e5f-575b-47a7-a179-bab7705ec997</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">
@@ -11616,16 +11686,16 @@ Blades</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.17.2021::18:26:45</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:40:14</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IStructureDiagram</_hm2Class>
 					<_hid type="a">GUID 76051831-6074-495d-87ca-41b2e5923ba1</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.17.2021::18:26:45</_modifiedTime>
-			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">2.17.2021::18:26:45</weakCGTime>
+			<_modifiedTime type="a">2.19.2021::13:40:14</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<weakCGTime type="a">2.19.2021::13:40:14</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:20:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -11636,6 +11706,7 @@ Blades</_text>
 				<value>GUID fc2f5bf8-4ba9-4fab-8f7c-f214a576e85d</value>
 				<value>GUID f19e87d5-af49-4395-9031-b194ed2a93a7</value>
 				<value>GUID 3609b75d-8909-49d4-9103-a247faa5804d</value>
+				<value>GUID 0801953c-be2f-4ddc-be2f-90dee7d204d5</value>
 			</AggregatesList>
 		</IClass>
 		<IDependency type="e">
@@ -11716,6 +11787,40 @@ Blades</_text>
 					<_hsubsystem type="a">SystemRequirements::NormalOperation::Flight</_hsubsystem>
 					<_hname type="a">NO-64</_hname>
 					<_hid type="a">GUID 537bd084-fb92-408d-aa4f-14dadf94cf99</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 36f7c87f-3753-445f-8e43-f14339c486f4</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 0801953c-be2f-4ddc-be2f-90dee7d204d5</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-12</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:40:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:40:14</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-12</_hname>
+					<_hid type="a">GUID 69901360-fd6e-40cb-84ea-d2ba8d6557f5</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">

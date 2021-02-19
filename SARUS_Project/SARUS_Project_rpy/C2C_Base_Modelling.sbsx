@@ -12,10 +12,10 @@
 			<_id type="a">GUID 30587312-7769-42ff-955a-b2edc5451cde</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">C2C_Base_Modelling</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::13:34:58</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:43:19</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.19.2021::13:29:57</_modifiedTime>
 			<_lastID type="a">24</_lastID>
-			<weakCGTime type="a">2.19.2021::13:34:58</weakCGTime>
+			<weakCGTime type="a">2.19.2021::13:43:19</weakCGTime>
 			<strongCGTime type="a">2.18.2021::15:52:45</strongCGTime>
 			<_defaultComposite type="s">GUID b8ee2d3f-37ad-4633-981c-404f415aaaa0</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -329,8 +329,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.18.2021::15:52:45</_modifiedTime>
-			<_lastModifiedTime type="a">2.18.2021::15:52:45</_lastModifiedTime>
+			<_modifiedTime type="a">2.19.2021::13:43:38</_modifiedTime>
+			<_lastModifiedTime type="a">2.19.2021::13:43:38</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1586,7 +1586,7 @@
 			<m_pParent type="s">GUID d3634518-67ac-422c-8cef-74c5c3a7dc11</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Srwarm_Monitoring</m_str>
+					<m_str type="a">Swarm_Monitoring</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2897,7 +2897,7 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsSrwarm_Monitoring</m_str>
+					<m_str type="a">itsSwarm_Monitoring</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -11649,7 +11649,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:46:16</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -11660,9 +11660,9 @@
 				<_text type="a">Land base control centre that provides the necessary tools for human monitoring and control of the UAV swarm</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">2.16.2021::18:53:50</_modifiedTime>
-			<_lastID type="a">11</_lastID>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<_modifiedTime type="a">2.19.2021::13:46:16</_modifiedTime>
+			<_lastID type="a">12</_lastID>
+			<weakCGTime type="a">2.19.2021::13:46:16</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -11670,6 +11670,7 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID 4bac764b-4ba9-4595-8728-f12e09e41d79</value>
 				<value>GUID 7103df5a-5924-42c6-be4e-81314167ee99</value>
 				<value>GUID ab7ce34c-31b5-4291-acb1-fab0faec2c26</value>
 				<value>GUID f2372050-6a81-40d2-9df5-f12c08689b8e</value>
@@ -11681,6 +11682,40 @@
 				<value>GUID ffcb3cb6-f10e-462c-aa6b-470264520186</value>
 			</AggregatesList>
 		</IClass>
+		<IDependency type="e">
+			<_id type="a">GUID 4bac764b-4ba9-4595-8728-f12e09e41d79</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-04</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:46:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:46:16</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-04</_hname>
+					<_hid type="a">GUID 372939cd-90da-4688-b495-b2bafb5213ef</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 3af2fc7d-2919-4d6d-818b-ccbc485d8871</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IPrimitiveOperation type="e">
 			<_id type="a">GUID 7103df5a-5924-42c6-be4e-81314167ee99</_id>
 			<_myState type="a">8192</_myState>
@@ -11897,9 +11932,9 @@
 		<IPart type="e">
 			<_id type="a">GUID ffcb3cb6-f10e-462c-aa6b-470264520186</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsSrwarm_Monitoring</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.16.2021::18:53:50</_modifiedTime>
+			<_name type="a">itsSwarm_Monitoring</_name>
+			<_modifiedTimeWeak type="a">2.19.2021::13:43:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:43:38</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -12403,7 +12438,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:45:11</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -12414,9 +12449,9 @@
 				<_text type="a">Its function is to verify that each drone is in good operational conditions and that it is complying with the mission instructions.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">2.17.2021::12:41:47</_modifiedTime>
-			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<_modifiedTime type="a">2.19.2021::13:45:11</_modifiedTime>
+			<_lastID type="a">7</_lastID>
+			<weakCGTime type="a">2.19.2021::13:45:11</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -12424,6 +12459,8 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID 645fa276-2f19-46f0-a765-2d1488f008e1</value>
+				<value>GUID 3024ab01-d433-4ded-9a0b-d1dfa310a42d</value>
 				<value>GUID 8c1e7dc1-4985-4bfa-a676-34b5ec7d9bf2</value>
 				<value>GUID c484b8d2-5db4-489f-9cbe-09448284d65f</value>
 				<value>GUID e28a01e5-1144-4c9a-97a4-8d7d1477d833</value>
@@ -12437,12 +12474,80 @@
 				<value>GUID c4bfd048-2da4-46c8-b122-183f99669968</value>
 			</AggregatesList>
 		</IClass>
+		<IDependency type="e">
+			<_id type="a">GUID 645fa276-2f19-46f0-a765-2d1488f008e1</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-03</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:44:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:44:28</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-03</_hname>
+					<_hid type="a">GUID b1d6d0b5-e732-41bd-b994-e329833b325e</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 21e61270-ff87-48c1-bd89-005f82ff5094</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 3024ab01-d433-4ded-9a0b-d1dfa310a42d</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-05</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:45:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:45:11</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-05</_hname>
+					<_hid type="a">GUID c639cafb-9741-4408-9b7e-ab7b0c905ff5</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 21e61270-ff87-48c1-bd89-005f82ff5094</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IInformationFlow type="e">
 			<_id type="a">GUID 8c1e7dc1-4985-4bfa-a676-34b5ec7d9bf2</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">Drone_State_Monitoring_Srwarm_Monitoring</_name>
+			<_name type="a">Drone_State_Monitoring_Swarm_Monitoring</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.9.2021::19:25:43</_modifiedTime>
+			<_modifiedTime type="a">2.19.2021::13:43:38</_modifiedTime>
 			<end1_ type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
@@ -12481,7 +12586,7 @@
 			<_id type="a">GUID e28a01e5-1144-4c9a-97a4-8d7d1477d833</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Check_Drone</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:44:57</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.17.2021::12:34:21</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
@@ -12523,7 +12628,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:44:57</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.17.2021::12:32:34</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
@@ -12543,7 +12648,7 @@
 			<_id type="a">GUID f1b67f26-8d6b-420a-b339-918de45d3394</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsSensor_Functionality</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:44:57</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.16.2021::19:22:17</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -12561,7 +12666,7 @@
 			<_id type="a">GUID aea15eef-46fe-4600-acc9-81c899f6f980</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsGNSS_Tracking</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:44:57</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.16.2021::19:22:23</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -12579,7 +12684,7 @@
 			<_id type="a">GUID 1693ba02-f52f-4ef1-8f1b-3f3308e38ccd</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsBattery_Life</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:44:57</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.16.2021::19:22:27</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -12597,7 +12702,7 @@
 			<_id type="a">GUID 1938fd0f-3268-44fd-9135-d714c0f9be05</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsDrone_State_Monitoring</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:44:57</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.16.2021::20:13:27</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -12615,7 +12720,7 @@
 			<_id type="a">GUID 76e15a00-9dde-4d69-8979-a9df647053ab</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsSensor_Functionality_1</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:44:57</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.16.2021::20:13:38</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -12633,7 +12738,7 @@
 			<_id type="a">GUID 03ed7732-1ea5-48d9-b7ca-bbc681acd91a</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsBattery_Life_1</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:44:57</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.16.2021::20:13:42</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -12651,7 +12756,7 @@
 			<_id type="a">GUID c4bfd048-2da4-46c8-b122-183f99669968</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsGNSS_Tracking_1</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:44:57</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.16.2021::20:13:50</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -13312,11 +13417,7 @@
 		<IClass type="e">
 			<_id type="a">GUID dca35f39-7903-4bbd-ae98-8ebd755931b8</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Srwarm_Monitoring</_name>
-			<OwnedDependencies type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</OwnedDependencies>
+			<_name type="a">Swarm_Monitoring</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -13330,7 +13431,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:46:30</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -13341,16 +13442,19 @@
 				<_text type="a">Takes care of validating the mision development of the swarm and reflecting the operational status of the swarm as a whole</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">2.17.2021::12:29:59</_modifiedTime>
-			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_modifiedTime type="a">2.19.2021::13:46:30</_modifiedTime>
+			<_lastID type="a">8</_lastID>
+			<weakCGTime type="a">2.19.2021::13:46:30</weakCGTime>
+			<strongCGTime type="a">2.19.2021::13:43:38</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID aae8c731-801d-4025-a942-e6d0c69307e0</value>
+				<value>GUID f2ba2c8d-fe7e-4f72-9391-b6f015c2c1f1</value>
+				<value>GUID 037778d9-2888-4ed6-8242-d94097831949</value>
 				<value>GUID cc15ac0a-fa07-4bc9-b1d5-3729be9d2ae6</value>
 				<value>GUID 017f5f24-9f19-4207-832a-5d27e83622b7</value>
 				<value>GUID a7735940-2e63-4163-a20d-5d064b090332</value>
@@ -13359,12 +13463,114 @@
 				<value>GUID b66daa8c-7bcd-43e7-82b6-cf55113fc52a</value>
 			</AggregatesList>
 		</IClass>
+		<IDependency type="e">
+			<_id type="a">GUID aae8c731-801d-4025-a942-e6d0c69307e0</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-14</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:43:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:43:19</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-14</_hname>
+					<_hid type="a">GUID 4da3b61b-7998-40bb-8406-7df196a9933b</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID dca35f39-7903-4bbd-ae98-8ebd755931b8</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID f2ba2c8d-fe7e-4f72-9391-b6f015c2c1f1</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-06</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:44:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:44:49</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-06</_hname>
+					<_hid type="a">GUID cad05bd9-7c9a-488e-8b5c-3f8efa53ab80</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID dca35f39-7903-4bbd-ae98-8ebd755931b8</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 037778d9-2888-4ed6-8242-d94097831949</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-04</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:46:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:46:30</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-04</_hname>
+					<_hid type="a">GUID 372939cd-90da-4688-b495-b2bafb5213ef</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID dca35f39-7903-4bbd-ae98-8ebd755931b8</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IInformationFlow type="e">
 			<_id type="a">GUID cc15ac0a-fa07-4bc9-b1d5-3729be9d2ae6</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">Srwarm_Monitoring_Swarm_Control_Panel</_name>
+			<_name type="a">Swarm_Monitoring_Swarm_Control_Panel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.9.2021::19:35:39</_modifiedTime>
+			<_modifiedTime type="a">2.19.2021::13:43:38</_modifiedTime>
 			<end1_ type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
@@ -13382,9 +13588,9 @@
 		<IInformationFlow type="e">
 			<_id type="a">GUID 017f5f24-9f19-4207-832a-5d27e83622b7</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">Srwarm_Monitoring_DB_Analytics</_name>
+			<_name type="a">Swarm_Monitoring_DB_Analytics</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.9.2021::19:41:52</_modifiedTime>
+			<_modifiedTime type="a">2.19.2021::13:43:38</_modifiedTime>
 			<end1_ type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
@@ -13516,7 +13722,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:43:38</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -13527,9 +13733,9 @@
 				<_text type="a">It must allow the control center to visualize the rescue environment and receive alerts of possible located persons together with video frames to obtain verification</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">2.18.2021::7:36:17</_modifiedTime>
+			<_modifiedTime type="a">2.19.2021::13:43:38</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<weakCGTime type="a">2.19.2021::13:43:38</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -13550,9 +13756,9 @@
 		<IInformationFlow type="e">
 			<_id type="a">GUID b6081a8d-8d51-4c0b-ab21-6101bb7aaf05</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">Localization_Analysis_Srwarm_Monitoring</_name>
+			<_name type="a">Localization_Analysis_Swarm_Monitoring</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.9.2021::19:25:32</_modifiedTime>
+			<_modifiedTime type="a">2.19.2021::13:43:38</_modifiedTime>
 			<end1_ type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
