@@ -12,10 +12,10 @@
 			<_id type="a">GUID e2ab43c3-a131-45f4-9abc-22918814ebd7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Swarm_and_Drone_Structure</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::14:40:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::14:40:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::15:47:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::16:14:27</_modifiedTime>
 			<_lastID type="a">41</_lastID>
-			<weakCGTime type="a">2.19.2021::14:40:5</weakCGTime>
+			<weakCGTime type="a">2.19.2021::15:47:1</weakCGTime>
 			<strongCGTime type="a">2.19.2021::14:40:5</strongCGTime>
 			<_defaultComposite type="s">GUID 4e32f1e0-a930-4ffc-af01-3eebf8522778</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -11061,27 +11061,74 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.17.2021::17:20:49</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::16:5:2</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 658223c7-881b-432c-86dd-9833cbda5aa6</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.16.2021::16:38:43</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">2.17.2021::17:20:49</weakCGTime>
+			<_modifiedTime type="a">2.19.2021::16:5:2</_modifiedTime>
+			<_lastID type="a">6</_lastID>
+			<weakCGTime type="a">2.19.2021::16:5:2</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:20:49</strongCGTime>
+			<Ports type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Ports>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID 88ddbac9-5511-4fba-8be0-53217413f7df</value>
+				<value>GUID d78df598-8fa7-466f-b873-6b4ee8ad57da</value>
 				<value>GUID 038671f7-b5de-4350-b0db-4fd782e0ad84</value>
 				<value>GUID 15ea7d04-d6e9-4a5d-8398-cb9e07099d25</value>
+				<value>GUID 83609122-64f5-4483-9c2b-5e8003f353c1</value>
 			</AggregatesList>
 		</IClass>
+		<IInformationFlow type="e">
+			<_id type="a">GUID 88ddbac9-5511-4fba-8be0-53217413f7df</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Swarm_C2_Base</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::16:5:2</_modifiedTime>
+			<Conveyed type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID d78df598-8fa7-466f-b873-6b4ee8ad57da</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Conveyed>
+			<end1_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 92b2dbde-fa36-43e8-9b8e-7acefeb0f193</_hid>
+				</IHandle>
+			</end1_>
+			<end2_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
+					<_hname type="a">C2_Base</_hname>
+					<_hid type="a">GUID ce4341f3-bb8b-4e7a-85e9-d7d12ba1bc80</_hid>
+				</IHandle>
+			</end2_>
+			<direction_ type="a">toEnd2</direction_>
+		</IInformationFlow>
+		<IInformationItem type="e">
+			<_id type="a">GUID d78df598-8fa7-466f-b873-6b4ee8ad57da</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Downlink</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::16:5:2</_modifiedTime>
+		</IInformationItem>
 		<IAttribute type="e">
 			<_id type="a">GUID 038671f7-b5de-4350-b0db-4fd782e0ad84</_id>
 			<_myState type="a">8192</_myState>
@@ -11135,6 +11182,35 @@
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Aggreg</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 83609122-64f5-4483-9c2b-5e8003f353c1</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsSARUS_system</_name>
+			<_modifiedTimeWeak type="a">2.19.2021::15:2:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::15:2:39</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\Context_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Context_Structure</_hsubsystem>
+					<_hname type="a">SARUS_system</_hname>
+					<_hid type="a">GUID ee1844d9-e81b-44d6-bb16-f87e224be574</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\Context_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Context_Structure</_hsubsystem>
+					<_hclass type="a">SARUS_system</_hclass>
+					<_hname type="a">itsSwarm</_hname>
+					<_hid type="a">GUID 59548ead-c298-490d-a13d-824950caec6e</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
 			<_navigability type="a">Navigable</_navigability>
 		</IAssociationEnd>
 		<IClass type="e">
