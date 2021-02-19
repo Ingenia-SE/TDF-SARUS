@@ -12,10 +12,10 @@
 			<_id type="a">GUID 30587312-7769-42ff-955a-b2edc5451cde</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">C2C_Base_Modelling</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::2:32:7</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::2:32:7</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::13:34:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:29:57</_modifiedTime>
 			<_lastID type="a">24</_lastID>
-			<weakCGTime type="a">2.19.2021::2:36:15</weakCGTime>
+			<weakCGTime type="a">2.19.2021::13:34:58</weakCGTime>
 			<strongCGTime type="a">2.18.2021::15:52:45</strongCGTime>
 			<_defaultComposite type="s">GUID b8ee2d3f-37ad-4633-981c-404f415aaaa0</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -9800,6 +9800,7 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsPC_Host_Base</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -9817,6 +9818,7 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsKeyboard</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -9980,6 +9982,7 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsPC_Host_Base</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -9997,6 +10000,7 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsMouse</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -10160,6 +10164,7 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsPC_Host_Base</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -10177,6 +10182,7 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsTouchscreen</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -12797,16 +12803,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:34:58</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 2a3cbd2e-d73c-479b-b492-7dd7678fdb88</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.17.2021::12:51:47</_modifiedTime>
-			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<_modifiedTime type="a">2.19.2021::13:34:58</_modifiedTime>
+			<_lastID type="a">9</_lastID>
+			<weakCGTime type="a">2.19.2021::13:34:58</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -12814,11 +12820,151 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID e936a02f-14ce-4fb3-8dcb-959251e82726</value>
+				<value>GUID cbe38b18-a392-4d83-8abf-cec7304771ac</value>
+				<value>GUID 1e11e7eb-9f97-45d6-be6b-6efb397cb746</value>
+				<value>GUID fbc235c2-db08-47af-b466-fe2aeea45f1f</value>
 				<value>GUID 3c6e10ff-cb3a-4aaf-8f4d-95922ebc4084</value>
 				<value>GUID b7dfa3e8-1247-44f9-9a01-5b7a8ab93791</value>
 				<value>GUID 6e3f245d-1584-46bd-b223-4febb6e0decc</value>
 			</AggregatesList>
 		</IClass>
+		<IDependency type="e">
+			<_id type="a">GUID e936a02f-14ce-4fb3-8dcb-959251e82726</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">BM-03</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:28:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:28:39</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\BatteryManagement.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::BatteryManagement</_hsubsystem>
+					<_hname type="a">BM-03</_hname>
+					<_hid type="a">GUID 3d54ea26-d524-4f8b-8d50-d88c78b058c1</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 658a496f-89f9-4923-96f2-099cf782d35d</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID cbe38b18-a392-4d83-8abf-cec7304771ac</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">BM-02</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:29:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:29:3</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\BatteryManagement.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::BatteryManagement</_hsubsystem>
+					<_hname type="a">BM-02</_hname>
+					<_hid type="a">GUID 4da74b5e-98b8-4ca8-8c8c-8f95a97ab424</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 658a496f-89f9-4923-96f2-099cf782d35d</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 1e11e7eb-9f97-45d6-be6b-6efb397cb746</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">BM-09</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:29:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:29:18</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\BatteryManagement.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::BatteryManagement</_hsubsystem>
+					<_hname type="a">BM-09</_hname>
+					<_hid type="a">GUID 611750ec-8fc4-446d-a408-861c613171b6</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 658a496f-89f9-4923-96f2-099cf782d35d</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID fbc235c2-db08-47af-b466-fe2aeea45f1f</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">BM-05</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:34:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:34:58</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\BatteryManagement.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::BatteryManagement</_hsubsystem>
+					<_hname type="a">BM-05</_hname>
+					<_hid type="a">GUID ce83b690-9523-4368-99b8-92118d614a85</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 658a496f-89f9-4923-96f2-099cf782d35d</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IInformationFlow type="e">
 			<_id type="a">GUID 3c6e10ff-cb3a-4aaf-8f4d-95922ebc4084</_id>
 			<_myState type="a">2048</_myState>

@@ -24,8 +24,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.18.2021::16:12:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.18.2021::15:56:59</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::13:35:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:29:57</_modifiedTime>
 			<_lastID type="a">7</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
@@ -655,10 +655,10 @@ Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.16.2021::15:54:7</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::13:35:29</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.16.2021::12:26:32</_modifiedTime>
 			<_lastID type="a">31</_lastID>
-			<weakCGTime type="a">2.16.2021::15:54:7</weakCGTime>
+			<weakCGTime type="a">2.19.2021::13:35:29</weakCGTime>
 			<strongCGTime type="a">2.9.2021::8:43:1</strongCGTime>
 			<_defaultComposite type="s">GUID 20e82310-789b-4ab3-9364-7dd43ae10359</_defaultComposite>
 			<_eventsBaseID type="a">29401</_eventsBaseID>
@@ -10887,9 +10887,18 @@ Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
 			<_id type="a">GUID d328ebb7-746b-46f5-a9ae-6ddfddeb21c3</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Maintainers</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::17:20:47</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::17:20:47</_modifiedTime>
-			<weakCGTime type="a">2.8.2021::17:20:47</weakCGTime>
+			<_modifiedTimeWeak type="a">2.19.2021::13:35:29</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hsubsystem type="a">SystemRequirements::BatteryManagement</_hsubsystem>
+					<_hname type="a">Battery Management</_hname>
+					<_hid type="a">GUID 7ec8dadc-9d4c-4054-88af-36b3c52a96a4</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">2.19.2021::13:35:29</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<weakCGTime type="a">2.19.2021::13:35:29</weakCGTime>
 			<strongCGTime type="a">2.8.2021::17:20:11</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -10897,9 +10906,153 @@ Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID 7a193536-6b27-4aaf-ba62-5f7478c4e37f</value>
+				<value>GUID 7f3e07c3-d86b-4431-9e52-3e6f6dc195af</value>
+				<value>GUID 5e6bcde5-141e-40ea-8d37-1b43e080d66c</value>
+				<value>GUID 2d491ae6-c497-4ba5-8edf-8c101446afb9</value>
 				<value>GUID e7b61cbc-942f-4fba-bad3-db124742c5c5</value>
 			</AggregatesList>
 		</IActor>
+		<IDependency type="e">
+			<_id type="a">GUID 7a193536-6b27-4aaf-ba62-5f7478c4e37f</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">BM-07</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:24:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:24:53</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hsubsystem type="a">SystemRequirements::BatteryManagement</_hsubsystem>
+					<_hname type="a">BM-07</_hname>
+					<_hid type="a">GUID 896ef1f3-453a-466d-9de4-af8d44f5b595</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hname type="a">Maintainers</_hname>
+					<_hid type="a">GUID d328ebb7-746b-46f5-a9ae-6ddfddeb21c3</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 7f3e07c3-d86b-4431-9e52-3e6f6dc195af</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">BM-03</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:25:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:25:5</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hsubsystem type="a">SystemRequirements::BatteryManagement</_hsubsystem>
+					<_hname type="a">BM-03</_hname>
+					<_hid type="a">GUID 3d54ea26-d524-4f8b-8d50-d88c78b058c1</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hname type="a">Maintainers</_hname>
+					<_hid type="a">GUID d328ebb7-746b-46f5-a9ae-6ddfddeb21c3</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 5e6bcde5-141e-40ea-8d37-1b43e080d66c</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">BM-09</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:25:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:25:12</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hsubsystem type="a">SystemRequirements::BatteryManagement</_hsubsystem>
+					<_hname type="a">BM-09</_hname>
+					<_hid type="a">GUID 611750ec-8fc4-446d-a408-861c613171b6</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hname type="a">Maintainers</_hname>
+					<_hid type="a">GUID d328ebb7-746b-46f5-a9ae-6ddfddeb21c3</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 2d491ae6-c497-4ba5-8edf-8c101446afb9</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">BM-06</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::13:35:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::13:35:29</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hsubsystem type="a">SystemRequirements::BatteryManagement</_hsubsystem>
+					<_hname type="a">BM-06</_hname>
+					<_hid type="a">GUID 2292962f-5546-4fc9-a551-ed4eb6f90193</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hname type="a">Maintainers</_hname>
+					<_hid type="a">GUID d328ebb7-746b-46f5-a9ae-6ddfddeb21c3</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID e7b61cbc-942f-4fba-bad3-db124742c5c5</_id>
 			<_myState type="a">10240</_myState>
