@@ -12,14 +12,14 @@
 			<_id type="a">GUID cb542476-8691-4ab8-9deb-b79007c082cb</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">MissionPlanning_Modeling</_name>
-			<_modifiedTimeWeak type="a">2.17.2021::18:17:34</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::14:29:59</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.17.2021::18:10:4</_modifiedTime>
 			<_lastID type="a">19</_lastID>
-			<weakCGTime type="a">2.17.2021::18:17:34</weakCGTime>
+			<weakCGTime type="a">2.19.2021::14:29:59</weakCGTime>
 			<strongCGTime type="a">2.11.2021::15:22:11</strongCGTime>
 			<_defaultComposite type="s">GUID bb82427f-9f3a-4a00-bdd9-ccb43033b5e2</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 02b18bf5-1e64-49c0-ba1c-022eb11ebe89</value>
 				<value>GUID bb82427f-9f3a-4a00-bdd9-ccb43033b5e2</value>
@@ -234,7 +234,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hsubsystem type="a">SysML::Diagrams</_hsubsystem>
 							<_hname type="a">Block Definition Diagram</_hname>
 							<_hid type="a">GUID 6c142614-3349-49e9-8c6b-0236be5f6b61</_hid>
@@ -3092,6 +3092,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
+							<_hsubsystem type="a">BlockModeling::ContextModeling</_hsubsystem>
 							<_hclass type="a">Environment_database</_hclass>
 							<_hname type="a">input</_hname>
 							<_hid type="a">GUID 7aaf77d4-7f54-4aa3-b360-9918eef4578b</_hid>
@@ -3186,7 +3187,7 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsMission_Planner</m_str>
+					<m_str type="a">(U)itsMission_Planner</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3311,7 +3312,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
 							<_hname type="a">Block</_hname>
 							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
@@ -3513,7 +3514,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
 							<_hname type="a">Block</_hname>
 							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
@@ -3619,7 +3620,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
 							<_hname type="a">Block</_hname>
 							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
@@ -3627,16 +3628,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.17.2021::17:37:9</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::14:29:59</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 02b18bf5-1e64-49c0-ba1c-022eb11ebe89</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.17.2021::17:37:9</_modifiedTime>
-			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">2.17.2021::17:37:9</weakCGTime>
+			<_modifiedTime type="a">2.19.2021::14:29:59</_modifiedTime>
+			<_lastID type="a">6</_lastID>
+			<weakCGTime type="a">2.19.2021::14:29:59</weakCGTime>
 			<strongCGTime type="a">2.11.2021::15:26:45</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3648,6 +3649,7 @@
 				<value>GUID 08f731f5-7c6f-4ccf-a8d9-8b6994aba817</value>
 				<value>GUID 67780586-0b70-4ec9-b9b8-7b63140c8657</value>
 				<value>GUID 1017551e-bad2-4c2f-bba0-9af6af70ab24</value>
+				<value>GUID 4e132f91-b283-4e3b-93a1-ba3d61735f0b</value>
 				<value>GUID ec49abfc-cb80-4c81-baab-3d6862b5d495</value>
 				<value>GUID fff66fe4-0dc0-48ad-aefa-bf4274541b29</value>
 				<value>GUID 3c1ee4bd-9196-4d15-8757-56eca58c183b</value>
@@ -3789,6 +3791,40 @@
 				</INObjectHandle>
 			</_dependent>
 		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 4e132f91-b283-4e3b-93a1-ba3d61735f0b</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-02</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::14:29:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::14:29:59</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-02</_hname>
+					<_hid type="a">GUID b3402244-a7ad-493d-bdbf-9d781f6244b0</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 98ecb378-42ec-4fc9-b718-fce9bda9771a</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IAttribute type="e">
 			<_id type="a">GUID ec49abfc-cb80-4c81-baab-3d6862b5d495</_id>
 			<_myState type="a">8192</_myState>
@@ -3798,7 +3834,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
 							<_hname type="a">ValueProperty</_hname>
 							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
@@ -3867,7 +3903,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
 							<_hname type="a">Block</_hname>
 							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
@@ -3900,7 +3936,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
 							<_hname type="a">Block</_hname>
 							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
@@ -4077,7 +4113,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
 							<_hname type="a">ValueProperty</_hname>
 							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
@@ -4110,7 +4146,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
 							<_hname type="a">Block</_hname>
 							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
@@ -4147,7 +4183,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
 							<_hname type="a">ValueProperty</_hname>
 							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
@@ -4180,7 +4216,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
 							<_hname type="a">Block</_hname>
 							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
@@ -4217,7 +4253,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
 							<_hname type="a">ValueProperty</_hname>
 							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
@@ -4250,7 +4286,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
 							<_hname type="a">Block</_hname>
 							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
@@ -4357,7 +4393,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
 							<_hname type="a">ValueProperty</_hname>
 							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
@@ -4390,7 +4426,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
 							<_hname type="a">Block</_hname>
 							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
@@ -4568,7 +4604,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
 							<_hname type="a">ValueProperty</_hname>
 							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>

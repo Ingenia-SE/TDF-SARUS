@@ -12,10 +12,10 @@
 			<_id type="a">GUID e2ab43c3-a131-45f4-9abc-22918814ebd7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Swarm_and_Drone_Modelling</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::13:38:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::13:38:50</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::14:45:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::14:35:16</_modifiedTime>
 			<_lastID type="a">41</_lastID>
-			<weakCGTime type="a">2.19.2021::13:38:55</weakCGTime>
+			<weakCGTime type="a">2.19.2021::14:45:51</weakCGTime>
 			<strongCGTime type="a">2.18.2021::16:12:22</strongCGTime>
 			<_defaultComposite type="s">GUID 4e32f1e0-a930-4ffc-af01-3eebf8522778</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -442,8 +442,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::13:38:55</_modifiedTime>
-			<_lastModifiedTime type="a">2.19.2021::13:38:55</_lastModifiedTime>
+			<_modifiedTime type="a">2.19.2021::14:35:16</_modifiedTime>
+			<_lastModifiedTime type="a">2.19.2021::14:35:16</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -9135,10 +9135,10 @@
 			<_id type="a">GUID 4e32f1e0-a930-4ffc-af01-3eebf8522778</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::13:38:55</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::13:38:55</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.19.2021::14:35:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::14:35:16</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">2.19.2021::13:38:55</weakCGTime>
+			<weakCGTime type="a">2.19.2021::14:35:16</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:20:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -9719,9 +9719,9 @@
 			<_id type="a">GUID e1ed73b5-fa3a-4b0b-a11b-6381c2d70e4d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Battery</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::13:33:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::13:33:14</_modifiedTime>
-			<_lastID type="a">3</_lastID>
+			<_modifiedTimeWeak type="a">2.19.2021::14:35:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::14:35:16</_modifiedTime>
+			<_lastID type="a">4</_lastID>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -9783,6 +9783,7 @@
 				<value>GUID 7bc208d1-2f14-4d49-bcc5-d62c537efca4</value>
 				<value>GUID a9569449-9e98-4ef3-b1ca-41b6ad506d85</value>
 				<value>GUID a56d2368-2bd7-4558-9c80-696bff95c572</value>
+				<value>GUID 1b1b1a7d-92d9-4548-86e4-7dd05c6f715c</value>
 			</AggregatesList>
 		</IPart>
 		<IDependency type="e">
@@ -9878,6 +9879,40 @@
 					<_hsubsystem type="a">SystemRequirements::BatteryManagement</_hsubsystem>
 					<_hname type="a">BM-51</_hname>
 					<_hid type="a">GUID 423d60ec-f623-4bb7-8a0f-f4ae4f191972</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID e1ed73b5-fa3a-4b0b-a11b-6381c2d70e4d</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 1b1b1a7d-92d9-4548-86e4-7dd05c6f715c</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">BM-08</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::14:35:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::14:35:16</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\BatteryManagement.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::BatteryManagement</_hsubsystem>
+					<_hname type="a">BM-08</_hname>
+					<_hid type="a">GUID 6c710a75-aeb7-444c-a52e-12b17ebf86ea</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">
@@ -11154,16 +11189,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.18.2021::16:6:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::14:46:12</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 658223c7-881b-432c-86dd-9833cbda5aa6</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.18.2021::16:6:21</_modifiedTime>
-			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">2.18.2021::16:6:21</weakCGTime>
+			<_modifiedTime type="a">2.19.2021::14:46:12</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">2.19.2021::14:46:12</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:20:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -11172,6 +11207,8 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
 				<value>GUID c8bea7b5-ccba-42fc-bbb1-f7afa3815eab</value>
+				<value>GUID 3f4618dd-e65d-4cdc-8398-07278b6c2f02</value>
+				<value>GUID b249d3c1-38a1-4353-862e-748a195d818d</value>
 				<value>GUID 850083c2-2e4c-4132-9815-6ac09545f3f0</value>
 				<value>GUID 814f9816-bc02-472e-b446-8e5958d5911c</value>
 				<value>GUID 547ed7c4-4355-4e31-85a8-bd1fe56011a8</value>
@@ -11207,6 +11244,74 @@
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
 					<_hid type="a">GUID d7e7a7ea-cbb9-4808-8514-0b128bc3e466</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 6e755edf-670f-4509-8bbd-89bf1476f040</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 3f4618dd-e65d-4cdc-8398-07278b6c2f02</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-01</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::14:31:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::14:31:3</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-01</_hname>
+					<_hid type="a">GUID da9bea87-d5f3-41e9-b3a4-bdbff51b1d0f</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 6e755edf-670f-4509-8bbd-89bf1476f040</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID b249d3c1-38a1-4353-862e-748a195d818d</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">CM-11</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::14:46:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::14:46:12</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\Communication.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::Communication</_hsubsystem>
+					<_hname type="a">CM-11</_hname>
+					<_hid type="a">GUID f474275f-3645-4416-894b-5c4584203b8e</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">
@@ -11686,16 +11791,16 @@ Blades</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.19.2021::13:40:14</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::14:45:51</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IStructureDiagram</_hm2Class>
 					<_hid type="a">GUID 76051831-6074-495d-87ca-41b2e5923ba1</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.19.2021::13:40:14</_modifiedTime>
-			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">2.19.2021::13:40:14</weakCGTime>
+			<_modifiedTime type="a">2.19.2021::14:45:51</_modifiedTime>
+			<_lastID type="a">6</_lastID>
+			<weakCGTime type="a">2.19.2021::14:45:51</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:20:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -11707,6 +11812,8 @@ Blades</_text>
 				<value>GUID f19e87d5-af49-4395-9031-b194ed2a93a7</value>
 				<value>GUID 3609b75d-8909-49d4-9103-a247faa5804d</value>
 				<value>GUID 0801953c-be2f-4ddc-be2f-90dee7d204d5</value>
+				<value>GUID 04ff5728-3272-476f-9dc1-d11064365b80</value>
+				<value>GUID 6d066c25-f106-4e6e-b6db-2d42e468d87e</value>
 			</AggregatesList>
 		</IClass>
 		<IDependency type="e">
@@ -11821,6 +11928,74 @@ Blades</_text>
 					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
 					<_hname type="a">AC-12</_hname>
 					<_hid type="a">GUID 69901360-fd6e-40cb-84ea-d2ba8d6557f5</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 36f7c87f-3753-445f-8e43-f14339c486f4</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 04ff5728-3272-476f-9dc1-d11064365b80</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-13</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::14:36:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::14:36:6</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-13</_hname>
+					<_hid type="a">GUID 0ab69450-ba29-4f1b-96a2-16d5a222129a</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 36f7c87f-3753-445f-8e43-f14339c486f4</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 6d066c25-f106-4e6e-b6db-2d42e468d87e</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">CM-14</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::14:45:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::14:45:51</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\Communication.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::Communication</_hsubsystem>
+					<_hname type="a">CM-14</_hname>
+					<_hid type="a">GUID d5c0d134-95a8-4f51-b262-e97250bc6748</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">
@@ -12556,16 +12731,16 @@ Blades</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.18.2021::16:6:58</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.19.2021::14:44:18</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 658223c7-881b-432c-86dd-9833cbda5aa6</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.18.2021::16:6:58</_modifiedTime>
-			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">2.18.2021::16:6:58</weakCGTime>
+			<_modifiedTime type="a">2.19.2021::14:44:18</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<weakCGTime type="a">2.19.2021::14:44:18</weakCGTime>
 			<strongCGTime type="a">2.18.2021::16:5:29</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -12575,6 +12750,8 @@ Blades</_text>
 			<AggregatesList type="e">
 				<value>GUID 40fa53f2-5426-4d41-8439-889e0aa761d5</value>
 				<value>GUID 670ef829-aeed-47de-ba96-22763369e5d6</value>
+				<value>GUID 7e452c9c-c65f-44e3-900b-3c4681ac3487</value>
+				<value>GUID 68c413a0-f4a7-4ce2-9097-e7fb46c11ee0</value>
 				<value>GUID 5ef2babe-875e-4a56-8789-6e36679f6865</value>
 				<value>GUID a0dba909-5d10-426f-a921-680c404a8811</value>
 				<value>GUID 9402dbce-fc30-46f0-b617-f76b90c5e79c</value>
@@ -12622,6 +12799,74 @@ Blades</_text>
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
 					<_hid type="a">GUID e36002e4-0ad0-4c5e-9a7e-c17ccc099fae</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID ed6536d0-dfc7-4951-af50-ded6bd9dffd5</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 7e452c9c-c65f-44e3-900b-3c4681ac3487</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">CM-12</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::14:44:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::14:44:9</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\Communication.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::Communication</_hsubsystem>
+					<_hname type="a">CM-12</_hname>
+					<_hid type="a">GUID 41e3eb92-b0c0-4661-a706-0bfc5acc5f0d</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID ed6536d0-dfc7-4951-af50-ded6bd9dffd5</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 68c413a0-f4a7-4ce2-9097-e7fb46c11ee0</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">CM-01</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.19.2021::14:44:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.19.2021::14:44:18</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\Communication.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::Communication</_hsubsystem>
+					<_hname type="a">CM-01</_hname>
+					<_hid type="a">GUID 040bf858-bbe2-4da3-a6a2-84960c7ea702</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">
