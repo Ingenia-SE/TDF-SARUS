@@ -12,15 +12,11 @@
 			<_id type="a">GUID 30587312-7769-42ff-955a-b2edc5451cde</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">C2_Base_Structure</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::17:39:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::17:58:9</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.20.2021::11:31:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.20.2021::11:24:17</_modifiedTime>
 			<_lastID type="a">28</_lastID>
-			<weakCGTime type="a">2.19.2021::18:0:19</weakCGTime>
+			<weakCGTime type="a">2.20.2021::11:31:47</weakCGTime>
 			<strongCGTime type="a">2.19.2021::18:0:19</strongCGTime>
-			<Ports type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Ports>
 			<_defaultComposite type="s">GUID b8ee2d3f-37ad-4633-981c-404f415aaaa0</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">2.19.2021::16:31:50</_configurationRelatedTime>
@@ -9952,6 +9948,7 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsPC_Host_Base</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -9969,6 +9966,7 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsTouchscreen</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -10219,6 +10217,7 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsPC_Host_Base</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -10236,6 +10235,7 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsCommunications_Card_Base</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -10498,6 +10498,7 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsGround_Control_Station</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -10515,6 +10516,7 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsMission_Planner</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -13785,8 +13787,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::17:46:55</_modifiedTime>
-			<_lastModifiedTime type="a">2.19.2021::17:46:55</_lastModifiedTime>
+			<_modifiedTime type="a">2.20.2021::11:32:41</_modifiedTime>
+			<_lastModifiedTime type="a">2.20.2021::11:32:41</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -13947,7 +13949,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">6.73148 0 0 4.01515 -20 -2 </m_transform>
+			<m_transform type="a">6.71759 0 0 4.01515 -20 -2 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -14112,6 +14114,28 @@
 							</Metaclasses>
 						</IPropertySubject>
 						
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Block</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Compartments</_Name>
+													<_Value type="a">Attribute,Operation,Description</_Value>
+													<_Type type="a">MultiLine</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
 					</IRPYRawContainer>
 				</Subjects>
 			</IPropertyContainer>
@@ -14141,8 +14165,8 @@
 					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.170916 0 0 0.1123 157.658 142.054 </m_transform>
+			<m_drawBehavior type="a">2152</m_drawBehavior>
+			<m_transform type="a">0.170916 0 0 0.131908 157.658 135.603 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -14160,12 +14184,14 @@
 					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_AdditionalLabel>
+			<m_bFramesetModified type="a">1</m_bFramesetModified>
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=50%25,50%25&gt;
+			<frameset type="a">&lt;frameset rows=46%25,20%25,34%25&gt;
 &lt;frame name=AttributeListCompartment&gt;
-&lt;frame name=OperationListCompartment&gt;</frameset>
+&lt;frame name=OperationListCompartment&gt;
+&lt;frame name=DescriptionCompartment&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -14177,29 +14203,31 @@
 			<AggregatesList type="e">
 				<value>GUID d0ecb617-f30c-425b-9a56-7ca5a465afab</value>
 				<value>GUID fa98e8bf-e5a6-479a-9630-129adc720c3c</value>
+				<value>GUID 4b6a24ef-dda1-44b2-9b7e-b45cabdbdd40</value>
 			</AggregatesList>
 		</CGIClass>
 		<CGICompartment type="e">
 			<_id type="a">GUID d0ecb617-f30c-425b-9a56-7ca5a465afab</_id>
 			<m_name type="a">Operation</m_name>
-			<m_displayOption type="a">Explicit</m_displayOption>
+			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<Items type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Items>
 		</CGICompartment>
 		<CGICompartment type="e">
 			<_id type="a">GUID fa98e8bf-e5a6-479a-9630-129adc720c3c</_id>
 			<m_name type="a">Attribute</m_name>
-			<m_displayOption type="a">Explicit</m_displayOption>
+			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<Items type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Items>
+			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID 4b6a24ef-dda1-44b2-9b7e-b45cabdbdd40</_id>
+			<m_name type="a">Description</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
 		</CGICompartment>
 		<CGIClass type="e">
 			<_id type="a">GUID 9b8e17e2-c2d9-47ae-b485-404e3cb9d9f1</_id>
@@ -14218,6 +14246,28 @@
 													<_Name type="a">FitBoxToItsTextuals</_Name>
 													<_Value type="a">False</_Value>
 													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Block</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Compartments</_Name>
+													<_Value type="a">Attribute,Operation,Description</_Value>
+													<_Type type="a">MultiLine</_Type>
 												</IProperty>
 												
 											</IRPYRawContainer>
@@ -14258,7 +14308,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.150142 0 0 0.112299 371.7 142.053 </m_transform>
+			<m_transform type="a">0.150142 0 0 0.131907 371.7 135.602 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -14276,12 +14326,14 @@
 					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_AdditionalLabel>
+			<m_bFramesetModified type="a">1</m_bFramesetModified>
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=55%25,45%25&gt;
+			<frameset type="a">&lt;frameset rows=41%25,25%25,34%25&gt;
 &lt;frame name=AttributeListCompartment&gt;
-&lt;frame name=OperationListCompartment&gt;</frameset>
+&lt;frame name=OperationListCompartment&gt;
+&lt;frame name=DescriptionCompartment&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -14293,6 +14345,7 @@
 			<AggregatesList type="e">
 				<value>GUID 5aed38ba-a2d0-4cf8-bec1-7366a266d556</value>
 				<value>GUID 9e9d2246-8e55-4826-a487-b48d5e208338</value>
+				<value>GUID 89c15c98-be1d-4452-abe4-2d681171bf72</value>
 			</AggregatesList>
 		</CGIClass>
 		<CGICompartment type="e">
@@ -14312,7 +14365,7 @@
 				</IRPYRawContainer>
 			</Items>
 			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
-			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a"> -1 -1 -1 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGICompartment type="e">
 			<_id type="a">GUID 9e9d2246-8e55-4826-a487-b48d5e208338</_id>
@@ -14324,6 +14377,13 @@
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
 			</Items>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID 89c15c98-be1d-4452-abe4-2d681171bf72</_id>
+			<m_name type="a">Description</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
 		</CGICompartment>
 		<CGIClass type="e">
 			<_id type="a">GUID d84e5ddc-9327-4879-9372-c110c80dfb78</_id>
@@ -14592,6 +14652,28 @@
 							</Metaclasses>
 						</IPropertySubject>
 						
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Block</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Compartments</_Name>
+													<_Value type="a">Attribute,Operation,Description</_Value>
+													<_Type type="a">MultiLine</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
 					</IRPYRawContainer>
 				</Subjects>
 			</IPropertyContainer>
@@ -14622,7 +14704,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.150142 0 0 0.112299 573.7 143.053 </m_transform>
+			<m_transform type="a">0.150142 0 0 0.131907 573.7 136.602 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -14640,12 +14722,14 @@
 					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_AdditionalLabel>
+			<m_bFramesetModified type="a">1</m_bFramesetModified>
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=55%25,45%25&gt;
+			<frameset type="a">&lt;frameset rows=41%25,25%25,34%25&gt;
 &lt;frame name=AttributeListCompartment&gt;
-&lt;frame name=OperationListCompartment&gt;</frameset>
+&lt;frame name=OperationListCompartment&gt;
+&lt;frame name=DescriptionCompartment&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -14657,6 +14741,7 @@
 			<AggregatesList type="e">
 				<value>GUID 9642660f-7ee7-4a8b-92b7-51bb64681290</value>
 				<value>GUID ea93eab2-27bd-41d8-a4a5-1f1fc3f6d397</value>
+				<value>GUID 1bce6e09-9ee5-43a8-8879-94e5d5bac1c1</value>
 			</AggregatesList>
 		</CGIClass>
 		<CGICompartment type="e">
@@ -14689,6 +14774,13 @@
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID 1bce6e09-9ee5-43a8-8879-94e5d5bac1c1</_id>
+			<m_name type="a">Description</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
 		<CGIClass type="e">
 			<_id type="a">GUID f98dc606-5f57-40f4-8696-2cfee7be28e0</_id>
 			<_properties type="p"><IPropertyContainer type="e">
@@ -14706,6 +14798,28 @@
 													<_Name type="a">FitBoxToItsTextuals</_Name>
 													<_Value type="a">False</_Value>
 													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Block</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Compartments</_Name>
+													<_Value type="a">Attribute,Operation,Description</_Value>
+													<_Type type="a">MultiLine</_Type>
 												</IProperty>
 												
 											</IRPYRawContainer>
@@ -14746,7 +14860,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.150142 0 0 0.112299 809.7 143.053 </m_transform>
+			<m_transform type="a">0.150142 0 0 0.131907 809.7 136.602 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -14764,12 +14878,14 @@
 					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_AdditionalLabel>
+			<m_bFramesetModified type="a">1</m_bFramesetModified>
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=55%25,45%25&gt;
+			<frameset type="a">&lt;frameset rows=41%25,25%25,34%25&gt;
 &lt;frame name=AttributeListCompartment&gt;
-&lt;frame name=OperationListCompartment&gt;</frameset>
+&lt;frame name=OperationListCompartment&gt;
+&lt;frame name=DescriptionCompartment&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -14781,6 +14897,7 @@
 			<AggregatesList type="e">
 				<value>GUID a87b2236-9ab9-4639-9449-993b362b3567</value>
 				<value>GUID 286435f3-e669-4f55-803c-79139e5583f5</value>
+				<value>GUID 96ce5f92-2f18-4c2f-9878-c2c35e8ff4f7</value>
 			</AggregatesList>
 		</CGIClass>
 		<CGICompartment type="e">
@@ -14813,6 +14930,13 @@
 			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID 96ce5f92-2f18-4c2f-9878-c2c35e8ff4f7</_id>
+			<m_name type="a">Description</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
 		<CGIClass type="e">
 			<_id type="a">GUID 7e51ec45-b66f-4128-a387-b6ccbff156b2</_id>
 			<_properties type="p"><IPropertyContainer type="e">
@@ -14830,6 +14954,28 @@
 													<_Name type="a">FitBoxToItsTextuals</_Name>
 													<_Value type="a">False</_Value>
 													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Block</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Compartments</_Name>
+													<_Value type="a">Attribute,Operation,Description</_Value>
+													<_Type type="a">MultiLine</_Type>
 												</IProperty>
 												
 											</IRPYRawContainer>
@@ -14870,7 +15016,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.150142 0 0 0.112299 1030.7 143.053 </m_transform>
+			<m_transform type="a">0.150142 0 0 0.131907 1030.7 136.602 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -14888,12 +15034,14 @@
 					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_AdditionalLabel>
+			<m_bFramesetModified type="a">1</m_bFramesetModified>
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=55%25,45%25&gt;
+			<frameset type="a">&lt;frameset rows=47%25,19%25,34%25&gt;
 &lt;frame name=AttributeListCompartment&gt;
-&lt;frame name=OperationListCompartment&gt;</frameset>
+&lt;frame name=OperationListCompartment&gt;
+&lt;frame name=DescriptionCompartment&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -14905,6 +15053,7 @@
 			<AggregatesList type="e">
 				<value>GUID 8f6de878-3ad6-4155-b69d-36be71db8c84</value>
 				<value>GUID e14de10d-69d5-4173-ad17-ef00150f43f9</value>
+				<value>GUID a5acf20b-2468-468b-bb73-1b3fe2b2020e</value>
 			</AggregatesList>
 		</CGIClass>
 		<CGICompartment type="e">
@@ -14936,6 +15085,13 @@
 			</Items>
 			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID a5acf20b-2468-468b-bb73-1b3fe2b2020e</_id>
+			<m_name type="a">Description</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
 		</CGICompartment>
 		<CGIAssociationEnd type="e">
 			<_id type="a">GUID 569f55ad-3396-4696-a8cc-9082dbec7062</_id>
@@ -16223,6 +16379,28 @@
 							</Metaclasses>
 						</IPropertySubject>
 						
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Block</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Compartments</_Name>
+													<_Value type="a">Attribute,Operation,Description</_Value>
+													<_Type type="a">MultiLine</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
 					</IRPYRawContainer>
 				</Subjects>
 			</IPropertyContainer>
@@ -16253,7 +16431,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.108593 0 0 0.112299 -0.217186 142.053 </m_transform>
+			<m_transform type="a">0.122757 0 0 0.181817 -0.245514 119.181 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -16271,12 +16449,14 @@
 					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_AdditionalLabel>
+			<m_bFramesetModified type="a">1</m_bFramesetModified>
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=55%25,45%25&gt;
+			<frameset type="a">&lt;frameset rows=33%25,17%25,50%25&gt;
 &lt;frame name=AttributeListCompartment&gt;
-&lt;frame name=OperationListCompartment&gt;</frameset>
+&lt;frame name=OperationListCompartment&gt;
+&lt;frame name=DescriptionCompartment&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -16288,6 +16468,7 @@
 			<AggregatesList type="e">
 				<value>GUID 07b6a0ec-348e-4314-90d5-8359569709a3</value>
 				<value>GUID 526adc93-2310-4c01-8bd0-bc9e1c0bf328</value>
+				<value>GUID bc273796-9afb-406a-8916-12caa5befa27</value>
 			</AggregatesList>
 		</CGIClass>
 		<CGICompartment type="e">
@@ -16319,6 +16500,13 @@
 			</Items>
 			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID bc273796-9afb-406a-8916-12caa5befa27</_id>
+			<m_name type="a">Description</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
 		</CGICompartment>
 		<CGIAssociationEnd type="e">
 			<_id type="a">GUID 43b810af-480c-4937-89eb-a22c998b0b14</_id>
@@ -16369,12 +16557,12 @@
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 625 119  53 119  </m_arrow>
+			<m_arrow type="a">2 625 119  60 119  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">300 1451 </m_SourcePort>
-			<m_TargetPort type="a">490 329 </m_TargetPort>
+			<m_TargetPort type="a">491 329 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
@@ -16529,6 +16717,28 @@
 							</Metaclasses>
 						</IPropertySubject>
 						
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Block</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Compartments</_Name>
+													<_Value type="a">Attribute,Operation,Description</_Value>
+													<_Type type="a">MultiLine</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
 					</IRPYRawContainer>
 				</Subjects>
 			</IPropertyContainer>
@@ -16562,7 +16772,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.176582 0 0 0.0855615 1226.65 150.85 </m_transform>
+			<m_transform type="a">0.173749 0 0 0.16221 1226.66 125.632 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -16584,9 +16794,10 @@
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=83%25,17%25&gt;
+			<frameset type="a">&lt;frameset rows=40%25,26%25,34%25&gt;
 &lt;frame name=AttributeListCompartment&gt;
-&lt;frame name=OperationListCompartment&gt;</frameset>
+&lt;frame name=OperationListCompartment&gt;
+&lt;frame name=DescriptionCompartment&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -16598,6 +16809,7 @@
 			<AggregatesList type="e">
 				<value>GUID 294e339e-9c85-466e-9199-a53bae663163</value>
 				<value>GUID 29069da0-d62c-4398-a33e-13c838037329</value>
+				<value>GUID ba3aa34c-ce38-4f47-b05b-36dd9703d878</value>
 			</AggregatesList>
 		</CGIClass>
 		<CGICompartment type="e">
@@ -16633,6 +16845,13 @@
 			</Items>
 			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID ba3aa34c-ce38-4f47-b05b-36dd9703d878</_id>
+			<m_name type="a">Description</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
 		</CGICompartment>
 		<CGIAssociationEnd type="e">
 			<_id type="a">GUID 39e19d2c-19b2-4134-b6d0-66b3cacc7114</_id>
@@ -16683,12 +16902,12 @@
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 684 118  1328 118  </m_arrow>
+			<m_arrow type="a">2 684 118  1326 118  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">788 1451 </m_SourcePort>
-			<m_TargetPort type="a">574 329 </m_TargetPort>
+			<m_TargetPort type="a">572 329 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
@@ -24248,16 +24467,20 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.19.2021::18:0:19</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.20.2021::11:31:59</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 02b18bf5-1e64-49c0-ba1c-022eb11ebe89</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.19.2021::15:42:33</_modifiedTime>
-			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">2.19.2021::18:0:19</weakCGTime>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">From the points introducted to the system, determine the areas available for the routes creation.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.20.2021::11:31:59</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">2.20.2021::11:31:59</weakCGTime>
 			<strongCGTime type="a">2.19.2021::18:0:19</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -24269,6 +24492,7 @@
 				<value>GUID f6120591-cdc6-4ff0-8eb0-feb1eb1ae463</value>
 				<value>GUID 585121de-6176-416b-ad34-ce9fee037d24</value>
 				<value>GUID fedf6e8a-cf46-4957-94be-ef66a08f7f22</value>
+				<value>GUID 3fee8fb1-8bea-4b2a-87dd-6dd2501ed2c7</value>
 			</AggregatesList>
 		</IClass>
 		<IDependency type="e">
@@ -24378,6 +24602,39 @@
 			</end2_>
 			<direction_ type="a">toEnd2</direction_>
 		</IInformationFlow>
+		<IAttribute type="e">
+			<_id type="a">GUID 3fee8fb1-8bea-4b2a-87dd-6dd2501ed2c7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Areas</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.20.2021::11:31:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.20.2021::11:31:59</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
 		<IClass type="e">
 			<_id type="a">GUID aa212d94-800e-4de3-bc9b-e01ce8d67956</_id>
 			<_myState type="a">8192</_myState>
@@ -24395,16 +24652,21 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.19.2021::18:0:19</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.20.2021::11:26:2</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 02b18bf5-1e64-49c0-ba1c-022eb11ebe89</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.19.2021::15:39:5</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Based on the Cost_Function, determines if the path chosen is of sufficient quality to develop the mission.%0D
+</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.20.2021::11:26:2</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">2.19.2021::18:0:19</weakCGTime>
+			<weakCGTime type="a">2.20.2021::11:26:2</weakCGTime>
 			<strongCGTime type="a">2.19.2021::18:0:19</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -24726,16 +24988,20 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.19.2021::18:0:19</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.20.2021::11:24:9</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 02b18bf5-1e64-49c0-ba1c-022eb11ebe89</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.19.2021::15:39:36</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Evaluate the possible paths and determine the optimal one based on some specified criteria.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.20.2021::11:24:9</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">2.19.2021::18:0:19</weakCGTime>
+			<weakCGTime type="a">2.20.2021::11:24:9</weakCGTime>
 			<strongCGTime type="a">2.19.2021::18:0:19</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -25207,16 +25473,20 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.19.2021::18:0:19</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.20.2021::11:27:32</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 02b18bf5-1e64-49c0-ba1c-022eb11ebe89</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.19.2021::17:46:55</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Encode the paths to a format accepted by Mission_Planner_UI</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.20.2021::11:27:32</_modifiedTime>
 			<_lastID type="a">6</_lastID>
-			<weakCGTime type="a">2.19.2021::18:0:19</weakCGTime>
+			<weakCGTime type="a">2.20.2021::11:27:32</weakCGTime>
 			<strongCGTime type="a">2.19.2021::18:0:19</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -25418,16 +25688,20 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.19.2021::18:0:19</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.20.2021::11:22:36</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 02b18bf5-1e64-49c0-ba1c-022eb11ebe89</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.19.2021::14:36:15</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">From the area given by the Area_Defining_Function, generates the possible drone paths based in two possible ways: No restrictions, create  paths freely and With restrictions, paths created have to pass trough previosuly defined points.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.20.2021::11:22:36</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">2.19.2021::18:0:19</weakCGTime>
+			<weakCGTime type="a">2.20.2021::11:22:36</weakCGTime>
 			<strongCGTime type="a">2.19.2021::18:0:19</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -25666,16 +25940,20 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.19.2021::18:0:19</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.20.2021::11:19:20</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 02b18bf5-1e64-49c0-ba1c-022eb11ebe89</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.19.2021::17:59:37</_modifiedTime>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Allows the introduction of area data in the system, watch and check the paths created and checks its correct delivery to the drones.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">2.20.2021::11:19:20</_modifiedTime>
 			<_lastID type="a">13</_lastID>
-			<weakCGTime type="a">2.19.2021::18:0:19</weakCGTime>
+			<weakCGTime type="a">2.20.2021::11:19:20</weakCGTime>
 			<strongCGTime type="a">2.19.2021::18:0:19</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
