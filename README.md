@@ -8,7 +8,7 @@ The aim of the project is to develop a complex system of coordinated drones that
 ### Repository Contents
 This information will be updated once new information is available.
 
-1 - Model Project & SARUS_Project: Contain the updated SYSML project with our system model (including its requirements).
+1. SARUS_Project folder: Contains the updated SysML project with our system model (including its requirements).
 
 ### How to submit an ECR?
 
