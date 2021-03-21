@@ -1,0 +1,24 @@
+<launch>
+
+  <node pkg="swri_transform_util" type="initialize_origin.py" name="initialize_origin" >
+    <param name="local_xy_frame" value="/world"/>
+    <param name="local_xy_origin" value="swri"/>
+    <rosparam param="local_xy_origins">
+      [{ name: swri,
+         latitude: 40.5991,
+         longitude: -3.71226,
+         altitude: 745,
+         heading: 0.0},
+         
+       { name: back_40,
+         latitude: 40.5991,
+         longitude: -3.71226,
+         altitude: 745,
+         heading: 0.0}]
+    </rosparam>
+  </node>
+
+  <node pkg="tf" type="static_transform_publisher" name="swri_transform" args="0 0 0 0 0 0 /world /origin 100"  />
+  <node name="rqt_gui" pkg="rqt_gui" type="rqt_gui"/>
+  
+</launch>
