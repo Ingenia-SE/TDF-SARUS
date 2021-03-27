@@ -21,7 +21,7 @@ catkin_make
 ```
 source /opt/ros/melodic/setup.bash
 source devel/setup.bash
-roslaunch tdf_gazebo start.launch
+roslaunch tdf_gazebo tdf_gazebo.launch
 ```
 
 ## Description
