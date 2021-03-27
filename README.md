@@ -9,6 +9,8 @@ The aim of the project is to develop a complex system of coordinated drones that
 This information will be updated once new information is available.
 
 1. SARUS_Project folder: Contains the updated SysML project with our system model (including its requirements).
+2. TDF-Vision folder: Contains the computer vision files.
+3. TDF-Sim folder: Contains the Gazebo worlds used in simulations.
 
 ### How to submit an ECR?
 
