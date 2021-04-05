@@ -12,10 +12,10 @@
 			<_id type="a">GUID 892d1db3-d120-473e-8d2c-67a8b17ebd4c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Context_Structure</_name>
-			<_modifiedTimeWeak type="a">2.20.2021::11:28:34</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.5.2021::16:18:46</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.19.2021::16:31:50</_modifiedTime>
 			<_lastID type="a">42</_lastID>
-			<weakCGTime type="a">2.20.2021::11:28:34</weakCGTime>
+			<weakCGTime type="a">4.5.2021::16:18:46</weakCGTime>
 			<strongCGTime type="a">2.19.2021::14:39:49</strongCGTime>
 			<_defaultComposite type="s">GUID 64eb1c01-40ea-4811-b7f8-828bf2018136</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -4587,16 +4587,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.19.2021::16:31:50</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.5.2021::16:18:46</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 061a97f7-3cfc-409b-81a5-2798efba85e8</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.19.2021::16:31:50</_modifiedTime>
+			<_modifiedTime type="a">4.5.2021::16:18:46</_modifiedTime>
 			<_lastID type="a">20</_lastID>
-			<weakCGTime type="a">2.19.2021::16:31:50</weakCGTime>
+			<weakCGTime type="a">4.5.2021::16:18:46</weakCGTime>
 			<strongCGTime type="a">2.9.2021::9:1:29</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -4636,6 +4636,7 @@
 				<value>GUID 77fe98aa-81be-40e0-86df-5deb9beafd4f</value>
 				<value>GUID 59548ead-c298-490d-a13d-824950caec6e</value>
 				<value>GUID 0da482e6-278f-4f12-bfe7-b519ddedc064</value>
+				<value>GUID 2163d06a-7a9a-4385-8107-1b13bb6ad1d9</value>
 			</AggregatesList>
 		</IClass>
 		<IInformationFlow type="e">
@@ -5518,6 +5519,35 @@
 					<_hclass type="a">Operator</_hclass>
 					<_hname type="a">itsSARUS_system</_hname>
 					<_hid type="a">GUID 99ca2169-c8c2-4276-a374-e755939a9c0a</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Aggreg</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 2163d06a-7a9a-4385-8107-1b13bb6ad1d9</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsC2_Base_1</_name>
+			<_modifiedTimeWeak type="a">4.5.2021::16:18:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.5.2021::16:18:46</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
+					<_hname type="a">C2_Base</_hname>
+					<_hid type="a">GUID fb4d1be2-bd88-4d7f-8b71-737c4fd261b8</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
+					<_hclass type="a">C2_Base</_hclass>
+					<_hname type="a">itsSARUS_system</_hname>
+					<_hid type="a">GUID 51e1ed75-7c3c-440d-8621-1504b6de7b35</_hid>
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Aggreg</_linkType>

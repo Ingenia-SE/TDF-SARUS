@@ -12,10 +12,10 @@
 			<_id type="a">GUID a84c4fc4-e84c-4719-aef0-dec1650c47a0</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">High_Level_Structure</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::17:25:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::16:33:45</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.5.2021::16:19:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.5.2021::16:19:55</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">2.19.2021::17:25:2</weakCGTime>
+			<weakCGTime type="a">4.5.2021::16:19:55</weakCGTime>
 			<strongCGTime type="a">2.19.2021::14:41:46</strongCGTime>
 			<_defaultComposite type="s">GUID fc508e93-706a-4f9a-86c0-5d3d5151174d</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -302,6 +302,12 @@
 										<Properties type="c">
 											<IRPYRawContainer type="e">
 												<IProperty type="e">
+													<_Name type="a">PopulateClassSize</_Name>
+													<_Value type="a">DefaultSize</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
 													<_Name type="a">SmartRouting</_Name>
 													<_Value type="a">False</_Value>
 													<_Type type="a">Bool</_Type>
@@ -334,8 +340,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::16:31:50</_modifiedTime>
-			<_lastModifiedTime type="a">2.19.2021::16:31:50</_lastModifiedTime>
+			<_modifiedTime type="a">4.5.2021::16:27:16</_modifiedTime>
+			<_lastModifiedTime type="a">4.5.2021::16:27:16</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -378,7 +384,7 @@
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<elementList type="a">10</elementList>
+			<elementList type="a">11</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -401,6 +407,7 @@
 				<value>GUID 4153af58-9b0f-4908-ac96-37d1a7e2c7b2</value>
 				<value>GUID 11b7359c-6433-475a-997a-60e8b34f4987</value>
 				<value>GUID d0e94d8b-cc36-47af-ad55-4567bbd3df19</value>
+				<value>GUID 81fb6259-20c9-49af-a268-23e24fc164e9</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
@@ -485,7 +492,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">6.64352 0 0 3.63636 20 20 </m_transform>
+			<m_transform type="a">3.50463 0 0 5.37879 20 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -522,7 +529,7 @@
 											<IRPYRawContainer type="e">
 												<IProperty type="e">
 													<_Name type="a">FitBoxToItsTextuals</_Name>
-													<_Value type="a">False</_Value>
+													<_Value type="a">True</_Value>
 													<_Type type="a">Bool</_Type>
 												</IProperty>
 												
@@ -551,7 +558,7 @@
 			<m_pParent type="s">GUID f0b48fff-8476-4ccd-aae1-807a4635845c</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::Context_Structure::SARUS_system</m_str>
+					<m_str type="a">SARUS_system</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -566,8 +573,8 @@
 					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.345609 0 0 0.144385 903.309 -7.50269 </m_transform>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_transform type="a">0.134089 0 0 0.16934 39.7318 224.287 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -641,7 +648,7 @@
 			<m_pParent type="s">GUID f0b48fff-8476-4ccd-aae1-807a4635845c</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::C2_Base_Structure::C2_Base</m_str>
+					<m_str type="a">C2_Base</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -656,8 +663,8 @@
 					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.30406 0 0 0.144385 925.392 200.497 </m_transform>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_transform type="a">0.124646 0 0 0.16934 334.751 464.287 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -731,7 +738,7 @@
 			<m_pParent type="s">GUID f0b48fff-8476-4ccd-aae1-807a4635845c</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::Swarm_and_Drone_Structure::Swarm</m_str>
+					<m_str type="a">Swarm</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -746,8 +753,8 @@
 					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.362606 0 0 0.144385 468.275 -7.50269 </m_transform>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_transform type="a">0.124646 0 0 0.16934 334.751 -15.713 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -821,7 +828,7 @@
 			<m_pParent type="s">GUID f0b48fff-8476-4ccd-aae1-807a4635845c</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::Swarm_and_Drone_Structure::Drone</m_str>
+					<m_str type="a">Drone</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -836,8 +843,8 @@
 					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.356941 0 0 0.144385 39.2861 -7.50269 </m_transform>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_transform type="a">0.124646 0 0 0.16934 624.751 -15.713 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -926,7 +933,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_pSource type="s">GUID 36fcad7c-f844-4647-a154-575e37842137</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
@@ -952,8 +959,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">2 890 </m_SourcePort>
-			<m_TargetPort type="a">1064 890 </m_TargetPort>
+			<m_SourcePort type="a">1069 890 </m_SourcePort>
+			<m_TargetPort type="a">2 890 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
@@ -995,8 +1002,8 @@
 					<m_position type="a">1 0 0  </m_position>
 					<m_nIdent type="a">2</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nHorizontalSpacing type="a">-7</m_nHorizontalSpacing>
-					<m_nOrientationCtrlPt type="a">2</m_nOrientationCtrlPt>
+					<m_nHorizontalSpacing type="a">7</m_nHorizontalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_sourceRole>
 			<m_targetRole type="p">
@@ -1013,7 +1020,7 @@
 					<m_position type="a">1 0 0  </m_position>
 					<m_nIdent type="a">3</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
+					<m_nOrientationCtrlPt type="a">2</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_targetRole>
 			<m_sourceMultiplicity type="p">
@@ -1030,8 +1037,8 @@
 					<m_position type="a">1 0 0  </m_position>
 					<m_nIdent type="a">4</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nHorizontalSpacing type="a">-7</m_nHorizontalSpacing>
-					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
+					<m_nHorizontalSpacing type="a">7</m_nHorizontalSpacing>
+					<m_nOrientationCtrlPt type="a">6</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_sourceMultiplicity>
 			<m_targetMultiplicity type="p">
@@ -1048,7 +1055,7 @@
 					<m_position type="a">1 0 0  </m_position>
 					<m_nIdent type="a">5</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">6</m_nOrientationCtrlPt>
+					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_targetMultiplicity>
 			<m_sourceQualifier type="p">
@@ -1115,7 +1122,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_pSource type="s">GUID 728eb416-b327-44ea-8348-71c99476f55b</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
@@ -1138,11 +1145,12 @@
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
+			<m_arrow type="a">2 258 327  258 135  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">2 890 </m_SourcePort>
-			<m_TargetPort type="a">1064 890 </m_TargetPort>
+			<m_SourcePort type="a">1061 607 </m_SourcePort>
+			<m_TargetPort type="a">2 890 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
@@ -1184,8 +1192,8 @@
 					<m_position type="a">1 879 121.5  </m_position>
 					<m_nIdent type="a">2</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nHorizontalSpacing type="a">-7</m_nHorizontalSpacing>
-					<m_nOrientationCtrlPt type="a">2</m_nOrientationCtrlPt>
+					<m_nHorizontalSpacing type="a">7</m_nHorizontalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_sourceRole>
 			<m_targetRole type="p">
@@ -1219,8 +1227,8 @@
 					<m_position type="a">1 879 121.5  </m_position>
 					<m_nIdent type="a">4</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nHorizontalSpacing type="a">-7</m_nHorizontalSpacing>
-					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
+					<m_nHorizontalSpacing type="a">7</m_nHorizontalSpacing>
+					<m_nOrientationCtrlPt type="a">6</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_sourceMultiplicity>
 			<m_targetMultiplicity type="p">
@@ -1301,8 +1309,8 @@
 					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.107649 0 0 0.144385 1320.78 -7.50269 </m_transform>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_transform type="a">0.124646 0 0 0.16934 334.751 224.287 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1391,7 +1399,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_pSource type="s">GUID 728eb416-b327-44ea-8348-71c99476f55b</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
@@ -1417,7 +1425,7 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1064 890 </m_SourcePort>
+			<m_SourcePort type="a">1068 890 </m_SourcePort>
 			<m_TargetPort type="a">2 890 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
@@ -1456,8 +1464,8 @@
 					<m_position type="a">1 1296 121.5  </m_position>
 					<m_nIdent type="a">2</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nHorizontalSpacing type="a">-7</m_nHorizontalSpacing>
-					<m_nOrientationCtrlPt type="a">2</m_nOrientationCtrlPt>
+					<m_nHorizontalSpacing type="a">7</m_nHorizontalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_sourceRole>
 			<m_targetRole type="p">
@@ -1491,8 +1499,8 @@
 					<m_position type="a">1 1296 121.5  </m_position>
 					<m_nIdent type="a">4</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nHorizontalSpacing type="a">-7</m_nHorizontalSpacing>
-					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
+					<m_nHorizontalSpacing type="a">7</m_nHorizontalSpacing>
+					<m_nOrientationCtrlPt type="a">6</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_sourceMultiplicity>
 			<m_targetMultiplicity type="p">
@@ -1507,6 +1515,199 @@
 						</IColor>
 					</m_color>
 					<m_position type="a">1 1296 121.5  </m_position>
+					<m_nIdent type="a">5</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_targetMultiplicity>
+			<m_sourceQualifier type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">6</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_sourceQualifier>
+			<m_targetQualifier type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">7</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_targetQualifier>
+			<m_specificType type="a">symmetric_type</m_specificType>
+		</CGIAssociationEnd>
+		<CGIAssociationEnd type="e">
+			<_id type="a">GUID 81fb6259-20c9-49af-a268-23e24fc164e9</_id>
+			<m_type type="a">93</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\Context_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Context_Structure</_hsubsystem>
+					<_hclass type="a">SARUS_system</_hclass>
+					<_hname type="a">itsC2_Base_1</_hname>
+					<_hid type="a">GUID 2163d06a-7a9a-4385-8107-1b13bb6ad1d9</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 728eb416-b327-44ea-8348-71c99476f55b</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID ca29a54f-58cd-4362-bf1f-705abb98175d</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_arrow type="a">2 258 422  258 615  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">1061 1168 </m_SourcePort>
+			<m_TargetPort type="a">2 890 </m_TargetPort>
+			<m_pInverseModelObject type="r">
+				<IAssociationEndHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
+					<_hclass type="a">C2_Base</_hclass>
+					<_hname type="a">itsSARUS_system</_hname>
+					<_hid type="a">GUID 51e1ed75-7c3c-440d-8621-1504b6de7b35</_hid>
+				</IAssociationEndHandle>
+			</m_pInverseModelObject>
+			<m_pInstance type="r">
+				<IObjectLinkHandle type="e">
+				</IObjectLinkHandle>
+			</m_pInstance>
+			<m_pInverseInstance type="r">
+				<IObjectLinkHandle type="e">
+				</IObjectLinkHandle>
+			</m_pInverseInstance>
+			<m_bShowSourceMultiplicity type="a">1</m_bShowSourceMultiplicity>
+			<m_bShowSourceRole type="a">1</m_bShowSourceRole>
+			<m_bShowTargetMultiplicity type="a">1</m_bShowTargetMultiplicity>
+			<m_bShowTargetRole type="a">1</m_bShowTargetRole>
+			<m_bShowLinkName type="a">1</m_bShowLinkName>
+			<m_bShowSpecificType type="a">0</m_bShowSpecificType>
+			<m_bInstance type="a">0</m_bInstance>
+			<m_bShowQualifier1 type="a">1</m_bShowQualifier1>
+			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
+			<m_sourceRole type="p">
+				<CGIText type="e">
+					<m_str type="a">itsSARUS_system</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">2</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nHorizontalSpacing type="a">7</m_nHorizontalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_sourceRole>
+			<m_targetRole type="p">
+				<CGIText type="e">
+					<m_str type="a">itsC2_Base_1</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">4 -9 -13  104 -13  104 7  -9 7  </m_position>
+					<m_nIdent type="a">3</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_transform type="a">1 0 0 1 885 336 </m_transform>
+					<m_nHorizontalSpacing type="a">-3</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-13</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">2</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_targetRole>
+			<m_sourceMultiplicity type="p">
+				<CGIText type="e">
+					<m_str type="a">1</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">4</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nHorizontalSpacing type="a">7</m_nHorizontalSpacing>
+					<m_nOrientationCtrlPt type="a">6</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_sourceMultiplicity>
+			<m_targetMultiplicity type="p">
+				<CGIText type="e">
+					<m_str type="a">1</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
 					<m_nIdent type="a">5</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
 					<m_nOrientationCtrlPt type="a">4</m_nOrientationCtrlPt>
@@ -1862,6 +2063,28 @@
 							</Metaclasses>
 						</IPropertySubject>
 						
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">SmartRouting</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
 					</IRPYRawContainer>
 				</Subjects>
 			</IPropertyContainer>
@@ -1881,8 +2104,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::16:33:50</_modifiedTime>
-			<_lastModifiedTime type="a">2.19.2021::16:33:50</_lastModifiedTime>
+			<_modifiedTime type="a">4.5.2021::16:26:25</_modifiedTime>
+			<_lastModifiedTime type="a">4.5.2021::16:26:25</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2087,7 +2310,7 @@
 											<IRPYRawContainer type="e">
 												<IProperty type="e">
 													<_Name type="a">FitBoxToItsTextuals</_Name>
-													<_Value type="a">False</_Value>
+													<_Value type="a">True</_Value>
 													<_Type type="a">Bool</_Type>
 												</IProperty>
 												
@@ -2116,7 +2339,7 @@
 			<m_pParent type="s">GUID 07038c47-c12f-428f-9718-a78fdf3d7921</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::Context_Structure::SARUS_system</m_str>
+					<m_str type="a">SARUS_system</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2131,7 +2354,7 @@
 					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">2056</m_drawBehavior>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
 			<m_transform type="a">1.08138 0 0 0.59476 217.757 -61.6113 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
@@ -2251,7 +2474,7 @@
 					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
 			<m_transform type="a">0.924748 0 0 1.68135 899.395 199.427 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
@@ -2378,7 +2601,7 @@
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
 			<m_transform type="a">0 1.68135 -0.924748 0 1231.14 424.747 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
@@ -2505,7 +2728,7 @@
 					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
 			<m_transform type="a">0.924748 0 0 1.68135 116.456 199.427 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
@@ -2632,7 +2855,7 @@
 					<m_nOrientationCtrlPt type="a">2</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
 			<m_transform type="a">-3.07565e-06 -1.68135 0.924748 -5.59206e-06 -32.9948 579.392 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
@@ -2758,7 +2981,7 @@
 					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
 			<m_transform type="a">0 1.68135 -0.924748 0 1231.14 1218.27 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
@@ -2885,7 +3108,7 @@
 					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
 			<m_transform type="a">-0.924748 0 -0 -1.68135 935.259 1473.23 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
@@ -3012,7 +3235,7 @@
 					<m_nOrientationCtrlPt type="a">2</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
 			<m_transform type="a">-3.07565e-06 -1.68135 0.924748 -5.59206e-06 -32.9948 1237.19 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
@@ -3139,7 +3362,7 @@
 					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
 			<m_transform type="a">-0.924748 0 -0 -1.68135 218.385 1473.23 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
@@ -3206,6 +3429,35 @@
 		</CGIPortConnector>
 		<CGIInformationFlow type="e">
 			<_id type="a">GUID 010548dd-f14c-429e-a6fc-bf3e5a467055</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowFlowConveyedFullSignature</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -3303,6 +3555,35 @@
 		</CGIInformationFlow>
 		<CGIInformationFlow type="e">
 			<_id type="a">GUID 67682394-cd12-4d0f-bb66-8d7dc3c63ba8</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowFlowConveyedFullSignature</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -3396,6 +3677,35 @@
 		</CGIInformationFlow>
 		<CGIInformationFlow type="e">
 			<_id type="a">GUID c2ff5cd5-e388-48fc-9417-8fe720117973</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowFlowConveyedFullSignature</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -3496,6 +3806,35 @@
 		</CGIInformationFlow>
 		<CGIInformationFlow type="e">
 			<_id type="a">GUID e8878d3e-0354-4c26-9051-ea4f48d18da9</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowFlowConveyedFullSignature</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -3593,6 +3932,35 @@
 		</CGIInformationFlow>
 		<CGIInformationFlow type="e">
 			<_id type="a">GUID 3621d3ec-e88f-4aee-b26b-c67455274fe4</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowFlowConveyedFullSignature</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -3718,7 +4086,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_pSource type="s">GUID eb7a2022-2a99-4e0a-b97f-e9be679918ed</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
@@ -3877,6 +4245,35 @@
 		</CGIAssociationEnd>
 		<CGIInformationFlow type="e">
 			<_id type="a">GUID 52f1e824-ce02-4f42-a163-2111c765d10c</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowFlowConveyedFullSignature</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -3974,6 +4371,35 @@
 		</CGIInformationFlow>
 		<CGIInformationFlow type="e">
 			<_id type="a">GUID 9976f8ca-9854-4a3e-af7b-9e4b8f8fe022</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowFlowConveyedFullSignature</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -4071,6 +4497,35 @@
 		</CGIInformationFlow>
 		<CGIInformationFlow type="e">
 			<_id type="a">GUID a8bc2598-46e7-4646-804a-d806537c43ce</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowFlowConveyedFullSignature</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -4127,7 +4582,7 @@
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">32 45 </m_SourcePort>
-			<m_TargetPort type="a">4 837 </m_TargetPort>
+			<m_TargetPort type="a">4 838 </m_TargetPort>
 			<m_bShowKeyword type="a">1</m_bShowKeyword>
 			<m_showConveyed type="a">name</m_showConveyed>
 			<m_keyword type="p">
@@ -4141,9 +4596,12 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -9 -13  56 -13  56 7  -9 7  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_transform type="a">1 0 0 1 543 582 </m_transform>
+					<m_nHorizontalSpacing type="a">-29</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">56</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_keyword>
@@ -4158,9 +4616,12 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">1 0 0  </m_position>
+					<m_position type="a">4 -9 -13  99 -13  99 7  -9 7  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_transform type="a">1 0 0 1 637 577 </m_transform>
+					<m_nHorizontalSpacing type="a">-2</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">51</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_conveyed>
@@ -4168,6 +4629,35 @@
 		</CGIInformationFlow>
 		<CGIInformationFlow type="e">
 			<_id type="a">GUID 68649e1b-1a94-499f-aaa3-6da6461c9a23</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowFlowConveyedFullSignature</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -4265,6 +4755,35 @@
 		</CGIInformationFlow>
 		<CGIInformationFlow type="e">
 			<_id type="a">GUID a2f449be-5511-42d4-81a4-72b26c75e38a</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowFlowConveyedFullSignature</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -4362,6 +4881,35 @@
 		</CGIInformationFlow>
 		<CGIInformationFlow type="e">
 			<_id type="a">GUID 1e65ff66-2cd2-4471-89c9-2996cf058077</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowFlowConveyedFullSignature</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -4455,6 +5003,35 @@
 		</CGIInformationFlow>
 		<CGIInformationFlow type="e">
 			<_id type="a">GUID 38ef772e-d108-4af1-85b7-6f62bf186f6d</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowFlowConveyedFullSignature</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -4548,6 +5125,35 @@
 		</CGIInformationFlow>
 		<CGIInformationFlow type="e">
 			<_id type="a">GUID 89f757dc-0eff-43bc-886c-0a0026cd1974</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowFlowConveyedFullSignature</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">180</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -4658,7 +5264,7 @@
 			<m_pParent type="s">GUID eb7a2022-2a99-4e0a-b97f-e9be679918ed</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::C2_Base_Structure::C2_Base</m_str>
+					<m_str type="a">C2_Base</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4673,7 +5279,7 @@
 					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">2056</m_drawBehavior>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
 			<m_transform type="a">0.306438 0 0 0.217327 649.023 461.292 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
@@ -4778,7 +5384,7 @@
 			<m_pParent type="s">GUID eb7a2022-2a99-4e0a-b97f-e9be679918ed</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::Swarm_and_Drone_Structure::Swarm</m_str>
+					<m_str type="a">Swarm</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4793,7 +5399,7 @@
 					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">2056</m_drawBehavior>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
 			<m_transform type="a">0.306674 0 0 0.273063 209.648 346.854 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
@@ -4892,7 +5498,7 @@
 			<m_pParent type="s">GUID eb7a2022-2a99-4e0a-b97f-e9be679918ed</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::High_Level_Structure::Operator</m_str>
+					<m_str type="a">Operator</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4907,7 +5513,7 @@
 					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
-			<m_drawBehavior type="a">2056</m_drawBehavior>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
 			<m_transform type="a">0.321615 0 0 0.273063 209.334 811.24 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
@@ -5267,6 +5873,7 @@
 					<_hm2Class type="a">IPort</_hm2Class>
 					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
 					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
+					<_hclass type="a">TopLevel</_hclass>
 					<_hname type="a">MissionSpecificationPort</_hname>
 					<_hid type="a">GUID 2d1d4523-779f-452b-b269-74acf1d54983</_hid>
 				</IHandle>
@@ -5307,6 +5914,7 @@
 					<_hm2Class type="a">IPort</_hm2Class>
 					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
 					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
+					<_hclass type="a">TopLevel</_hclass>
 					<_hname type="a">SwarmCommands</_hname>
 					<_hid type="a">GUID 865c42e2-31a6-4212-af88-e68d861785e2</_hid>
 				</IHandle>
