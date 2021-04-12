@@ -13,7 +13,6 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
   nav_msgs
-  nodelet
   aerostack_msgs
 )
 
@@ -50,7 +49,7 @@ set(rqt_sarus_test_plugin_INCLUDE_DIRECTORIES
 catkin_package(
   INCLUDE_DIRS ${rqt_sarus_test_plugin_INCLUDE_DIRECTORIES}
   LIBRARIES ${PROJECT_NAME}
-  CATKIN_DEPENDS rqt_gui rqt_gui_cpp
+  CATKIN_DEPENDS rqt_gui rqt_gui_cpp aerostack_msgs std_msgs
 )
 
 qt5_wrap_cpp(rqt_sarus_test_plugin_MOCS ${rqt_sarus_test_plugin_moc_HDRS})
