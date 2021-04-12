@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  	<!-- You must be aware that if ns is included, all topics of the node will start with /ns/.....-->
+  	
+	<node pkg = "filter_frames" type="filter_frames_node" name = "filter_frames_node" ns = "drone111">
+	    <param name="use_sim_time" value="true" />
+	</node>
+
+</launch>
