@@ -41,6 +41,8 @@ private slots:
 
     void on_button_takeoff_clicked();
 
+    void on_launch_simulation_clicked();
+
 private:
     Ui::TestPluginWidget *ui;
 

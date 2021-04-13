@@ -223,3 +223,8 @@ void TestPluginWidget::on_button_takeoff_clicked()
     }
 
 }
+
+void TestPluginWidget::on_launch_simulation_clicked()
+{
+
+}
