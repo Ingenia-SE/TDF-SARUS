@@ -21,5 +21,8 @@ sudo apt install python3-pip
 sudo -H pip3 install --upgrade pip
 sudo pip3 install numpy geopy geopandas pandas tqdm shapely contextily matplotlib scikit-image rospkg
 
+sudo apt-get install python3-pip python3-yaml
+sudo pip3 install rospkg catkin_pkg
+
 # Permisos
 chmod +x planner.py

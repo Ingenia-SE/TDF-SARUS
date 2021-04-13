@@ -1,0 +1,138 @@
+[submodule "projects/airplane_inspection_gazebo"]
+	path = projects/airplane_inspection_gazebo
+	url = https://bitbucket.org/visionaerialrobotics/airplane_inspection_gazebo.git
+[submodule "projects/basic_mission_quadrotor_simulator"]
+	path = projects/basic_mission_quadrotor_simulator
+	url = https://bitbucket.org/visionaerialrobotics/basic_mission_quadrotor_simulator.git
+[submodule "projects/teleoperation_quadrotor_simulator"]
+	path = projects/teleoperation_quadrotor_simulator
+	url = https://bitbucket.org/visionaerialrobotics/teleoperation_quadrotor_simulator
+[submodule "projects/visual_commands_tello"]
+	path = projects/visual_commands_tello
+	url = https://bitbucket.org/visionaerialrobotics/visual_commands_tello.git
+[submodule "projects/basic_mission_gazebo"]
+	path = projects/basic_mission_gazebo
+	url = https://bitbucket.org/visionaerialrobotics/basic_mission_gazebo.git
+[submodule "stack/common/aerostack_msgs"]
+	path = stack/common/aerostack_msgs
+	url = https://bitbucket.org/visionaerialrobotics/aerostack_msgs.git
+[submodule "stack/common/behavior_execution_controller"]
+	path = stack/common/behavior_execution_controller
+	url = https://bitbucket.org/visionaerialrobotics/behavior_execution_controller.git
+[submodule "stack/common/robot_process"]
+	path = stack/common/robot_process
+	url = https://bitbucket.org/visionaerialrobotics/robot_process.git
+[submodule "stack/libraries/catkin_simple"]
+	path = stack/libraries/catkin_simple
+	url = https://bitbucket.org/visionaerialrobotics/catkin_simple.git
+[submodule "stack/libraries/eigen_catkin"]
+	path = stack/libraries/eigen_catkin
+	url = https://bitbucket.org/visionaerialrobotics/eigen_catkin.git
+[submodule "stack/libraries/lib_cvgekf"]
+	path = stack/libraries/lib_cvgekf
+	url = https://bitbucket.org/visionaerialrobotics/lib_cvgekf.git
+[submodule "stack/libraries/lib_cvgutils"]
+	path = stack/libraries/lib_cvgutils
+	url = https://bitbucket.org/visionaerialrobotics/lib_cvgutils.git
+[submodule "stack/libraries/lib_levmar-2.6"]
+	path = stack/libraries/lib_levmar-2.6
+	url = https://bitbucket.org/visionaerialrobotics/lib_levmar-2.6.git
+[submodule "stack/libraries/lib_newmat11"]
+	path = stack/libraries/lib_newmat11
+	url = https://bitbucket.org/visionaerialrobotics/lib_newmat11.git
+[submodule "stack/libraries/mav_comm"]
+	path = stack/libraries/mav_comm
+	url = https://bitbucket.org/visionaerialrobotics/mav_comm.git
+[submodule "stack/libraries/pugixml"]
+	path = stack/libraries/pugixml
+	url = https://bitbucket.org/visionaerialrobotics/pugixml.git
+[submodule "stack/simulation/quadrotor_gazebo_simulator"]
+	path = stack/simulation/quadrotor_gazebo_simulator
+	url = https://bitbucket.org/visionaerialrobotics/quadrotor_gazebo_simulator.git
+[submodule "stack/simulation/quadrotor_simulator"]
+	path = stack/simulation/quadrotor_simulator
+	url = https://bitbucket.org/visionaerialrobotics/quadrotor_simulator.git
+[submodule "stack/hardware_interface/gazebo_interface"]
+	path = stack/hardware_interface/gazebo_interface
+	url = https://bitbucket.org/visionaerialrobotics/gazebo_interface.git
+[submodule "stack/hardware_interface/tello_interface"]
+	path = stack/hardware_interface/tello_interface
+	url = https://bitbucket.org/visionaerialrobotics/tello_interface.git
+[submodule "stack/behaviors/behavior_packages/attention_to_visual_markers"]
+	path = stack/behaviors/behavior_packages/attention_to_visual_markers
+	url = https://bitbucket.org/visionaerialrobotics/attention_to_visual_markers.git
+[submodule "stack/behaviors/behavior_packages/basic_quadrotor_behaviors"]
+	path = stack/behaviors/behavior_packages/basic_quadrotor_behaviors
+	url = https://bitbucket.org/visionaerialrobotics/basic_quadrotor_behaviors.git
+[submodule "stack/behaviors/behavior_packages/multi_sensor_fusion"]
+	path = stack/behaviors/behavior_packages/multi_sensor_fusion
+	url = https://bitbucket.org/visionaerialrobotics/multi_sensor_fusion.git
+[submodule "stack/behaviors/behavior_packages/navigation_with_lidar"]
+	path = stack/behaviors/behavior_packages/navigation_with_lidar
+	url = https://bitbucket.org/visionaerialrobotics/navigation_with_lidar.git
+[submodule "stack/behaviors/behavior_packages/quadrotor_motion_with_pid_control"]
+	path = stack/behaviors/behavior_packages/quadrotor_motion_with_pid_control
+	url = https://bitbucket.org/visionaerialrobotics/quadrotor_motion_with_pid_control.git
+[submodule "stack/behaviors/behavior_packages/quadrotor_motion_with_platform_control"]
+	path = stack/behaviors/behavior_packages/quadrotor_motion_with_platform_control
+	url = https://bitbucket.org/visionaerialrobotics/quadrotor_motion_with_platform_control.git
+[submodule "stack/behaviors/behavior_packages/swarm_interaction"]
+	path = stack/behaviors/behavior_packages/swarm_interaction
+	url = https://bitbucket.org/visionaerialrobotics/swarm_interaction.git
+[submodule "stack/behaviors/single_behaviors/behavior_inform_operator"]
+	path = stack/behaviors/single_behaviors/behavior_inform_operator
+	url = https://bitbucket.org/visionaerialrobotics/behavior_inform_operator.git
+[submodule "stack/behaviors/single_behaviors/behavior_request_operator_assistance"]
+	path = stack/behaviors/single_behaviors/behavior_request_operator_assistance
+	url = https://bitbucket.org/visionaerialrobotics/behavior_request_operator_assistance.git
+[submodule "stack/behavior_management/behavior_manager"]
+	path = stack/behavior_management/behavior_manager
+	url = https://bitbucket.org/visionaerialrobotics/behavior_manager.git
+[submodule "stack/user_interface/alphanumeric_viewer"]
+	path = stack/user_interface/alphanumeric_viewer
+	url = https://bitbucket.org/visionaerialrobotics/alphanumeric_viewer.git
+[submodule "stack/user_interface/keyboard_teleoperation_with_pid_control"]
+	path = stack/user_interface/keyboard_teleoperation_with_pid_control
+	url = https://bitbucket.org/visionaerialrobotics/keyboard_teleoperation_with_pid_control.git
+[submodule "stack/user_interface/behavior_execution_viewer"]
+	path = stack/user_interface/behavior_execution_viewer
+	url = https://bitbucket.org/visionaerialrobotics/behavior_execution_viewer.git
+[submodule "stack/belief_management/belief_manager"]
+	path = stack/belief_management/belief_manager
+	url = https://bitbucket.org/visionaerialrobotics/belief_manager.git
+[submodule "stack/mission_control/python_based_mission_interpreter"]
+	path = stack/mission_control/python_based_mission_interpreter
+	url = https://bitbucket.org/visionaerialrobotics/python_based_mission_interpreter.git
+[submodule "stack/belief_management/belief_updater"]
+	path = stack/belief_management/belief_updater
+	url = https://bitbucket.org/visionaerialrobotics/belief_updater.git
+[submodule "projects/behavior_tree_quadrotor_simulator"]
+	path = projects/behavior_tree_quadrotor_simulator
+	url = https://bitbucket.org/visionaerialrobotics/behavior_tree_quadrotor_simulator.git
+[submodule "projects/rooms_exploration_gazebo"]
+	path = projects/rooms_exploration_gazebo
+	url = https://bitbucket.org/visionaerialrobotics/rooms_exploration_gazebo.git
+[submodule "projects/bridge_inspection_gazebo"]
+	path = projects/bridge_inspection_gazebo
+	url = https://bitbucket.org/visionaerialrobotics/bridge_inspection_gazebo.git
+[submodule "projects/tower_inspection_gazebo"]
+	path = projects/tower_inspection_gazebo
+	url = https://bitbucket.org/visionaerialrobotics/tower_inspection_gazebo.git
+[submodule "projects/warehouse_inventory_gazebo"]
+	path = projects/warehouse_inventory_gazebo
+	url = https://bitbucket.org/visionaerialrobotics/warehouse_inventory_gazebo.git
+[submodule "stack/mission_control/safety_monitor"]
+	path = stack/mission_control/safety_monitor
+	url = https://bitbucket.org/visionaerialrobotics/safety_monitor.git
+[submodule "stack/mission_control/recovery_manager"]
+	path = stack/mission_control/recovery_manager
+	url = https://bitbucket.org/visionaerialrobotics/recovery_manager.git
+[submodule "projects/behavior_tree_tello"]
+	path = projects/behavior_tree_tello
+	url = https://bitbucket.org/visionaerialrobotics/behavior_tree_tello.git
+[submodule "projects/teleoperation_gazebo"]
+	path = projects/teleoperation_gazebo
+	url = https://bitbucket.org/visionaerialrobotics/teleoperation_gazebo.git
+[submodule "projects/fast_drone_gazebo"]
+	path = projects/fast_drone_gazebo
+	url = https://bitbucket.org/visionaerialrobotics/fast_drone_gazebo.git
