@@ -28,14 +28,14 @@ def cambiaIntervalo (N, a0, b0, aF, bF):
     return aF + (bF - aF)*(N - a0)/(b0 - a0)
 
 def alg2gazebo (point, Yindexes, Xindexes, north, south, east, west):
-    newPoint = [[[cambiaIntervalo(drone[0], 0, Xindexes, west, east), cambiaIntervalo(drone[1], 0, Yindexes, south, north), 15] for drone in drones] for drones in point]
+    newPoint = [[[cambiaIntervalo(drone[0], 0, Xindexes-1, west, east), cambiaIntervalo(drone[1], 0, Yindexes-1, south, north), 15] for drone in drones] for drones in point]
     return newPoint
 '''
 def gazebo2alg (point):
     newPoint = [[[cambiaIntervalo(coord, -100, 100, 0, 31) for coord in drone] for drone in drones] for drones in point]
     return newPoint
 '''
-def makePolygon (points, width=100):	#Polygon to bitmap with pixels of ~ 10x10 m
+def makePolygon (points, width=20):	#Polygon to bitmap with pixels of ~ 10x10 m
 
     # Acotamos el cuadrado
     north = points[0].y
@@ -54,11 +54,11 @@ def makePolygon (points, width=100):	#Polygon to bitmap with pixels of ~ 10x10 m
 
     # Dividimos en grupos de 10
     Ysize = north - south
-    Yindexes = np.ceil(Ysize/width)          # Número de índices del array_map
+    Yindexes = np.floor(Ysize/width)          # Número de índices del array_map
     Ywidth = Ysize/Yindexes             # Ancho de barrido que usaremos
 
     Xsize = north - south
-    Xindexes = np.ceil(Xsize/10)          # Número de índices del array_map
+    Xindexes = np.floor(Xsize/width)          # Número de índices del array_map
     Xwidth = Xsize/Xindexes             # Ancho de barrido que usaremos
 
     y = [];
@@ -67,6 +67,8 @@ def makePolygon (points, width=100):	#Polygon to bitmap with pixels of ~ 10x10 m
         y.append(np.floor(cambiaIntervalo(point.y, south, north, 0, Yindexes)))
         x.append(np.floor(cambiaIntervalo(point.x, west, east, 0, Xindexes)))
 
+    print(y)
+    print(x)
     area_maps = np.array(polygon(y,x))
 
     return area_maps, Yindexes, Xindexes, north, south, east, west
