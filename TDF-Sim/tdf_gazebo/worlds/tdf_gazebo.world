@@ -24,6 +24,7 @@
       </attenuation>
       <direction>-0.5 0.1 -0.9</direction>
     </light>
+    <plugin name="ros_interface_plugin" filename="librotors_gazebo_ros_interface_plugin.so"></plugin>
     <model name='heightmap_tdf'>
       <static>1</static>
       <link name='link_tdf'>
@@ -120,7 +121,7 @@
       </ode>
       <max_step_size>0.004</max_step_size>
       <real_time_factor>1</real_time_factor>
-      <real_time_update_rate>250</real_time_update_rate>
+      <real_time_update_rate>100</real_time_update_rate>
     </physics>
     <gravity>0 0 -9.8066</gravity>
     <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
