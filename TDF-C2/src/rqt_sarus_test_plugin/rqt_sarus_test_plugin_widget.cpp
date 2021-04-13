@@ -10,7 +10,6 @@
 #include "geometry_msgs/PointStamped.h"
 #include "sensor_msgs/BatteryState.h"
 #include "aerostack_msgs/ActivateBehavior.h"
-#include <atomic>
 
 
 #define FIRST_ID 111
