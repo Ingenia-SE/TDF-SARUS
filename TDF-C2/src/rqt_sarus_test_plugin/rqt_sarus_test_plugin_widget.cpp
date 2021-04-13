@@ -10,6 +10,7 @@
 #include "geometry_msgs/PointStamped.h"
 #include "sensor_msgs/BatteryState.h"
 #include "aerostack_msgs/ActivateBehavior.h"
+#include <atomic>
 
 
 #define FIRST_ID 111
@@ -38,7 +39,6 @@ TestPluginWidget::TestPluginWidget(QWidget *parent) :
     terminal_time = QString("<span style=\" color:red;\">%1</span>").arg(QTime::currentTime().toString("hh:mm:ss"));
     terminal_msg = QString("<span style=\" color:black;\">%1</span>").arg(" MISSION START\n");
     ui->terminal->setText(terminal_time+terminal_msg);
-
 }
 
 TestPluginWidget::~TestPluginWidget()
@@ -226,5 +226,42 @@ void TestPluginWidget::on_button_takeoff_clicked()
 
 void TestPluginWidget::on_launch_simulation_clicked()
 {
+    if(!sim_running)
+    {
+        sim_active = true;
+        thread_simulation = std::thread(&TestPluginWidget::launch_simulation, this);
+    }
+    if(sim_running)
+    {
+        sim_stop = true;
+        std::string kill("gnome-terminal --tab --title 'killer' --command 'killall -9 gzclient gzserver'");
+        system(kill.c_str());
+        thread_simulation.join();
+        sim_running = false;
+        sim_stop = false;
+    }
+}
 
+void TestPluginWidget::launch_simulation()
+{
+    while(!sim_stop)
+    {
+        if(sim_active && !sim_running)
+        {
+            sim_active = false;
+            sim_running = true;
+            std::cout << "Publishing commands..." << std::endl;
+            // change directory
+            chdir("/home/workspace/ros/aerostack_catkin_ws/src/TDF-Sim/");
+            // publish system command
+            std::string myCommand("gnome-terminal --tab --title 'tdf_gazebo_world' --command 'roslaunch tdf_gazebo tdf_gazebo.launch'");
+            system(myCommand.c_str());
+        }
+
+        if(!ros::ok())
+        {
+            return;
+        }
+    }
+    return;
 }

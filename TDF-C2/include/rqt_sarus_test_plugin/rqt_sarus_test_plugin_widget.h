@@ -9,6 +9,7 @@
 #include "geometry_msgs/PointStamped.h"
 #include "sensor_msgs/BatteryState.h"
 #include "aerostack_msgs/ActivateBehavior.h"
+#include <thread>
 
 namespace Ui {
 class TestPluginWidget;
@@ -88,6 +89,11 @@ private:
 
     QString terminal_msg;
     QString terminal_time;
+
+    // Simulation thread
+    std::thread thread_simulation;
+    void launch_simulation();
+    bool sim_active = false, sim_running = false, sim_stop = false;
 };
 
 #endif // RQT_SARUS_TEST_PLUGIN_WIDGET
