@@ -21,7 +21,7 @@ for (( c=1; c<=$DRONE_SWARM_MEMBERS; c++ ))
 do  
   gnome-terminal  \
   --tab --title "Spawn_mav" --command "bash -c \"
-  roslaunch rotors_gazebo spawn_mav.launch --wait \
+  roslaunch rotors_gazebo spawn_mav_tdf.launch --wait \
     namespace:=$MAV_NAME$c \
     mav_name:=$MAV_NAME \
     x:=$c \

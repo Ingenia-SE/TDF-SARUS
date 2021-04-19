@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <ros/ros.h>
 #include <std_msgs/String.h>
+#include <sensor_msgs/Image.h>
 #include <vector>
 #include "geometry_msgs/TwistStamped.h"
 #include "geometry_msgs/PointStamped.h"
@@ -61,6 +62,7 @@ private:
     ros::Subscriber speedz;
     ros::Subscriber pos_z;
     ros::Subscriber battery_level;
+    ros::Subscriber led_detection;
 
     // Clients
     ros::ServiceClient land_client;
@@ -74,7 +76,7 @@ private:
     void ros_speedz_callback(const geometry_msgs::TwistStamped::ConstPtr &vz);
     void ros_posz_callback(const geometry_msgs::PointStamped::ConstPtr &z);
     void ros_batlevel_callback(const sensor_msgs::BatteryState::ConstPtr &percentage);
-
+    void ros_leddetection_callback(const sensor_msgs::ImageConstPtr& frame_detect);
     // Variables
     QString droneSpeed_x;
     QString droneSpeed_y;
@@ -83,7 +85,8 @@ private:
     float droneAltitude;
     int droneBat_level;
     int num_Drones = 0;
-
+    int led_timer = 0;
+    
     QTimer *timer_1;
     QTimer *timer_1s;
 

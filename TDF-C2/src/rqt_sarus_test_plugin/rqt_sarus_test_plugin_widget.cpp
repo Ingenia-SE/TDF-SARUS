@@ -2,6 +2,7 @@
 #include "ui_rqt_sarus_test_plugin_widget.h"
 #include <ros/ros.h>
 #include <std_msgs/String.h>
+#include <sensor_msgs/Image.h>
 #include <vector>
 #include <QTimer>
 #include <QTime>
@@ -77,6 +78,12 @@ void TestPluginWidget::Update_Display() {
 
 void TestPluginWidget::Update_Time() {
     ui->current_time->setText(QTime::currentTime().toString("hh:mm:ss"));
+    if (led_timer >= 2){
+        ui->led_Coincidence->setStyleSheet(LedOff);
+        led_timer = 0;
+    }else{
+        led_timer++;
+    }
 }
 
 void TestPluginWidget::ros_speedx_callback(const geometry_msgs::TwistStamped::ConstPtr &vx){
@@ -100,6 +107,11 @@ void TestPluginWidget::ros_batlevel_callback(const sensor_msgs::BatteryState::Co
     this->droneBat_level = (int)(msg->percentage)*100;
 }
 
+void TestPluginWidget::ros_leddetection_callback(const sensor_msgs::ImageConstPtr& frame_detect){
+    led_timer = 0;
+    ui->led_Coincidence->setStyleSheet(LedOn_green);
+}
+
 void TestPluginWidget::init_ROS_Node()
 {
     // Write initialization code here
@@ -113,6 +125,9 @@ void TestPluginWidget::init_ROS_Node()
     //take_off_client = ros_node_handle.serviceClient<aerostack_msgs::ActivateBehavior>("/drone111/basic_quadrotor_behaviors/behavior_take_off/activate_behavior");
     land_client = ros_node_handle.serviceClient<aerostack_msgs::ActivateBehavior>("/drone111/basic_quadrotor_behaviors/behavior_land/activate_behavior");
 
+    //Subscriber TEST--borrar
+    led_detection = ros_node_handle.subscribe("/drone111/sarus_c2/filtered_frames", 1, &TestPluginWidget::ros_leddetection_callback, this);
+    
 }
 
 
