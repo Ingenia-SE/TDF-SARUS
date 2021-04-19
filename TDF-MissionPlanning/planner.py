@@ -72,7 +72,7 @@ def makePolygon (points, width=20):	#Polygon to bitmap with pixels of ~ 10x10 m
     area_maps = np.array(polygon(y,x))
 
     return area_maps, Yindexes, Xindexes, north, south, east, west
-    
+ 
 def appendPath(coordinates, to_C2):
     msg = PoseStamped()
     # Also possible with numpy
