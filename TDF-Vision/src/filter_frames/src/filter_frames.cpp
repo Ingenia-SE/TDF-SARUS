@@ -9,7 +9,7 @@
 #include <darknet_ros_msgs/ObjectCount.h>
 
 // Defines macros of yolo ids
-#define ID_victim 99
+#define ID_victim 0
 #define ID_cow 100
 #define ID_dog 101
 
@@ -20,14 +20,14 @@ public:
 
   filter() : img_(nodeHandler){
     
-    nodeHandler.param("use_sim_time", use_sim_time, false); // if using simulation time put it as true
+    nodeHandler.param("use_sim_time", use_sim_time, true); // if using simulation time put it as true
     
     // subs
     YOLO_Subscriber_ = img_.subscribe("darknet_ros/detection_image", 1, &filter::callbackYOLO_image, this);
-    Objects_Subscriber_ = nodeHandler.subscribe("darknet_ros/found_object", 5, &filter::callbackYOLO_object, this);
+    // Objects_Subscriber_ = nodeHandler.subscribe("/darknet_ros/found_object", 5, &filter::callbackYOLO_object, this);
     
     // Uncomment if prefer to only publish if ID_detections are provided
-    //BB_Subscriber_ = nodeHandler.subscribe("darknet_ros/bounding_boxes", 5, &filter::callbackYOLO_detections, this);
+    BB_Subscriber_ = nodeHandler.subscribe("darknet_ros/bounding_boxes", 5, &filter::callbackYOLO_detections, this);
     
     // pubs
     Publisher_ = img_.advertise("sarus_c2/filtered_frames", 5);
@@ -93,11 +93,9 @@ public:
 
     for (unsigned i = 0; i < msg->bounding_boxes.size(); i ++)
     {
-
+     
       // include here the MACROS id of the desired detections to notify the system
-      if(msg->bounding_boxes[i].id == ID_victim ||
-         msg->bounding_boxes[i].id == ID_cow ||
-         msg->bounding_boxes[i].id == ID_dog)  // if there are objects detected
+      if(msg->bounding_boxes[i].id == ID_victim)  // if there are objects detected
       {
 
         yolo_detection = true;
@@ -135,8 +133,8 @@ private:
   image_transport::ImageTransport img_;
 
   image_transport::Subscriber YOLO_Subscriber_;
-  ros::Subscriber Objects_Subscriber_;
-  //ros::Subscriber BB_Subscriber_;
+  // ros::Subscriber Objects_Subscriber_;
+  ros::Subscriber BB_Subscriber_;
 
   image_transport::Publisher Publisher_;
 
