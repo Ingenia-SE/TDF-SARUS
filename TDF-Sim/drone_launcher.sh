@@ -15,7 +15,7 @@ fi
 
 gnome-terminal  \
 --tab --title "Spawn_mav $DRONE_SWARM_MEMBERS" --command "bash -c \"
-roslaunch rotors_gazebo spawn_mav.launch --wait \
+roslaunch rotors_gazebo spawn_mav_tdf.launch --wait \
     namespace:=$MAV_NAME$DRONE_SWARM_MEMBERS \
     mav_name:=$MAV_NAME \
     x:=$DRONE_SWARM_MEMBERS \
@@ -63,6 +63,13 @@ exec bash\""  \
 roslaunch motor_speed_controller motor_speed_controller.launch --wait \
   namespace:=drone$NUMID_DRONE \
   mav_name:=$MAV_NAME;
+exec bash\"" \
+`#---------------------------------------------------------------------------------------------` \
+`# Gazebo Filter Frame Detector                                                                ` \
+`#---------------------------------------------------------------------------------------------` \
+--tab --title "Gazebo Filter Frame Detector"  --command "bash -c \"
+roslaunch filter_frames filter_frames.launch --wait \
+  namespace:=drone$NUMID_DRONE;
 exec bash\"" &
 
 sleep 10
