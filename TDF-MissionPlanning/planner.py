@@ -80,7 +80,10 @@ def appendPath(coordinates, to_C2):
     msg.pose.position.y=coordinates[1]
     if to_C2 == False:
         msg.pose.position.z=15.0 #coordinates[2]
-    msg.header.frame_id = 'world'
+        msg.header.frame_id = 'world'
+    if to_C2 == True
+        msg.pose.position.z=0.0 #coordinates[2]
+        msg.header.frame_id = 'map'
     return msg
 
 def poly_cb(data):
