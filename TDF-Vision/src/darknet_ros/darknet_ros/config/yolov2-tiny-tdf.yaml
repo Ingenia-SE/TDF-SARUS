@@ -1,0 +1,14 @@
+yolo_model:
+
+  config_file:
+    name: yolov2-tiny-tdf.cfg
+  weight_file:
+    name: yolov2-tiny-tdf_160000.weights
+  threshold:
+    value: 0.5
+  detection_classes:
+    names:
+      - person
+      - cow
+      - deer
+      - wolf
