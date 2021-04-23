@@ -79,7 +79,10 @@ def appendPath(coordinates, to_C2):
     msg.pose.position.x=coordinates[0]
     msg.pose.position.y=coordinates[1]
     if to_C2 == False:
-        msg.pose.position.z=15.0 #coordinates[2]
+        msg.pose.position.z=6.0 #coordinates[2]
+    msg.header.frame_id = 'map'
+    if to_C2 == True:
+        msg.pose.position.z=6.0 #coordinates[2]
     msg.header.frame_id = 'world'
     return msg
 
@@ -102,8 +105,8 @@ def n_cb(data):
 ########################
 rospy.init_node('coords_node', anonymous=True) #Create node
 
-pubC2 = rospy.Publisher('/mapviz/path', Path, queue_size=10)
-pubAerostack = rospy.Publisher('topic', Path, queue_size=10)
+pubC2 = rospy.Publisher('/mapviz/path1', Path, queue_size=10)	#drone numbers
+pubAerostack = rospy.Publisher('/drone111/motion_reference/path', Path, queue_size=10) #drone numbers
 
 # Frequency of the sleep
 rate = rospy.Rate(0.2) #0.2 Hz -> 5s
@@ -119,7 +122,7 @@ old_polygon = np.empty(2)
 rospy.Subscriber('/mapviz/polygon', PolygonStamped, poly_cb)
 
 
-while True:
+while True:		#spin!!!!
     if 'update' in vars() and update == 1:
         rospy.loginfo('Recalculating path...')
         area_map, Yindexes, Xindexes, north, south, east, west = makePolygon(base_polygon) #Make bitmap from polygon
@@ -158,9 +161,12 @@ while True:
 
         # Execute the function for every position and for all of the drones
         C2Path = Path();
-        aerostackPath = Path();
-
         C2Path.header.frame_id = 'world'
+
+
+        aerostackPath = Path();
+        aerostackPath.header.frame_id = "map"
+        aerostackPath.header.stamp = rospy.Time.now()
 
         for pos in range(maxPos):                                # Maximum number of positions
             for drone in range(len(coverage_path_gazebo)):        # Number of drones
@@ -169,10 +175,10 @@ while True:
                     # Call the function publishTrajectory sending the number of the drone and the desired position
                     C2Path.poses.append(appendPath(coverage_path_gazebo[drone][pos], True))
                     aerostackPath.poses.append(appendPath(coverage_path_gazebo[drone][pos], False))
-                    #rospy.loginfo('Drone '+ str(drone+1) + ' = ' + str(coverage_path_gazebo[drone][pos]))
+		 #rospy.loginfo('Drone '+ str(drone+1) + ' = ' + str(coverage_path_gazebo[drone][pos]))
                 #except:
                     #rospy.loginfo('Drone ',drone+1, ' has reached its final position')
 
+
         pubC2.publish(C2Path)
         update = False
-#        quit()
