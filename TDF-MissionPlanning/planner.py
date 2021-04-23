@@ -7,6 +7,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
+import sys
 
 import rospy
 from geometry_msgs.msg import PolygonStamped
@@ -78,12 +79,12 @@ def appendPath(coordinates, to_C2):
     # Separate the position in its coordinates
     msg.pose.position.x=coordinates[0]
     msg.pose.position.y=coordinates[1]
-    if to_C2 == False:
-        msg.pose.position.z=15.0 #coordinates[2]
-        msg.header.frame_id = 'world'
-    if to_C2 == True
+    if to_C2 == True:
         msg.pose.position.z=0.0 #coordinates[2]
         msg.header.frame_id = 'map'
+    else:
+        msg.pose.position.z=10.0 #coordinates[2]
+        msg.header.frame_id = 'world'
     return msg
 
 def poly_cb(data):
@@ -103,10 +104,13 @@ def n_cb(data):
 ########################
 ### Program Start ######
 ########################
-rospy.init_node('coords_node', anonymous=True) #Create node
+rospy.init_node('mission_planner', anonymous=True) #Create node
 
-pubC2 = rospy.Publisher('/mapviz/path', Path, queue_size=10)
-pubAerostack = rospy.Publisher('topic', Path, queue_size=10)
+try:
+    plot=sys.argv[1]
+
+pubC2 = rospy.Publisher('/mapviz/path1', Path, queue_size=10)
+pubAerostack = rospy.Publisher('/drone111/motion_reference/path', Path, queue_size=10)
 
 # Frequency of the sleep
 rate = rospy.Rate(0.2) #0.2 Hz -> 5s
@@ -132,22 +136,21 @@ while True:
         coverage_paths = [bcd(drone_maps[i],start_points[i]) for i in range(n)]  #Calculate the routes for each drone
         old_polygon = base_polygon
 #######
-        '''
-        imshow(A,1,4,1, figsize=(20,5))
-        imshow_scatter(start_points,color="black")
-        dist_maps = [dist_fill(drone_maps[i],[start_points[i]]) for i in range(n)]
-        [imshow(dist_maps[i],1,4,i+2) for i in range(n)];
+        if plot:
+          imshow(A,1,4,1, figsize=(20,5))
+          imshow_scatter(start_points,color="black")
+          dist_maps = [dist_fill(drone_maps[i],[start_points[i]]) for i in range(n)]
+          [imshow(dist_maps[i],1,4,i+2) for i in range(n)];
 
-        for i in range(n):
+          for i in range(n):
             imshow(dist_maps[i],1,4,i+2)
             plot(coverage_paths[i],color="white",alpha=0.6)
             end_point = coverage_paths[i][-1]
             imshow_scatter(start_points[i], color="green")
             imshow_scatter(end_point, color="red")
 
-#        plt.show()
+          plt.show()
 
-        '''
         #################################################
         ### meter topic salida a aerostack drone111/#####
         #################################################
@@ -163,8 +166,6 @@ while True:
         C2Path = Path();
         aerostackPath = Path();
 
-        C2Path.header.frame_id = 'world'
-
         for pos in range(maxPos):                                # Maximum number of positions
             for drone in range(len(coverage_path_gazebo)):        # Number of drones
                 # Try and except to deal with the problem of having different number of positions
@@ -175,6 +176,9 @@ while True:
                     #rospy.loginfo('Drone '+ str(drone+1) + ' = ' + str(coverage_path_gazebo[drone][pos]))
                 #except:
                     #rospy.loginfo('Drone ',drone+1, ' has reached its final position')
+                    ####################################
+                    #### IMPLEMENTAR VUELTA A CASA #####
+                    ####################################
 
         pubC2.publish(C2Path)
         pubAerostack.publish(aerostackPath)
