@@ -73,8 +73,40 @@ As well, it features custom gazebo models for animals and people.
   </details>
   <br>
   
-## Installation
+## Installation (WIP)
 
 <b>Requirements:</b> Ubuntu 18.04 & ROS Melodic.
 
 First of all, make sure you have got installed [Aerostack 4.0](https://github.com/cvar-upm/aerostack/wiki/Install-from-source-code) from the source code. In case you don't have it installed, press the link.
+
+#### Clone the repository and access the folder
+
+```
+git clone https://github.com/Ingenia-SE/TDF-SARUS.git
+cd TDF-SARUS
+```
+
+#### Importing all the packages into the Aerostack catkin_ws
+
+```
+cp -r TDF-Vision/src/ $AEROSTACK_WORKSPACE/src/
+cp -r TDF-Sim/tdf_gazebo/ $AEROSTACK_WORKSPACE/src/
+cp -r TDF-C2/ $AEROSTACK_WORKSPACE/src/
+```
+
+#### Install all dependencies
+
+```
+chmod +x TDF-MissionPlanning/mission_setup.sh
+./mission_setup.sh
+sudo apt install ros-melodic-mapviz -y
+sudo apt install ros-melodic-mapviz-plugins -y
+sudo apt install ros-melodic-tile-map -y
+```
+[comment]:<> (Don't forget URDF.)
+
+<details>
+  <summary><b>Using CUDA for computer vision</b></summary>
+  
+  </details>
+  <br>
