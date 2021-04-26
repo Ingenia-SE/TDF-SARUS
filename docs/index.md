@@ -50,26 +50,26 @@ As well, it features custom gazebo models for animals and people.
   <summary><b>Images 🖼️</b></summary>
   
   <b>World overview</b>
-  
+  <br>
   <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/world.png?raw=true" alt="tdf_gazebo" width="500">
-  
+  <br>
   <b>Collapsed buildings</b>
+  <br>
+  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/ruins.png?raw=true" alt="tdf_gazebo_ruins" width="500">
+  <br>
+  <b>Base to deploy search and rescue robots</b>
+  <br>
+  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/base.png?raw=true" alt="tdf_gazebo_base" width="500">
+  <br>
+  <b>Forest</b>
+  <br>
+  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/forest.png?raw=true" alt="tdf_gazebo_forest" width="500">
+  <br>
+  <b>Leafy forest</b>
+  <br>
+  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/leafy.png?raw=true" alt="tdf_gazebo_leafy" width="500">
 
-<img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/ruins.png?raw=true" alt="tdf_gazebo_ruins" width="500">
-
-<b>Base to deploy search and rescue robots</b>
-
-<img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/base.png?raw=true" alt="tdf_gazebo_base" width="500">
-
-<b>Forest</b>
-
-<img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/forest.png?raw=true" alt="tdf_gazebo_forest" width="500">
-
-<b>Leafy forest</b>
-
-<img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/leafy.png?raw=true" alt="tdf_gazebo_leafy" width="500">
-  
-</details>
+  </details>
 
 ## Installation
 
