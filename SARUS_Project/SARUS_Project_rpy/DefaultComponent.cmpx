@@ -18,8 +18,7 @@
 			<m_configActive type="r">
 				<ICodeGenConfigInfoHandle type="e">
 					<_hm2Class type="a">ICodeGenConfigInfo</_hm2Class>
-					<_hname type="a">DefaultConfig</_hname>
-					<_hid type="a">GUID a4ba4489-7984-42cc-903b-5d11e95dc741</_hid>
+					<_hid type="a">GUID f6d43330-ba84-419a-a61a-866716332951</_hid>
 				</ICodeGenConfigInfoHandle>
 			</m_configActive>
 			<HandlesInMe type="c">
@@ -27,7 +26,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IProfile</_hm2Class>
-							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbsx</_hfilename>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
 							<_hname type="a">SysML</_hname>
 							<_hid type="a">GUID d9689b73-885e-44c4-896b-de43defa0a33</_hid>
 						</IHandle>
@@ -160,88 +159,106 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">ISubsystem</_hm2Class>
-							<_hfilename type="a">.\ContextModeling.sbsx</_hfilename>
+							<_hfilename type="a">.\package_31.sbsx</_hfilename>
+							<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+							<_hname type="a">package_31</_hname>
+							<_hid type="a">GUID 1ce07271-d9d1-42a6-b2f0-70518c528aa4</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Context_Structure.sbsx</_hfilename>
 							<_hsubsystem type="a">BlockModeling</_hsubsystem>
-							<_hname type="a">ContextModeling</_hname>
+							<_hname type="a">Context_Structure</_hname>
 							<_hid type="a">GUID 892d1db3-d120-473e-8d2c-67a8b17ebd4c</_hid>
 						</IHandle>
 					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">ISubsystem</_hm2Class>
-							<_hfilename type="a">.\UI_Modeling.sbsx</_hfilename>
+							<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
 							<_hsubsystem type="a">BlockModeling</_hsubsystem>
-							<_hname type="a">UI_Modeling</_hname>
+							<_hname type="a">C2_Base_Structure</_hname>
 							<_hid type="a">GUID 30587312-7769-42ff-955a-b2edc5451cde</_hid>
 						</IHandle>
 					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">ISubsystem</_hm2Class>
-							<_hfilename type="a">.\MissionPlanning_Modeling.sbsx</_hfilename>
+							<_hfilename type="a">.\SARUS_Interactions.sbsx</_hfilename>
 							<_hsubsystem type="a">BlockModeling</_hsubsystem>
-							<_hname type="a">MissionPlanning_Modeling</_hname>
-							<_hid type="a">GUID cb542476-8691-4ab8-9deb-b79007c082cb</_hid>
-						</IHandle>
-					
-					
-						<IHandle type="e">
-							<_hm2Class type="a">ISubsystem</_hm2Class>
-							<_hfilename type="a">.\BaseCommunications.sbsx</_hfilename>
-							<_hsubsystem type="a">BlockModeling</_hsubsystem>
-							<_hname type="a">BaseCommunications</_hname>
+							<_hname type="a">SARUS_Interactions</_hname>
 							<_hid type="a">GUID d4035ed9-09a3-4cf6-b1df-b4cb69645791</_hid>
 						</IHandle>
 					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">ISubsystem</_hm2Class>
-							<_hfilename type="a">.\SwarmModeling.sbsx</_hfilename>
+							<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
 							<_hsubsystem type="a">BlockModeling</_hsubsystem>
-							<_hname type="a">SwarmModeling</_hname>
+							<_hname type="a">Swarm_and_Drone_Structure</_hname>
 							<_hid type="a">GUID e2ab43c3-a131-45f4-9abc-22918814ebd7</_hid>
 						</IHandle>
 					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">ISubsystem</_hm2Class>
-							<_hfilename type="a">.\HighLevelBehavior.sbsx</_hfilename>
+							<_hfilename type="a">.\High_Level_Structure.sbsx</_hfilename>
+							<_hsubsystem type="a">BlockModeling</_hsubsystem>
+							<_hname type="a">High_Level_Structure</_hname>
+							<_hid type="a">GUID a84c4fc4-e84c-4719-aef0-dec1650c47a0</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\Description.sbsx</_hfilename>
+							<_hsubsystem type="a">BlockModeling</_hsubsystem>
+							<_hname type="a">Description</_hname>
+							<_hid type="a">GUID 86043da3-9177-4cd0-b64a-136310ae6119</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\High_Level_Behavior.sbsx</_hfilename>
 							<_hsubsystem type="a">ActivityModeling</_hsubsystem>
-							<_hname type="a">HighLevelBehavior</_hname>
+							<_hname type="a">High_Level_Behavior</_hname>
 							<_hid type="a">GUID 48bccc5b-32ec-4107-8457-3c1ef8ff9ee9</_hid>
 						</IHandle>
 					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">ISubsystem</_hm2Class>
-							<_hfilename type="a">.\BaseBehavior.sbsx</_hfilename>
+							<_hfilename type="a">.\C2_Base_Behavior.sbsx</_hfilename>
 							<_hsubsystem type="a">ActivityModeling</_hsubsystem>
-							<_hname type="a">BaseBehavior</_hname>
+							<_hname type="a">C2_Base_Behavior</_hname>
 							<_hid type="a">GUID 1992c3f3-8cdb-41f9-a4dc-08c3ca20afd8</_hid>
 						</IHandle>
 					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">ISubsystem</_hm2Class>
-							<_hfilename type="a">.\package_4.sbsx</_hfilename>
-							<_hname type="a">package_4</_hname>
-							<_hid type="a">GUID 332174ef-9df0-4637-a494-970c6ec6414e</_hid>
+							<_hfilename type="a">.\Sarus_Interactions_1.sbsx</_hfilename>
+							<_hname type="a">Sarus_Interactions</_hname>
+							<_hid type="a">GUID 3675d66c-3ff1-4d6d-b723-c852b25bfe2d</_hid>
 						</IHandle>
 					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">ISubsystem</_hm2Class>
-							<_hfilename type="a">.\package_5.sbsx</_hfilename>
-							<_hname type="a">package_5</_hname>
-							<_hid type="a">GUID 197850f2-7fe8-4aae-91c2-d5d3f5d668b9</_hid>
+							<_hfilename type="a">.\UseCase.sbsx</_hfilename>
+							<_hname type="a">UseCase</_hname>
+							<_hid type="a">GUID ae1a91cb-d043-4847-9a0b-d27afec04a47</_hid>
 						</IHandle>
 					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">ISubsystem</_hm2Class>
-							<_hfilename type="a">.\package_6.sbsx</_hfilename>
-							<_hname type="a">package_6</_hname>
-							<_hid type="a">GUID f9520e94-3d61-4014-94e5-6880f77d6343</_hid>
+							<_hfilename type="a">.\Drone_Position.sbsx</_hfilename>
+							<_hname type="a">Drone_Position</_hname>
+							<_hid type="a">GUID ad62445b-93f4-4019-89cf-d82efa62d79a</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
@@ -306,9 +323,37 @@
 			<m_allInAnimScope type="a">1</m_allInAnimScope>
 			<m_generateUsecases type="a">0</m_generateUsecases>
 			<AggregatesList type="e">
+				<value>GUID 1803fe4a-cffa-4437-9993-c3a5e7a67d41</value>
+				<value>GUID 9923e9c5-ceea-418a-b751-208fc498b14a</value>
 				<value>GUID f201878a-4139-4546-8d25-d3b00e04f4f8</value>
 			</AggregatesList>
 		</ICodeGenConfigInfo>
+		<IMHyperLink type="e">
+			<_id type="a">GUID 1803fe4a-cffa-4437-9993-c3a5e7a67d41</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.26.2021::10:22:21</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Makefile</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">DefaultComponent.mak</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IMHyperLink type="e">
+			<_id type="a">GUID 9923e9c5-ceea-418a-b751-208fc498b14a</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.26.2021::10:22:21</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Main File</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">MainDefaultComponent</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
 		<IFolder type="e">
 			<_id type="a">GUID f201878a-4139-4546-8d25-d3b00e04f4f8</_id>
 			<_myState type="a">8192</_myState>

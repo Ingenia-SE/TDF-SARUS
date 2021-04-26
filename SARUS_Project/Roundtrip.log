@@ -1,0 +1,21 @@
+
+Reverse Engineering Done.
+
+Removing Object 'itsSwarm_Control_Panel' from Class 'Ground_Control_Station'. 
+Removing Object 'itsNetwork_Communications_1' from Class 'Ground_Control_Station'. 
+Removing Object 'itsSwarm_Monitoring' from Class 'Ground_Control_Station'. 
+Removing Object 'itsMission_Planner_1' from Class 'Ground_Control_Station'. 
+Removing Attribute 'Board_Messages' from Class 'Ground_Control_Station'. 
+Removing Attribute 'Interaction_Tools' from Class 'Ground_Control_Station'. 
+Removing Attribute 'Hardware_Processing' from Class 'Ground_Control_Station'. 
+Removing Operation 'Data_Flow_Processing()' from Class 'Ground_Control_Station'. 
+Removing Operation 'Data_Monitoring()' from Class 'Ground_Control_Station'. 
+Adding Operation 'Operation_3()' to Class 'Ground_Control_Station'. 
+Removing AssociationEnd 'itsNetwork_Communications' from Class 'Ground_Control_Station'. 
+Removing AssociationEnd 'itsMission_Planner' from Class 'Ground_Control_Station'. 
+Source Artifacts have been added to the model to ensure that the generated code reflects details from the original code, such as global comments, preprocessor directives, and the order of elements. See the log file for more details.
+To view the Source Artifacts in the Rhapsody browser, open the View menu and select Browser Display Options > Show Source Artifacts.
+Source Artifacts were added for the following files:
+Adding File 'Ground_Control_Station:impl' to Class 'Ground_Control_Station'.
+Adding File 'Ground_Control_Station:spec' to Class 'Ground_Control_Station'.
+

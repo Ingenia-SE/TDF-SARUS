@@ -327,10 +327,6 @@
 			<_id type="a">GUID 36fd3293-2845-4282-a5e7-3b47eb6d92f8</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">CM-13</_name>
-			<OwnedDependencies type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</OwnedDependencies>
 			<_modifiedTimeWeak type="a">2.19.2021::14:39:18</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.7.2021::11:41:19</_modifiedTime>
 			<_lastID type="a">4</_lastID>
@@ -3431,8 +3427,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\C2C_Base_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::C2C_Base_Modelling</_hsubsystem>
+					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
 					<_hname type="a">Communications_Card_Base</_hname>
 					<_hid type="a">GUID 6699a41d-606e-45ba-bdc7-6f065ba1787f</_hid>
 				</IHandle>
@@ -3440,7 +3436,7 @@
 			<m_pParent type="s">GUID 27fcb663-de52-411f-8256-dfbdbc32b024</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::C2C_Base_Modelling::Communications_Card_Base</m_str>
+					<m_str type="a">BlockModeling::C2_Base_Structure::Communications_Card_Base</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3647,8 +3643,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\C2C_Base_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::C2C_Base_Modelling</_hsubsystem>
+					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
 					<_hname type="a">Localization_Analysis</_hname>
 					<_hid type="a">GUID 5f4ded67-9eea-4e36-a91c-28323867ee01</_hid>
 				</IHandle>
@@ -3656,7 +3652,7 @@
 			<m_pParent type="s">GUID 27fcb663-de52-411f-8256-dfbdbc32b024</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::C2C_Base_Modelling::Localization_Analysis</m_str>
+					<m_str type="a">BlockModeling::C2_Base_Structure::Localization_Analysis</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3800,8 +3796,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
-					<_hfilename type="a">.\C2C_Base_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::C2C_Base_Modelling</_hsubsystem>
+					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
 					<_hname type="a">Touchscreen</_hname>
 					<_hid type="a">GUID ecb02bdb-1657-4e9f-9983-abd97690f0ec</_hid>
@@ -3810,7 +3806,7 @@
 			<m_pParent type="s">GUID 27fcb663-de52-411f-8256-dfbdbc32b024</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::C2C_Base_Modelling::Touchscreen</m_str>
+					<m_str type="a">BlockModeling::C2_Base_Structure::Touchscreen</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3930,8 +3926,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPort</_hm2Class>
-					<_hfilename type="a">.\C2C_Base_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::C2C_Base_Modelling</_hsubsystem>
+					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
 					<_hclass type="a">TopLevel.Touchscreen</_hclass>
 					<_hname type="a">Comand_Touch</_hname>
 					<_hid type="a">GUID 5d272992-ab1c-4952-89f2-8a3880da3012</_hid>
@@ -4058,8 +4054,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPort</_hm2Class>
-					<_hfilename type="a">.\C2C_Base_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::C2C_Base_Modelling</_hsubsystem>
+					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
 					<_hclass type="a">TopLevel.Touchscreen</_hclass>
 					<_hname type="a">Screen_Out</_hname>
 					<_hid type="a">GUID 2b7da5e4-0045-40c2-9dea-11d74716c552</_hid>
@@ -4282,8 +4278,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
 					<_hname type="a">Communications_Card_Drone</_hname>
 					<_hid type="a">GUID ed6536d0-dfc7-4951-af50-ded6bd9dffd5</_hid>
 				</IHandle>
@@ -4291,7 +4287,7 @@
 			<m_pParent type="s">GUID 27fcb663-de52-411f-8256-dfbdbc32b024</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::Swarm_and_Drone_Modelling::Communications_Card_Drone</m_str>
+					<m_str type="a">BlockModeling::Swarm_and_Drone_Structure::Communications_Card_Drone</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4498,8 +4494,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
 					<_hname type="a">FlightControl</_hname>
 					<_hid type="a">GUID 36f7c87f-3753-445f-8e43-f14339c486f4</_hid>
 				</IHandle>
@@ -4507,7 +4503,7 @@
 			<m_pParent type="s">GUID 27fcb663-de52-411f-8256-dfbdbc32b024</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::Swarm_and_Drone_Modelling::FlightControl</m_str>
+					<m_str type="a">BlockModeling::Swarm_and_Drone_Structure::FlightControl</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4651,8 +4647,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
 					<_hname type="a">Drone</_hname>
 					<_hid type="a">GUID 6e755edf-670f-4509-8bbd-89bf1476f040</_hid>
 				</IHandle>
@@ -4660,7 +4656,7 @@
 			<m_pParent type="s">GUID 27fcb663-de52-411f-8256-dfbdbc32b024</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::Swarm_and_Drone_Modelling::Drone</m_str>
+					<m_str type="a">BlockModeling::Swarm_and_Drone_Structure::Drone</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4804,8 +4800,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
-					<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
 					<_hname type="a">WiFi_Protocol</_hname>
 					<_hid type="a">GUID 3851da9c-d2c2-4fc4-9a09-b62a731a7380</_hid>
@@ -4814,7 +4810,7 @@
 			<m_pParent type="s">GUID 27fcb663-de52-411f-8256-dfbdbc32b024</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::Swarm_and_Drone_Modelling::WiFi_Protocol</m_str>
+					<m_str type="a">BlockModeling::Swarm_and_Drone_Structure::WiFi_Protocol</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4904,8 +4900,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IPart</_hm2Class>
-					<_hfilename type="a">.\Swarm_and_Drone_Modelling.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Modelling</_hsubsystem>
+					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
 					<_hname type="a">GSM_Protocol</_hname>
 					<_hid type="a">GUID fcf4f180-48da-4cf7-b2b1-f09f03e46976</_hid>
@@ -4914,7 +4910,7 @@
 			<m_pParent type="s">GUID 27fcb663-de52-411f-8256-dfbdbc32b024</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">BlockModeling::Swarm_and_Drone_Modelling::GSM_Protocol</m_str>
+					<m_str type="a">BlockModeling::Swarm_and_Drone_Structure::GSM_Protocol</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">

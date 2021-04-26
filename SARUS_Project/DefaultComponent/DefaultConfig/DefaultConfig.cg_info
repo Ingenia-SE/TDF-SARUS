@@ -4,8 +4,8 @@ I-Logix-RPY-Archive version 8.15.0 * 202006101734
 	- size = 4;
 	- value = "DefaultComponent\\DefaultConfig\\ContextModeling.cpp" 2.9.2021::9:20:57
 	"DefaultComponent\\DefaultConfig\\ContextModeling.h" 2.9.2021::9:20:57
-	"DefaultComponent\\DefaultConfig\\Ground_Control_Station.cpp" 2.16.2021::16:57:40
-	"DefaultComponent\\DefaultConfig\\Ground_Control_Station.h" 2.16.2021::16:57:40
+	"DefaultComponent\\DefaultConfig\\Ground_Control_Station.cpp" 2.17.2021::9:37:49
+	"DefaultComponent\\DefaultConfig\\Ground_Control_Station.h" 2.17.2021::9:37:49
 	
 }
 - m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
@@ -17,17 +17,17 @@ I-Logix-RPY-Archive version 8.15.0 * 202006101734
 - size = 2;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
-	- _filename = ".\\..\\..\\SARUS_Project_rpy\\UI_Modeling.sbsx";
-	- _subsystem = "BlockModeling::UI_Modeling";
+	- _filename = ".\\..\\..\\SARUS_Project_rpy\\C2_Base_Structure.sbsx";
+	- _subsystem = "BlockModeling::C2_Base_Structure";
 	- _name = "Ground_Control_Station";
 	- _id = GUID 3af2fc7d-2919-4d6d-818b-ccbc485d8871;
 }
 - genTime = 2.16.2021::16:57:40;
 - hElement = { IHandle 
 	- _m2Class = "ISubsystem";
-	- _filename = ".\\..\\..\\SARUS_Project_rpy\\ContextModeling.sbsx";
+	- _filename = ".\\..\\..\\SARUS_Project_rpy\\Context_Structure.sbsx";
 	- _subsystem = "BlockModeling";
-	- _name = "ContextModeling";
+	- _name = "Context_Structure";
 	- _id = GUID 892d1db3-d120-473e-8d2c-67a8b17ebd4c;
 }
 - genTime = 2.9.2021::9:20:57;
