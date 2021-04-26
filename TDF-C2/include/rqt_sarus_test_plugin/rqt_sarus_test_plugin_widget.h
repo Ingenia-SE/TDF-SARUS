@@ -63,7 +63,9 @@ private:
     ros::Subscriber speedz;
     ros::Subscriber pos_z;
     ros::Subscriber battery_level;
-    ros::Subscriber led_detection;
+    //ros::Subscriber led_detection;
+    ros::Subscriber drone_detection;
+    std::vector<ros::Subscriber> led_detection;
 
     // Clients
     ros::ServiceClient land_client;
@@ -77,7 +79,7 @@ private:
     void ros_speedz_callback(const geometry_msgs::TwistStamped::ConstPtr &vz);
     void ros_posz_callback(const geometry_msgs::PointStamped::ConstPtr &z);
     void ros_batlevel_callback(const sensor_msgs::BatteryState::ConstPtr &percentage);
-    void ros_leddetection_callback(const sensor_msgs::ImageConstPtr& frame_detect);
+    void ros_leddetection_callback(const sensor_msgs::ImageConstPtr& frame_detect, int drone_ID);
     // Variables
     QString droneSpeed_x;
     QString droneSpeed_y;
@@ -88,6 +90,7 @@ private:
     int num_Drones = 0;
     std_msgs::String total_drones;
     int led_timer = 0;
+    std::vector<int> current_detec;
     
     QTimer *timer_1;
     QTimer *timer_1s;

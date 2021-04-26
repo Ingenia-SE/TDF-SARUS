@@ -36,9 +36,10 @@ TestPluginWidget::TestPluginWidget(QWidget *parent) :
     QObject::connect(timer_1s, SIGNAL(timeout()), this, SLOT(Update_Time()));
     timer_1s->start(1000);
 
+    ui->terminal->setWordWrapMode(QTextOption::WordWrap);
     terminal_time = QString("<span style=\" color:red;\">%1</span>").arg(QTime::currentTime().toString("hh:mm:ss"));
-    terminal_msg = QString("<span style=\" color:black;\">%1</span>").arg(" MISSION START\n");
-    ui->terminal->setText(terminal_time+terminal_msg);
+    terminal_msg = QString("<span style=\" color:white;\">%1</span>").arg("MISSION START\n");
+    ui->terminal->setText(terminal_time + " " + terminal_msg);
 }
 
 TestPluginWidget::~TestPluginWidget()
@@ -78,11 +79,21 @@ void TestPluginWidget::Update_Display() {
 
 void TestPluginWidget::Update_Time() {
     ui->current_time->setText(QTime::currentTime().toString("hh:mm:ss"));
-    if (led_timer >= 2){
+    if (led_timer > 2){
         ui->led_Coincidence->setStyleSheet(LedOff);
         led_timer = 0;
+        
     }else{
         led_timer++;
+    }
+
+    for(int i=0; i< num_Drones; i++){
+        if(current_detec[i] > 0){
+            if(current_detec[i] > 3)
+                current_detec[i] = 0;
+            else
+                current_detec[i]++;
+        }
     }
 }
 
@@ -107,9 +118,16 @@ void TestPluginWidget::ros_batlevel_callback(const sensor_msgs::BatteryState::Co
     this->droneBat_level = (int)(msg->percentage)*100;
 }
 
-void TestPluginWidget::ros_leddetection_callback(const sensor_msgs::ImageConstPtr& frame_detect){
+void TestPluginWidget::ros_leddetection_callback(const sensor_msgs::ImageConstPtr& frame_detect, int drone_ID){
     led_timer = 0;
     ui->led_Coincidence->setStyleSheet(LedOn_green);
+    
+    if(current_detec[drone_ID-1] == 0){
+        terminal_time = QString("<span style=\" color:red;\">%1</span>").arg(QTime::currentTime().toString("hh:mm:ss"));
+        terminal_msg = QString("<span style=\" color:white;\">%1</span>").arg( "New detection from DRONE " + QString::number(drone_ID) + "\n");
+        ui->terminal->append(terminal_time + " " + terminal_msg);
+        current_detec[drone_ID-1]++;
+    }
 }
 
 void TestPluginWidget::init_ROS_Node()
@@ -128,7 +146,7 @@ void TestPluginWidget::init_ROS_Node()
     land_client = ros_node_handle.serviceClient<aerostack_msgs::ActivateBehavior>("/drone111/basic_quadrotor_behaviors/behavior_land/activate_behavior");
 
     //Subscriber TEST--borrar
-    led_detection = ros_node_handle.subscribe("/drone111/sarus_c2/filtered_frames", 1, &TestPluginWidget::ros_leddetection_callback, this);
+    //led_detection = ros_node_handle.subscribe("/drone111/sarus_c2/filtered_frames", 1, &TestPluginWidget::ros_leddetection_callback, this);
     
 }
 
@@ -140,6 +158,12 @@ void TestPluginWidget::on_addDrone_clicked()
     std::string take_off("/drone" + (std::to_string(FIRST_ID+num_Drones) + "/basic_quadrotor_behaviors/behavior_take_off/activate_behavior"));
     take_off_client = ros_node_handle.serviceClient<aerostack_msgs::ActivateBehavior>(take_off);
     take_off_all.push_back(take_off_client);
+
+    // Subscriber filter_frames for LED DETECTION
+    std::string drone_frame("/drone" + (std::to_string(FIRST_ID+num_Drones) + "/sarus_c2/filtered_frames"));
+    drone_detection = ros_node_handle.subscribe<sensor_msgs::Image>(drone_frame, 1, boost::bind(&TestPluginWidget::ros_leddetection_callback, this, _1, num_Drones));
+    led_detection.push_back(drone_detection);
+    current_detec.push_back(0);
 
     num_Drones++;
     ui->drone_ID->addItem(QString::number(num_Drones));
@@ -154,6 +178,8 @@ void TestPluginWidget::on_removeDrone_clicked()
         num_Drones--;
         ui->drone_ID->removeItem(num_Drones);
         take_off_all.pop_back();
+        led_detection.pop_back();
+        current_detec.pop_back();
     }
     ui->n_drones->setText(QString::number(num_Drones));
     total_drones.data = std::to_string(num_Drones);
