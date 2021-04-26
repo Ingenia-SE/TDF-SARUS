@@ -7,7 +7,7 @@ enable_antialiasing: true
 show_displays: true
 show_status_bar: true
 show_capture_tools: true
-window_width: 1282
+window_width: 816
 window_height: 960
 view_scale: 1.771559
 offset_x: 0
@@ -41,7 +41,7 @@ displays:
       color: "#a40000"
       draw_style: arrows
       position_tolerance: 1
-      buffer_size: 10
+      buffer_size: 1
       show_laps: false
       static_arrow_sizes: true
       arrow_size: 28
@@ -54,7 +54,7 @@ displays:
       color: "#a40000"
       draw_style: arrows
       position_tolerance: 0
-      buffer_size: 10
+      buffer_size: 1
       show_laps: false
       static_arrow_sizes: true
       arrow_size: 25
@@ -67,7 +67,7 @@ displays:
       color: "#a40000"
       draw_style: arrows
       position_tolerance: 0
-      buffer_size: 10
+      buffer_size: 1
       show_laps: false
       static_arrow_sizes: false
       arrow_size: 25
@@ -80,7 +80,7 @@ displays:
       color: "#a40000"
       draw_style: arrows
       position_tolerance: 0
-      buffer_size: 10
+      buffer_size: 1
       show_laps: false
       static_arrow_sizes: true
       arrow_size: 25
@@ -88,27 +88,27 @@ displays:
     name: new display
     config:
       visible: true
-      collapsed: false
+      collapsed: true
       topic: /mapviz/path1
       color: "#a40000"
   - type: mapviz_plugins/path
     name: new display
     config:
       visible: true
-      collapsed: false
+      collapsed: true
       topic: /mapviz/path2
       color: "#a40000"
   - type: mapviz_plugins/path
     name: new display
     config:
       visible: true
-      collapsed: false
+      collapsed: true
       topic: /mapviz/path3
       color: "#a40000"
   - type: mapviz_plugins/path
     name: new display
     config:
       visible: true
-      collapsed: false
+      collapsed: true
       topic: /mapviz/path4
       color: "#a40000"

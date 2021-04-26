@@ -15,7 +15,7 @@ fi
 
 gnome-terminal  \
 --tab --title "Spawn_mav $DRONE_SWARM_MEMBERS" --command "bash -c \"
-roslaunch rotors_gazebo spawn_mav_tdf.launch --wait \
+roslaunch tdf_gazebo spawn_mav_tdf.launch --wait \
     namespace:=$MAV_NAME$DRONE_SWARM_MEMBERS \
     mav_name:=$MAV_NAME \
     x:=$DRONE_SWARM_MEMBERS \

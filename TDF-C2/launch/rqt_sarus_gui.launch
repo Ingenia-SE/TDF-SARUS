@@ -20,5 +20,6 @@
 
   <node pkg="tf" type="static_transform_publisher" name="swri_transform" args="0 0 0 0 0 0 /world /origin 100"  />
   <node name="rqt_gui" pkg="rqt_gui" type="rqt_gui"/>
+  <!-- <node pkg="sarus_path_planning" type="planner.py" name="Mission_Planner" /> -->
   
 </launch>
