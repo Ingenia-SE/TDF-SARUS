@@ -27,6 +27,7 @@ The whole project can be divided into its four main modules which have been deve
   <summary><b>Images 🖼️</b></summary>
   Images
 </details>
+<br>
 
 ### Mission Planner
 Integrated into the User Interface, given a polygon and swarm size, it will sort the drones into different areas.
@@ -35,7 +36,7 @@ Integrated into the User Interface, given a polygon and swarm size, it will sort
 
 
 ### Computer Vision
-
+We've trained a YOLO neural network to maximize the effectivity of person detection with our custom dataset. The NN can detect people and different animals such as cows, deers and wolves.
 
 ### tdf_gazebo map
 The Simulation Team at TDF has developed a brand new map for their simulation purposes. It features multiple environments to design and test the S&R tasks.
@@ -70,8 +71,10 @@ As well, it features custom gazebo models for animals and people.
   <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/leafy.png?raw=true" alt="tdf_gazebo_leafy" width="500">
 
   </details>
-
+  <br>
+  
 ## Installation
 
+<b>Requirements:</b> Ubuntu 18.04 & ROS Melodic.
 
-
+First of all, make sure you have got installed [Aerostack 4.0](https://github.com/cvar-upm/aerostack/wiki/Install-from-source-code) from the source code. In case you don't have it installed, press the link.
