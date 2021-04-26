@@ -1,0 +1,114 @@
+capture_directory: ~
+fixed_frame: world
+target_frame: origin
+fix_orientation: false
+rotate_90: false
+enable_antialiasing: true
+show_displays: true
+show_status_bar: true
+show_capture_tools: true
+window_width: 1098
+window_height: 954
+view_scale: 0.3676006
+offset_x: 95.6862
+offset_y: -79.56265
+use_latest_transforms: true
+background: "#ffffff"
+displays:
+  - type: mapviz_plugins/tile_map
+    name: new display
+    config:
+      visible: true
+      collapsed: true
+      custom_sources:
+        []
+      bing_api_key: ""
+      source: Stamen (terrain)
+  - type: mapviz_plugins/draw_polygon
+    name: new display
+    config:
+      visible: true
+      collapsed: false
+      frame: world
+      polygon_topic: /mapviz/polygon
+      color: "#000000"
+  - type: mapviz_plugins/pose
+    name: new display
+    config:
+      visible: true
+      collapsed: true
+      topic: /drone111/ground_truth/pose
+      color: "#a40000"
+      draw_style: arrows
+      position_tolerance: 9
+      buffer_size: 0
+      show_laps: false
+      static_arrow_sizes: true
+      arrow_size: 31
+  - type: mapviz_plugins/path
+    name: new display
+    config:
+      visible: true
+      collapsed: true
+      topic: /drone111/motion_reference/path
+      color: "#a40000"
+  - type: mapviz_plugins/pose
+    name: new display
+    config:
+      visible: true
+      collapsed: true
+      topic: /drone112/ground_truth/pose
+      color: "#0000ff"
+      draw_style: arrows
+      position_tolerance: 0
+      buffer_size: 1
+      show_laps: false
+      static_arrow_sizes: true
+      arrow_size: 25
+  - type: mapviz_plugins/pose
+    name: new display
+    config:
+      visible: true
+      collapsed: true
+      topic: /drone113/ground_truth/pose
+      color: "#00ff00"
+      draw_style: arrows
+      position_tolerance: 0
+      buffer_size: 0
+      show_laps: false
+      static_arrow_sizes: false
+      arrow_size: 25
+  - type: mapviz_plugins/pose
+    name: new display
+    config:
+      visible: true
+      collapsed: true
+      topic: /drone114/ground_truth/pose
+      color: "#a40000"
+      draw_style: arrows
+      position_tolerance: 0
+      buffer_size: 1
+      show_laps: false
+      static_arrow_sizes: true
+      arrow_size: 25
+  - type: mapviz_plugins/path
+    name: new display
+    config:
+      visible: true
+      collapsed: true
+      topic: /drone112/motion_reference/path
+      color: "#ffaa00"
+  - type: mapviz_plugins/path
+    name: new display
+    config:
+      visible: true
+      collapsed: true
+      topic: /drone113/motion_reference/path
+      color: "#00ff00"
+  - type: mapviz_plugins/path
+    name: new display
+    config:
+      visible: true
+      collapsed: true
+      topic: /drone114/motion_reference/path
+      color: "#ffaa00"
