@@ -73,7 +73,7 @@ def makePolygon (points, width=10):	#Polygon to bitmap with pixels of ~ 10x10 m
     area_map=area_map-1
     return area_map, Yindexes, Xindexes, north, south, east, west
 
-def appendPath(coordinates, to_C2):
+def appendtoPath(coordinates, to_C2):
     msg = PoseStamped()
     # Also possible with numpy
     # Separate the position in its coordinates
@@ -95,11 +95,16 @@ def poly_cb(data):
     update = True
 
 
-def n_cb(data):
+def n_cb(ndrones):
     global n
-    n=data
-
-
+    global pubC2
+    global pubAerostack
+    n=int(data)
+    for i in range(n-len(pubAerostack)):
+        Atopic='/drone11' + str(i+1) + '/motion_reference/path'
+        pubAerostack.append(rospy.Publisher(Atopic, Path, queue_size=10))
+        C2topic='/mapviz/path'+str(i+1)
+        pubC2.append(rospy.Publisher(C2topic, Path, queue_size=10))
 
 ########################
 ### Program Start ######
@@ -110,8 +115,14 @@ plot=0
 if len(sys.argv)>1:
     plot=sys.argv[1]
 
-pubC2 = rospy.Publisher('/mapviz/path1', Path, queue_size=10)
-pubAerostack = rospy.Publisher('/drone111/motion_reference/path', Path, queue_size=10)
+pubC2 = []
+pubAerostack = []
+pubC2.append(rospy.Publisher('/mapviz/path1', Path, queue_size=10))
+pubAerostack.append(rospy.Publisher('/drone111/motion_reference/path', Path, queue_size=10))
+
+n=1
+
+
 
 # Frequency of the sleep
 rate = rospy.Rate(0.2) #0.2 Hz -> 5s
@@ -119,7 +130,6 @@ rospy.loginfo('Mision Planner ready')
 
 # Datos de Interfaz:
 
-n=1   #n de drones FALTA QUE NOS LO MANDE JAVI
 
 old_polygon = np.empty(2)
 
@@ -156,32 +166,27 @@ while True:
         ### meter topic salida a aerostack drone111/#####
         #################################################
         coverage_path_gazebo = alg2gazebo(coverage_paths, Yindexes, Xindexes, north, south, east, west)
-        # Drone with the maximum number of positions: Each drone has a different path with different number of points
-        maxPos=0
-        for drone in range(len(coverage_path_gazebo)):        # Number of drones
-            numberPos = len(coverage_path_gazebo[drone])
-            if numberPos>maxPos:
-                maxPos=numberPos
 
-        # Execute the function for every position and for all of the drones
-        C2Path = Path();
-        aerostackPath = Path();
 
-        for pos in range(maxPos):                                # Maximum number of positions
-            for drone in range(len(coverage_path_gazebo)):        # Number of drones
-                # Try and except to deal with the problem of having different number of positions
-                #try:
-                    # Call the function publishTrajectory sending the number of the drone and the desired position
-                    C2Path.poses.append(appendPath(coverage_path_gazebo[drone][pos], True))
-                    aerostackPath.poses.append(appendPath(coverage_path_gazebo[drone][pos], False))
+        for drone in range(n):        # Number of drones
+
+            C2Path= Path()
+            aerostackPath= Path()
+            for point in coverage_path_gazebo[n]:
+                try:
+                    C2Path.poses.append(appendtoPath(point, True))
+                    aerostackPath.poses.append(appendtoPath(point, False))
                     #rospy.loginfo('Drone '+ str(drone+1) + ' = ' + str(coverage_path_gazebo[drone][pos]))
-                #except:
-                    #rospy.loginfo('Drone ',drone+1, ' has reached its final position')
-                    ####################################
-                    #### IMPLEMENTAR VUELTA A CASA #####
-                    ####################################
+                except:
+                    rospy.logerror('Problem with Drone ', drone+1, ' path')
+            pubC2[drone].publish(C2Path)
+            pubAerostack[drone].publish(aerostackPath)
 
-        pubC2.publish(C2Path)
-        pubAerostack.publish(aerostackPath)
+
         update = False
-#        quit()
+
+####################################
+#### IMPLEMENTAR VUELTA A CASA #####
+####################################
+
+
