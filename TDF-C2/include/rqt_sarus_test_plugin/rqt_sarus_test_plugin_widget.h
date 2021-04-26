@@ -55,6 +55,7 @@ private:
     ros::Publisher buttonPublisher;
     ros::Publisher landPublisher;
     ros::Publisher emergencyPublisher;
+    ros::Publisher n_drones;
 
     //Subscribers
     ros::Subscriber speedx;
@@ -85,6 +86,7 @@ private:
     float droneAltitude;
     int droneBat_level;
     int num_Drones = 0;
+    std_msgs::String total_drones;
     int led_timer = 0;
     
     QTimer *timer_1;

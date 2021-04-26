@@ -121,6 +121,8 @@ void TestPluginWidget::init_ROS_Node()
      landPublisher = ros_node_handle.advertise<std_msgs::String>("my_data",1);
      emergencyPublisher = ros_node_handle.advertise<std_msgs::String>("my_data",1);
 
+     n_drones = ros_node_handle.advertise<std_msgs::String>("n_drones", 1);
+
     // CLIENTS
     //take_off_client = ros_node_handle.serviceClient<aerostack_msgs::ActivateBehavior>("/drone111/basic_quadrotor_behaviors/behavior_take_off/activate_behavior");
     land_client = ros_node_handle.serviceClient<aerostack_msgs::ActivateBehavior>("/drone111/basic_quadrotor_behaviors/behavior_land/activate_behavior");
@@ -142,7 +144,8 @@ void TestPluginWidget::on_addDrone_clicked()
     num_Drones++;
     ui->drone_ID->addItem(QString::number(num_Drones));
     ui->n_drones->setText(QString::number(num_Drones));
-
+    total_drones.data = std::to_string(num_Drones);
+    n_drones.publish(total_drones);
 }
 
 void TestPluginWidget::on_removeDrone_clicked()
@@ -153,6 +156,8 @@ void TestPluginWidget::on_removeDrone_clicked()
         take_off_all.pop_back();
     }
     ui->n_drones->setText(QString::number(num_Drones));
+    total_drones.data = std::to_string(num_Drones);
+    n_drones.publish(total_drones);
 }
 
 
