@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import rospy
-import tf
+#import tf
 import std_msgs.msg
 from geometry_msgs.msg import PoseStamped
 from nav_msgs.msg import Path
@@ -14,30 +14,44 @@ def publishTrajectory():
   msg = Path()
   msg.header.frame_id = "map"
   msg.header.stamp = rospy.Time.now()
-  pose1 = PoseStamped()
-  pose2 = PoseStamped()
-  pose3 = PoseStamped()
+  pose = PoseStamped()
 
   z_ref=6.0 #En principio no controlamos la coordenada z
 
-  
-  pose1.pose.position.x=6.0
-  pose1.pose.position.y=6.0
-  pose1.pose.position.z=z_ref
+  pose = PoseStamped()
+  pose.pose.position.x=0.0
+  pose.pose.position.y=0.0
+  pose.pose.position.z=z_ref
 
-  msg.poses.append(pose1)
+  msg.poses.append(pose)
 
-  pose2.pose.position.x=1.0
-  pose2.pose.position.y=-1.0
-  pose2.pose.position.z=z_ref
+  pose = PoseStamped()
+  pose.pose.position.x=0.0
+  pose.pose.position.y=14.0
+  pose.pose.position.z=z_ref
 
-  msg.poses.append(pose2)
+  msg.poses.append(pose)
 
-  pose3.pose.position.x=1.0
-  pose3.pose.position.y=-1.0
-  pose3.pose.position.z=z_ref
+  pose = PoseStamped()
+  pose.pose.position.x=14.0
+  pose.pose.position.y=14.0
+  pose.pose.position.z=z_ref
 
-  msg.poses.append(pose3)
+  msg.poses.append(pose)
+
+  pose = PoseStamped()
+  pose.pose.position.x=14.0
+  pose.pose.position.y=0.0
+  pose.pose.position.z=z_ref
+
+  msg.poses.append(pose)
+
+  pose = PoseStamped()
+  pose.pose.position.x=0.0
+  pose.pose.position.y=0.0
+  pose.pose.position.z=z_ref
+
+  msg.poses.append(pose)
 
   
   print(msg)
