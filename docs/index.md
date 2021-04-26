@@ -1,37 +1,77 @@
-## Welcome to GitHub Pages
+<img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/img/logo-color.png?raw=true" alt="TDF-Logo" width="210">
 
-You can use the [editor on GitHub](https://github.com/Ingenia-SE/TDF-SARUS/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+#  The Drone Face - SARUS Project
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## What is SARUS?
 
-### Markdown
+SARUS is a project made by The Drone Face. Its aim is to develop a complex system of coordinated drones that will perform Search and Rescue tasks in the mountains. It shall support rescue teams in order to save as much time as possible, thus, as many lives as possible.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Features
 
-```markdown
-Syntax highlighted code block
+The whole project can be divided into its four main modules which have been developed simultaneously.
 
-# Header 1
-## Header 2
-### Header 3
+### User Interface
 
-- Bulleted
-- List
+- Designed to be user-friendly and flexible.
+- Easy to manage the swarm:
+  - Adding / Removing deployed drones.
+  - Individually selecting and controlling drones.
+  - Visualizing system warnings and drones' parameters (battery, position...).
+- Hand-drawing the searching areas polygons.
+- Powerful routes displaying.
+- General system messages log.
+- Simulated world displayed.
+[comment]:<> ( Visualizing drones' cameras.)
 
-1. Numbered
-2. List
+<details>
+  <summary><b>Images 🖼️</b></summary>
+  Images
+</details>
 
-**Bold** and _Italic_ and `Code` text
+### Mission Planner
+Integrated into the User Interface, given a polygon and swarm size, it will sort the drones into different areas.
 
-[Link](url) and ![Image](src)
-```
+<h3 align="center">They will be flying through an optimal path.</h3>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Computer Vision
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ingenia-SE/TDF-SARUS/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### tdf_gazebo map
+The Simulation Team at TDF has developed a brand new map for their simulation purposes. It features multiple environments to design and test the S&R tasks.
+- Collapsed Buildings
+- Forest
+- Leafy forest
+- Base to deploy S&R drones
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+As well, it features custom gazebo models for animals and people.
+
+<details>
+  <summary><b>Images 🖼️</b></summary>
+  
+  **World overview**
+  
+  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/world.png?raw=true" alt="tdf_gazebo" width="500">
+  
+  **Collapsed buildings**
+
+<img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/ruins.png?raw=true" alt="tdf_gazebo_ruins" width="500">
+
+**Base to deploy search and rescue robots**
+
+<img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/base.png?raw=true" alt="tdf_gazebo_base" width="500">
+
+**Forest**
+
+<img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/forest.png?raw=true" alt="tdf_gazebo_forest" width="500">
+
+**Leafy forest**
+
+<img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/leafy.png?raw=true" alt="tdf_gazebo_leafy" width="500">
+  
+</details>
+
+## Installation
+
+
+
