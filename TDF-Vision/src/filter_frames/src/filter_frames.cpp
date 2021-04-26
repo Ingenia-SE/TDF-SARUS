@@ -23,11 +23,11 @@ public:
     nodeHandler.param("use_sim_time", use_sim_time, true); // if using simulation time put it as true
     
     // subs
-    YOLO_Subscriber_ = img_.subscribe("darknet_ros/detection_image", 1, &filter::callbackYOLO_image, this);
+    YOLO_Subscriber_ = img_.subscribe("darknet_ros/darknet_ros/detection_image", 1, &filter::callbackYOLO_image, this);
     // Objects_Subscriber_ = nodeHandler.subscribe("/darknet_ros/found_object", 5, &filter::callbackYOLO_object, this);
     
     // Uncomment if prefer to only publish if ID_detections are provided
-    BB_Subscriber_ = nodeHandler.subscribe("darknet_ros/bounding_boxes", 5, &filter::callbackYOLO_detections, this);
+    BB_Subscriber_ = nodeHandler.subscribe("darknet_ros/darknet_ros/bounding_boxes", 5, &filter::callbackYOLO_detections, this);
     
     // pubs
     Publisher_ = img_.advertise("sarus_c2/filtered_frames", 5);

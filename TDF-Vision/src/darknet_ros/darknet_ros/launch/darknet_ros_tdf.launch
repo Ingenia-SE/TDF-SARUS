@@ -2,6 +2,8 @@
 
 <launch>
   <!-- Console launch prefix -->
+  <arg name="namespace_input"     default="hummingbird1" />
+  <arg name="namespace_output"     default="drone111" />
   <arg name="launch_prefix" default=""/>
   <arg name="image" default="/camera/rgb/image_raw" />
 
@@ -14,14 +16,14 @@
   <arg name="network_param_file"         default="$(find darknet_ros)/config/yolov2-tiny-tdf.yaml"/>
 
   <!-- Load parameters -->
-  <rosparam command="load" ns="darknet_ros" file="$(arg ros_param_file)"/>
-  <rosparam command="load" ns="darknet_ros" file="$(arg network_param_file)"/>
+  <rosparam command="load" ns="$(arg namespace_output)/darknet_ros" file="$(arg ros_param_file)"/>
+  <rosparam command="load" ns="$(arg namespace_output)/darknet_ros" file="$(arg network_param_file)"/>
 
   <!-- Start darknet and ros wrapper -->
-  <node pkg="darknet_ros" type="darknet_ros" name="darknet_ros" output="screen" launch-prefix="$(arg launch_prefix)">
+  <node pkg="darknet_ros" type="darknet_ros" name="darknet_ros" output="screen" launch-prefix="$(arg launch_prefix)" ns="$(arg namespace_output)">
     <param name="weights_path"          value="$(arg yolo_weights_path)" />
     <param name="config_path"           value="$(arg yolo_config_path)" />
-    <remap from="camera/rgb/image_raw"  to="$(arg image)" />
+    <remap from="/camera_front/image_raw"  to="/$(arg namespace_input)/camera_front_cam/image_raw" />
   </node>
 
  <!--<node name="republish" type="republish" pkg="image_transport" output="screen" 	args="compressed in:=/front_camera/image_raw raw out:=/camera/image_raw" /> -->
