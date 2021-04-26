@@ -106,7 +106,8 @@ def n_cb(data):
 ########################
 rospy.init_node('mission_planner', anonymous=True) #Create node
 
-try:
+plot=0
+if len(sys.argv)>1:
     plot=sys.argv[1]
 
 pubC2 = rospy.Publisher('/mapviz/path1', Path, queue_size=10)
@@ -135,7 +136,7 @@ while True:
         drone_maps = [get_drone_map(A,i) for i in range(n)] #assign a map for each drone
         coverage_paths = [bcd(drone_maps[i],start_points[i]) for i in range(n)]  #Calculate the routes for each drone
         old_polygon = base_polygon
-#######
+
         if plot:
           imshow(A,1,4,1, figsize=(20,5))
           imshow_scatter(start_points,color="black")
