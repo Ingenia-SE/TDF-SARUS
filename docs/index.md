@@ -31,7 +31,7 @@ The whole project can be divided into its four main modules which have been deve
 ### Mission Planner
 Integrated into the User Interface, given a polygon and swarm size, it will sort the drones into different areas.
 
-<h3 align="center">They will be flying through an optimal path.</h3>
+<h4 align="center">They will be flying through an optimal path.</h4>
 
 
 ### Computer Vision
@@ -49,23 +49,23 @@ As well, it features custom gazebo models for animals and people.
 <details>
   <summary><b>Images 🖼️</b></summary>
   
-  **World overview**
+  <b>World overview</b>
   
   <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/world.png?raw=true" alt="tdf_gazebo" width="500">
   
-  **Collapsed buildings**
+  <b>Collapsed buildings</b>
 
 <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/ruins.png?raw=true" alt="tdf_gazebo_ruins" width="500">
 
-**Base to deploy search and rescue robots**
+<b>Base to deploy search and rescue robots</b>
 
 <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/base.png?raw=true" alt="tdf_gazebo_base" width="500">
 
-**Forest**
+<b>Forest</b>
 
 <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/forest.png?raw=true" alt="tdf_gazebo_forest" width="500">
 
-**Leafy forest**
+<b>Leafy forest</b>
 
 <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Sim/tdf_gazebo/img/leafy.png?raw=true" alt="tdf_gazebo_leafy" width="500">
   
