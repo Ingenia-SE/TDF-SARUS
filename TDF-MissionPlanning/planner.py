@@ -77,10 +77,10 @@ def appendtoPath(coordinates, to_C2):
     msg.pose.position.y=coordinates[1]
     if to_C2 == True:
         msg.pose.position.z=0.0 #coordinates[2]
-        msg.header.frame_id = 'map'
+        msg.header.frame_id = 'world'
     else:
         msg.pose.position.z=10.0 #coordinates[2]
-        msg.header.frame_id = 'world'
+        msg.header.frame_id = 'map'
     return msg
 
 def poly_cb(data):
@@ -120,7 +120,6 @@ rospy.loginfo('Mision Planner ready')
 
 old_polygon = np.empty(2)
 
-#rospy.Subscriber('/interfaz/poligono', Int32MultiArray, poly_cb)
 rospy.Subscriber('/mapviz/polygon', PolygonStamped, poly_cb)
 
 
@@ -153,29 +152,29 @@ while True:
         plt.show()
 
         '''
-#        pubC2 = []
+        pubC2 = []
         pubAerostack = []
 
         for drone in range(n):        # generate path msgs for aerostack and C2
 
-#            C2Path= Path()
-#            C2Path.header.frame_id = 'map'
+            C2Path= Path()
+            C2Path.header.frame_id = 'world'
             aerostackPath= Path()
-            aerostackPath.header.frame_id = 'world'
+            aerostackPath.header.frame_id = 'map'
             for point in coverage_path_gazebo[drone]:
                 try:
-#                   C2Path.poses.append(appendtoPath(point, True))
+                    C2Path.poses.append(appendtoPath(point, True))
                     aerostackPath.poses.append(appendtoPath(point, False))
                 except:
                     rospy.logerr('Problem with Drone ', str(drone+1), ' path')
-#            pubC2.append(rospy.Publisher('/mapviz/path' + str(drone+1), Path, queue_size=10))
-#            pubC2[drone].publish(C2Path)
+            pubC2.append(rospy.Publisher('/mapviz/path' + str(drone+1), Path, queue_size=10))
+            pubC2[drone].publish(C2Path)
+            pubC2[drone].publish(C2Path)
             pubAerostack.append(rospy.Publisher('/drone11' + str(drone + 1) + '/motion_reference/path', Path, queue_size=10))
             pubAerostack[drone].publish(aerostackPath)
             rospy.loginfo('Route for drone '+ str(drone+1) + ' published in topic: ' + '/drone11' + str(drone + 1) + '/motion_reference/path' )
 
 
         update = False
-
 
 
