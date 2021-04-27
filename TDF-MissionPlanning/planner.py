@@ -164,11 +164,8 @@ while True:
             aerostackPath.header.frame_id = 'world'
             for point in coverage_path_gazebo[drone]:
                 try:
-		    if home=0:
-#                    	C2Path.poses.append(appendtoPath(point, True))
-                    	aerostackPath.poses.append(appendtoPath(point, False))
-		    else:
-			aerostackPath.poses.append(returnHome())
+#                   C2Path.poses.append(appendtoPath(point, True))
+                    aerostackPath.poses.append(appendtoPath(point, False))
                 except:
                     rospy.logerr('Problem with Drone ', str(drone+1), ' path')
 #            pubC2.append(rospy.Publisher('/mapviz/path' + str(drone+1), Path, queue_size=10))
