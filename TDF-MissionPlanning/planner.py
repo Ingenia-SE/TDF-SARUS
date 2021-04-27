@@ -95,6 +95,12 @@ def n_cb(ndrones):
     global n
     n=int(ndrones)
 
+def returnHome():
+    msg = PoseStamped()
+    msg.pose.position.x=0
+    msg.pose.position.y=0
+    return msg
+
 ########################
 ### Program Start ######
 ########################
@@ -102,7 +108,8 @@ def n_cb(ndrones):
 
 rospy.init_node('mission_planner', anonymous=True) #Create node
 
-n=2
+n=2   #Numero de drones, cambiar por topic que los mande
+home=0  #Vuelta a casa, si home=1 hay que volver. Cambiar por topic que los mande
 
 # Frequency of the sleep
 rate = rospy.Rate(0.2) #0.2 Hz -> 5s
@@ -157,8 +164,11 @@ while True:
             aerostackPath.header.frame_id = 'world'
             for point in coverage_path_gazebo[drone]:
                 try:
-#                    C2Path.poses.append(appendtoPath(point, True))
-                    aerostackPath.poses.append(appendtoPath(point, False))
+		    if home=0:
+#                    	C2Path.poses.append(appendtoPath(point, True))
+                    	aerostackPath.poses.append(appendtoPath(point, False))
+		    else:
+			aerostackPath.poses.append(returnHome())
                 except:
                     rospy.logerr('Problem with Drone ', str(drone+1), ' path')
 #            pubC2.append(rospy.Publisher('/mapviz/path' + str(drone+1), Path, queue_size=10))
@@ -170,8 +180,5 @@ while True:
 
         update = False
 
-####################################
-#### IMPLEMENTAR VUELTA A CASA #####
-####################################
 
 
