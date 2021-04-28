@@ -7,11 +7,11 @@ enable_antialiasing: true
 show_displays: true
 show_status_bar: true
 show_capture_tools: true
-window_width: 816
+window_width: 1342
 window_height: 960
-view_scale: 1.771559
-offset_x: 0
-offset_y: 0
+view_scale: 0.3641139
+offset_x: 0.9032136
+offset_y: 13.03765
 use_latest_transforms: true
 background: "#a0a0a4"
 displays:
@@ -31,7 +31,7 @@ displays:
       collapsed: true
       frame: world
       polygon_topic: /mapviz/polygon
-      color: "#a40000"
+      color: "#2e3436"
   - type: mapviz_plugins/pose
     name: new display
     config:
@@ -51,7 +51,7 @@ displays:
       visible: true
       collapsed: true
       topic: /drone112/ground_truth/pose
-      color: "#a40000"
+      color: "#204a87"
       draw_style: arrows
       position_tolerance: 0
       buffer_size: 1
@@ -64,12 +64,12 @@ displays:
       visible: true
       collapsed: true
       topic: /drone113/ground_truth/pose
-      color: "#a40000"
+      color: "#4e9a06"
       draw_style: arrows
       position_tolerance: 0
       buffer_size: 1
       show_laps: false
-      static_arrow_sizes: false
+      static_arrow_sizes: true
       arrow_size: 25
   - type: mapviz_plugins/pose
     name: new display
@@ -77,7 +77,7 @@ displays:
       visible: true
       collapsed: true
       topic: /drone114/ground_truth/pose
-      color: "#a40000"
+      color: "#5c3566"
       draw_style: arrows
       position_tolerance: 0
       buffer_size: 1
@@ -97,18 +97,74 @@ displays:
       visible: true
       collapsed: true
       topic: /mapviz/path2
-      color: "#a40000"
+      color: "#204a87"
   - type: mapviz_plugins/path
     name: new display
     config:
       visible: true
       collapsed: true
       topic: /mapviz/path3
-      color: "#a40000"
+      color: "#4e9a06"
   - type: mapviz_plugins/path
     name: new display
     config:
       visible: true
       collapsed: true
       topic: /mapviz/path4
-      color: "#a40000"
+      color: "#5c3566"
+  - type: mapviz_plugins/image
+    name: new display
+    config:
+      visible: true
+      collapsed: true
+      topic: /hummingbird1/camera_bottom/image_raw
+      anchor: top left
+      units: pixels
+      offset_x: 0
+      offset_y: 0
+      width: 320
+      height: 240
+      keep_ratio: false
+      image_transport: default
+  - type: mapviz_plugins/image
+    name: new display
+    config:
+      visible: true
+      collapsed: true
+      topic: /hummingbird2/camera_bottom/image_raw
+      anchor: top right
+      units: pixels
+      offset_x: 0
+      offset_y: 0
+      width: 320
+      height: 240
+      keep_ratio: false
+      image_transport: default
+  - type: mapviz_plugins/image
+    name: new display
+    config:
+      visible: true
+      collapsed: true
+      topic: /hummingbird3/camera_bottom/image_raw
+      anchor: bottom left
+      units: pixels
+      offset_x: 0
+      offset_y: 0
+      width: 320
+      height: 240
+      keep_ratio: false
+      image_transport: default
+  - type: mapviz_plugins/image
+    name: new display
+    config:
+      visible: true
+      collapsed: true
+      topic: /hummingbird4/camera_bottom/image_raw
+      anchor: bottom right
+      units: pixels
+      offset_x: 0
+      offset_y: 0
+      width: 320
+      height: 240
+      keep_ratio: false
+      image_transport: default
