@@ -63,14 +63,7 @@ exec bash\""  \
 roslaunch motor_speed_controller motor_speed_controller.launch --wait \
   namespace:=drone$NUMID_DRONE \
   mav_name:=$MAV_NAME;
-exec bash\"" \
-`#---------------------------------------------------------------------------------------------` \
-`# Gazebo Filter Frame Detector                                                                ` \
-`#---------------------------------------------------------------------------------------------` \
---tab --title "Gazebo Filter Frame Detector"  --command "bash -c \"
-roslaunch filter_frames filter_frames.launch --wait \
-  namespace:=drone$NUMID_DRONE;
-exec bash\"" &
+exec bash\"" \ &
 
 sleep 10
 rosservice call /drone$NUMID_DRONE/basic_quadrotor_behaviors/behavior_self_localize_with_ground_truth/activate_behavior "timeout: 10000"
@@ -82,17 +75,9 @@ rosservice call /drone$NUMID_DRONE/path_tracker_process/start
 #---------------------------------------------------------------------------------------------
 gnome-terminal  \
 `#---------------------------------------------------------------------------------------------` \
-`# alphanumeric_viewer                                                                         ` \
-`#---------------------------------------------------------------------------------------------` \
---tab --title "alphanumeric_viewer"  --command "bash -c \"
-roslaunch alphanumeric_viewer alphanumeric_viewer.launch --wait \
-    drone_id_namespace:=drone$NUMID_DRONE;
-exec bash\""  &
-gnome-terminal  \
-`#---------------------------------------------------------------------------------------------` \
 `# keyboard_teleoperation_with_pid_control                                                     ` \
 `#---------------------------------------------------------------------------------------------` \
---title "keyboard_teleoperation_with_pid_control"  --command "bash -c \"
+--tab --title "keyboard_teleoperation_with_pid_control"  --command "bash -c \"
 roslaunch keyboard_teleoperation_with_pid_control keyboard_teleoperation_with_pid_control.launch --wait \
   drone_id_namespace:=drone$NUMID_DRONE;
 exec bash\""  
