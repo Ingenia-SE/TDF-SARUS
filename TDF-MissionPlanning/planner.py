@@ -5,6 +5,7 @@
 #
 #
 
+
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
@@ -13,6 +14,7 @@ import rospy
 from geometry_msgs.msg import PolygonStamped
 from geometry_msgs.msg import PoseStamped
 from nav_msgs.msg import Path
+from std_msgs.msg import String
 
 from skimage.draw import polygon
 
@@ -30,9 +32,13 @@ def cambiaIntervalo (N, a0, b0, aF, bF):
 def alg2gazebo (point, Yindexes, Xindexes, north, south, east, west):
     newPoint = [[[cambiaIntervalo(drone[0], 0, Xindexes-1, west, east), cambiaIntervalo(drone[1], 0, Yindexes-1, south, north), 15] for drone in drones] for drones in point]
     return newPoint
-
+'''
+def gazebo2alg (point):
+    newPoint = [[[cambiaIntervalo(coord, -100, 100, 0, 31) for coord in drone] for drone in drones] for drones in point]
+    return newPoint
+'''
 def makePolygon (points, width=10):	#Polygon to bitmap with pixels of ~ 10x10 m
-    # The polygon is enclosed in a rectangle
+    # Acotamos el cuadrado
     north = points[0].y
     south = points[0].y
     east = points[0].x
@@ -46,8 +52,7 @@ def makePolygon (points, width=10):	#Polygon to bitmap with pixels of ~ 10x10 m
             east = point.x
         if point.x < west:
             west = point.x
-
-    # The rectangle is divided in squares of roughly 10x10 m
+    # Dividimos en grupos de 10
     Ysize = north - south
     Yindexes = np.floor(Ysize/width)		#N of divisions
     Yindexes = np.int8(Yindexes)
@@ -62,7 +67,8 @@ def makePolygon (points, width=10):	#Polygon to bitmap with pixels of ~ 10x10 m
         y.append(np.floor(cambiaIntervalo(point.y, south, north, 0, Yindexes)))
         x.append(np.floor(cambiaIntervalo(point.x, west, east, 0, Xindexes)))
 
-#    print("N of squares: " + str(Yindexes * Xindexes))
+    print("Square width: " + str(Ysize)+"x"+str(Xsize))
+    print("N of squares: " + str(Yindexes)+"x"+str(Xindexes))
     map_x, map_y = polygon(y,x)
     area_map =np.zeros((Yindexes, Xindexes), dtype=np.int8)
     area_map[map_y, map_x]=1
@@ -77,104 +83,72 @@ def appendtoPath(coordinates, to_C2):
     msg.pose.position.y=coordinates[1]
     if to_C2 == True:
         msg.pose.position.z=0.0 #coordinates[2]
-        msg.header.frame_id = 'world'
+        msg.header.frame_id = 'map'
     else:
         msg.pose.position.z=10.0 #coordinates[2]
-        msg.header.frame_id = 'map'
+        msg.header.frame_id = 'world'
     return msg
 
 def poly_cb(data):
     global base_polygon
     base_polygon=np.array(data.polygon.points)
     rospy.loginfo('Polygon received')
-    global update
-    update = True
+    rospy.loginfo('Recalculating path...')
+    area_map, Yindexes, Xindexes, north, south, east, west = makePolygon(base_polygon) #Make bitmap from polygon
+    start_points = get_random_coords(area_map, n) # Random start coordinates
+    A, losses = darp(300, area_map, start_points, pbar=True) # Area division algorithm
+    drone_maps = [get_drone_map(A,i) for i in range(n)] #assign a map for each drone
+    coverage_paths = [bcd(drone_maps[i],start_points[i]) for i in range(n)]  #Calculate the routes for each drone
+    old_polygon = base_polygon
 
+    coverage_path_gazebo = alg2gazebo(coverage_paths, Yindexes, Xindexes, north, south, east, west)
+
+    for drone in range(n):        # Number of drones
+
+        C2Path= Path()
+        C2Path.header.frame_id = 'world'
+
+        aerostackPath= Path()
+
+        Atopic='/drone11' + str(drone+1) + '/motion_reference/path'
+        pubAerostack = rospy.Publisher(Atopic, Path, queue_size=10)
+        C2topic='/mapviz/path'+str(drone+1)
+        pubC2 = rospy.Publisher(C2topic, Path, queue_size=10)
+
+        for point in coverage_path_gazebo[drone]:
+            try:
+                C2Path.poses.append(appendtoPath(point, True))
+                aerostackPath.poses.append(appendtoPath(point, False))
+            except:
+                rospy.logerr('Problem with Drone ', drone+1, ' path')
+        pubC2.publish(C2Path)
+        pubAerostack.publish(aerostackPath)
+        rospy.loginfo('Route for drone '+ str(drone+1) + ' published in topic: ' + '/drone11' + str(drone + 1) + '/motion_reference/path' )
+        rospy.loginfo(C2Path.poses[1])
+        rospy.loginfo(aerostackPath.poses[1])
 
 def n_cb(ndrones):
     global n
-    n=int(ndrones)
-
-def returnHome():
-    msg = PoseStamped()
-    msg.pose.position.x=0
-    msg.pose.position.y=0
-    return msg
+    n=int(ndrones.data)
 
 ########################
 ### Program Start ######
 ########################
-
-
 rospy.init_node('mission_planner', anonymous=True) #Create node
 
-n=2   #Numero de drones, cambiar por topic que los mande
-home=0  #Vuelta a casa, si home=1 hay que volver. Cambiar por topic que los mande
-
 # Frequency of the sleep
-rate = rospy.Rate(0.2) #0.2 Hz -> 5s
 rospy.loginfo('Mision Planner ready')
-
-# Datos de Interfaz:
-
 
 old_polygon = np.empty(2)
 
+#rospy.Subscriber('/interfaz/poligono', Int32MultiArray, poly_cb)
 rospy.Subscriber('/mapviz/polygon', PolygonStamped, poly_cb)
+rospy.Subscriber('/n_drones', String, n_cb)
 
+rospy.spin()
 
-while True:
-    if 'update' in vars() and update == 1:
-        rospy.loginfo('Recalculating path...')
-        area_map, Yindexes, Xindexes, north, south, east, west = makePolygon(base_polygon) #Make bitmap from polygon
-        start_points = get_random_coords(area_map, n) # Random start coordinates
-        A, losses = darp(300, area_map, start_points, pbar=True) # Area division algorithm
-        drone_maps = [get_drone_map(A,i) for i in range(n)] #assign a map for each drone
-        coverage_paths = [bcd(drone_maps[i],start_points[i]) for i in range(n)]  #Calculate the routes for each drone
-        old_polygon = base_polygon
-        coverage_path_gazebo = alg2gazebo(coverage_paths, Yindexes, Xindexes, north, south, east, west) #coordinate conversion
-
-
-        # Code for plotting the polygon
-        '''
-        imshow(A,1,4,1, figsize=(20,5))
-        imshow_scatter(start_points,color="black")
-        dist_maps = [dist_fill(drone_maps[i],[start_points[i]]) for i in range(n)]
-        [imshow(dist_maps[i],1,4,i+2) for i in range(n)];
-
-        for i in range(n):
-            imshow(dist_maps[i],1,4,i+2)
-            plot(coverage_paths[i],color="white",alpha=0.6)
-            end_point = coverage_paths[i][-1]
-            imshow_scatter(start_points[i], color="green")
-            imshow_scatter(end_point, color="red")
-
-        plt.show()
-
-        '''
-        pubC2 = []
-        pubAerostack = []
-
-        for drone in range(n):        # generate path msgs for aerostack and C2
-
-            C2Path= Path()
-            C2Path.header.frame_id = 'world'
-            aerostackPath= Path()
-            aerostackPath.header.frame_id = 'map'
-            for point in coverage_path_gazebo[drone]:
-                try:
-                    C2Path.poses.append(appendtoPath(point, True))
-                    aerostackPath.poses.append(appendtoPath(point, False))
-                except:
-                    rospy.logerr('Problem with Drone ', str(drone+1), ' path')
-            pubC2.append(rospy.Publisher('/mapviz/path' + str(drone+1), Path, queue_size=10))
-            pubC2[drone].publish(C2Path)
-            pubC2[drone].publish(C2Path)
-            pubAerostack.append(rospy.Publisher('/drone11' + str(drone + 1) + '/motion_reference/path', Path, queue_size=10))
-            pubAerostack[drone].publish(aerostackPath)
-            rospy.loginfo('Route for drone '+ str(drone+1) + ' published in topic: ' + '/drone11' + str(drone + 1) + '/motion_reference/path' )
-
-
-        update = False
+####################################
+#### IMPLEMENTAR VUELTA A CASA #####
+####################################
 
 
