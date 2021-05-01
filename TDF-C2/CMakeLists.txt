@@ -59,6 +59,7 @@ include_directories(${rqt_sarus_test_plugin_INCLUDE_DIRECTORIES} ${catkin_INCLUD
 add_library(${PROJECT_NAME} ${rqt_sarus_test_plugin_SRCS} ${rqt_sarus_test_plugin_MOCS} ${rqt_sarus_test_plugin_UIS_H})
 target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES})
 target_link_libraries(${PROJECT_NAME} Qt5::Widgets)
+add_dependencies(${PROJECT_NAME} ${catkin_EXPORTED_TARGETS})
 find_package(class_loader)
 class_loader_hide_library_symbols(${PROJECT_NAME})
 

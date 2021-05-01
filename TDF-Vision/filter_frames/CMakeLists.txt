@@ -14,7 +14,6 @@ find_package(catkin REQUIRED COMPONENTS
 ## Declare a catkin package
 catkin_package()
 
-
 roslaunch_add_file_check(launch)
 
 ## Build talker and listener
@@ -22,6 +21,6 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 
 add_executable(filter_frames_node src/filter_frames.cpp)
 target_link_libraries(filter_frames_node ${catkin_LIBRARIES})
-add_dependencies(filter_frames_node sensor_msgs image_transport darknet_ros_msgs)
+add_dependencies(filter_frames_node ${catkin_EXPORTED_TARGETS})
 
 
