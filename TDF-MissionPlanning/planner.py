@@ -24,6 +24,7 @@ from cpp_algorithms import get_all_area_maps, plot, imshow, imshow_scatter
 from cpp_algorithms.darp.darp_helpers import get_assigned_count
 from cpp_algorithms.coverage_path.pathing_helpers import has_isolated_areas
 from cpp_algorithms import dist_fill
+from aerostack_msgs.srv import ActivateBehavior
 
 
 def cambiaIntervalo (N, a0, b0, aF, bF):
@@ -89,6 +90,10 @@ def appendtoPath(coordinates, to_C2):
         msg.header.frame_id = 'world'
     return msg
 
+def convert_str(coordinates):
+    return '[' + str(coordinates[0]) + ',' + str(coordinates[1]) + ',' + str(15) + ']'
+
+
 def poly_cb(data):
     global base_polygon
     base_polygon=np.array(data.polygon.points)
@@ -108,24 +113,25 @@ def poly_cb(data):
         C2Path= Path()
         C2Path.header.frame_id = 'world'
 
-        aerostackPath= Path()
+        aerostackPath = 'path: [ '
 
-        Atopic='/drone11' + str(drone+1) + '/motion_reference/path'
-        pubAerostack = rospy.Publisher(Atopic, Path, queue_size=10)
+        AerostackService='/drone11' + str(drone+1) + '/quadrotor_motion_with_pid_control/behavior_follow_path/activate_behavior'
         C2topic='/mapviz/path'+str(drone+1)
-        pubC2 = rospy.Publisher(C2topic, Path, queue_size=10)
+        pubC2 = rospy.Publisher(C2topic, Path, queue_size=1)
+        rospy.sleep(1) # It is critical to do this after creating the publisher
 
         for point in coverage_path_gazebo[drone]:
             try:
                 C2Path.poses.append(appendtoPath(point, True))
-                aerostackPath.poses.append(appendtoPath(point, False))
+                aerostackPath = aerostackPath + convert_str(point) + ', '
             except:
                 rospy.logerr('Problem with Drone ', drone+1, ' path')
         pubC2.publish(C2Path)
-        pubAerostack.publish(aerostackPath)
-        rospy.loginfo('Route for drone '+ str(drone+1) + ' published in topic: ' + '/drone11' + str(drone + 1) + '/motion_reference/path' )
-        rospy.loginfo(C2Path.poses[1])
-        rospy.loginfo(aerostackPath.poses[1])
+        aerostackPath = aerostackPath + '[' + str(drone) + ',0,' + str(15) + '] ]'
+        activate_behavior = rospy.ServiceProxy(AerostackService, ActivateBehavior)
+        response = activate_behavior(aerostackPath, 10000)
+        # rospy.loginfo('Response is:\n' + str(response))
+        # rospy.loginfo('Sent:\n' + aerostackPath)
 
 def n_cb(ndrones):
     global n

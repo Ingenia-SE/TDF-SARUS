@@ -299,7 +299,7 @@ void TestPluginWidget::launch_simulation()
             // change directory
             chdir("/home/workspace/ros/aerostack_catkin_ws/src/TDF-Sim/");
             // publish system command
-            std::string myCommand("gnome-terminal --tab --title 'tdf_gazebo_world' --command 'roslaunch tdf_gazebo tdf_gazebo.launch'");
+            std::string myCommand("gnome-terminal --tab --title 'sarus_simulation' --command 'roslaunch tdf_gazebo sarus_simulation_gazebo.launch'");
             system(myCommand.c_str());
         }
 

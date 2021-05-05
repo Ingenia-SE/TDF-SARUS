@@ -1,7 +1,7 @@
 !#/bin/bash
 
 DRONE_SWARM_MEMBERS=$1
-INITIAL_HEIGHT=4
+INITIAL_HEIGHT=0
 MAV_NAME="hummingbird"
 
 if [ -z $DRONE_SWARM_MEMBERS ] # Check if DRONE_SWARM_MEMBERS is NULL
@@ -69,15 +69,4 @@ sleep 10
 rosservice call /drone$NUMID_DRONE/basic_quadrotor_behaviors/behavior_self_localize_with_ground_truth/activate_behavior "timeout: 10000"
 rosservice call /drone$NUMID_DRONE/quadrotor_motion_with_pid_control/behavior_quadrotor_pid_motion_control/activate_behavior "timeout: 10000"
 rosservice call /drone$NUMID_DRONE/quadrotor_motion_with_pid_control/behavior_quadrotor_pid_thrust_control/activate_behavior "timeout: 10000"
-rosservice call /drone$NUMID_DRONE/path_tracker_process/start
-#---------------------------------------------------------------------------------------------
-# SHELL INTERFACE
-#---------------------------------------------------------------------------------------------
-gnome-terminal  \
-`#---------------------------------------------------------------------------------------------` \
-`# keyboard_teleoperation_with_pid_control                                                     ` \
-`#---------------------------------------------------------------------------------------------` \
---tab --title "keyboard_teleoperation_with_pid_control"  --command "bash -c \"
-roslaunch keyboard_teleoperation_with_pid_control keyboard_teleoperation_with_pid_control.launch --wait \
-  drone_id_namespace:=drone$NUMID_DRONE;
-exec bash\""  
+#rosservice call /drone$NUMID_DRONE/path_tracker_process/start
