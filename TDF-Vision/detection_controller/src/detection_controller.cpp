@@ -6,6 +6,7 @@
 #include <image_transport/image_transport.h>
 #include <darknet_ros_msgs/BoundingBoxes.h>
 #include <darknet_ros_msgs/ObjectCount.h>
+#include <geometry_msgs/PoseStamped.h>
 #include <geometry_msgs/PointStamped.h>
 
 // Defines macros of yolo ids
@@ -34,7 +35,7 @@ public:
     m_ImagePublisher = img_.advertise("sarus_c2/filtered_frames", 5);
 
     // pose publisher
-    m_PosePublisher = nodeHandler.advertise<geometry_msgs::PointStamped>("sarus_c2/detection_pose", 5);
+    m_PosePublisher = nodeHandler.advertise<geometry_msgs::PoseStamped>("sarus_c2/detection_pose", 5);
 
   }
 
@@ -115,7 +116,9 @@ public:
   void
   dronePoseCallback(const geometry_msgs::PointStamped::ConstPtr &pose)
   {
-    m_LastPose = *pose;
+    // we publish a pose msg
+    m_LastPose.header = pose->header;
+    m_LastPose.pose.position = pose->point;
   }
 
 private:
@@ -137,7 +140,7 @@ private:
   std_msgs::Header prev;
   std_msgs::Header current;
 
-  geometry_msgs::PointStamped m_LastPose;
+  geometry_msgs::PoseStamped m_LastPose;
 
   bool use_sim_time;
 
