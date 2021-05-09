@@ -68,7 +68,7 @@ exec bash\"" \
 `# Gazebo Filter Frame Detector                                                                ` \
 `#---------------------------------------------------------------------------------------------` \
 --tab --title "Gazebo Filter Frame Detector"  --command "bash -c \"
-roslaunch filter_frames filter_frames.launch --wait \
+roslaunch detection_controller detection_controller.launch --wait \
   namespace:=drone$NUMID_DRONE;
 exec bash\"" \
 `#---------------------------------------------------------------------------------------------` \
