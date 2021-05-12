@@ -59,11 +59,9 @@ def makePolygon (points, width=10):	#Polygon to bitmap with pixels of max 10x10 
     y = [];
     x = [];
     for point in points:
-        y.append(cambiaIntervalo(point.y, south, north, 0, Yindexes))
-        x.append(cambiaIntervalo(point.x, west, east, 0, Xindexes))
+        y.append(np.floor(cambiaIntervalo(point.y, south, north, 0, Yindexes)))
+        x.append(np.floor(cambiaIntervalo(point.x, west, east, 0, Xindexes)))
 
-    print("Square width: " + str(Ysize)+"x"+str(Xsize))
-    print("N of squares: " + str(Yindexes)+"x"+str(Xindexes))
     map_x, map_y = polygon(y,x)
     area_map =np.zeros((Yindexes, Xindexes), dtype=np.int8)
     area_map[map_y, map_x]=1
