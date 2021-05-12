@@ -77,21 +77,22 @@ As well, it features custom gazebo models for animals and people.
 
 <b>Requirements:</b> Ubuntu 18.04 & ROS Melodic.
 
-First of all, make sure you have got installed [Aerostack 4.0](https://github.com/cvar-upm/aerostack/wiki/Install-from-source-code) from the source code. In case you don't have it installed, press the link.
+First of all, make sure you have got installed [Aerostack 4.0](https://github.com/cvar-upm/aerostack/wiki/Install-from-source-code) from the source code. In case you don't have it installed, press the link and install accordingly.
 
 #### Clone the repository and access the folder
+Go to the Aerostack workspace created on the installation, and clone this repository.
 
 ```
+cd $AEROSTACK_WORKSPACE
 git clone https://github.com/Ingenia-SE/TDF-SARUS.git
 cd TDF-SARUS
 ```
 
-#### Importing all the packages into the Aerostack catkin_ws
+#### Place the darknet_ros package
+This is neccesary, otherwise, the project will not compile.
 
 ```
-cp -r TDF-Vision/src/ $AEROSTACK_WORKSPACE/src/
-cp -r TDF-Sim/tdf_gazebo/ $AEROSTACK_WORKSPACE/src/
-cp -r TDF-C2/ $AEROSTACK_WORKSPACE/src/
+mv -r TDF-Vision/darknet_ros/ $AEROSTACK_WORKSPACE/src/
 ```
 
 #### Install all dependencies
