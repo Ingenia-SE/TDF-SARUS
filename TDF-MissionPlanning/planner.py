@@ -59,8 +59,8 @@ def makePolygon (points, width=10):	#Polygon to bitmap with pixels of max 10x10 
     y = [];
     x = [];
     for point in points:
-        y.append(np.floor(cambiaIntervalo(point.y, south, north, 0, Yindexes)))
-        x.append(np.floor(cambiaIntervalo(point.x, west, east, 0, Xindexes)))
+        y.append(np.floor(cambiaIntervalo(point.y, south, north, 0, Yindexes-1)))
+        x.append(np.floor(cambiaIntervalo(point.x, west, east, 0, Xindexes-1)))
 
     map_x, map_y = polygon(y,x)
     area_map =np.zeros((Yindexes, Xindexes), dtype=np.int8)
