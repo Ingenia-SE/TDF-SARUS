@@ -90,7 +90,7 @@ def poly_cb(data):
     rospy.loginfo('Polygon received')
     calculate_path(base_polygon)
 
-def calculate_path(base_poligon):
+def calculate_path(base_polygon):
     rospy.loginfo('Recalculating path...')
     area_map, Yindexes, Xindexes, north, south, east, west = makePolygon(base_polygon) #Make bitmap from polygon
     start_points = get_random_coords(area_map, n) # Random start coordinates
