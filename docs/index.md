@@ -105,6 +105,77 @@ sudo apt install ros-melodic-tile-map -y
 ```
 [comment]:<> (Don't forget URDF.)
 
+## Setup Guide
+Once installed, the catkin workspace must be compiled. To do this, run the following command from the aerostack_catkin_ws directory:
+```
+catkin_make
+```
+This will build and link all the source code, including Aerostack and TDF-SARUS modules.
+Once it compiles successfully, you can run the system by running:
+```
+roslaunch rqt_sarus_test_plugin rqt_sarus_gui.launch
+```
+<p>
+This will run both the Command and Control GUI, as well as the Mission Planner. If you are running the system for the first time, the rqt interface will pop up without any plugins active yet. SARUS uses two plugins: Test Plugin and Mapviz.
+<p>
+To activate the first one (Test Plugin), click on the Plugins tab, and click on the Test Plugin tab. This will show the different buttons and displays of the system.
+<p>
+To activate the second one (Mapviz), click on the Plugins tab, and go to Visualization>Mapviz. After the Mapviz plugin loads, click on Files>Open Config <u>under the Mapviz plugin</u>, and navigate to:
+
+```
+~/workspace/ros/aerostack_catkin_ws/TDF-SARUS/TDF-C2
+```
+
+Inside this directory you will find a file named mapviz_config.mvc. Open it, and the mapviz configuration will load (the map will be displayed). 
+<p>
+These configuration steps will only be neccesary the first time you open up the system.
+
+## Simulation Guide
+The previous section explains how to get the command and control system up and running. For the complete system to work, drones are needed (either real drones, or simulated ones).
+<p>
+SARUS provides a way to simulate different missions to test the system. First, run the system normally with the command:
+
+```
+roslaunch rqt_sarus_test_plugin rqt_sarus_gui.launch
+```
+Once it is loaded, click on the 'Simulation' button. This will launch the Gazebo simulator with the default world provided by TDF. No drones are added yet, so to do that, open up a terminal in the following directory:
+
+```
+~/workspace/ros/aerostack_catkin_ws/TDF-SARUS/TDF-Sim
+```
+In this directory, there are different helper bash scripts to add drones to the simulation. Two scripts can be used:
+- drone_launcher.sh: This script is used for development, it launches a single drone, with all its controllers, but without the detection system. It can be used to test the Mission Planner functionality.
+- drone_launcher_darknet.sh: This script launches a single drone, with its detection system, consisting of the Detection Controller and the YOLO neural network architecture for computer vision. It can be used to test the detection functionality of the system.
+<p>
+As an example, to launch and add a drone to the simulation using the drone_launcher.sh script, you only need to run (from the TDF-Sim directory):
+
+```
+./drone_launcher.sh 1
+```
+Make sure to have the adequate execution permissions enabled for this script. This command will launch a drone with the ID number 1. By changing the number that goes after the drone_launcher.sh, and running it again, you can launch more drones with different IDs. Never run the same command twice (collisions will occur), always use different IDs. The system currently supports up to 4 drones, but this is limited by the hardware resources on your machine.
+<p>
+The script will run all the neccesary components for the drone. You should also be able to see it on the Gazebo simulation, and on the map of the C2 user interface.
+
+## User Guide
+After all the components are ready, we can begin to use the system to perform a search. Make sure to follow these steps:
+1) On the user interface, click on the Add Drone button to add different active drones for the mission (you do not need to use every active drone for the search). 
+2) After you have added at least one drone, you can see its telemetry by clicking on the Drone tab, and selecting the appropriate drone ID.
+3) Now, after all the drones have been added, you can define the search area of interest simply by clicking on different points of the map, to define a polygon that will be displayed on the user interface. You can drag the points by clicking and dragging, and remove points by right clicking on them.
+4) Once you are happy with the search area, click on View on the Mapviz plugin, and make sure that the 'Show Config Panel' option is enabled (though it might already be).
+5) Before sending the search area to the Mission Planner, click on the 'Take off' button. This will make all the drones take off, as you can check on the telemetry or the Gazebo simulation.
+6) Once it is, go to the Config side of the plugin, and under the draw_polygon (new display) option, click on 'Publish Polygon'. This action will send the polygon you created to the Mission Planner to calculate the mission plan.
+7) In a couple seconds, the calculated mission plan will be displayed on the map, with different colours representing different drone paths, and the drones will proceed to execute the mission. Once it is done, the drones will stay on the last waypoint, and await further instructions (you could create a new search area/polygon, and send it, and they will exectue it as before)
+
+To terminate the entire system, you can use the script located on the TDF-Sim folder called stop.sh, like so:
+
+```
+./stop.sh
+```
+This will kill all the running ROS processes. To close all the extra unused terminal windows, run:
+
+```
+killall bash
+```
 <details>
   <summary><b>Using CUDA for computer vision</b></summary>
   
