@@ -1,10 +1,4 @@
 #!/usr/bin/env python3
-#
-#  ADD DESCRIPTION
-#
-#
-#
-
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -78,8 +72,6 @@ def makePolygon (points, width=10):	#Polygon to bitmap with pixels of ~ 10x10 m
 
 def appendtoPath(coordinates, to_C2):
     msg = PoseStamped()
-    # Also possible with numpy
-    # Separate the position in its coordinates
     msg.pose.position.x=coordinates[0]
     msg.pose.position.y=coordinates[1]
     if to_C2 == True:
@@ -93,21 +85,22 @@ def appendtoPath(coordinates, to_C2):
 def convert_str(coordinates):
     return '[' + str(coordinates[0]) + ',' + str(coordinates[1]) + ',' + str(15) + ']'
 
-
 def poly_cb(data):
-    global base_polygon
     base_polygon=np.array(data.polygon.points)
     rospy.loginfo('Polygon received')
+    calculate_path(base_polygon)
+
+def calculate_path(base_poligon):
     rospy.loginfo('Recalculating path...')
     area_map, Yindexes, Xindexes, north, south, east, west = makePolygon(base_polygon) #Make bitmap from polygon
     start_points = get_random_coords(area_map, n) # Random start coordinates
     A, losses = darp(300, area_map, start_points, pbar=True) # Area division algorithm
     drone_maps = [get_drone_map(A,i) for i in range(n)] #assign a map for each drone
     coverage_paths = [bcd(drone_maps[i],start_points[i]) for i in range(n)]  #Calculate the routes for each drone
-    old_polygon = base_polygon
-
     coverage_path_gazebo = alg2gazebo(coverage_paths, Yindexes, Xindexes, north, south, east, west)
+    publish_routes(coverage_path_gazebo)
 
+def publish_routes(coverage_path_gazebo):
     for drone in range(n):        # Number of drones
 
         C2Path= Path()
@@ -137,24 +130,21 @@ def n_cb(ndrones):
     global n
     n=int(ndrones.data)
 
+
+
 ########################
 ### Program Start ######
 ########################
-rospy.init_node('mission_planner', anonymous=True) #Create node
 
-# Frequency of the sleep
+
+rospy.init_node('mission_planner', anonymous=True) #Create node
 rospy.loginfo('Mision Planner ready')
 
-old_polygon = np.empty(2)
 
-#rospy.Subscriber('/interfaz/poligono', Int32MultiArray, poly_cb)
 rospy.Subscriber('/mapviz/polygon', PolygonStamped, poly_cb)
 rospy.Subscriber('/n_drones', String, n_cb)
 
 rospy.spin()
 
-####################################
-#### IMPLEMENTAR VUELTA A CASA #####
-####################################
 
 
