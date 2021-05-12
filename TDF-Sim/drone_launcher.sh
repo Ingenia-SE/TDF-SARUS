@@ -1,7 +1,7 @@
 !#/bin/bash
 
 DRONE_SWARM_MEMBERS=$1
-INITIAL_HEIGHT=0
+INITIAL_POSE=0
 MAV_NAME="hummingbird"
 
 if [ -z $DRONE_SWARM_MEMBERS ] # Check if DRONE_SWARM_MEMBERS is NULL
@@ -13,13 +13,14 @@ if [ -z $DRONE_SWARM_MEMBERS ] # Check if DRONE_SWARM_MEMBERS is NULL
     	echo "-Setting DroneSwarm Members = $1"
 fi
 
+INITIAL_POSE=$(( 3*( $DRONE_SWARM_MEMBERS - 1 ) ))
+
 gnome-terminal  \
 --tab --title "Spawn_mav $DRONE_SWARM_MEMBERS" --command "bash -c \"
 roslaunch rotors_gazebo spawn_mav.launch --wait \
     namespace:=$MAV_NAME$DRONE_SWARM_MEMBERS \
     mav_name:=$MAV_NAME \
-    x:=$DRONE_SWARM_MEMBERS \
-    z:=$INITIAL_HEIGHT \
+    x:=$INITIAL_POSE \
     log_file:=$MAV_NAME$DRONE_SWARM_MEMBERS;
 exec bash\""  &
 
@@ -36,14 +37,14 @@ gnome-terminal  \
 `# Basic Behaviors                                                                             ` \
 `#---------------------------------------------------------------------------------------------` \
 --tab --title "Basic Behaviors" --command "bash -c \"
-roslaunch basic_quadrotor_behaviors basic_quadrotor_behaviors.launch --wait \
+roslaunch tdf_gazebo basic_quadrotor_behaviors.launch --wait \
     namespace:=drone$NUMID_DRONE;
 exec bash\"" \
 `#---------------------------------------------------------------------------------------------` \
 `# Quadrotor Motion With PID Control                                                           ` \
 `#---------------------------------------------------------------------------------------------` \
 --tab --title "Quadrotor Motion With PID Control" --command "bash -c \"
-roslaunch quadrotor_motion_with_pid_control quadrotor_motion_with_pid_control.launch --wait \
+roslaunch tdf_gazebo quadrotor_motion_with_pid_control.launch --wait \
     namespace:=drone$NUMID_DRONE \
     robot_config_path:=${AEROSTACK_PROJECT}/configs/drone$NUMID_DRONE;
 exec bash\""  \

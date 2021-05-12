@@ -1,0 +1,48 @@
+<launch>
+    <arg name="namespace"                          default="drone1" />
+    <arg name="frecuency"                          default="100.0" />
+    <arg name="activate_behavior_srv"              default="activate_behavior" />
+    <arg name="deactivate_behavior_srv"            default="deactivate_behavior" />
+    <arg name="check_activation_conditions_srv"    default="check_activation_conditions" />
+    <arg name="activation_finished_topic"          default="behavior_activation_finished" />
+    <arg name="estimated_pose_topic"               default="self_localization/pose" />
+    <arg name="estimated_speed_topic"              default="self_localization/speed" />
+    <arg name="flight_action_topic"                default="actuator_command/flight_action" />
+    <arg name="consult_belief"                     default="consult_belief" />
+    <arg name="behavior_system"                    default="basic_quadrotor_behaviors" />
+    <arg name="odometry_str"                       default="change_self_localization_mode_to_odometry" />
+    <arg name="flight_state_topic"                 default="self_localization/flight_state" />
+    <arg name="battery_topic"                      default="sensor_measurement/battery_state" />
+
+   <group ns="$(arg namespace)/$(arg behavior_system)">
+      <param name="~namespace"                           value="$(arg namespace)"                          type="str" />
+      <param name="~frecuency"                           value="$(arg frecuency)"                          type="double" />
+      <param name="~activate_behavior_srv"               value="$(arg activate_behavior_srv)"              type="str" />
+      <param name="~deactivate_behavior_srv"             value="$(arg deactivate_behavior_srv)"            type="str" />
+      <param name="~check_activation_conditions_srv"     value="$(arg check_activation_conditions_srv)"    type="str" />
+      <param name="~estimated_pose_topic"                value="$(arg estimated_pose_topic)"               type="str" />
+      <param name="~estimated_speed_topic"               value="$(arg estimated_speed_topic)"              type="str" />
+      <param name="~flight_action_topic"                 value="$(arg flight_action_topic)"                type="str" />
+      <param name="~consult_belief"                      value="$(arg consult_belief)"                     type="str" />
+      <param name="~behavior_system"                     value="$(arg behavior_system)"                    type="str" />
+      <param name="~odometry_str"                        value="$(arg odometry_str)"                       type="str" /> 
+      <param name="~battery_topic"                       value="$(arg battery_topic)"                      type="str" /> 
+      <param name="~flight_state_topic"                  value="$(arg flight_state_topic)"                       type="str" /> 
+
+       <node pkg="nodelet" type="nodelet" args="manager" name="basic_quadrotor_behaviors_manager"  />
+       <node pkg="nodelet" type="nodelet" args="load basic_quadrotor_behaviors/BehaviorTakeOff basic_quadrotor_behaviors_manager"
+        name="behavior_take_off" />
+       <node pkg="nodelet" type="nodelet" args="load basic_quadrotor_behaviors/BehaviorLand basic_quadrotor_behaviors_manager"
+        name="behavior_land" />
+       <node pkg="nodelet" type="nodelet" args="load basic_quadrotor_behaviors/BehaviorWait basic_quadrotor_behaviors_manager"
+        name="behavior_wait" />
+       <node pkg="nodelet" type="nodelet" args="load basic_quadrotor_behaviors/BehaviorEstimatePositionWithLinearSpeed basic_quadrotor_behaviors_manager"
+        name="behavior_estimate_position_with_linear_speed" />
+       <node pkg="nodelet" type="nodelet" args="load basic_quadrotor_behaviors/BehaviorEstimatePositionWithSensor basic_quadrotor_behaviors_manager"
+        name="behavior_estimate_position_with_sensor" />
+       <node pkg="nodelet" type="nodelet" args="load basic_quadrotor_behaviors/BehaviorSelfLocalizeWithGroundTruth basic_quadrotor_behaviors_manager"
+        name="behavior_self_localize_with_ground_truth" />
+       <node pkg="nodelet" type="nodelet" args="load basic_quadrotor_behaviors/BehaviorHoverWithFlightActionControl basic_quadrotor_behaviors_manager"
+        name="behavior_hover_with_flight_action_control" />
+  </group>
+</launch>

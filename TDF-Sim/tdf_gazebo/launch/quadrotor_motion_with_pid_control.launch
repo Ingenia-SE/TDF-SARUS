@@ -1,0 +1,81 @@
+<launch>
+    <arg name="namespace"                          default="drone1" />
+    <arg name="frecuency"                          default="100.0" />
+    <arg name="activate_behavior_srv"              default="activate_behavior" />
+    <arg name="deactivate_behavior_srv"            default="deactivate_behavior" />
+    <arg name="check_activation_conditions_srv"    default="check_activation_conditions" />
+    <arg name="activation_finished_topic"          default="behavior_activation_finished" />
+    <arg name="estimated_pose_topic"               default="self_localization/pose" />
+    <arg name="estimated_speed_topic"              default="self_localization/speed" />
+    <arg name="motion_reference_speed_topic"       default="motion_reference/speed" />
+    <arg name="motion_reference_pose_topic"        default="motion_reference/pose" />
+    <arg name="motion_reference_path_topic"        default="motion_reference/path" />
+    <arg name="motion_reference_remaining_path_topic"        default="motion_reference/remaining_path" />
+    <arg name="controllers_topic"                  default="actuator_command/flight_action" />
+    <arg name="behavior_system"                    default="quadrotor_motion_with_pid_control" />
+    <arg name="status_topic"                       default="self_localization/flight_state" />
+    <arg name="set_control_mode_service_name"      default="set_control_mode" />
+    <arg name="path_blocked_topic"                 default="environnment/path_blocked_by_obstacle" />
+    <arg name="robot_config_path"                  default="$(env AEROSTACK_STACK)/config/$(arg namespace)" />
+
+
+    <include file="$(find quadrotor_pid_controller_process)/launch/quadrotor_pid_controller_process.launch">
+      <arg name="robot_namespace"  value="$(arg namespace)" />
+      <arg name="robot_config_path" 	value="$(arg robot_config_path)" />
+      <arg name="self_localization_pose_topic_name" 	value="$(arg estimated_pose_topic)" />
+      <arg name="self_localization_speed_topic_name" 	value="$(arg estimated_speed_topic)" />
+    </include>
+
+    <include file="$(find path_tracker_process)/launch/path_tracker_process.launch">
+      <arg name="robot_namespace" value="$(arg namespace)" />
+      <arg name="robot_config_path" value="$(arg robot_config_path)" />
+      <arg name="self_localization_pose_topic_name" 	value="$(arg estimated_pose_topic)" />
+      <arg name="motion_reference_path_topic_name" 	value="$(arg motion_reference_path_topic)" />
+      <arg name="motion_reference_speed_topic_name" 	value="$(arg motion_reference_speed_topic)" />
+      <arg name="motion_reference_pose_topic_name" 	value="$(arg motion_reference_pose_topic)" />
+      <arg name="motion_reference_remaining_path_topic_name" 	value="$(arg motion_reference_remaining_path_topic)" />
+    </include>
+
+    <include file="$(find thrust_controller_process)/launch/thrust_controller.launch">
+      <arg name="robot_namespace" value="$(arg namespace)" />
+      <arg name="robot_config_path" value="$(arg robot_config_path)" />
+      <arg name="estimated_speed" 	  value="$(arg estimated_speed_topic)" />
+      <arg name="estimated_pose" 	    value="$(arg estimated_pose_topic)" />
+    </include>
+
+   <group ns="$(arg namespace)/$(arg behavior_system)">
+        <param name="~namespace"                           value="$(arg namespace)"                          type="str" />
+        <param name="~frecuency"                           value="$(arg frecuency)"                          type="double" />
+        <param name="~activate_behavior_srv"               value="$(arg activate_behavior_srv)"              type="str" />
+        <param name="~deactivate_behavior_srv"             value="$(arg deactivate_behavior_srv)"            type="str" />
+        <param name="~check_activation_conditions_srv"     value="$(arg check_activation_conditions_srv)"    type="str" />
+        <param name="~estimated_pose_topic"                value="$(arg estimated_pose_topic)"               type="str" />
+        <param name="~estimated_speed_topic"               value="$(arg estimated_speed_topic)"               type="str" />
+        <param name="~controllers_topic"                   value="$(arg controllers_topic)"                  type="str" />
+        <param name="~behavior_system"                     value="$(arg behavior_system)"                    type="str" />
+        <param name="~status_topic"                        value="$(arg status_topic)" type="str" /> 
+        <param name="~activation_finished_topic"           value="$(arg activation_finished_topic)" type="str" /> 
+        <param name="~motion_reference_speed_topic"        value="$(arg motion_reference_speed_topic)" type="str" /> 
+        <param name="~motion_reference_pose_topic"         value="$(arg motion_reference_pose_topic)" type="str" /> 
+        <param name="~motion_reference_path_topic"         value="$(arg motion_reference_path_topic)" type="str" /> 
+        <param name="~motion_reference_remaining_path_topic" value="$(arg motion_reference_remaining_path_topic)" type="str" /> 
+        <param name="~status_topic"                          value="$(arg status_topic)" type="str" /> 
+        <param name="~set_control_mode_service_name"         value="$(arg set_control_mode_service_name)" type="str" /> 
+        <param name="~path_blocked_topic"         value="$(arg path_blocked_topic)" type="str" />
+            
+       <node pkg="nodelet" type="nodelet" args="manager" name="quadrotor_motion_with_pid_control_manager"  />
+       <node pkg="nodelet" type="nodelet" args="load quadrotor_motion_with_pid_control/BehaviorKeepHoveringWithPidControl quadrotor_motion_with_pid_control_manager"
+        name="behavior_keep_hovering_with_pid_control" />
+       <node pkg="nodelet" type="nodelet" args="load quadrotor_motion_with_pid_control/BehaviorRotateWithPidControl quadrotor_motion_with_pid_control_manager"
+        name="behavior_rotate_with_pid_control" />       
+       <node pkg="nodelet" type="nodelet" args="load quadrotor_motion_with_pid_control/BehaviorKeepMovingWithPidControl quadrotor_motion_with_pid_control_manager"
+        name="behavior_keep_moving_with_pid_control" />   
+       <node pkg="nodelet" type="nodelet" args="load quadrotor_motion_with_pid_control/BehaviorFollowPath quadrotor_motion_with_pid_control_manager"
+        name="behavior_follow_path" />
+        <node pkg="nodelet" type="nodelet" args="load quadrotor_motion_with_pid_control/BehaviorQuadrotorPidMotionControl quadrotor_motion_with_pid_control_manager"
+        name="behavior_quadrotor_pid_motion_control" />
+        <node pkg="nodelet" type="nodelet" args="load quadrotor_motion_with_pid_control/BehaviorQuadrotorPidThrustControl quadrotor_motion_with_pid_control_manager"
+        name="behavior_quadrotor_pid_thrust_control" />                       
+  </group>
+</launch>
+
