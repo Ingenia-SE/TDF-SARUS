@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  	<!-- You must be aware that if ns is included, all topics of the node will start with /ns/.....-->
+  	<arg name="namespace"     default="drone0" />
+
+	<node pkg = "detection_controller" type="detection_controller_node" name = "detection_controller_node" ns = "$(arg namespace)">
+	    <param name="use_sim_time" value="true" />
+	</node>
+
+</launch>
