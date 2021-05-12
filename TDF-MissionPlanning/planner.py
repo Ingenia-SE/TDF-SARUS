@@ -32,8 +32,8 @@ def gazebo2alg (point):
     newPoint = [[[cambiaIntervalo(coord, -100, 100, 0, 31) for coord in drone] for drone in drones] for drones in point]
     return newPoint
 '''
-def makePolygon (points, width=10):	#Polygon to bitmap with pixels of ~ 10x10 m
-    # Acotamos el cuadrado
+def makePolygon (points, width=10):	#Polygon to bitmap with pixels of max 10x10 m
+    # Enclosing the polygon
     north = points[0].y
     south = points[0].y
     east = points[0].x
@@ -47,20 +47,20 @@ def makePolygon (points, width=10):	#Polygon to bitmap with pixels of ~ 10x10 m
             east = point.x
         if point.x < west:
             west = point.x
-    # Dividimos en grupos de 10
+    # Discretization
     Ysize = north - south
-    Yindexes = np.floor(Ysize/width)		#N of divisions
+    Yindexes = np.ceil(Ysize/width)		#N of divisions
     Yindexes = np.int8(Yindexes)
     Ywidth = Ysize/Yindexes			#exact width of divisions
     Xsize = abs(east - west)
-    Xindexes = np.floor(Xsize/width)
+    Xindexes = np.ceil(Xsize/width)
     Xindexes = np.int8(Xindexes)
     Xwidth = Xsize/Xindexes
     y = [];
     x = [];
     for point in points:
-        y.append(np.floor(cambiaIntervalo(point.y, south, north, 0, Yindexes)))
-        x.append(np.floor(cambiaIntervalo(point.x, west, east, 0, Xindexes)))
+        y.append(cambiaIntervalo(point.y, south, north, 0, Yindexes))
+        x.append(cambiaIntervalo(point.x, west, east, 0, Xindexes))
 
     print("Square width: " + str(Ysize)+"x"+str(Xsize))
     print("N of squares: " + str(Yindexes)+"x"+str(Xindexes))
