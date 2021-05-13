@@ -85,7 +85,7 @@ First of all, make sure you have got installed [Aerostack 4.0](https://github.co
 Go to the Aerostack workspace created on the installation, and clone this repository.
 
 ```
-cd $AEROSTACK_WORKSPACE
+cd $AEROSTACK_WORKSPACE/src
 git clone https://github.com/Ingenia-SE/TDF-SARUS.git
 cd TDF-SARUS
 ```
