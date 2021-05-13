@@ -9,8 +9,10 @@
 #include <QString>
 #include "geometry_msgs/TwistStamped.h"
 #include "geometry_msgs/PointStamped.h"
+#include "geometry_msgs/PoseStamped.h"
 #include "sensor_msgs/BatteryState.h"
 #include "aerostack_msgs/ActivateBehavior.h"
+#include "aerostack_msgs/DeactivateBehavior.h"
 
 
 #define FIRST_ID 111
@@ -21,6 +23,11 @@ QString LedOn_green("border: 1px solid grey; border-radius:8px; background-color
 QString LedOn_red("border: 1px solid grey; border-radius:8px; background-color: qlineargradient(spread:pad, x1:0.145, y1:0.16, x2:0.92, y2:0.988636, stop:0 rgba(255, 12, 12, 255), stop:0.869347 rgba(103, 0, 0, 255));");
 QString LedOn_orange("border: 1px solid grey; border-radius:8px; background-color: qlineargradient(spread:pad, x1:0.232, y1:0.272, x2:0.98, y2:0.959773, stop:0 rgba(255, 113, 4, 255), stop:1 rgba(91, 41, 7, 255));");
 QString LedOn_blue("border: 1px solid grey; border-radius:8px; background-color: qlineargradient(spread:pad, x1:0.04, y1:0.0565909, x2:0.799, y2:0.795, stop:0 rgba(203, 220, 255, 255), stop:0.41206 rgba(0, 115, 255, 255), stop:1 rgba(0, 49, 109, 255));");
+
+
+/**
+ * @brief Test Plugin Constructor
+ */
 
 TestPluginWidget::TestPluginWidget(QWidget *parent) :
     QWidget(parent),
@@ -42,6 +49,10 @@ TestPluginWidget::TestPluginWidget(QWidget *parent) :
     ui->terminal->setText(terminal_time + " " + terminal_msg);
 }
 
+/**
+ * @brief Test Plugin Destructor
+ */
+
 TestPluginWidget::~TestPluginWidget()
 {
     // Write exit code here
@@ -49,6 +60,9 @@ TestPluginWidget::~TestPluginWidget()
     delete ui;
 }
 
+/**
+ * @brief Update callback for the displays
+ */
 
 void TestPluginWidget::Update_Display() {
 
@@ -57,10 +71,13 @@ void TestPluginWidget::Update_Display() {
     int currentDron;
     currentDron = ui->drone_ID->currentIndex();
 
+    ui->poseX->setText(dronePos_x);
+    ui->poseY->setText(dronePos_y);
+    ui->poseZ->setText(dronePos_z);
+
     ui->speedX->setText(droneSpeed_x);
     ui->speedY->setText(droneSpeed_y);
     ui->speedZ->setText(droneSpeed_z);
-    ui->altitude->setText(dronePos_z);
     if(2 > droneAltitude)
     {
         ui->led_Altitude->setStyleSheet(LedOn_green);
@@ -77,6 +94,9 @@ void TestPluginWidget::Update_Display() {
 
 }
 
+/**
+ * @brief Update callback for the mission time
+ */
 void TestPluginWidget::Update_Time() {
     ui->current_time->setText(QTime::currentTime().toString("hh:mm:ss"));
     if (led_timer > 2){
@@ -97,25 +117,48 @@ void TestPluginWidget::Update_Time() {
     }
 }
 
+/**
+ * @brief ROS topic callbacks
+ */
+
 void TestPluginWidget::ros_speedx_callback(const geometry_msgs::TwistStamped::ConstPtr &vx){
-    this->droneSpeed_x = QString::number(vx->twist.linear.x);
+    this->droneSpeed_x = QString::number((int)(vx->twist.linear.x));
 }
 
 void TestPluginWidget::ros_speedy_callback(const geometry_msgs::TwistStamped::ConstPtr &vy){
-    this->droneSpeed_y = QString::number(vy->twist.linear.y);
+    this->droneSpeed_y = QString::number((int)(vy->twist.linear.y));
 }
 
 void TestPluginWidget::ros_speedz_callback(const geometry_msgs::TwistStamped::ConstPtr &vz){
-    this->droneSpeed_z = QString::number(vz->twist.linear.z);
+    this->droneSpeed_z = QString::number((int)(vz->twist.linear.z));
 }
 
-void TestPluginWidget::ros_posz_callback(const geometry_msgs::PointStamped::ConstPtr &pz){
-    this->dronePos_z = QString::number((pz->point.z)*(-1));
-    this->droneAltitude = (pz->point.z)*(-1);
+void TestPluginWidget::ros_posex_callback(const geometry_msgs::PoseStamped::ConstPtr &pz){
+    this->dronePos_x = QString::number((int)(pz->pose.position.x));
+}
+
+void TestPluginWidget::ros_posey_callback(const geometry_msgs::PoseStamped::ConstPtr &pz){
+    this->dronePos_y = QString::number((int)(pz->pose.position.y));
+}
+
+void TestPluginWidget::ros_posez_callback(const geometry_msgs::PointStamped::ConstPtr &pz){
+    this->dronePos_z = QString::number((int)(pz->point.z)*(-1));
+    this->droneAltitude = (int)(pz->point.z)*(-1);
 }
 
 void TestPluginWidget::ros_batlevel_callback(const sensor_msgs::BatteryState::ConstPtr &msg){
     this->droneBat_level = (int)(msg->percentage)*100;
+}
+
+void TestPluginWidget::ros_initial_poses_callback(const geometry_msgs::PoseStamped::ConstPtr &pz){
+    this->initial_poses_x.push_back((int)(pz->pose.position.x));
+    this->initial_poses_y.push_back((int)(pz->pose.position.y));
+    this->initial_poses_z.push_back((int)(pz->pose.position.z));
+    ROS_ERROR("Shutdown succeed");
+    ROS_ERROR("%s\n",std::to_string(initial_poses_x[0]).data());
+    ROS_ERROR("%s\n",std::to_string(initial_poses_y[0]).data());
+    ROS_ERROR("%s\n",std::to_string(initial_poses_z[0]).data());
+    initial.shutdown();
 }
 
 void TestPluginWidget::ros_leddetection_callback(const sensor_msgs::ImageConstPtr& frame_detect, int drone_ID){
@@ -130,54 +173,75 @@ void TestPluginWidget::ros_leddetection_callback(const sensor_msgs::ImageConstPt
     }
 }
 
+/**
+ * @brief ROS initializer routine: It initializes the node with the subscribed or advertised topics
+ */
+
 void TestPluginWidget::init_ROS_Node()
 {
     // Write initialization code here
 
     // PUBLISHERS
-     buttonPublisher = ros_node_handle.advertise<std_msgs::String>("my_data",1);
-     landPublisher = ros_node_handle.advertise<std_msgs::String>("my_data",1);
-     emergencyPublisher = ros_node_handle.advertise<std_msgs::String>("my_data",1);
 
      n_drones = ros_node_handle.advertise<std_msgs::String>("n_drones", 1);
 
     // CLIENTS
-    //take_off_client = ros_node_handle.serviceClient<aerostack_msgs::ActivateBehavior>("/drone111/basic_quadrotor_behaviors/behavior_take_off/activate_behavior");
-    land_client = ros_node_handle.serviceClient<aerostack_msgs::ActivateBehavior>("/drone111/basic_quadrotor_behaviors/behavior_land/activate_behavior");
-
-    //Subscriber TEST--borrar
-    //led_detection = ros_node_handle.subscribe("/drone111/sarus_c2/filtered_frames", 1, &TestPluginWidget::ros_leddetection_callback, this);
-    
 }
-
-
-
+/**
+ * @brief Callback for the add drone button
+ */
 
 void TestPluginWidget::on_addDrone_clicked()
 {
+    // Client for take off functionality
     std::string take_off("/drone" + (std::to_string(FIRST_ID+num_Drones) + "/basic_quadrotor_behaviors/behavior_take_off/activate_behavior"));
     take_off_client = ros_node_handle.serviceClient<aerostack_msgs::ActivateBehavior>(take_off);
     take_off_all.push_back(take_off_client);
 
-    // Subscriber filter_frames for LED DETECTION
+    // Client for landing functionality
+    std::string land("/drone" + (std::to_string(FIRST_ID+num_Drones) + "/basic_quadrotor_behaviors/behavior_land/activate_behavior"));
+    land_client = ros_node_handle.serviceClient<aerostack_msgs::ActivateBehavior>(land);
+    land_all.push_back(land_client);
+
+    // Client for stop functionality
+    std::string stop("/drone" + (std::to_string(FIRST_ID+num_Drones) + "/quadrotor_motion_with_pid_control/behavior_follow_path/deactivate_behavior"));
+    mission_stop_client = ros_node_handle.serviceClient<aerostack_msgs::DeactivateBehavior>(stop);
+    mission_stop_all.push_back(mission_stop_client);
+
+    // Client for mission sending functionality
+    std::string mission("/drone" + (std::to_string(FIRST_ID+num_Drones) + "/quadrotor_motion_with_pid_control/behavior_follow_path/activate_behavior"));
+    mission_send_client = ros_node_handle.serviceClient<aerostack_msgs::ActivateBehavior>(mission);
+    mission_send_all.push_back(mission_send_client);
+
+    // Subscriber to filter_frames for led detection
     std::string drone_frame("/drone" + (std::to_string(FIRST_ID+num_Drones) + "/sarus_c2/filtered_frames"));
     drone_detection = ros_node_handle.subscribe<sensor_msgs::Image>(drone_frame, 1, boost::bind(&TestPluginWidget::ros_leddetection_callback, this, _1, num_Drones));
     led_detection.push_back(drone_detection);
     current_detec.push_back(0);
 
+    std::string pose("/drone" + (std::to_string(FIRST_ID+num_Drones) + "/ground_truth/pose"));
+    initial = ros_node_handle.subscribe<geometry_msgs::PoseStamped>(pose,1,&TestPluginWidget::ros_initial_poses_callback,this);
+
     num_Drones++;
+
     ui->drone_ID->addItem(QString::number(num_Drones));
     ui->n_drones->setText(QString::number(num_Drones));
     total_drones.data = std::to_string(num_Drones);
     n_drones.publish(total_drones);
 }
 
+/**
+ * @brief Callback for the remove drone button
+ */
 void TestPluginWidget::on_removeDrone_clicked()
 {
     if (num_Drones > 0){
         num_Drones--;
         ui->drone_ID->removeItem(num_Drones);
         take_off_all.pop_back();
+        land_all.pop_back();
+        mission_stop_all.pop_back();
+        mission_send_all.pop_back();
         led_detection.pop_back();
         current_detec.pop_back();
     }
@@ -186,21 +250,28 @@ void TestPluginWidget::on_removeDrone_clicked()
     n_drones.publish(total_drones);
 }
 
-
-
+/**
+ * @brief Callback for the drone selection tab
+ */
 
 void TestPluginWidget::on_drone_ID_activated(int index)
 {
     std::string speed("/drone" + (std::to_string(FIRST_ID+index) + "/motion_reference/speed"));
     std::string altitude("/drone" + (std::to_string(FIRST_ID+index) + "/sensor_measurement/altitude"));
     std::string battery("/drone" + (std::to_string(FIRST_ID+index) + "/sensor_measurement/battery_state"));
-
+    std::string pose("/drone" + (std::to_string(FIRST_ID+index) + "/ground_truth/pose"));
     speedx = ros_node_handle.subscribe(speed, 1, &TestPluginWidget::ros_speedx_callback, this);
     speedy = ros_node_handle.subscribe(speed, 1, &TestPluginWidget::ros_speedy_callback, this);
     speedz = ros_node_handle.subscribe(speed, 1, &TestPluginWidget::ros_speedz_callback, this);
-    pos_z = ros_node_handle.subscribe(altitude, 1, &TestPluginWidget::ros_posz_callback, this);
+    posex = ros_node_handle.subscribe(pose, 1, &TestPluginWidget::ros_posex_callback, this);
+    posey = ros_node_handle.subscribe(pose, 1, &TestPluginWidget::ros_posey_callback, this);
+    posez = ros_node_handle.subscribe(altitude, 1, &TestPluginWidget::ros_posez_callback, this);
     battery_level = ros_node_handle.subscribe(battery, 1, &TestPluginWidget::ros_batlevel_callback, this);
 }
+
+/**
+ * @brief Callback for the battery display
+ */
 
 void TestPluginWidget::on_batteryLevelChanged(int nValue)
 {
@@ -228,32 +299,12 @@ void TestPluginWidget::on_batteryLevelChanged(int nValue)
 
 }
 
-void TestPluginWidget::on_land_clicked()
-{
-    // Button clicked callback
-        std_msgs::String message;
-        message.data = "Land clicked!";
-        landPublisher.publish(message);
-
-        aerostack_msgs::ActivateBehavior srv;
-        srv.request.arguments = "";
-        srv.request.timeout = 1000;
-        if(land_client.call(srv))
-        {
-            ROS_INFO("Service call succesfull");
-            if(srv.response.ack) ROS_INFO("Acknowledged!");
-            else ROS_INFO("Not acknowledged");
-        }
-        else ROS_ERROR("Service call failed");
-}
+/**
+ * @brief Callback for the take off button
+ */
 
 void TestPluginWidget::on_button_takeoff_clicked()
 {
-    // Button clicked callback
-    std_msgs::String message;
-    message.data = "Button clicked!";
-    buttonPublisher.publish(message);
-
     for(int i=0; i<num_Drones; i++){
         aerostack_msgs::ActivateBehavior srv;
         srv.request.arguments = "";
@@ -261,13 +312,97 @@ void TestPluginWidget::on_button_takeoff_clicked()
         if(take_off_all[i].call(srv))
         {
             ROS_INFO("Service call succesfull");
+            if(srv.response.ack) {
+                ROS_INFO("Acknowledged!");
+            }
+            else {
+                ROS_INFO("Not acknowledged");
+            } 
+        }
+        else ROS_ERROR("Service call failed");
+    }
+
+
+}
+
+/**
+ * @brief Callback for the land button
+ */
+
+void TestPluginWidget::on_land_clicked()
+{
+    for(int i=0; i<num_Drones; i++){
+        aerostack_msgs::ActivateBehavior srv;
+        srv.request.arguments = "";
+        srv.request.timeout = 1000;
+        if(land_all[i].call(srv))
+        {
+            ROS_INFO("Service call succesfull");
             if(srv.response.ack) ROS_INFO("Acknowledged!");
             else ROS_INFO("Not acknowledged");
         }
         else ROS_ERROR("Service call failed");
     }
-
 }
+
+/**
+ * @brief Callback for the abort button
+ */
+void TestPluginWidget::on_mission_abort_clicked()
+{
+    for(int i=0; i<num_Drones; i++){
+        aerostack_msgs::DeactivateBehavior srv;
+        // srv.request.arguments = "";
+        // srv.request.timeout = 1000;
+        if(mission_stop_all[i].call(srv))
+        {
+            ROS_INFO("Service call succesfull");
+            if(srv.response.ack){ 
+                ROS_INFO("Acknowledged!");
+                ros::service::waitForService("/drone" + std::to_string(FIRST_ID+i) + "/quadrotor_motion_with_pid_control/behavior_follow_path/deactivate_behavior",1000);
+            }
+            else ROS_INFO("Not acknowledged");
+        }
+        else ROS_ERROR("Service call failed");
+    }
+    for(int i=0; i<num_Drones; i++){
+        aerostack_msgs::ActivateBehavior srv;
+        srv.request.arguments = "path: [ [" + std::to_string(initial_poses_x[i]) + "," + std::to_string(initial_poses_y[i]) + ",15] ]";
+        srv.request.timeout = 1000;
+        if(mission_send_all[i].call(srv))
+        {
+            ROS_INFO("Service call succesfull");
+            if(srv.response.ack){ 
+                ROS_INFO("Acknowledged!");
+            }
+            else ROS_INFO("Not acknowledged");
+        }
+        else ROS_ERROR("Service call failed");
+    }
+}
+
+/**
+ * @brief Callback for the emergency stop button
+ */
+void TestPluginWidget::on_emergency_stop_clicked()
+{
+    for(int i=0; i<num_Drones; i++){
+        aerostack_msgs::DeactivateBehavior srv;
+        //srv.request.arguments = "";
+        //srv.request.timeout = 1000;
+        if(mission_stop_all[i].call(srv))
+        {
+            ROS_INFO("Service call succesfull");
+            if(srv.response.ack) ROS_INFO("Acknowledged!");
+            else ROS_INFO("Not acknowledged");
+        }
+        else ROS_ERROR("Service call failed");
+    }
+}
+
+/**
+ * @brief Callback for the simulation button
+ */
 
 void TestPluginWidget::on_launch_simulation_clicked()
 {
@@ -310,3 +445,5 @@ void TestPluginWidget::launch_simulation()
     }
     return;
 }
+
+
