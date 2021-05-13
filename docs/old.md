@@ -5,13 +5,20 @@
 This GitHub repository is home to SARUS, a project in progress by The Drone Face, a INGENIA Systems Engineering (ISE) team.
 The aim of the project is to develop a complex system of coordinated drones that will perform Search and Rescue tasks in the mountains. It shall support rescue teams in order to save as much time as possible, thus, as many lives as possible.
 
+### Project overview & Installation guide
+
+The general information of the project, its installation steps and its simulation guide can be found at the project's github.io page. [Click here](https://ingenia-se.github.io/TDF-SARUS/) to go there!
+
 ### Repository Contents
 This information will be updated once new information is available.
 
 1. SARUS_Project folder: Contains the updated SysML project with our system model (including its requirements).
 2. TDF-Vision folder: Contains the computer vision files.
 3. TDF-Sim folder: Contains the Gazebo worlds used in simulations, as well as simulation launchers.
-4. TDF-C2 folder: COntains the Graphical User Interface source code.
+4. TDF-C2 folder: Contains the Graphical User Interface source code.
+5. TDF-MissionPlanning: Contains the mission planner source code.
+6. TDF-launcher: Contains shell scripts that help running and stopping the simulation.
+7. docs: Contains the necessary files for the project's github.io page.
 
 ### How to submit an ECR?
 
