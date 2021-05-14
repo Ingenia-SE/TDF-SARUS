@@ -187,59 +187,59 @@ If you've got an NVIDIA Graphics Card in your computer, you may be interested in
 
 This guide is for Ubuntu 18.04 and the installed version of CUDA will be 10.2.
 
-- Checking your GPU compatibility. [Click here](https://en.wikipedia.org/wiki/CUDA#GPUs_supported) and find your GPU in the list. Check if your GPU's compute capability is between 3.0 and 7.5. If so, go to the next step.
+- Check your GPU compatibility. [Click here](https://en.wikipedia.org/wiki/CUDA#GPUs_supported) and find your GPU in the list. Check if your GPU's compute capability is between 3.0 and 7.5. If so, go to the next step.
 If your compute capability is not between this range, this guide won't be useful for you.
 - Remove any leftout of NVIDIA in your storage.
 
-```
-sudo rm /etc/apt/sources.list.d/cuda*
-sudo apt remove --autoremove nvidia-cuda-toolkit
-sudo apt remove --autoremove nvidia-*
-```
+  ```
+  sudo rm /etc/apt/sources.list.d/cuda*
+  sudo apt remove --autoremove nvidia-cuda-toolkit
+  sudo apt remove --autoremove nvidia-*
+  ```
 
 - Add the CUDA PPA repository.
 
-```
-sudo apt update
-sudo add-apt-repository ppa:graphics-driverssudo apt-key adv --fetch-keys  http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
-sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda.list'
-sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda_learn.list'
-```
+  ```
+  sudo apt update
+  sudo add-apt-repository ppa:graphics-driverssudo apt-key adv --fetch-keys  http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
+  sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda.list'
+  sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda_learn.list'
+  ```
 
 - Install the CUDA and CUDNN packages.
 
-```
-sudo apt update
-sudo apt install cuda-10-2
-sudo apt install libcudnn7
-```
+  ```
+  sudo apt update
+  sudo apt install cuda-10-2
+  sudo apt install libcudnn7
+  ```
 
 - Specify the CUDA PATH in the following files.
 
-```
-sudo nano ~/.profile
-```
+  ```
+  sudo nano ~/.profile
+  ```
 
-And add to the end of the file the following lines:
+  And add to the end of the file the following lines:
 
-```
-# set PATH for cuda 10.2 installation
-if [ -d "/usr/local/cuda-10.2/bin/" ]; then
-export PATH=/usr/local/cuda-10.2/bin${PATH:+:${PATH}}
-export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-fi
-```
+  ```
+  # set PATH for cuda 10.2 installation
+  if [ -d "/usr/local/cuda-10.2/bin/" ]; then
+  export PATH=/usr/local/cuda-10.2/bin${PATH:+:${PATH}}
+  export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+  fi
+  ```
 
-As well, add these lines to the end of the following file:
+  As well, add these lines to the end of the following file:
 
-```
-sudo nano ~/.bashrc
-```
+  ```
+  sudo nano ~/.bashrc
+  ```
 
-```
-export PATH=/usr/local/cuda-10.2/bin${PATH:+:${PATH}}
-export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-```
+  ```
+  export PATH=/usr/local/cuda-10.2/bin${PATH:+:${PATH}}
+  export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+  ```
 
 - Reboot the computer.
 - Verify they're correctly installed and referred in the PATH.
