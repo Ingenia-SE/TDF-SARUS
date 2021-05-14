@@ -75,7 +75,7 @@ As well, it features custom gazebo models for animals and people.
   </details>
   <br>
   
-## Installation (WIP)
+## Installation
 
 <b>Requirements:</b> Ubuntu 18.04 & ROS Melodic.
 
@@ -126,7 +126,7 @@ To activate the first one (Test Plugin), click on the Plugins tab, and click on 
 To activate the second one (Mapviz), click on the Plugins tab, and go to Visualization>Mapviz. After the Mapviz plugin loads, click on Files>Open Config <u>under the Mapviz plugin</u>, and navigate to:
 
 ```
-~/workspace/ros/aerostack_catkin_ws/TDF-SARUS/TDF-C2
+~/workspace/ros/aerostack_catkin_ws/src/TDF-SARUS/TDF-C2
 ```
 
 Inside this directory you will find a file named mapviz_config.mvc. Open it, and the mapviz configuration will load (the map will be displayed). 
@@ -144,7 +144,7 @@ roslaunch rqt_sarus_test_plugin rqt_sarus_gui.launch
 Once it is loaded, click on the 'Simulation' button. This will launch the Gazebo simulator with the default world provided by TDF. No drones are added yet, so to do that, open up a terminal in the following directory:
 
 ```
-~/workspace/ros/aerostack_catkin_ws/TDF-SARUS/TDF-Sim
+~/workspace/ros/aerostack_catkin_ws/src/TDF-SARUS/TDF-Sim
 ```
 In this directory, there are different helper bash scripts to add drones to the simulation. Two scripts can be used:
 - drone_launcher.sh: This script is used for development, it launches a single drone, with all its controllers, but without the detection system. It can be used to test the Mission Planner functionality.
