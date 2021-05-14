@@ -187,9 +187,9 @@ If you've got an NVIDIA Graphics Card in your computer, you may be interested in
 
 This guide is for Ubuntu 18.04 and the installed version of CUDA will be 10.2.
 
-1. Checking your GPU compatibility. [Click here](https://en.wikipedia.org/wiki/CUDA#GPUs_supported) and find your GPU in the list. Check if your GPU's compute capability is between 3.0 and 7.5. If so, go to the next step.
+- Checking your GPU compatibility. [Click here](https://en.wikipedia.org/wiki/CUDA#GPUs_supported) and find your GPU in the list. Check if your GPU's compute capability is between 3.0 and 7.5. If so, go to the next step.
 If your compute capability is not between this range, this guide won't be useful for you.
-2. Remove any leftout of NVIDIA in your storage.
+- Remove any leftout of NVIDIA in your storage.
 
 ```
 sudo rm /etc/apt/sources.list.d/cuda*
@@ -197,7 +197,7 @@ sudo apt remove --autoremove nvidia-cuda-toolkit
 sudo apt remove --autoremove nvidia-*
 ```
 
-3. Add the CUDA PPA repository.
+- Add the CUDA PPA repository.
 
 ```
 sudo apt update
@@ -206,7 +206,7 @@ sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/
 sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda_learn.list'
 ```
 
-4. Install the CUDA and CUDNN packages.
+- Install the CUDA and CUDNN packages.
 
 ```
 sudo apt update
@@ -214,7 +214,7 @@ sudo apt install cuda-10-2
 sudo apt install libcudnn7
 ```
 
-5. Specify the CUDA PATH in the following files.
+- Specify the CUDA PATH in the following files.
 
 ```
 sudo nano ~/.profile
@@ -241,23 +241,28 @@ export PATH=/usr/local/cuda-10.2/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
 
-6. Reboot the computer.
-7. Verify they're correctly installed and referred in the PATH.
-  - Check the CUDA compilation tools version by doing:
+- Reboot the computer.
+- Verify they're correctly installed and referred in the PATH.
 
-  ```nvcc --version```
+  Check the CUDA compilation tools version by doing:
+  ```
+  nvcc --version
+  ```
 
-  - Verify that the NVIDIA drivers are installed:
+  Verify that the NVIDIA drivers are installed:
+  ```
+  nvidia-smi
+  ```
 
-  ```nvidia-smi```
-
-  - Verify that the CUDNN library is correctly installed:
-
-  ```/sbin/ldconfig -N -v $(sed ‘s/:/ /’ <<< $LD_LIBRARY_PATH) 2>/dev/null | grep libcudnn```
+  Verify that the CUDNN library is correctly installed:
+  ```
+  /sbin/ldconfig -N -v $(sed ‘s/:/ /’ <<< $LD_LIBRARY_PATH) 2>/dev/null | grep libcudnn
+  ```
   
   If you get an error by executing the last line, replace the " by '.
-  - Check that the PATHs are correctly stablished by executing the commands in the following picture and see that the CUDA PATH appear there.
+
+  Check that the PATHs are correctly stablished by executing the commands in the following picture and see that the CUDA PATH appear there.
   <br>
   <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/img/cudapath.jpg?raw=true" alt="cudapath" width="500">
 
-8. You're done installing it!
+- You're done installing it!
