@@ -183,83 +183,83 @@ killall bash
 
 <details>
   <summary><b>Using CUDA for computer vision</b></summary>
-If you've got an NVIDIA Graphics Card in your computer, you may be interested in running the YOLO with your GPU instead of with your CPU, as the execution times will be substancially lower. In case your GPU is not NVIDIA, you'll have to use your CPU then.
+  If you've got an NVIDIA Graphics Card in your computer, you may be interested in running the YOLO with your GPU instead of with your CPU, as the execution times will be substancially lower. In case your GPU is not NVIDIA, you'll have to use your CPU then.
 
-This guide is for Ubuntu 18.04 and the installed version of CUDA will be 10.2
+  This guide is for Ubuntu 18.04 and the installed version of CUDA will be 10.2.
 
-1. Checking your GPU compatibility. [Click here](https://en.wikipedia.org/wiki/CUDA#GPUs_supported) and find your GPU in the list. Check if your GPU's compute capability is between 3.0 and 7.5. If so, go to the next step.
-If your compute capability is not between this range, this guide won't be useful for you.
-2. Remove any leftout of NVIDIA in your storage.
+  1. Checking your GPU compatibility. [Click here](https://en.wikipedia.org/wiki/CUDA#GPUs_supported) and find your GPU in the list. Check if your GPU's compute capability is between 3.0 and 7.5. If so, go to the next step.
+  If your compute capability is not between this range, this guide won't be useful for you.
+  2. Remove any leftout of NVIDIA in your storage.
 
-```
-sudo rm /etc/apt/sources.list.d/cuda*
-sudo apt remove --autoremove nvidia-cuda-toolkit
-sudo apt remove --autoremove nvidia-*
-```
+  ```
+  sudo rm /etc/apt/sources.list.d/cuda*
+  sudo apt remove --autoremove nvidia-cuda-toolkit
+  sudo apt remove --autoremove nvidia-*
+  ```
 
-3. Add the CUDA PPA repository.
+  3. Add the CUDA PPA repository.
 
-```
-sudo apt update
-sudo add-apt-repository ppa:graphics-driverssudo apt-key adv --fetch-keys  http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
-sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda.list'
-sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda_learn.list'
-```
+  ```
+  sudo apt update
+  sudo add-apt-repository ppa:graphics-driverssudo apt-key adv --fetch-keys  http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
+  sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda.list'
+  sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda_learn.list'
+  ```
 
-4. Install the CUDA and CUDNN packages.
+  4. Install the CUDA and CUDNN packages.
 
-```
-sudo apt update
-sudo apt install cuda-10-2
-sudo apt install libcudnn7
-```
+  ```
+  sudo apt update
+  sudo apt install cuda-10-2
+  sudo apt install libcudnn7
+  ```
 
-5. Specify the CUDA PATH in the following files.
+  5. Specify the CUDA PATH in the following files.
 
-```
-sudo nano ~/.profile
-```
+  ```
+  sudo nano ~/.profile
+  ```
 
-And add to the end of the file the following lines:
+  And add to the end of the file the following lines:
 
-```
-# set PATH for cuda 10.2 installation
-if [ -d "/usr/local/cuda-10.2/bin/" ]; then
-export PATH=/usr/local/cuda-10.2/bin${PATH:+:${PATH}}
-export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-fi
-```
+  ```
+  # set PATH for cuda 10.2 installation
+  if [ -d "/usr/local/cuda-10.2/bin/" ]; then
+  export PATH=/usr/local/cuda-10.2/bin${PATH:+:${PATH}}
+  export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+  fi
+  ```
 
-As well, add these lines to the end of the following file:
+  As well, add these lines to the end of the following file:
 
-```
-sudo nano ~/.bashrc
-```
+  ```
+  sudo nano ~/.bashrc
+  ```
 
-```
-export PATH=/usr/local/cuda-10.2/bin${PATH:+:${PATH}}
-export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-```
+  ```
+  export PATH=/usr/local/cuda-10.2/bin${PATH:+:${PATH}}
+  export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+  ```
 
-6. Reboot the computer.
-7. Verify they're correctly installed and referred in the PATH.
-  - Check the CUDA compilation tools version by doing:
+  6. Reboot the computer.
+  7. Verify they're correctly installed and referred in the PATH.
+    - Check the CUDA compilation tools version by doing:
 
-  ```nvcc --version```
+    ```nvcc --version```
 
-  - Verify that the NVIDIA drivers are installed:
+    - Verify that the NVIDIA drivers are installed:
 
-  ```nvidia-smi```
+    ```nvidia-smi```
 
-  - Verify that the CUDNN library is correctly installed:
+    - Verify that the CUDNN library is correctly installed:
 
-  ```/sbin/ldconfig -N -v $(sed ‘s/:/ /’ <<< $LD_LIBRARY_PATH) 2>/dev/null | grep libcudnn```
-  
-  If you get an error by executing the last line, replace the " by '.
-  - Check that the PATHs are correctly stablished by executing the commands in the following picture and see that the CUDA PATH appear there.
-  <br>
-  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/img/cudapath.jpg?raw=true" alt="cudapath" width="500">
+    ```/sbin/ldconfig -N -v $(sed ‘s/:/ /’ <<< $LD_LIBRARY_PATH) 2>/dev/null | grep libcudnn```
+    
+    If you get an error by executing the last line, replace the " by '.
+    - Check that the PATHs are correctly stablished by executing the commands in the following picture and see that the CUDA PATH appear there.
+    <br>
+    <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/img/cudapath.jpg?raw=true" alt="cudapath" width="500">
 
-8. You're done installing it!
+  8. You're done installing it!
   </details>
   <br>
