@@ -1,7 +1,9 @@
 <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/img/logo-color.png?raw=true" alt="TDF-Logo" width="210">
 
-#  The Drone Face - SARUS Project
+#  SARUS Project
 
+This GitHub repository is home to SARUS, a project in progress by The Drone Face, a INGENIA Systems Engineering (ISE) team.
+The aim of the project is to develop a complex system of coordinated drones that will perform Search and Rescue tasks in the mountains. It shall support rescue teams in order to save as much time as possible, thus, as many lives as possible.
 ## What is SARUS?
 
 SARUS is a project made by The Drone Face. Its aim is to develop a complex system of coordinated drones that will perform Search and Rescue tasks in the mountains. It shall support rescue teams in order to save as much time as possible, thus, as many lives as possible.
@@ -80,17 +82,15 @@ As well, it features custom gazebo models for animals and people.
 First of all, make sure you have got installed [Aerostack 4.0](https://github.com/cvar-upm/aerostack/wiki/Install-from-source-code) from the source code. In case you don't have it installed, press the link and install accordingly.
 
 #### Clone the repository and access the folder
-
 Go to the Aerostack workspace created on the installation, and clone this repository.
 
 ```
-cd $AEROSTACK_WORKSPACE
+cd $AEROSTACK_WORKSPACE/src
 git clone https://github.com/Ingenia-SE/TDF-SARUS.git
 cd TDF-SARUS
 ```
 
 #### Place the darknet_ros package
-
 This is neccesary, otherwise, the project will not compile.
 
 ```
@@ -109,16 +109,12 @@ sudo apt install ros-melodic-tile-map -y
 [comment]:<> (Don't forget URDF.)
 
 ## Setup Guide
-
 Once installed, the catkin workspace must be compiled. To do this, run the following command from the aerostack_catkin_ws directory:
-
 ```
 catkin_make
 ```
-
 This will build and link all the source code, including Aerostack and TDF-SARUS modules.
 Once it compiles successfully, you can run the system by running:
-
 ```
 roslaunch rqt_sarus_test_plugin rqt_sarus_gui.launch
 ```
@@ -138,7 +134,6 @@ Inside this directory you will find a file named mapviz_config.mvc. Open it, and
 These configuration steps will only be neccesary the first time you open up the system.
 
 ## Simulation Guide
-
 The previous section explains how to get the command and control system up and running. For the complete system to work, drones are needed (either real drones, or simulated ones).
 
 SARUS provides a way to simulate different missions to test the system. First, run the system normally with the command:
@@ -146,13 +141,11 @@ SARUS provides a way to simulate different missions to test the system. First, r
 ```
 roslaunch rqt_sarus_test_plugin rqt_sarus_gui.launch
 ```
-
 Once it is loaded, click on the 'Simulation' button. This will launch the Gazebo simulator with the default world provided by TDF. No drones are added yet, so to do that, open up a terminal in the following directory:
 
 ```
 ~/workspace/ros/aerostack_catkin_ws/TDF-SARUS/TDF-Sim
 ```
-
 In this directory, there are different helper bash scripts to add drones to the simulation. Two scripts can be used:
 - drone_launcher.sh: This script is used for development, it launches a single drone, with all its controllers, but without the detection system. It can be used to test the Mission Planner functionality.
 - drone_launcher_darknet.sh: This script launches a single drone, with its detection system, consisting of the Detection Controller and the YOLO neural network architecture for computer vision. It can be used to test the detection functionality of the system.
@@ -162,35 +155,94 @@ As an example, to launch and add a drone to the simulation using the drone_launc
 ```
 ./drone_launcher.sh 1
 ```
-
 Make sure to have the adequate execution permissions enabled for this script. This command will launch a drone with the ID number 1. By changing the number that goes after the drone_launcher.sh, and running it again, you can launch more drones with different IDs. Never run the same command twice (collisions will occur), always use different IDs. The system currently supports up to 4 drones, but this is limited by the hardware resources on your machine.
 
 The script will run all the neccesary components for the drone. You should also be able to see it on the Gazebo simulation, and on the map of the C2 user interface.
 
 ## User Guide
-
 After all the components are ready, we can begin to use the system to perform a search. Make sure to follow these steps:
-1. On the user interface, click on the Add Drone button to add different active drones for the mission (you do not need to use every active drone for the search). 
-2. After you have added at least one drone, you can see its telemetry by clicking on the Drone tab, and selecting the appropriate drone ID.
-3. Now, after all the drones have been added, you can define the search area of interest simply by clicking on different points of the map, to define a polygon that will be displayed on the user interface. You can drag the points by clicking and dragging, and remove points by right clicking on them.
-4. Once you are happy with the search area, click on View on the Mapviz plugin, and make sure that the 'Show Config Panel' option is enabled (though it might already be).
-5. Before sending the search area to the Mission Planner, click on the 'Take off' button. This will make all the drones take off, as you can check on the telemetry or the Gazebo simulation.
-6. Once it is, go to the Config side of the plugin, and under the draw_polygon (new display) option, click on 'Publish Polygon'. This action will send the polygon you created to the Mission Planner to calculate the mission plan.
-7. In a couple seconds, the calculated mission plan will be displayed on the map, with different colours representing different drone paths, and the drones will proceed to execute the mission. Once it is done, the drones will stay on the last waypoint, and await further instructions (you could create a new search area/polygon, and send it, and they will execute it as before).
+1) On the user interface, click on the Add Drone button to add different active drones for the mission (you do not need to use every active drone for the search). 
+2) After you have added at least one drone, you can see its telemetry by clicking on the Drone tab, and selecting the appropriate drone ID.
+3) Now, after all the drones have been added, you can define the search area of interest simply by clicking on different points of the map, to define a polygon that will be displayed on the user interface. You can drag the points by clicking and dragging, and remove points by right clicking on them.
+4) Once you are happy with the search area, click on View on the Mapviz plugin, and make sure that the 'Show Config Panel' option is enabled (though it might already be).
+5) Before sending the search area to the Mission Planner, click on the 'Take off' button. This will make all the drones take off, as you can check on the telemetry or the Gazebo simulation.
+6) Once it is, go to the Config side of the plugin, and under the draw_polygon (new display) option, click on 'Publish Polygon'. This action will send the polygon you created to the Mission Planner to calculate the mission plan.
+7) In a couple seconds, the calculated mission plan will be displayed on the map, with different colours representing different drone paths, and the drones will proceed to execute the mission. Once it is done, the drones will stay on the last waypoint, and await further instructions (you could create a new search area/polygon, and send it, and they will exectue it as before)
 
 To terminate the entire system, you can use the script located on the TDF-Sim folder called stop.sh, like so:
 
 ```
 ./stop.sh
 ```
-
 This will kill all the running ROS processes. To close all the extra unused terminal windows, run:
 
 ```
 killall bash
 ```
+
 <details>
   <summary><b>Using CUDA for computer vision</b></summary>
-  
+If you've got an NVIDIA Graphics Card in your computer, you may be interested in running the YOLO with your GPU instead of with your CPU, as the execution times will be substancially lower. In case your GPU is not NVIDIA, you'll have to use your CPU then.
+
+This guide is for Ubuntu 18.04 and the installed version of CUDA will be 10.2
+
+1. Checking your GPU compatibility. [Click here](https://en.wikipedia.org/wiki/CUDA#GPUs_supported) and find your GPU in the list. Check if your GPU's compute capability is between 3.0 and 7.5. If so, go to the next step.
+If your compute capability is not between this range, this guide won't be useful for you.
+2. Remove any leftout of NVIDIA in your storage.
+```
+sudo rm /etc/apt/sources.list.d/cuda*
+sudo apt remove --autoremove nvidia-cuda-toolkit
+sudo apt remove --autoremove nvidia-*
+```
+3. Add the CUDA PPA repository.
+```
+sudo apt update
+
+sudo add-apt-repository ppa:graphics-driverssudo apt-key adv --fetch-keys  http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
+
+sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda.list'
+
+sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda_learn.list'
+```
+4. Install the CUDA and CUDNN packages.
+```
+sudo apt update
+sudo apt install cuda-10-2
+sudo apt install libcudnn7
+```
+5. Specify the CUDA PATH in the following files.
+```
+sudo nano ~/.profile
+```
+And add to the end of the file the following lines:
+```
+# set PATH for cuda 10.2 installation
+if [ -d "/usr/local/cuda-10.2/bin/" ]; then
+export PATH=/usr/local/cuda-10.2/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+fi
+```
+As well, add these lines to the end of the following file:
+```
+sudo nano ~/.bashrc
+```
+```
+export PATH=/usr/local/cuda-10.2/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+```
+6. Reboot the computer.
+7. Verify they're correctly installed and referred in the PATH.
+  - Check the CUDA compilation tools version by doing:
+  ```nvcc --version```
+  - Verify that the NVIDIA drivers are installed:
+  ```nvidia-smi```
+  - Verify that the CUDNN library is correctly installed:
+  ```/sbin/ldconfig -N -v $(sed ‘s/:/ /’ <<< $LD_LIBRARY_PATH) 2>/dev/null | grep libcudnn```
+  If you get an error by executing the last line, replace the " by '.
+  - Check that the PATHs are correctly stablished by executing the commands in the following picture and see that the CUDA PATH appear there.
+  <br>
+  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/img/cudapath.jpg?raw=true" alt="cudapath" width="500">
+
+8. You're done installing it!
   </details>
   <br>
