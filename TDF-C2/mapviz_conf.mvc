@@ -7,7 +7,7 @@ enable_antialiasing: true
 show_displays: true
 show_status_bar: true
 show_capture_tools: true
-window_width: 1342
+window_width: 1287
 window_height: 960
 view_scale: 0.3641139
 offset_x: 0.9032136
@@ -112,59 +112,3 @@ displays:
       collapsed: true
       topic: /mapviz/path4
       color: "#5c3566"
-  - type: mapviz_plugins/image
-    name: new display
-    config:
-      visible: true
-      collapsed: true
-      topic: /hummingbird1/camera_bottom/image_raw
-      anchor: top left
-      units: pixels
-      offset_x: 0
-      offset_y: 0
-      width: 320
-      height: 240
-      keep_ratio: false
-      image_transport: default
-  - type: mapviz_plugins/image
-    name: new display
-    config:
-      visible: true
-      collapsed: true
-      topic: /hummingbird2/camera_bottom/image_raw
-      anchor: top right
-      units: pixels
-      offset_x: 0
-      offset_y: 0
-      width: 320
-      height: 240
-      keep_ratio: false
-      image_transport: default
-  - type: mapviz_plugins/image
-    name: new display
-    config:
-      visible: true
-      collapsed: true
-      topic: /hummingbird3/camera_bottom/image_raw
-      anchor: bottom left
-      units: pixels
-      offset_x: 0
-      offset_y: 0
-      width: 320
-      height: 240
-      keep_ratio: false
-      image_transport: default
-  - type: mapviz_plugins/image
-    name: new display
-    config:
-      visible: true
-      collapsed: true
-      topic: /hummingbird4/camera_bottom/image_raw
-      anchor: bottom right
-      units: pixels
-      offset_x: 0
-      offset_y: 0
-      width: 320
-      height: 240
-      keep_ratio: false
-      image_transport: default
