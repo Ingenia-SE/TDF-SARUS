@@ -49,12 +49,10 @@ def makePolygon (points, width=10):	#Polygon to bitmap with pixels of max 10x10 
             west = point.x
     # Discretization
     Ysize = north - south
-    Yindexes = np.ceil(Ysize/width)		#N of divisions
-    Yindexes = np.int8(Yindexes)
+    Yindexes = np.int8(np.ceil(Ysize/width))		#N of divisions
     Ywidth = Ysize/Yindexes			#exact width of divisions
     Xsize = abs(east - west)
-    Xindexes = np.ceil(Xsize/width)
-    Xindexes = np.int8(Xindexes)
+    Xindexes = np.int8(np.ceil(Xsize/width))
     Xwidth = Xsize/Xindexes
     y = [];
     x = [];
@@ -63,7 +61,7 @@ def makePolygon (points, width=10):	#Polygon to bitmap with pixels of max 10x10 
         x.append(np.floor(cambiaIntervalo(point.x, west, east, 0, Xindexes-1)))
 
     map_x, map_y = polygon(y,x)
-    area_map =np.zeros((Yindexes, Xindexes), dtype=np.int8)
+    area_map =np.zeros((Xindexes, Yindexes), dtype=np.int8)
     area_map[map_y, map_x]=1
     area_map=area_map-1
     return area_map, Yindexes, Xindexes, north, south, east, west
@@ -92,7 +90,7 @@ def calculate_path(base_polygon):
     rospy.loginfo('Recalculating path...')
     area_map, Yindexes, Xindexes, north, south, east, west = makePolygon(base_polygon) #Make bitmap from polygon
     start_points = get_random_coords(area_map, n) # Random start coordinates
-    A, losses = darp(300, area_map, start_points, pbar=True) # Area division algorithm
+    A, losses = darp(300, area_map, start_points, pbar=True)  # Area division algorithm
     drone_maps = [get_drone_map(A,i) for i in range(n)] #assign a map for each drone
     coverage_paths = [bcd(drone_maps[i],start_points[i]) for i in range(n)]  #Calculate the routes for each drone
     coverage_path_gazebo = alg2gazebo(coverage_paths, Yindexes, Xindexes, north, south, east, west)
