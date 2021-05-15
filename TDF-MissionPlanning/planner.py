@@ -56,18 +56,19 @@ def makePolygon (points, width=10):	#Polygon to bitmap with pixels of max 10x10 
     Xwidth = Xsize/Xindexes
     y = [];
     x = [];
-    if (Ysize*Xsize > 500):
-        rospy.logerr("Area too large for a single mission")
-        return
-    for point in points:
-        y.append(np.floor(cambiaIntervalo(point.y, south, north, 0, Yindexes-1)))
-        x.append(np.floor(cambiaIntervalo(point.x, west, east, 0, Xindexes-1)))
+    if (Ysize*Xsize < 5000):
+        for point in points:
+            y.append(np.floor(cambiaIntervalo(point.y, south, north, 0, Yindexes-1)))
+            x.append(np.floor(cambiaIntervalo(point.x, west, east, 0, Xindexes-1)))
 
-    map_x, map_y = polygon(y,x)
-    area_map =np.zeros((Xindexes, Yindexes), dtype=np.int8)
-    area_map[map_y, map_x]=1
-    area_map=area_map-1
-    return area_map, Yindexes, Xindexes, north, south, east, west
+        map_x, map_y = polygon(y,x)
+        area_map =np.zeros((Xindexes, Yindexes), dtype=np.int8)
+        area_map[map_y, map_x]=1
+        area_map=area_map-1
+        return area_map, Yindexes, Xindexes, north, south, east, west
+    else:
+        rospy.logerr("Area too large for a single mission. Selected area is: " + str(Ysize*Xsize))
+        return
 
 def appendtoPath(coordinates, to_C2):
     msg = PoseStamped()
@@ -91,7 +92,10 @@ def poly_cb(data):
 
 def calculate_path(base_polygon):
     rospy.loginfo('Recalculating path...')
-    area_map, Yindexes, Xindexes, north, south, east, west = makePolygon(base_polygon) #Make bitmap from polygon
+    try:
+        area_map, Yindexes, Xindexes, north, south, east, west = makePolygon(base_polygon) #Make bitmap from polygon
+    except:
+        return
     start_points = get_random_coords(area_map, n) # Random start coordinates
     A, losses = darp(300, area_map, start_points, pbar=True)  # Area division algorithm
     drone_maps = [get_drone_map(A,i) for i in range(n)] #assign a map for each drone
