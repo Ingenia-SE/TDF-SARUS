@@ -56,6 +56,9 @@ def makePolygon (points, width=10):	#Polygon to bitmap with pixels of max 10x10 
     Xwidth = Xsize/Xindexes
     y = [];
     x = [];
+    if (Ysize*Xsize > 500):
+        rospy.logerr("Area too large for a single mission")
+        return
     for point in points:
         y.append(np.floor(cambiaIntervalo(point.y, south, north, 0, Yindexes-1)))
         x.append(np.floor(cambiaIntervalo(point.x, west, east, 0, Xindexes-1)))
