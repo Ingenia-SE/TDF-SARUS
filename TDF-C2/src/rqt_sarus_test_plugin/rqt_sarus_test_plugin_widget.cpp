@@ -155,9 +155,9 @@ void TestPluginWidget::ros_initial_poses_callback(const geometry_msgs::PoseStamp
     this->initial_poses_y.push_back((int)(pz->pose.position.y));
     this->initial_poses_z.push_back((int)(pz->pose.position.z));
     ROS_ERROR("Shutdown succeed");
-    ROS_ERROR("%s\n",std::to_string(initial_poses_x[0]).data());
-    ROS_ERROR("%s\n",std::to_string(initial_poses_y[0]).data());
-    ROS_ERROR("%s\n",std::to_string(initial_poses_z[0]).data());
+    ROS_ERROR("%s\n",std::to_string(initial_poses_x[num_Drones-1]).data());
+    ROS_ERROR("%s\n",std::to_string(initial_poses_y[num_Drones-1]).data());
+    ROS_ERROR("%s\n",std::to_string(initial_poses_z[num_Drones-1]).data());
     initial.shutdown();
 }
 
