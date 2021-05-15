@@ -66,7 +66,7 @@ roslaunch motor_speed_controller motor_speed_controller.launch --wait \
   mav_name:=$MAV_NAME;
 exec bash\"" \ &
 
-sleep 10
+sleep 20
 rosservice call /drone$NUMID_DRONE/basic_quadrotor_behaviors/behavior_self_localize_with_ground_truth/activate_behavior "timeout: 10000"
 rosservice call /drone$NUMID_DRONE/quadrotor_motion_with_pid_control/behavior_quadrotor_pid_motion_control/activate_behavior "timeout: 10000"
 rosservice call /drone$NUMID_DRONE/quadrotor_motion_with_pid_control/behavior_quadrotor_pid_thrust_control/activate_behavior "timeout: 10000"
