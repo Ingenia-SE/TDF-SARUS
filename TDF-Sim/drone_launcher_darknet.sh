@@ -67,7 +67,7 @@ exec bash\"" \
 `#---------------------------------------------------------------------------------------------` \
 `# Gazebo Filter Frame Detector                                                                ` \
 `#---------------------------------------------------------------------------------------------` \
---tab --title "Gazebo Filter Frame Detector"  --command "bash -c \"
+--tab --title "Gazebo Detection Controller"  --command "bash -c \"
 roslaunch detection_controller detection_controller.launch --wait \
   namespace:=drone$NUMID_DRONE;
 exec bash\"" \
@@ -83,15 +83,3 @@ sleep 20
 rosservice call /drone$NUMID_DRONE/basic_quadrotor_behaviors/behavior_self_localize_with_ground_truth/activate_behavior "timeout: 10000"
 rosservice call /drone$NUMID_DRONE/quadrotor_motion_with_pid_control/behavior_quadrotor_pid_motion_control/activate_behavior "timeout: 10000"
 rosservice call /drone$NUMID_DRONE/quadrotor_motion_with_pid_control/behavior_quadrotor_pid_thrust_control/activate_behavior "timeout: 10000"
-rosservice call /drone$NUMID_DRONE/path_tracker_process/start
-#---------------------------------------------------------------------------------------------
-# SHELL INTERFACE
-#---------------------------------------------------------------------------------------------
-gnome-terminal  \
-`#---------------------------------------------------------------------------------------------` \
-`# keyboard_teleoperation_with_pid_control                                                     ` \
-`#---------------------------------------------------------------------------------------------` \
---tab --title "keyboard_teleoperation_with_pid_control"  --command "bash -c \"
-roslaunch keyboard_teleoperation_with_pid_control keyboard_teleoperation_with_pid_control.launch --wait \
-  drone_id_namespace:=drone$NUMID_DRONE;
-exec bash\""  
