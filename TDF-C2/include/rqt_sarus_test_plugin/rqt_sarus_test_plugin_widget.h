@@ -51,6 +51,14 @@ private slots:
 
     void on_emergency_stop_clicked();
 
+    void on_goToButton_clicked();
+
+    void on_single_take_off_button_clicked();
+
+    void on_single_land_button_clicked();
+
+    void on_single_return_home_clicked();
+
 private:
     Ui::TestPluginWidget *ui;
 
@@ -117,6 +125,7 @@ private:
     std_msgs::String total_drones;
     int led_timer = 0;
     std::vector<int> current_detec;
+    int active_drone = 0;
     
     QTimer *timer_1;
     QTimer *timer_1s;

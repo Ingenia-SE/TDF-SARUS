@@ -267,6 +267,7 @@ void TestPluginWidget::on_drone_ID_activated(int index)
     posey = ros_node_handle.subscribe(pose, 1, &TestPluginWidget::ros_posey_callback, this);
     posez = ros_node_handle.subscribe(altitude, 1, &TestPluginWidget::ros_posez_callback, this);
     battery_level = ros_node_handle.subscribe(battery, 1, &TestPluginWidget::ros_batlevel_callback, this);
+    active_drone = index;
 }
 
 /**
@@ -447,3 +448,112 @@ void TestPluginWidget::launch_simulation()
 }
 
 
+
+void TestPluginWidget::on_goToButton_clicked()
+{
+    aerostack_msgs::DeactivateBehavior deactivate_srv;
+    if(mission_stop_all[active_drone].call(deactivate_srv))
+    {
+        ROS_INFO("Service call succesfull");
+        if(deactivate_srv.response.ack){ 
+            ROS_INFO("Acknowledged!");
+            ros::service::waitForService("/drone" + std::to_string(FIRST_ID+active_drone) + "/quadrotor_motion_with_pid_control/behavior_follow_path/deactivate_behavior",1000);
+        }
+        else ROS_INFO("Not acknowledged");
+    }
+    else ROS_ERROR("Service call failed");
+    aerostack_msgs::ActivateBehavior srv;
+    srv.request.arguments = "path: [ [" + std::to_string(ui->lineEdit_xCmd->text().toFloat(NULL)) + "," + std::to_string(ui->lineEdit_yCmd->text().toFloat(NULL)) + "," + std::to_string(ui->lineEdit_zCmd->text().toFloat(NULL)) + "] ]";
+    srv.request.timeout = 1000;
+    if(mission_send_all[active_drone].call(srv))
+    {
+        ROS_INFO("Service call succesfull");
+        if(srv.response.ack) {
+            ROS_INFO("Acknowledged!");
+        }
+        else {
+            ROS_INFO("Not acknowledged");
+        } 
+    }
+    else ROS_ERROR("Service call failed"); 
+}
+
+void TestPluginWidget::on_single_take_off_button_clicked()
+{
+    aerostack_msgs::ActivateBehavior srv;
+    srv.request.arguments = "";
+    srv.request.timeout = 1000;
+    if(take_off_all[active_drone].call(srv))
+    {
+        ROS_INFO("Service call succesfull");
+        if(srv.response.ack) {
+            ROS_INFO("Acknowledged!");
+        }
+        else {
+            ROS_INFO("Not acknowledged");
+        } 
+    }
+    else ROS_ERROR("Service call failed");
+}
+
+void TestPluginWidget::on_single_land_button_clicked()
+{
+    aerostack_msgs::DeactivateBehavior deactivate_srv;
+    // srv.request.arguments = "";
+    // srv.request.timeout = 1000;
+    if(mission_stop_all[active_drone].call(deactivate_srv))
+    {
+        ROS_INFO("Service call succesfull");
+        if(deactivate_srv.response.ack){ 
+            ROS_INFO("Acknowledged!");
+            ros::service::waitForService("/drone" + std::to_string(FIRST_ID+active_drone) + "/quadrotor_motion_with_pid_control/behavior_follow_path/deactivate_behavior",1000);
+        }
+        else ROS_INFO("Not acknowledged");
+    }
+    else ROS_ERROR("Service call failed");
+
+    aerostack_msgs::ActivateBehavior srv;
+    srv.request.arguments = "";
+    srv.request.timeout = 1000;
+    if(land_all[active_drone].call(srv))
+    {
+        ROS_INFO("Service call succesfull");
+        if(srv.response.ack) {
+            ROS_INFO("Acknowledged!");
+        }
+        else {
+            ROS_INFO("Not acknowledged");
+        } 
+    }
+    else ROS_ERROR("Service call failed");
+}
+
+void TestPluginWidget::on_single_return_home_clicked()
+{
+    aerostack_msgs::DeactivateBehavior deactivate_srv;
+    if(mission_stop_all[active_drone].call(deactivate_srv))
+    {
+        ROS_INFO("Service call succesfull");
+        if(deactivate_srv.response.ack){ 
+            ROS_INFO("Acknowledged!");
+            ros::service::waitForService("/drone" + std::to_string(FIRST_ID+active_drone) + "/quadrotor_motion_with_pid_control/behavior_follow_path/deactivate_behavior",1000);
+        }
+        else ROS_INFO("Not acknowledged");
+    }
+    else ROS_ERROR("Service call failed");
+
+    aerostack_msgs::ActivateBehavior srv;
+    srv.request.arguments = "path: [ [" + std::to_string(initial_poses_x[active_drone]) + "," + std::to_string(initial_poses_y[active_drone]) + ",15] ]";
+    srv.request.timeout = 1000;
+    if(mission_send_all[active_drone].call(srv))
+    {
+        ROS_INFO("Service call succesfull");
+        if(srv.response.ack) {
+            ROS_INFO("Acknowledged!");
+        }
+        else {
+            ROS_INFO("Not acknowledged");
+        } 
+    }
+    else ROS_ERROR("Service call failed");
+}
