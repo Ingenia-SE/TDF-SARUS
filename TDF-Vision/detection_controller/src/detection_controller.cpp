@@ -10,7 +10,7 @@
 #include <geometry_msgs/PointStamped.h>
 
 // Defines macros of yolo ids
-#define ID_victim 3
+#define ID_victim 0
 
 
 class detector
