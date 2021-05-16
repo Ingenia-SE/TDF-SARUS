@@ -483,7 +483,7 @@ void TestPluginWidget::on_goToButton_clicked()
     }
     else ROS_ERROR("Service call failed");
     aerostack_msgs::ActivateBehavior srv;
-    srv.request.arguments = "path: [ [" + std::to_string(ui->lineEdit_xCmd->text().toFloat(NULL)) + "," + std::to_string(ui->lineEdit_yCmd->text().toFloat(NULL)) + "," + std::to_string(ui->lineEdit_zCmd->text().toFloat(NULL)) + "] ]";
+    srv.request.arguments = "path: [ [" + ui->lineEdit_xCmd->text().toStdString() + ", " + ui->lineEdit_yCmd->text().toStdString() + ", " + ui->lineEdit_zCmd->text().toStdString() + "] ]";
     srv.request.timeout = 1000;
     if(mission_send_all[active_drone].call(srv))
     {
