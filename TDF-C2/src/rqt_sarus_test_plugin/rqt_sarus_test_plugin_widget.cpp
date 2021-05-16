@@ -173,6 +173,21 @@ void TestPluginWidget::ros_leddetection_callback(const sensor_msgs::ImageConstPt
     }
 }
 
+void TestPluginWidget::ros_posedetection_callback(const geometry_msgs::PoseStamped::ConstPtr& pose_detected, int drone_ID){
+    
+    //If it is needed in other part of the code (Optional)
+    this->dronePose_x = QString::number((int)(pose_detected->pose.position.x));
+    this->dronePose_y = QString::number((int)(pose_detected->pose.position.y));
+    this->dronePose_z = QString::number((int)(pose_detected->pose.position.z));
+    
+    //Always show when yolo detects people
+
+        terminal_time2 = QString("<span style=\" color:red;\">%1</span>").arg(QTime::currentTime().toString("hh:mm:ss"));
+        terminal_msg2 = QString("<span style=\" color:white;\">%1</span>").arg( "New detection from DRONE " + QString::number(drone_ID) + " with pose [" + QString::number((int)(pose_detected->pose.position.x)) + ", " +    QString::number((int)(pose_detected->pose.position.y)) + ", " + QString::number((int)(pose_detected->pose.position.z)) + "]\n");
+        ui->terminal->append(terminal_time2 + " " + terminal_msg2);
+
+}
+
 /**
  * @brief ROS initializer routine: It initializes the node with the subscribed or advertised topics
  */
@@ -221,6 +236,11 @@ void TestPluginWidget::on_addDrone_clicked()
 
     std::string pose("/drone" + (std::to_string(FIRST_ID+num_Drones) + "/ground_truth/pose"));
     initial = ros_node_handle.subscribe<geometry_msgs::PoseStamped>(pose,1,&TestPluginWidget::ros_initial_poses_callback,this);
+
+   //Suscriber Drone detection for pose 
+    std::string drone_pose("/drone" + (std::to_string(FIRST_ID+num_Drones) + "/sarus_c2/detection_pose"));
+    drone_detection_pose = ros_node_handle.subscribe<geometry_msgs::PoseStamped>(drone_pose, 1, boost::bind(&TestPluginWidget::ros_posedetection_callback, this, _1, num_Drones));
+    pose_detection.push_back(drone_detection_pose);
 
     num_Drones++;
 
