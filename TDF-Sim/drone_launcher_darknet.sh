@@ -79,7 +79,7 @@ roslaunch darknet_ros darknet_ros_tdf.launch namespace_input:=$MAV_NAME$DRONE_SW
 exec bash\"" &
 
 
-sleep 10
+sleep 20
 rosservice call /drone$NUMID_DRONE/basic_quadrotor_behaviors/behavior_self_localize_with_ground_truth/activate_behavior "timeout: 10000"
 rosservice call /drone$NUMID_DRONE/quadrotor_motion_with_pid_control/behavior_quadrotor_pid_motion_control/activate_behavior "timeout: 10000"
 rosservice call /drone$NUMID_DRONE/quadrotor_motion_with_pid_control/behavior_quadrotor_pid_thrust_control/activate_behavior "timeout: 10000"
