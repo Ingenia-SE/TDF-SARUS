@@ -29,7 +29,7 @@ public:
     m_BbSubscriber = nodeHandler.subscribe("darknet_ros/darknet_ros/bounding_boxes", 5, &detector::callbackYOLO_detections, this);
 
     // subscription to drone pose
-    m_PoseSubscriber = nodeHandler.subscribe("sensor_measurement/altitude", 5, &detector::dronePoseCallback, this);
+    m_PoseSubscriber = nodeHandler.subscribe("ground_truth/pose", 5, &detector::dronePoseCallback, this);
     
     // image publisher
     m_ImagePublisher = img_.advertise("sarus_c2/filtered_frames", 5);
@@ -114,11 +114,11 @@ public:
   }
 
   void
-  dronePoseCallback(const geometry_msgs::PointStamped::ConstPtr &pose)
+  dronePoseCallback(const geometry_msgs::PoseStamped::ConstPtr &pose)
   {
     // we publish a pose msg
     m_LastPose.header = pose->header;
-    m_LastPose.pose.position = pose->point;
+    m_LastPose.pose = pose->pose;
   }
 
 private:
