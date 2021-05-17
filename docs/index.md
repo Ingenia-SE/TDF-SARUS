@@ -36,7 +36,7 @@ The whole project can be divided into its four main modules which have been deve
   <br>
   <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/img/ui2.jpeg?raw=true" alt="user_interface_and_gazebo" width="500">
   <br>
-  <b>User interface integration with the simulation world.</b> The interface can display what the drone is seeing and detects.
+  <b>User interface integration with the simulation world.</b> The interface can display what the drone is seeing and detecting.
   <br>
   <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/img/ui3.jpeg?raw=true" alt="user_interface_and_gazebo_cameras" width="500">
   <br>
