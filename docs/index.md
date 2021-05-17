@@ -37,7 +37,11 @@ Integrated into the User Interface, given a polygon and swarm size, it will sort
 
 
 ### Computer Vision
-We've trained a YOLO neural network to maximize the effectivity of person detection with our custom dataset. The NN can detect people and different animals such as cows, deers and wolves.
+Our drones are equipped with two cameras: RGB and thermal. Consequently, they get two different perceptions of the environment.
+The RGB camera is used to run the tiny-YOLOv2 neural network, in order to search for people in the environment. We’ve trained the NN to maximize the effectivity of person detection with our custom dataset. The NN can detect people and different animals such as cows, deers and wolves.
+The thermal camera allows the user a quickly check the detections made by the NN.
+Both images are sent to the user interface when a person is detected.
+
 
 ### tdf_gazebo map
 The Simulation Team at TDF has developed a brand new map for their simulation purposes. It features multiple environments to design and test the S&R tasks.
