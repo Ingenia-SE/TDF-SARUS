@@ -41,7 +41,7 @@ Our drones are equipped with two cameras: RGB and thermal. Consequently, they ge
 
 The RGB camera is used to run the tiny-YOLOv2 neural network, in order to search for people in the environment. We’ve trained the NN to maximize the effectivity of person detection with our custom dataset. The NN can detect people and different animals such as cows, deers and wolves.
 
-The thermal camera allows the user a quickly check the detections made by the NN.
+The thermal camera allows the user a quickly check of the detections made by the NN.
 
 Both images are sent to the user interface when a person is detected.
 
