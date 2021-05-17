@@ -50,15 +50,15 @@ Both images are sent to the user interface when a person is detected.
   
   <b>RGB camera</b>
   <br>
-  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Vision/img/rgb-person.jpg?raw=true" alt="tdf_vision_rgb" width="500">
+  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Vision/img/rgb-person.jpg?raw=true" alt="tdf_vision_rgb" width="300">
   <br>
   <b>Thermal camera</b>
   <br>
-  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Vision/img/thermal-person.jpg?raw=true" alt="tdf_vision_thermal" width="500">
+  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Vision/img/thermal-person.jpg?raw=true" alt="tdf_vision_thermal" width="300">
   <br>
   <b>YOLO detection</b>
   <br>
-  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Vision/img/yolo-person.png?raw=true" alt="tdf_vision_yolo" width="500">
+  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Vision/img/yolo-person.png?raw=true" alt="tdf_vision_yolo" width="300">
   <br>
   <b>Received on the interface</b>
   <br>
