@@ -106,7 +106,14 @@ sudo apt install ros-melodic-mapviz -y
 sudo apt install ros-melodic-mapviz-plugins -y
 sudo apt install ros-melodic-tile-map -y
 ```
-[comment]:<> (Don't forget URDF.)
+
+Install the modified drone URDF model:
+
+```
+cp $AEROSTACK_WORKSPACE/src/TDF-SARUS/TDF-Sim/urdf/hummingbird_tdf.xacro $AEROSTACK_WORKSPACE/src/aerostack_stack/stack/simulation/quadrotor_gazebo_simulator/rotors_simulator/rotors_description/urdf/
+mv -nv $AEROSTACK_WORKSPACE/src/aerostack_stack/stack/simulation/quadrotor_gazebo_simulator/rotors_simulator/rotors_gazebo/launch/spawn_mav.launch $AEROSTACK_WORKSPACE/src/aerostack_stack/stack/simulation/quadrotor_gazebo_simulator/rotors_simulator/rotors_gazebo/launch/spawn_mav_bak.launch
+cp $AEROSTACK_WORKSPACE/src/TDF-SARUS/TDF-Sim/urdf/spawn_mav_tdf.launch $AEROSTACK_WORKSPACE/src/aerostack_stack/stack/simulation/quadrotor_gazebo_simulator/rotors_simulator/rotors_gazebo/launch/
+```
 
 ## Setup Guide
 Once installed, the catkin workspace must be compiled. To do this, run the following command from the aerostack_catkin_ws directory:
