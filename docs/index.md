@@ -23,7 +23,6 @@ The whole project can be divided into its four main modules which have been deve
 - Powerful routes displaying.
 - General system messages log.
 - Simulated world displayed.
-[comment]:<> ( Visualizing drones' cameras.)
 
 <details>
   <summary><b>Images 🖼️</b></summary>
