@@ -45,6 +45,28 @@ The thermal camera allows the user a quickly check of the detections made by the
 
 Both images are sent to the user interface when a person is detected.
 
+<details>
+  <summary><b>Images 🖼️</b></summary>
+  
+  <b>RGB camera</b>
+  <br>
+  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Vision/img/rgb-person.jpg?raw=true" alt="tdf_vision_rgb" width="500">
+  <br>
+  <b>Thermal camera</b>
+  <br>
+  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Vision/img/thermal-person.png?raw=true" alt="tdf_vision_thermal" width="500">
+  <br>
+  <b>YOLO detection</b>
+  <br>
+  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Vision/img/yolo-person.png?raw=true" alt="tdf_vision_yolo" width="500">
+  <br>
+  <b>Received on the interface</b>
+  <br>
+  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Vision/img/vision-interface.png?raw=true" alt="tdf_vision_interface" width="500">
+
+  </details>
+  <br>
+
 
 ### tdf_gazebo map
 The Simulation Team at TDF has developed a brand new map for their simulation purposes. It features multiple environments to design and test the S&R tasks.
