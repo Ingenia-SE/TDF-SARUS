@@ -100,8 +100,8 @@ mv -r TDF-Vision/darknet_ros/ $AEROSTACK_WORKSPACE/src/
 #### Install all dependencies
 
 ```
-chmod +x TDF-MissionPlanning/mission_setup.sh
-./mission_setup.sh
+chmod +x TDF-MissionPlanning/install_dependencies.sh
+TDF-MissionPlanning/install_dependencies.sh
 sudo apt install ros-melodic-mapviz -y
 sudo apt install ros-melodic-mapviz-plugins -y
 sudo apt install ros-melodic-tile-map -y
