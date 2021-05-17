@@ -30,15 +30,15 @@ The whole project can be divided into its four main modules which have been deve
   
   <b>User interface:</b> featuring all the displays, buttons and controls of the swarm. The map shows the drawn polygon (search area) and the defined path for each drone.
   <br>
-  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Vision/img/ui1.jpeg?raw=true" alt="user_interface" width="500">
+  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/img/ui1.jpeg?raw=true" alt="user_interface" width="500">
   <br>
   <b>User interface integration with the simulation world.</b> The mission logs every detection and the drone position.
   <br>
-  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Vision/img/ui2.jpeg?raw=true" alt="user_interface_and_gazebo" width="500">
+  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/img/ui2.jpeg?raw=true" alt="user_interface_and_gazebo" width="500">
   <br>
   <b>User interface integration with the simulation world.</b> The interface can display what the drone is seeing and detects.
   <br>
-  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/TDF-Vision/img/ui3.jpeg?raw=true" alt="user_interface_and_gazebo_cameras" width="500">
+  <img src="https://github.com/Ingenia-SE/TDF-SARUS/blob/main/img/ui3.jpeg?raw=true" alt="user_interface_and_gazebo_cameras" width="500">
   <br>
 
 </details>
