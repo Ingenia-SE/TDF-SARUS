@@ -24,8 +24,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.26.2021::10:21:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.26.2021::10:21:31</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.21.2021::14:55:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.21.2021::14:55:37</_modifiedTime>
 			<_lastID type="a">21</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
@@ -312,22 +312,23 @@
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">2.8.2021::8:59:23</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
-				<_text type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset2 Symbol;}}%0D
+				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset2 Symbol;}}%0D
 {\colortbl ;\red0\green0\blue255;}%0D
-\viewkind4\uc1\pard\cf1\b\fs24 Overview:\cf0\b0\fs20\par%0D
+\viewkind4\uc1\pard\ltrpar\cf1\b\fs24 Overview:\cf0\b0\fs20\par%0D
 This is a CSV Importer for importing simple requirements. The CSV should have three columns - it does not matter what the columns are called as long as they are in this order:\par%0D
-\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360 ID\par%0D
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\ltrpar\fi-360\li360 ID\par%0D
 {\pntext\f1\'B7\tab}Name\par%0D
 {\pntext\f1\'B7\tab}Specification\par%0D
-\pard\par%0D
+\pard\ltrpar\par%0D
 The importer ignores the first row in the sheet, considering that to be a title row.\par%0D
 \par%0D
 \cf1\b\fs24 To use:\cf0\b0\fs20\par%0D
 Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
-\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li360\b0 Set the Import data To field to a Package in the model\par%0D
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\ltrpar\fi-360\li360\b0 Set the Import data To field to a Package in the model\par%0D
 {\pntext\f1\'B7\tab}Select a CSV file to import\par%0D
 {\pntext\f1\'B7\tab}Click Import\par%0D
-}</_text>
+}%0D
+</_textRTF>
 			</IDescription>
 			</_description>
 			<_modifiedTime type="a">2.8.2021::8:59:23</_modifiedTime>
@@ -658,10 +659,10 @@ Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.11.2021::15:25:38</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.6.2021::21:48:1</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.21.2021::14:55:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.21.2021::14:55:37</_modifiedTime>
 			<_lastID type="a">34</_lastID>
-			<weakCGTime type="a">4.11.2021::15:25:38</weakCGTime>
+			<weakCGTime type="a">5.21.2021::14:55:37</weakCGTime>
 			<strongCGTime type="a">4.11.2021::15:25:38</strongCGTime>
 			<_defaultComposite type="s">GUID 20e82310-789b-4ab3-9364-7dd43ae10359</_defaultComposite>
 			<_eventsBaseID type="a">29401</_eventsBaseID>
@@ -1128,8 +1129,8 @@ Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
 			</_properties>
 			<_name type="a">Use Case Diagram</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.20.2021::16:7:4</_modifiedTime>
-			<_lastModifiedTime type="a">4.20.2021::16:7:9</_lastModifiedTime>
+			<_modifiedTime type="a">5.21.2021::14:56:21</_modifiedTime>
+			<_lastModifiedTime type="a">5.21.2021::14:56:21</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1480,6 +1481,35 @@ Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
 		</CGIBasicClass>
 		<CGIBasicClass type="e">
 			<_id type="a">GUID 2ad4685b-0622-4dfd-a805-c2c0d8f64bc1</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">125</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -1508,7 +1538,7 @@ Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.558642 0 0 0.283356 326.913 431.02 </m_transform>
+			<m_transform type="a">0.732524 0 0 0.341246 139.302 431.078 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1589,7 +1619,7 @@ Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.503148 0 0 0.155389 326.802 851.84 </m_transform>
+			<m_transform type="a">0.503148 0 0 0.213279 326.802 851.898 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1875,7 +1905,7 @@ Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
 			<m_SourcePort type="a">707 823 </m_SourcePort>
-			<m_TargetPort type="a">114 209 </m_TargetPort>
+			<m_TargetPort type="a">106 198 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
@@ -2229,7 +2259,7 @@ Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
 			<m_SourcePort type="a">707 823 </m_SourcePort>
-			<m_TargetPort type="a">1127 529 </m_TargetPort>
+			<m_TargetPort type="a">1127 515 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
@@ -2406,7 +2436,7 @@ Right-click this Requirements Importer and select \b CSV Import Settings\par%0D
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
 			<m_SourcePort type="a">707 823 </m_SourcePort>
-			<m_TargetPort type="a">1015 920 </m_TargetPort>
+			<m_TargetPort type="a">1013 917 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
