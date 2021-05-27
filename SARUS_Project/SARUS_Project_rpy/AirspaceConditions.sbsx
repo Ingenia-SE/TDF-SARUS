@@ -12,10 +12,10 @@
 			<_id type="a">GUID 67bdb984-33c0-48dc-ac01-1730a81dfa42</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">AirspaceConditions</_name>
-			<_modifiedTimeWeak type="a">4.26.2021::11:22:56</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::14:39:40</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.27.2021::10:38:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:38:8</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">4.26.2021::11:22:56</weakCGTime>
+			<weakCGTime type="a">5.27.2021::10:38:8</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:18:40</strongCGTime>
 			<_defaultComposite type="s">GUID 90269481-bbf5-446a-8ea2-bbbac3bdd43b</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -26,9 +26,7 @@
 				<value>GUID 372939cd-90da-4688-b495-b2bafb5213ef</value>
 				<value>GUID c639cafb-9741-4408-9b7e-ab7b0c905ff5</value>
 				<value>GUID cad05bd9-7c9a-488e-8b5c-3f8efa53ab80</value>
-				<value>GUID 42a13424-58c6-45dc-8c94-1f2ed8e78e9f</value>
 				<value>GUID da9bea87-d5f3-41e9-b3a4-bdbff51b1d0f</value>
-				<value>GUID 9a64878f-2081-498d-87e1-2159f029bcde</value>
 				<value>GUID 7b6c640a-b254-4cd7-a47f-8cc9d13c0827</value>
 				<value>GUID 90269481-bbf5-446a-8ea2-bbbac3bdd43b</value>
 			</AggregatesList>
@@ -173,38 +171,22 @@
 			<_id type="a">GUID b1d6d0b5-e732-41bd-b994-e329833b325e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">AC-03</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::16:58:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::16:58:43</_modifiedTime>
+			<OwnedDependencies type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</OwnedDependencies>
+			<_modifiedTimeWeak type="a">5.27.2021::10:31:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:31:11</_modifiedTime>
 			<_lastID type="a">5</_lastID>
 			<_body type="a">The drone must return home</_body>
 			<reqID type="a">AC-03</reqID>
 			<AggregatesList type="e">
-				<value>GUID f59430ef-43eb-4278-bd8a-e86e69cd2447</value>
 				<value>GUID cb5ac354-252a-4373-9d1b-75dc9037aff8</value>
 				<value>GUID 15fd0c4d-0741-46dc-8dd0-cbf49e3f4cc1</value>
 				<value>GUID 6bf42197-0ebc-4e17-a907-6b65f1bcc9df</value>
 				<value>GUID 626fc1c6-7f1e-4cf0-b1ba-6407878d488c</value>
 			</AggregatesList>
 		</IRequirement>
-		<IDependency type="e">
-			<_id type="a">GUID f59430ef-43eb-4278-bd8a-e86e69cd2447</_id>
-			<_myState type="a">2048</_myState>
-			<_name type="a">AC-14</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::16:58:43</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hid type="a">GUID 4da3b61b-7998-40bb-8406-7df196a9933b</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hid type="a">GUID b1d6d0b5-e732-41bd-b994-e329833b325e</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
 		<ITag type="e">
 			<_id type="a">GUID cb5ac354-252a-4373-9d1b-75dc9037aff8</_id>
 			<_myState type="a">8192</_myState>
@@ -445,38 +427,22 @@
 			<_id type="a">GUID c639cafb-9741-4408-9b7e-ab7b0c905ff5</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">AC-05</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::16:59:10</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::16:59:10</_modifiedTime>
+			<OwnedDependencies type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</OwnedDependencies>
+			<_modifiedTimeWeak type="a">5.27.2021::10:31:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:31:11</_modifiedTime>
 			<_lastID type="a">5</_lastID>
 			<_body type="a">The drone must land in the spot</_body>
 			<reqID type="a">AC-05</reqID>
 			<AggregatesList type="e">
-				<value>GUID 0ed4c276-772b-4103-b6b0-ad729a9716fb</value>
 				<value>GUID 9c5cdd7f-a89d-4061-acbb-5789de06d164</value>
 				<value>GUID ec08fc0c-fd35-4e9d-93e2-04460e2b72c4</value>
 				<value>GUID b1055d06-d263-4a9a-8d2a-c4fa001d0142</value>
 				<value>GUID b7ef0b3a-9f28-4541-8c07-d8ce73ab0a96</value>
 			</AggregatesList>
 		</IRequirement>
-		<IDependency type="e">
-			<_id type="a">GUID 0ed4c276-772b-4103-b6b0-ad729a9716fb</_id>
-			<_myState type="a">2048</_myState>
-			<_name type="a">AC-14</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::16:59:10</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hid type="a">GUID 4da3b61b-7998-40bb-8406-7df196a9933b</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hid type="a">GUID c639cafb-9741-4408-9b7e-ab7b0c905ff5</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
 		<ITag type="e">
 			<_id type="a">GUID 9c5cdd7f-a89d-4061-acbb-5789de06d164</_id>
 			<_myState type="a">8192</_myState>
@@ -581,38 +547,22 @@
 			<_id type="a">GUID cad05bd9-7c9a-488e-8b5c-3f8efa53ab80</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">AC-06</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::16:59:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::16:59:1</_modifiedTime>
+			<OwnedDependencies type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</OwnedDependencies>
+			<_modifiedTimeWeak type="a">5.27.2021::10:31:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:31:11</_modifiedTime>
 			<_lastID type="a">5</_lastID>
 			<_body type="a">In case of a total failure the ground system should receive all pertaining information and make assumptions about further possible risks within the operation</_body>
 			<reqID type="a">AC-06</reqID>
 			<AggregatesList type="e">
-				<value>GUID f8ffe6cf-0f92-43a6-83b0-81d7e9d4e9d9</value>
 				<value>GUID 8ab71a52-4f13-48dd-a9f8-73e30b5670c1</value>
 				<value>GUID a52159b1-6c9e-4da6-a4d5-71a8e5275525</value>
 				<value>GUID df7b7952-2575-43a0-8450-b0ba6ca46461</value>
 				<value>GUID 78776c29-818f-4637-9eed-8b71aaf83550</value>
 			</AggregatesList>
 		</IRequirement>
-		<IDependency type="e">
-			<_id type="a">GUID f8ffe6cf-0f92-43a6-83b0-81d7e9d4e9d9</_id>
-			<_myState type="a">2048</_myState>
-			<_name type="a">AC-14</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::16:59:1</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hid type="a">GUID 4da3b61b-7998-40bb-8406-7df196a9933b</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hid type="a">GUID cad05bd9-7c9a-488e-8b5c-3f8efa53ab80</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
 		<ITag type="e">
 			<_id type="a">GUID 8ab71a52-4f13-48dd-a9f8-73e30b5670c1</_id>
 			<_myState type="a">8192</_myState>
@@ -714,147 +664,11 @@
 			<_value type="a">3</_value>
 		</ILiteralSpecification>
 		<IRequirement type="e">
-			<_id type="a">GUID 42a13424-58c6-45dc-8c94-1f2ed8e78e9f</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">AC-07</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::8:54:47</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::8:54:47</_modifiedTime>
-			<_lastID type="a">5</_lastID>
-			<_body type="a">The drones must return home</_body>
-			<reqID type="a">AC-07</reqID>
-			<AggregatesList type="e">
-				<value>GUID 9adfc0c6-4c81-4934-b0cc-704778a60c3f</value>
-				<value>GUID b472d91f-95d3-480a-8967-bdd09df40715</value>
-				<value>GUID 11a9f43a-dedd-4a01-ae3a-d29f25e206ba</value>
-				<value>GUID 1c67abc1-7144-43df-8aa2-624316d3f141</value>
-				<value>GUID c8353bb0-5b44-4e51-b5cd-64831a7f38a6</value>
-			</AggregatesList>
-		</IRequirement>
-		<IDependency type="e">
-			<_id type="a">GUID 9adfc0c6-4c81-4934-b0cc-704778a60c3f</_id>
-			<_myState type="a">2048</_myState>
-			<_name type="a">AC-16</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::8:54:47</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hid type="a">GUID 97713e5f-575b-47a7-a179-bab7705ec997</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hid type="a">GUID 42a13424-58c6-45dc-8c94-1f2ed8e78e9f</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
-		<ITag type="e">
-			<_id type="a">GUID b472d91f-95d3-480a-8967-bdd09df40715</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Priority</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::0:53:23</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-					<_hname type="a">RhpString</_hname>
-					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<AggregatesList type="e">
-				<value>GUID 045fb25f-e4ef-4f66-8f10-507256567365</value>
-			</AggregatesList>
-		</ITag>
-		<ILiteralSpecification type="e">
-			<_id type="a">GUID 045fb25f-e4ef-4f66-8f10-507256567365</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::0:53:23</_modifiedTime>
-			<_value type="a">2</_value>
-		</ILiteralSpecification>
-		<ITag type="e">
-			<_id type="a">GUID 11a9f43a-dedd-4a01-ae3a-d29f25e206ba</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Risk</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::0:53:23</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-					<_hname type="a">RhpString</_hname>
-					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<AggregatesList type="e">
-				<value>GUID ff5a2782-947e-4447-aa19-dd218db16498</value>
-			</AggregatesList>
-		</ITag>
-		<ILiteralSpecification type="e">
-			<_id type="a">GUID ff5a2782-947e-4447-aa19-dd218db16498</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::0:53:23</_modifiedTime>
-			<_value type="a">2</_value>
-		</ILiteralSpecification>
-		<ITag type="e">
-			<_id type="a">GUID 1c67abc1-7144-43df-8aa2-624316d3f141</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Complexity</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::0:53:23</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-					<_hname type="a">RhpString</_hname>
-					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<AggregatesList type="e">
-				<value>GUID 4c29a1fe-a45a-4f26-addb-796e6eabf961</value>
-			</AggregatesList>
-		</ITag>
-		<ILiteralSpecification type="e">
-			<_id type="a">GUID 4c29a1fe-a45a-4f26-addb-796e6eabf961</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::0:53:23</_modifiedTime>
-			<_value type="a">3</_value>
-		</ILiteralSpecification>
-		<ITag type="e">
-			<_id type="a">GUID c8353bb0-5b44-4e51-b5cd-64831a7f38a6</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Cost</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::0:53:23</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-					<_hname type="a">RhpString</_hname>
-					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<AggregatesList type="e">
-				<value>GUID 9c659e0f-1fcc-422e-90c7-58e471b50e3d</value>
-			</AggregatesList>
-		</ITag>
-		<ILiteralSpecification type="e">
-			<_id type="a">GUID 9c659e0f-1fcc-422e-90c7-58e471b50e3d</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::0:53:23</_modifiedTime>
-			<_value type="a">3</_value>
-		</ILiteralSpecification>
-		<IRequirement type="e">
 			<_id type="a">GUID da9bea87-d5f3-41e9-b3a4-bdbff51b1d0f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">AC-01</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::8:51:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::8:48:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.27.2021::10:31:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:31:18</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The drones must fly in its different operational scenarios\par%0D
 }%0D
@@ -864,7 +678,6 @@
 				<value>GUID 7c86c723-b52d-463d-96a1-84230bb06d2a</value>
 				<value>GUID 69901360-fd6e-40cb-84ea-d2ba8d6557f5</value>
 				<value>GUID 0ab69450-ba29-4f1b-96a2-16d5a222129a</value>
-				<value>GUID 4da3b61b-7998-40bb-8406-7df196a9933b</value>
 				<value>GUID 64d6145d-5863-48fb-88b6-33e11fedc9c9</value>
 				<value>GUID 97713e5f-575b-47a7-a179-bab7705ec997</value>
 				<value>GUID f6ac61da-0978-4823-a6f3-d080e9695e55</value>
@@ -1459,122 +1272,6 @@
 			<_value type="a">5</_value>
 		</ILiteralSpecification>
 		<IRequirement type="e">
-			<_id type="a">GUID 4da3b61b-7998-40bb-8406-7df196a9933b</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">AC-14</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::8:48:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::8:48:5</_modifiedTime>
-			<_lastID type="a">4</_lastID>
-			<_body type="a">If a multirotor is not performing its functions correctly, the swarm planning must evaluate the status of the UAV.</_body>
-			<reqID type="a">AC-14</reqID>
-			<AggregatesList type="e">
-				<value>GUID 21adcd11-f18c-4f32-876d-d7939f826e06</value>
-				<value>GUID 1b20d2b7-b362-43d5-bb29-eb208fd72495</value>
-				<value>GUID 55b9ae91-2b71-4d3b-a87a-6598b4d5c3a4</value>
-				<value>GUID 10f3df5f-e723-4113-b045-76bc5f908de6</value>
-			</AggregatesList>
-		</IRequirement>
-		<ITag type="e">
-			<_id type="a">GUID 21adcd11-f18c-4f32-876d-d7939f826e06</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Priority</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::0:53:22</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-					<_hname type="a">RhpString</_hname>
-					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<AggregatesList type="e">
-				<value>GUID 0d1c0a37-73cd-471d-9f9a-131b409bf693</value>
-			</AggregatesList>
-		</ITag>
-		<ILiteralSpecification type="e">
-			<_id type="a">GUID 0d1c0a37-73cd-471d-9f9a-131b409bf693</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::0:53:22</_modifiedTime>
-			<_value type="a">5</_value>
-		</ILiteralSpecification>
-		<ITag type="e">
-			<_id type="a">GUID 1b20d2b7-b362-43d5-bb29-eb208fd72495</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Risk</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::0:53:22</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-					<_hname type="a">RhpString</_hname>
-					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<AggregatesList type="e">
-				<value>GUID c5151e04-19d9-410b-89a6-a8b91b9d8301</value>
-			</AggregatesList>
-		</ITag>
-		<ILiteralSpecification type="e">
-			<_id type="a">GUID c5151e04-19d9-410b-89a6-a8b91b9d8301</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::0:53:22</_modifiedTime>
-			<_value type="a">4</_value>
-		</ILiteralSpecification>
-		<ITag type="e">
-			<_id type="a">GUID 55b9ae91-2b71-4d3b-a87a-6598b4d5c3a4</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Complexity</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::0:53:22</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-					<_hname type="a">RhpString</_hname>
-					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<AggregatesList type="e">
-				<value>GUID da2b4859-ba6b-4e6e-8bbd-add22747bc1b</value>
-			</AggregatesList>
-		</ITag>
-		<ILiteralSpecification type="e">
-			<_id type="a">GUID da2b4859-ba6b-4e6e-8bbd-add22747bc1b</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::0:53:22</_modifiedTime>
-			<_value type="a">4</_value>
-		</ILiteralSpecification>
-		<ITag type="e">
-			<_id type="a">GUID 10f3df5f-e723-4113-b045-76bc5f908de6</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Cost</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::0:53:22</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-					<_hname type="a">RhpString</_hname>
-					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<AggregatesList type="e">
-				<value>GUID 5cef0510-c6b8-4756-9dcd-ed6edc6f6a0a</value>
-			</AggregatesList>
-		</ITag>
-		<ILiteralSpecification type="e">
-			<_id type="a">GUID 5cef0510-c6b8-4756-9dcd-ed6edc6f6a0a</_id>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.7.2021::0:53:22</_modifiedTime>
-			<_value type="a">0</_value>
-		</ILiteralSpecification>
-		<IRequirement type="e">
 			<_id type="a">GUID 64d6145d-5863-48fb-88b6-33e11fedc9c9</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">AC-15</_name>
@@ -1693,12 +1390,15 @@
 		<IRequirement type="e">
 			<_id type="a">GUID 97713e5f-575b-47a7-a179-bab7705ec997</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">AC-16</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::8:48:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::8:48:5</_modifiedTime>
+			<_name type="a">AC-14</_name>
+			<_modifiedTimeWeak type="a">5.27.2021::10:31:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:31:18</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<_body type="a">The swarm must avoid collision in case a helicopter arrives (lack of coordination)</_body>
-			<reqID type="a">AC-16</reqID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The swarm must avoid collision in case a helicopter arrives (lack of coordination)\par%0D
+}%0D
+</_body>
+			<reqID type="a">AC-14</reqID>
 			<AggregatesList type="e">
 				<value>GUID 1f789b56-2e05-4724-bcb3-5617f67dda29</value>
 				<value>GUID 0d39c01c-2e37-4e62-b3d4-a96f6e045b56</value>
@@ -1906,13 +1606,6 @@
 			<_modifiedTime type="a">2.8.2021::8:47:52</_modifiedTime>
 			<_value type="a">5</_value>
 		</ILiteralSpecification>
-		<IRequirement type="e">
-			<_id type="a">GUID 9a64878f-2081-498d-87e1-2159f029bcde</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">requirement_2</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::8:52:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.8.2021::8:52:29</_modifiedTime>
-		</IRequirement>
 		<IDiagram type="e">
 			<_id type="a">GUID 7b6c640a-b254-4cd7-a47f-8cc9d13c0827</_id>
 			<_myState type="a">8192</_myState>
@@ -2370,8 +2063,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::14:40:5</_modifiedTime>
-			<_lastModifiedTime type="a">2.19.2021::14:40:5</_lastModifiedTime>
+			<_modifiedTime type="a">5.27.2021::10:38:31</_modifiedTime>
+			<_lastModifiedTime type="a">5.27.2021::10:38:31</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2414,7 +2107,7 @@
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<elementList type="a">47</elementList>
+			<elementList type="a">41</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -2437,19 +2130,14 @@
 				<value>GUID 84e69fef-c7ec-478b-9730-660a472be3d4</value>
 				<value>GUID 0c47a733-b93d-4e3a-8815-e37d2f032686</value>
 				<value>GUID 8cc5c160-1d23-4557-9adb-3f4b2c101e21</value>
-				<value>GUID 59f571b9-b081-475b-bb6a-376c6cd700d1</value>
 				<value>GUID c638f047-54ef-4cd3-8f6f-7e8ac1172cee</value>
 				<value>GUID 99889c23-f88e-4c0a-a28a-ade1e14b0667</value>
 				<value>GUID f2d96d66-1740-43cd-8cf6-8a61a19ea231</value>
 				<value>GUID b5d9b418-4560-486a-bdab-d3dc6560572e</value>
 				<value>GUID 0ae6719f-468e-4c04-8f66-f8f387d3038f</value>
-				<value>GUID 58c4d077-ae65-43a9-8cbc-0a0211b254e4</value>
 				<value>GUID 77ea568d-f1af-4f67-88f1-9196c53f0b6c</value>
 				<value>GUID a4bea1e2-49f7-46d6-aba1-6ba7e1643791</value>
 				<value>GUID 9ae16158-e53d-4c69-b3d2-18cb970c1677</value>
-				<value>GUID b52b4203-be67-40e7-89f8-c6855c50cbc8</value>
-				<value>GUID e6591dfd-8cdc-413a-aad9-62cd30c37beb</value>
-				<value>GUID 951c102a-5e8c-4be9-a2d8-c13230b3e62f</value>
 				<value>GUID c062aa3f-cd17-468a-a266-db9c46ee695e</value>
 				<value>GUID c0700f65-9bfc-4af1-b84a-b72fbc3c07ae</value>
 				<value>GUID da728551-553a-46c8-9e2e-bbeaccb66fcd</value>
@@ -2465,7 +2153,6 @@
 				<value>GUID 829ff9fc-09a7-48ec-a163-ccb60554d4a2</value>
 				<value>GUID 9519c57b-3523-480e-9e77-5451f94ebebd</value>
 				<value>GUID 9c9536df-8565-48a8-9b90-717d0925ef22</value>
-				<value>GUID 5a413c51-3ce3-4544-92c0-28f9328bcef8</value>
 				<value>GUID 896c1d6f-3da8-4f65-ac89-f1f8bebe8933</value>
 				<value>GUID b1d020e5-cc69-4b7d-87c5-0739f3f17828</value>
 				<value>GUID 41f93981-04f8-4c26-8ab6-2db0121cf662</value>
@@ -2558,7 +2245,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">8.03704 0 0 14.5455 -407 20 </m_transform>
+			<m_transform type="a">13.2963 0 0 7.28788 20 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2608,7 +2295,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.103321 0 0 0.164835 526 1109.51 </m_transform>
+			<m_transform type="a">0.0774908 0 0 0.128205 1730 39.6154 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2681,7 +2368,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.103321 0 0 0.184982 550 736.445 </m_transform>
+			<m_transform type="a">0.0774908 0 0 0.141026 1805 567.577 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2754,7 +2441,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.103321 0 0 0.130037 202 39.6099 </m_transform>
+			<m_transform type="a">0.0774908 0 0 0.104396 1130 587.687 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2827,7 +2514,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.103321 0 0 0.276557 743 277.17 </m_transform>
+			<m_transform type="a">0.0774908 0 0 0.205128 1655 532.385 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2900,7 +2587,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.103321 0 0 0.130037 364 357.61 </m_transform>
+			<m_transform type="a">0.0774908 0 0 0.104396 955 587.687 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2973,7 +2660,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.103321 0 0 0.369963 40 225.89 </m_transform>
+			<m_transform type="a">0.0774908 0 0 0.245421 2655 510.264 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3046,7 +2733,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.103321 0 0 0.184982 364 736.445 </m_transform>
+			<m_transform type="a">0.0774908 0 0 0.128205 2255 275.615 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3103,7 +2790,7 @@
 			<m_pParent type="s">GUID f707e026-8809-4ba6-9242-4233bd08134d</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">AC-16</m_str>
+					<m_str type="a">AC-14</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3119,7 +2806,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.103321 0 0 0.239927 202 1643.28 </m_transform>
+			<m_transform type="a">0.0774908 0 0 0.166667 430 254.5 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3165,79 +2852,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 		</CGICompartment>
 		<CGIAnnotation type="e">
-			<_id type="a">GUID 59f571b9-b081-475b-bb6a-376c6cd700d1</_id>
-			<m_type type="a">176</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hid type="a">GUID 4da3b61b-7998-40bb-8406-7df196a9933b</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s">GUID f707e026-8809-4ba6-9242-4233bd08134d</m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_str type="a">AC-14</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.103321 0 0 0.294872 202 267.115 </m_transform>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_AdditionalLabel type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_AdditionalLabel>
-			<m_polygon type="a">4 0 3  0 1095  1084 1095  1084 3  </m_polygon>
-			<m_nNameFormat type="a">0</m_nNameFormat>
-			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=27%25,73%25&gt;
-&lt;frame name=IDTextCompartment&gt;
-&lt;frame name=SpecificationTextCompartment&gt;</frameset>
-			<_iTempdisplayTextFlag type="a">1</_iTempdisplayTextFlag>
-			<m_bIsBoxStyle type="a">1</m_bIsBoxStyle>
-			<AggregatesList type="e">
-				<value>GUID 74bc713e-82a2-49c4-8a31-e010e4584291</value>
-				<value>GUID 59fb61d6-94af-4994-b502-114b51e2e1e7</value>
-			</AggregatesList>
-		</CGIAnnotation>
-		<CGICompartment type="e">
-			<_id type="a">GUID 74bc713e-82a2-49c4-8a31-e010e4584291</_id>
-			<m_name type="a">ID</m_name>
-			<m_displayOption type="a">All</m_displayOption>
-			<m_bShowInherited type="a">0</m_bShowInherited>
-			<m_bOrdered type="a">0</m_bOrdered>
-		</CGICompartment>
-		<CGICompartment type="e">
-			<_id type="a">GUID 59fb61d6-94af-4994-b502-114b51e2e1e7</_id>
-			<m_name type="a">Specification</m_name>
-			<m_displayOption type="a">All</m_displayOption>
-			<m_bShowInherited type="a">0</m_bShowInherited>
-			<m_bOrdered type="a">0</m_bOrdered>
-		</CGICompartment>
-		<CGIAnnotation type="e">
 			<_id type="a">GUID c638f047-54ef-4cd3-8f6f-7e8ac1172cee</_id>
 			<m_type type="a">176</m_type>
 			<m_pModelObject type="r">
@@ -3265,7 +2879,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.103321 0 0 0.239927 905 706.28 </m_transform>
+			<m_transform type="a">0.0774908 0 0 0.166667 1380 254.5 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3338,7 +2952,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.103321 0 0 0.239927 1012 1335.28 </m_transform>
+			<m_transform type="a">0.0774908 0 0 0.179487 2105 247.462 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3411,7 +3025,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.103321 0 0 0.294872 743 676.115 </m_transform>
+			<m_transform type="a">0.0774908 0 0 0.21978 1730 225.341 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3503,12 +3117,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 420 1150  </m_arrow>
+			<m_arrow type="a">2 2297 228  1803 228  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">542 1095 </m_SourcePort>
-			<m_TargetPort type="a">0 246 </m_TargetPort>
+			<m_SourcePort type="a">542 -5 </m_SourcePort>
+			<m_TargetPort type="a">942 1095 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIContainArrow type="e">
 			<_id type="a">GUID 0ae6719f-468e-4c04-8f66-f8f387d3038f</_id>
@@ -3557,66 +3171,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 258 1246  </m_arrow>
+			<m_arrow type="a">2 472 217  1740 217  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">542 -1 </m_SourcePort>
-			<m_TargetPort type="a">0 828 </m_TargetPort>
-		</CGIContainArrow>
-		<CGIContainArrow type="e">
-			<_id type="a">GUID 58c4d077-ae65-43a9-8cbc-0a0211b254e4</_id>
-			<m_type type="a">204</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 59f571b9-b081-475b-bb6a-376c6cd700d1</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID d8c2c76f-f070-4c2e-b631-330a57201100</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_arrow type="a">1 258 1175  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">542 1098 </m_SourcePort>
-			<m_TargetPort type="a">0 397 </m_TargetPort>
+			<m_SourcePort type="a">542 -3 </m_SourcePort>
+			<m_TargetPort type="a">129 1095 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIContainArrow type="e">
 			<_id type="a">GUID 77ea568d-f1af-4f67-88f1-9196c53f0b6c</_id>
@@ -3665,12 +3225,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 961 1175  </m_arrow>
+			<m_arrow type="a">2 1422 217  1761 217  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">542 1099 </m_SourcePort>
-			<m_TargetPort type="a">1084 397 </m_TargetPort>
+			<m_SourcePort type="a">542 -3 </m_SourcePort>
+			<m_TargetPort type="a">400 1095 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIContainArrow type="e">
 			<_id type="a">GUID a4bea1e2-49f7-46d6-aba1-6ba7e1643791</_id>
@@ -3719,12 +3279,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 825 1467  825 1246  </m_arrow>
+			<m_arrow type="a">2 2147 214  1782 214  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">0 549 </m_SourcePort>
-			<m_TargetPort type="a">1084 828 </m_TargetPort>
+			<m_SourcePort type="a">542 -3 </m_SourcePort>
+			<m_TargetPort type="a">671 1095 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIContainArrow type="e">
 			<_id type="a">GUID 9ae16158-e53d-4c69-b3d2-18cb970c1677</_id>
@@ -3773,187 +3333,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 799 1150  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">542 1098 </m_SourcePort>
-			<m_TargetPort type="a">1084 246 </m_TargetPort>
+			<m_SourcePort type="a">542 -2 </m_SourcePort>
+			<m_TargetPort type="a">542 1103 </m_TargetPort>
 		</CGIContainArrow>
-		<CGIInheritance type="e">
-			<_id type="a">GUID b52b4203-be67-40e7-89f8-c6855c50cbc8</_id>
-			<m_type type="a">128</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hid type="a">GUID f59430ef-43eb-4278-bd8a-e86e69cd2447</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_str type="a">AC-14</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 9bd055fc-0177-4f12-8bf7-e7dd7b6b86b2</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 59f571b9-b081-475b-bb6a-376c6cd700d1</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">542 1095 </m_SourcePort>
-			<m_TargetPort type="a">542 -4 </m_TargetPort>
-			<m_ShowName type="a">0</m_ShowName>
-			<m_ShowStereotype type="a">1</m_ShowStereotype>
-		</CGIInheritance>
-		<CGIInheritance type="e">
-			<_id type="a">GUID e6591dfd-8cdc-413a-aad9-62cd30c37beb</_id>
-			<m_type type="a">128</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hid type="a">GUID f8ffe6cf-0f92-43a6-83b0-81d7e9d4e9d9</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_str type="a">AC-14</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 84e69fef-c7ec-478b-9730-660a472be3d4</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 59f571b9-b081-475b-bb6a-376c6cd700d1</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">1084 549 </m_SourcePort>
-			<m_TargetPort type="a">-10 549 </m_TargetPort>
-			<m_ShowName type="a">0</m_ShowName>
-			<m_ShowStereotype type="a">1</m_ShowStereotype>
-		</CGIInheritance>
-		<CGIInheritance type="e">
-			<_id type="a">GUID 951c102a-5e8c-4be9-a2d8-c13230b3e62f</_id>
-			<m_type type="a">128</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hid type="a">GUID 0ed4c276-772b-4103-b6b0-ad729a9716fb</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_str type="a">AC-14</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 2ac45791-adaf-492b-a3de-24d028b65330</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 59f571b9-b081-475b-bb6a-376c6cd700d1</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">-10 549 </m_SourcePort>
-			<m_TargetPort type="a">1084 549 </m_TargetPort>
-			<m_ShowName type="a">0</m_ShowName>
-			<m_ShowStereotype type="a">1</m_ShowStereotype>
-		</CGIInheritance>
 		<CGIInheritance type="e">
 			<_id type="a">GUID c062aa3f-cd17-468a-a266-db9c46ee695e</_id>
 			<m_type type="a">128</m_type>
@@ -4007,8 +3392,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">542 1099 </m_SourcePort>
-			<m_TargetPort type="a">542 -4 </m_TargetPort>
+			<m_SourcePort type="a">542 -2 </m_SourcePort>
+			<m_TargetPort type="a">271 1095 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -4065,8 +3450,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">1084 549 </m_SourcePort>
-			<m_TargetPort type="a">-10 549 </m_TargetPort>
+			<m_SourcePort type="a">529 -4 </m_SourcePort>
+			<m_TargetPort type="a">813 1095 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -4098,7 +3483,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.117498 0 0 0.0599836 380 76.1799 </m_transform>
+			<m_transform type="a">0.116653 0 0 0.093673 1278 836.281 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -4174,8 +3559,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">0 764 </m_SourcePort>
-			<m_TargetPort type="a">1084 634 </m_TargetPort>
+			<m_SourcePort type="a">592 -3 </m_SourcePort>
+			<m_TargetPort type="a">813 1095 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -4207,7 +3592,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.117498 0 0 0.0599836 351 568.18 </m_transform>
+			<m_transform type="a">0.116653 0 0 0.093673 578 836.281 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -4283,8 +3668,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">579 -20 </m_SourcePort>
-			<m_TargetPort type="a">523 1095 </m_TargetPort>
+			<m_SourcePort type="a">592 -3 </m_SourcePort>
+			<m_TargetPort type="a">271 1095 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -4316,7 +3701,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.117498 0 0 0.0599836 999 1155.18 </m_transform>
+			<m_transform type="a">0.116653 0 0 0.093673 2428 588.281 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -4392,8 +3777,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">613 1214 </m_SourcePort>
-			<m_TargetPort type="a">571 -1 </m_TargetPort>
+			<m_SourcePort type="a">592 -3 </m_SourcePort>
+			<m_TargetPort type="a">813 1095 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -4429,7 +3814,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">527112</m_drawBehavior>
-			<m_transform type="a">0.351275 0 0 0.112299 415.297 1601.05 </m_transform>
+			<m_transform type="a">0.349386 0 0 0.112299 511.301 545.053 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -4529,7 +3914,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">527112</m_drawBehavior>
-			<m_transform type="a">0.392823 0 0 0.112299 415.214 1757.05 </m_transform>
+			<m_transform type="a">0.390935 0 0 0.112299 39.2181 545.053 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -4606,7 +3991,7 @@
 					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
 					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
-					<_hname type="a">Flight_Controller.AC-16</_hname>
+					<_hname type="a">Flight_Controller.AC-14</_hname>
 					<_hid type="a">GUID 9dc3c11b-b9fb-466b-9265-b08d211acb12</_hid>
 				</IHandle>
 			</m_pModelObject>
@@ -4655,8 +4040,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">2 489 </m_SourcePort>
-			<m_TargetPort type="a">1084 545 </m_TargetPort>
+			<m_SourcePort type="a">532 329 </m_SourcePort>
+			<m_TargetPort type="a">271 1095 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -4669,7 +4054,7 @@
 					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
 					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
-					<_hname type="a">Actuators.AC-16</_hname>
+					<_hname type="a">Actuators.AC-14</_hname>
 					<_hid type="a">GUID dcb6816e-746e-4917-958a-5b778e0f666b</_hid>
 				</IHandle>
 			</m_pModelObject>
@@ -4718,8 +4103,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">2 810 </m_SourcePort>
-			<m_TargetPort type="a">1084 328 </m_TargetPort>
+			<m_SourcePort type="a">531 329 </m_SourcePort>
+			<m_TargetPort type="a">813 1095 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -4754,7 +4139,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.356941 0 0 0.123886 911.286 1597.24 </m_transform>
+			<m_transform type="a">0.355052 0 0 0.122995 1958.29 535.535 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -4871,8 +4256,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">531 886 </m_SourcePort>
-			<m_TargetPort type="a">600 1095 </m_TargetPort>
+			<m_SourcePort type="a">531 321 </m_SourcePort>
+			<m_TargetPort type="a">542 1095 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -4907,7 +4292,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.346553 0 0 0.123886 -387.693 225.242 </m_transform>
+			<m_transform type="a">0.3305 0 0 0.122995 2521.34 783.535 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -4966,69 +4351,6 @@
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
-		<CGIInheritance type="e">
-			<_id type="a">GUID 5a413c51-3ce3-4544-92c0-28f9328bcef8</_id>
-			<m_type type="a">128</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\C2_Base_Structure.sbsx</_hfilename>
-					<_hsubsystem type="a">BlockModeling::C2_Base_Structure</_hsubsystem>
-					<_hclass type="a">Swarm_Monitoring</_hclass>
-					<_hname type="a">AC-14</_hname>
-					<_hid type="a">GUID aae8c731-801d-4025-a942-e6d0c69307e0</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_str type="a">AC-14</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 9c9536df-8565-48a8-9b90-717d0925ef22</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 59f571b9-b081-475b-bb6a-376c6cd700d1</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_str type="a">satisfy</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">1061 660 </m_SourcePort>
-			<m_TargetPort type="a">-10 125 </m_TargetPort>
-			<m_ShowName type="a">0</m_ShowName>
-			<m_ShowStereotype type="a">1</m_ShowStereotype>
-		</CGIInheritance>
 		<CGIClass type="e">
 			<_id type="a">GUID 896c1d6f-3da8-4f65-ac89-f1f8bebe8933</_id>
 			<m_type type="a">87</m_type>
@@ -5060,7 +4382,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.373938 0 0 0.123886 326.252 148.242 </m_transform>
+			<m_transform type="a">0.364495 0 0 0.122995 803.271 783.535 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -5177,8 +4499,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">366 329 </m_SourcePort>
-			<m_TargetPort type="a">1084 787 </m_TargetPort>
+			<m_SourcePort type="a">795 329 </m_SourcePort>
+			<m_TargetPort type="a">271 1095 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -5240,8 +4562,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">1061 1007 </m_SourcePort>
-			<m_TargetPort type="a">0 541 </m_TargetPort>
+			<m_SourcePort type="a">531 329 </m_SourcePort>
+			<m_TargetPort type="a">542 1095 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -5303,8 +4625,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">326 1451 </m_SourcePort>
-			<m_TargetPort type="a">755 -5 </m_TargetPort>
+			<m_SourcePort type="a">532 329 </m_SourcePort>
+			<m_TargetPort type="a">542 1095 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -5339,7 +4661,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.371105 0 0 0.123886 915.258 255.242 </m_transform>
+			<m_transform type="a">0.360718 0 0 0.122995 1505.28 783.535 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -5456,8 +4778,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">2 1031 </m_SourcePort>
-			<m_TargetPort type="a">542 542 </m_TargetPort>
+			<m_SourcePort type="a">531 329 </m_SourcePort>
+			<m_TargetPort type="a">542 1095 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -5492,7 +4814,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.340888 0 0 0.123886 931.318 422.242 </m_transform>
+			<m_transform type="a">0.3305 0 0 0.122995 1971.34 783.535 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -5609,8 +4931,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">-1 894 </m_SourcePort>
-			<m_TargetPort type="a">1084 661 </m_TargetPort>
+			<m_SourcePort type="a">532 329 </m_SourcePort>
+			<m_TargetPort type="a">813 1095 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -5619,9 +4941,9 @@
 			<_myState type="a">40960</_myState>
 			<_rmmServerID type="a">-1</_rmmServerID>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">2.17.2021::17:19:56</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.27.2021::10:31:11</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.17.2021::17:19:56</_modifiedTime>
-			<weakCGTime type="a">2.17.2021::17:19:56</weakCGTime>
+			<weakCGTime type="a">5.27.2021::10:31:11</weakCGTime>
 			<strongCGTime type="a">2.8.2021::8:51:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -5681,7 +5003,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.17.2021::17:18:16</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.27.2021::10:31:11</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Stabilization and navigation works</_text>
 			</IDescription>
@@ -5793,7 +5115,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.17.2021::17:19:6</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.27.2021::10:31:11</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Positioning system is not reliable</_text>
 			</IDescription>
@@ -5939,7 +5261,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.17.2021::17:19:56</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.27.2021::10:31:11</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">Ground station operator confirms info</_text>
 			</IDescription>
