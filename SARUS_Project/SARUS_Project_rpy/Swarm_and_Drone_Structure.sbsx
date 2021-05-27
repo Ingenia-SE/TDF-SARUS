@@ -12,10 +12,10 @@
 			<_id type="a">GUID e2ab43c3-a131-45f4-9abc-22918814ebd7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Swarm_and_Drone_Structure</_name>
-			<_modifiedTimeWeak type="a">4.26.2021::11:59:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.26.2021::11:59:54</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.27.2021::9:56:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::9:56:33</_modifiedTime>
 			<_lastID type="a">56</_lastID>
-			<weakCGTime type="a">4.26.2021::11:59:54</weakCGTime>
+			<weakCGTime type="a">5.27.2021::9:56:33</weakCGTime>
 			<strongCGTime type="a">2.19.2021::14:40:5</strongCGTime>
 			<_defaultComposite type="s">GUID 4e32f1e0-a930-4ffc-af01-3eebf8522778</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -9333,7 +9333,6 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">Swarm_and_Drone_Software</_name>
-			<_displayName type="a">Swarm_and_Drone_Software</_displayName>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -10940,7 +10939,7 @@
 			<m_pParent type="s">GUID 2f234359-8d01-4491-9b61-9dce30cb0985</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Base comunnication</m_str>
+					<m_str type="a">Base_comunnication</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -11203,10 +11202,10 @@
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
 			</OwnedDependencies>
-			<_modifiedTimeWeak type="a">2.19.2021::23:16:45</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::23:16:45</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.27.2021::9:56:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::9:56:33</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">2.19.2021::23:16:45</weakCGTime>
+			<weakCGTime type="a">5.27.2021::9:56:33</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:20:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -11580,7 +11579,7 @@
 			<_id type="a">GUID d16e294d-62ab-4c80-865a-0ff69e25df70</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Actuators</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::13:38:55</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.27.2021::9:54:42</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.19.2021::13:38:55</_modifiedTime>
 			<_lastID type="a">4</_lastID>
 			<_multiplicity type="a">1</_multiplicity>
@@ -11787,8 +11786,8 @@
 			<_id type="a">GUID e1ed73b5-fa3a-4b0b-a11b-6381c2d70e4d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Battery</_name>
-			<_modifiedTimeWeak type="a">2.19.2021::13:33:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::13:33:14</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.27.2021::9:56:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::9:56:33</_modifiedTime>
 			<_lastID type="a">3</_lastID>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -11848,45 +11847,10 @@
 			</IAssociationEnd>
 			</_implicitClass>
 			<AggregatesList type="e">
-				<value>GUID 7bc208d1-2f14-4d49-bcc5-d62c537efca4</value>
 				<value>GUID a9569449-9e98-4ef3-b1ca-41b6ad506d85</value>
 				<value>GUID a56d2368-2bd7-4558-9c80-696bff95c572</value>
 			</AggregatesList>
 		</IPart>
-		<IDependency type="e">
-			<_id type="a">GUID 7bc208d1-2f14-4d49-bcc5-d62c537efca4</_id>
-			<_myState type="a">2048</_myState>
-			<_name type="a">NO-83</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-							<_hname type="a">satisfy</_hname>
-							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.17.2021::18:17:12</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hfilename type="a">.\Landing.sbsx</_hfilename>
-					<_hsubsystem type="a">SystemRequirements::NormalOperation::Landing</_hsubsystem>
-					<_hname type="a">NO-83</_hname>
-					<_hid type="a">GUID 091c1826-5126-4f12-954d-f28195c1a906</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IPart</_hm2Class>
-					<_hid type="a">GUID e1ed73b5-fa3a-4b0b-a11b-6381c2d70e4d</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
 		<IDependency type="e">
 			<_id type="a">GUID a9569449-9e98-4ef3-b1ca-41b6ad506d85</_id>
 			<_myState type="a">2048</_myState>
@@ -13866,7 +13830,7 @@ Blades</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.19.2021::23:22:32</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.27.2021::9:54:42</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IStructureDiagram</_hm2Class>
@@ -13879,7 +13843,7 @@ Blades</_text>
 			</_description>
 			<_modifiedTime type="a">2.19.2021::23:22:32</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">2.19.2021::23:22:32</weakCGTime>
+			<weakCGTime type="a">5.27.2021::9:54:42</weakCGTime>
 			<strongCGTime type="a">2.17.2021::17:20:49</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -15059,7 +15023,6 @@ Blades</_text>
 			<_id type="a">GUID 9388f8b6-6c88-476a-bd67-76499d6a80f1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Image_processing</_name>
-			<_displayName type="a">Image_processing</_displayName>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -15103,7 +15066,6 @@ Blades</_text>
 			<_id type="a">GUID 8e36c988-f885-444e-beb9-59f6badeae28</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Image_process</_name>
-			<_displayName type="a">Image_process</_displayName>
 			<_modifiedTimeWeak type="a">4.26.2021::11:57:26</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.26.2021::11:57:26</_modifiedTime>
 			<_virtual type="a">1</_virtual>
@@ -15130,7 +15092,6 @@ Blades</_text>
 			<_id type="a">GUID 33547a4e-39de-42ab-b4e7-ac8a668f55c5</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Environment_image</_name>
-			<_displayName type="a">Environment_image</_displayName>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -15182,7 +15143,6 @@ Blades</_text>
 			<_id type="a">GUID 94913674-f511-4de5-9070-ec76ad5b62c1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Person_detection</_name>
-			<_displayName type="a">Person_detection</_displayName>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -15226,7 +15186,6 @@ Blades</_text>
 			<_id type="a">GUID f10ae9d1-cc80-45e9-b2b6-5c0aff233bda</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Person_detection</_name>
-			<_displayName type="a">Person_detection</_displayName>
 			<_modifiedTimeWeak type="a">4.26.2021::11:59:0</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.26.2021::11:59:0</_modifiedTime>
 			<_virtual type="a">1</_virtual>
@@ -15253,7 +15212,6 @@ Blades</_text>
 			<_id type="a">GUID c46094a2-8202-42b0-ac73-8f6cc55369f0</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">detection_class</_name>
-			<_displayName type="a">detection_class</_displayName>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
