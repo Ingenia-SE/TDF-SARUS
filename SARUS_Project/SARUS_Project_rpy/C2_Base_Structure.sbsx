@@ -12,10 +12,10 @@
 			<_id type="a">GUID 30587312-7769-42ff-955a-b2edc5451cde</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">C2_Base_Structure</_name>
-			<_modifiedTimeWeak type="a">5.27.2021::10:35:16</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.27.2021::10:31:11</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.27.2021::10:58:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:51:53</_modifiedTime>
 			<_lastID type="a">65</_lastID>
-			<weakCGTime type="a">5.27.2021::10:35:16</weakCGTime>
+			<weakCGTime type="a">5.27.2021::10:58:1</weakCGTime>
 			<strongCGTime type="a">5.9.2021::15:15:52</strongCGTime>
 			<_defaultComposite type="s">GUID b8ee2d3f-37ad-4633-981c-404f415aaaa0</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -15174,8 +15174,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.20.2021::17:2:41</_modifiedTime>
-			<_lastModifiedTime type="a">4.20.2021::17:2:41</_lastModifiedTime>
+			<_modifiedTime type="a">5.27.2021::10:44:6</_modifiedTime>
+			<_lastModifiedTime type="a">5.27.2021::10:44:6</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -21680,10 +21680,10 @@
 			<_id type="a">GUID b8ee2d3f-37ad-4633-981c-404f415aaaa0</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">5.9.2021::15:15:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.20.2021::17:2:41</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.27.2021::10:44:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:44:6</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">5.9.2021::15:15:52</weakCGTime>
+			<weakCGTime type="a">5.27.2021::10:44:6</weakCGTime>
 			<strongCGTime type="a">5.9.2021::15:15:52</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -21911,8 +21911,9 @@
 			<_id type="a">GUID ecb02bdb-1657-4e9f-9983-abd97690f0ec</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Touchscreen</_name>
-			<_modifiedTimeWeak type="a">4.20.2021::17:2:41</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.20.2021::17:2:41</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.27.2021::10:44:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:44:6</_modifiedTime>
+			<_lastID type="a">1</_lastID>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -22093,7 +22094,45 @@
 				</_implicitClass>
 			</IPort>
 			</_implicitClass>
+			<AggregatesList type="e">
+				<value>GUID c26e6d8a-a9cc-4dd3-9baf-19c972aa7652</value>
+			</AggregatesList>
 		</IPart>
+		<IDependency type="e">
+			<_id type="a">GUID c26e6d8a-a9cc-4dd3-9baf-19c972aa7652</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">CM-05</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.27.2021::10:44:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:44:6</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\Communication.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::Communication</_hsubsystem>
+					<_hname type="a">CM-05</_hname>
+					<_hid type="a">GUID b274f125-895a-4d29-b42b-72e63843da67</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID ecb02bdb-1657-4e9f-9983-abd97690f0ec</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IPart type="e">
 			<_id type="a">GUID 88f34151-e95c-4433-8e5a-e4675da13375</_id>
 			<_myState type="a">8192</_myState>
@@ -22847,7 +22886,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.9.2021::15:15:52</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.27.2021::10:58:38</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -22858,9 +22897,9 @@
 				<_text type="a">Land base control centre that provides the necesary tools for humana monitorization and control of th UAV swarm</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.26.2021::11:23:4</_modifiedTime>
-			<_lastID type="a">13</_lastID>
-			<weakCGTime type="a">5.9.2021::15:15:52</weakCGTime>
+			<_modifiedTime type="a">5.27.2021::10:58:38</_modifiedTime>
+			<_lastID type="a">17</_lastID>
+			<weakCGTime type="a">5.27.2021::10:58:38</weakCGTime>
 			<strongCGTime type="a">5.9.2021::15:15:52</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -22869,6 +22908,10 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
 				<value>GUID 4bac764b-4ba9-4595-8728-f12e09e41d79</value>
+				<value>GUID 8b0b6006-e254-49a1-9151-f122ea84e870</value>
+				<value>GUID 26e5f6b1-cbc5-44a1-953c-838416264688</value>
+				<value>GUID 4d368862-433b-4589-8fcc-b6b0735a38bd</value>
+				<value>GUID ac9917c3-05b7-42a9-bcef-13e2900d4a07</value>
 				<value>GUID 226a9443-c3d9-4190-8906-a892748acdad</value>
 				<value>GUID 902d379d-9c45-418e-9465-47a5a48f093f</value>
 				<value>GUID 70635301-ef64-41f0-8582-b8b1dc2408eb</value>
@@ -22900,6 +22943,146 @@
 					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
 					<_hname type="a">AC-04</_hname>
 					<_hid type="a">GUID 372939cd-90da-4688-b495-b2bafb5213ef</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 3af2fc7d-2919-4d6d-818b-ccbc485d8871</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 8b0b6006-e254-49a1-9151-f122ea84e870</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">FlightControl</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.27.2021::10:58:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:58:4</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
+					<_hname type="a">FlightControl</_hname>
+					<_hid type="a">GUID 36f7c87f-3753-445f-8e43-f14339c486f4</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 3af2fc7d-2919-4d6d-818b-ccbc485d8871</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 26e5f6b1-cbc5-44a1-953c-838416264688</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-04_0</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.27.2021::10:58:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:58:9</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-04</_hname>
+					<_hid type="a">GUID 372939cd-90da-4688-b495-b2bafb5213ef</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 3af2fc7d-2919-4d6d-818b-ccbc485d8871</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 4d368862-433b-4589-8fcc-b6b0735a38bd</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-02</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.27.2021::10:58:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:58:11</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-02</_hname>
+					<_hid type="a">GUID b3402244-a7ad-493d-bdbf-9d781f6244b0</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 3af2fc7d-2919-4d6d-818b-ccbc485d8871</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID ac9917c3-05b7-42a9-bcef-13e2900d4a07</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-13</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.27.2021::10:58:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:58:38</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-13</_hname>
+					<_hid type="a">GUID 0ab69450-ba29-4f1b-96a2-16d5a222129a</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">
@@ -22949,8 +23132,8 @@
 			<_id type="a">GUID 70635301-ef64-41f0-8582-b8b1dc2408eb</_id>
 			<_myState type="a">139264</_myState>
 			<_name type="a">Ground_Control_Station</_name>
-			<_modifiedTimeWeak type="a">4.26.2021::11:23:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.26.2021::11:23:4</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.27.2021::10:58:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:58:38</_modifiedTime>
 			<m_type type="a">specFile</m_type>
 			<AggregatesList type="e">
 				<value>GUID c19b6224-8c74-4137-b751-756aee20fbdf</value>
@@ -22993,8 +23176,8 @@
 		<IFileFragment type="e">
 			<_id type="a">GUID d87898d7-59dc-4145-8763-60b3cad66f1f</_id>
 			<_name type="a">Ground_Control_Station</_name>
-			<_modifiedTimeWeak type="a">4.26.2021::11:23:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.26.2021::11:23:4</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.27.2021::10:58:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:58:38</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
 			<m_startRow type="a">22</m_startRow>
 			<m_startCol_Short type="a">1</m_startCol_Short>
@@ -23153,8 +23336,8 @@
 			<_id type="a">GUID 7fd2fa6d-ad4b-499b-9dd6-f040f7dd04cd</_id>
 			<_myState type="a">139264</_myState>
 			<_name type="a">Ground_Control_Station</_name>
-			<_modifiedTimeWeak type="a">4.26.2021::11:23:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.26.2021::11:23:4</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.27.2021::10:58:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:58:38</_modifiedTime>
 			<m_type type="a">implFile</m_type>
 			<AggregatesList type="e">
 				<value>GUID fea38846-8562-4ec8-9a7a-a85a62985411</value>
@@ -23180,8 +23363,8 @@
 		<IFileFragment type="e">
 			<_id type="a">GUID a1094614-ca2b-4d82-984e-97a76b195062</_id>
 			<_name type="a">Ground_Control_Station</_name>
-			<_modifiedTimeWeak type="a">4.26.2021::11:23:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.26.2021::11:23:4</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.27.2021::10:58:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:58:38</_modifiedTime>
 			<m_type type="a">implFragment</m_type>
 			<m_startRow type="a">16</m_startRow>
 			<m_startCol_Short type="a">25</m_startCol_Short>
@@ -23414,10 +23597,6 @@
 			<_id type="a">GUID a5d05760-1d1e-4e34-92c9-6c38cc1cd95e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Network_Communications</_name>
-			<OwnedDependencies type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</OwnedDependencies>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -23431,7 +23610,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.9.2021::15:15:52</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.27.2021::10:41:49</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -23442,9 +23621,9 @@
 				<_text type="a">Allows the transmission of critical data recieved from the swarm source with low latency, helping the comand centre team analize the situation without delay.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">2.19.2021::18:3:19</_modifiedTime>
-			<_lastID type="a">15</_lastID>
-			<weakCGTime type="a">5.9.2021::15:15:52</weakCGTime>
+			<_modifiedTime type="a">5.27.2021::10:41:49</_modifiedTime>
+			<_lastID type="a">16</_lastID>
+			<weakCGTime type="a">5.27.2021::10:41:49</weakCGTime>
 			<strongCGTime type="a">5.9.2021::15:15:52</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -23452,6 +23631,7 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID 6561eb45-c1e1-4cae-ba9e-2c7fee45fe40</value>
 				<value>GUID 87304022-6510-4023-a3d6-0ff5a38b4e63</value>
 				<value>GUID 4b859877-9b03-4fcd-ac43-a5c6c25b8fed</value>
 				<value>GUID e066a036-44e9-482a-b41f-7a38509a7aef</value>
@@ -23479,6 +23659,41 @@
 				<value>GUID 2f2ef527-699a-46b5-b4ee-0a8c9ad31550</value>
 			</AggregatesList>
 		</IClass>
+		<IDependency type="e">
+			<_id type="a">GUID 6561eb45-c1e1-4cae-ba9e-2c7fee45fe40</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">PD-12</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.27.2021::10:41:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:41:49</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\PersonDetection.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::PersonDetection</_hsubsystem>
+					<_hname type="a">PD-12</_hname>
+					<_hid type="a">GUID b685349e-5bab-41bf-b92c-d632a7108b09</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID a5d05760-1d1e-4e34-92c9-6c38cc1cd95e</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IInformationFlow type="e">
 			<_id type="a">GUID 87304022-6510-4023-a3d6-0ff5a38b4e63</_id>
 			<_myState type="a">2048</_myState>
@@ -24037,7 +24252,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.27.2021::10:31:11</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.27.2021::10:58:18</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -24048,9 +24263,9 @@
 				<_text type="a">Its function is to verify that each drone is in good operational conditions and that it is complying with the mission instructions.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">2.19.2021::13:45:11</_modifiedTime>
-			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">5.27.2021::10:31:11</weakCGTime>
+			<_modifiedTime type="a">5.27.2021::10:58:18</_modifiedTime>
+			<_lastID type="a">9</_lastID>
+			<weakCGTime type="a">5.27.2021::10:58:18</weakCGTime>
 			<strongCGTime type="a">5.9.2021::15:15:52</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -24060,6 +24275,8 @@
 			<AggregatesList type="e">
 				<value>GUID 645fa276-2f19-46f0-a765-2d1488f008e1</value>
 				<value>GUID 3024ab01-d433-4ded-9a0b-d1dfa310a42d</value>
+				<value>GUID 734c73a5-839e-4050-97dc-9847d5d85bc5</value>
+				<value>GUID e01cce17-a232-4c69-8a05-03a76cbba555</value>
 				<value>GUID 8c1e7dc1-4985-4bfa-a676-34b5ec7d9bf2</value>
 				<value>GUID c484b8d2-5db4-489f-9cbe-09448284d65f</value>
 				<value>GUID e28a01e5-1144-4c9a-97a4-8d7d1477d833</value>
@@ -24132,6 +24349,76 @@
 					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
 					<_hname type="a">AC-05</_hname>
 					<_hid type="a">GUID c639cafb-9741-4408-9b7e-ab7b0c905ff5</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 21e61270-ff87-48c1-bd89-005f82ff5094</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 734c73a5-839e-4050-97dc-9847d5d85bc5</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-05_0</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.27.2021::10:58:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:58:15</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-05</_hname>
+					<_hid type="a">GUID c639cafb-9741-4408-9b7e-ab7b0c905ff5</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 21e61270-ff87-48c1-bd89-005f82ff5094</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID e01cce17-a232-4c69-8a05-03a76cbba555</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AC-03_0</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.27.2021::10:58:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:58:18</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-03</_hname>
+					<_hid type="a">GUID b1d6d0b5-e732-41bd-b994-e329833b325e</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">
@@ -24833,10 +25120,6 @@
 			<_id type="a">GUID 88a2f9d2-6b2e-41f7-ac7d-82a26486102a</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GNSS_Tracking</_name>
-			<OwnedDependencies type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</OwnedDependencies>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -24850,16 +25133,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.9.2021::15:15:52</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.27.2021::10:40:32</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 2a3cbd2e-d73c-479b-b492-7dd7678fdb88</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.20.2021::16:57:41</_modifiedTime>
-			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">5.9.2021::15:15:52</weakCGTime>
+			<_modifiedTime type="a">5.27.2021::10:40:32</_modifiedTime>
+			<_lastID type="a">6</_lastID>
+			<weakCGTime type="a">5.27.2021::10:40:32</weakCGTime>
 			<strongCGTime type="a">5.9.2021::15:15:52</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -24867,6 +25150,7 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID 66b02c13-deca-4845-a658-b513b696898b</value>
 				<value>GUID c977d512-6a03-4fdc-b709-0ae6d04a5f0b</value>
 				<value>GUID cf81e0e9-f863-443b-919c-7cc63d920037</value>
 				<value>GUID 93190fcc-86f8-4858-b04a-df72b29fd157</value>
@@ -24875,6 +25159,41 @@
 				<value>GUID ab5221d6-8604-46cb-846f-032a45166f05</value>
 			</AggregatesList>
 		</IClass>
+		<IDependency type="e">
+			<_id type="a">GUID 66b02c13-deca-4845-a658-b513b696898b</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">PD-1211</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.27.2021::10:40:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:40:32</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\PersonDetection.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::PersonDetection</_hsubsystem>
+					<_hname type="a">PD-1211</_hname>
+					<_hid type="a">GUID 18e2897f-5eb8-4024-b1ee-6fbba077adbc</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 88a2f9d2-6b2e-41f7-ac7d-82a26486102a</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IInformationFlow type="e">
 			<_id type="a">GUID c977d512-6a03-4fdc-b709-0ae6d04a5f0b</_id>
 			<_name type="a">GNSS_Tracking_Drone_State_Monitoring</_name>
@@ -25227,7 +25546,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.27.2021::10:31:11</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.27.2021::10:58:1</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -25238,9 +25557,9 @@
 				<_text type="a">Takes care of validating the mision development of the swarm and reflecting the operational status of the swarm as a whole</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">5.27.2021::10:31:11</_modifiedTime>
-			<_lastID type="a">9</_lastID>
-			<weakCGTime type="a">5.27.2021::10:31:11</weakCGTime>
+			<_modifiedTime type="a">5.27.2021::10:58:1</_modifiedTime>
+			<_lastID type="a">10</_lastID>
+			<weakCGTime type="a">5.27.2021::10:58:1</weakCGTime>
 			<strongCGTime type="a">5.9.2021::15:15:52</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -25250,6 +25569,7 @@
 			<AggregatesList type="e">
 				<value>GUID f2ba2c8d-fe7e-4f72-9391-b6f015c2c1f1</value>
 				<value>GUID 037778d9-2888-4ed6-8242-d94097831949</value>
+				<value>GUID 403ded45-5d08-4586-9665-7babee9769d4</value>
 				<value>GUID cc15ac0a-fa07-4bc9-b1d5-3729be9d2ae6</value>
 				<value>GUID 017f5f24-9f19-4207-832a-5d27e83622b7</value>
 				<value>GUID 412ec545-38f4-4f37-b1d5-448ef4c89d1e</value>
@@ -25319,6 +25639,41 @@
 					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
 					<_hname type="a">AC-04</_hname>
 					<_hid type="a">GUID 372939cd-90da-4688-b495-b2bafb5213ef</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID dca35f39-7903-4bbd-ae98-8ebd755931b8</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 403ded45-5d08-4586-9665-7babee9769d4</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">FlightControl</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.27.2021::10:58:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:58:1</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\Swarm_and_Drone_Structure.sbsx</_hfilename>
+					<_hsubsystem type="a">BlockModeling::Swarm_and_Drone_Structure</_hsubsystem>
+					<_hname type="a">FlightControl</_hname>
+					<_hid type="a">GUID 36f7c87f-3753-445f-8e43-f14339c486f4</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">
@@ -25522,7 +25877,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.27.2021::10:35:37</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.27.2021::10:53:15</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -25533,9 +25888,9 @@
 				<_text type="a">It must allow the control center to visualize the rescue environment and receive alerts of possible located persons together with video frames to obtain verification</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">5.27.2021::10:35:37</_modifiedTime>
-			<_lastID type="a">6</_lastID>
-			<weakCGTime type="a">5.27.2021::10:35:37</weakCGTime>
+			<_modifiedTime type="a">5.27.2021::10:53:15</_modifiedTime>
+			<_lastID type="a">7</_lastID>
+			<weakCGTime type="a">5.27.2021::10:53:15</weakCGTime>
 			<strongCGTime type="a">5.9.2021::15:15:52</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -25545,6 +25900,7 @@
 			<AggregatesList type="e">
 				<value>GUID 69751bf8-88da-4c34-8f48-5136b7151ba7</value>
 				<value>GUID 4dfb2c44-d640-4340-8cce-10361a9e0310</value>
+				<value>GUID 77f9d0d5-af32-4b3e-ad66-646bf5fa3e68</value>
 				<value>GUID b6081a8d-8d51-4c0b-ab21-6101bb7aaf05</value>
 				<value>GUID 4adcbd7e-f6ae-4cf2-bd48-b3de6d44a6e3</value>
 				<value>GUID c976c6b3-29f4-47fd-84e1-4ead457d174e</value>
@@ -25617,6 +25973,41 @@
 					<_hsubsystem type="a">SystemRequirements::NormalOperation::SearchAreaDefinition</_hsubsystem>
 					<_hname type="a">NO-23</_hname>
 					<_hid type="a">GUID b6303e5d-cea5-4081-b112-b375870a6849</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 5f4ded67-9eea-4e36-a91c-28323867ee01</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 77f9d0d5-af32-4b3e-ad66-646bf5fa3e68</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">CM-13</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.27.2021::10:53:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:53:15</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\Communication.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::Communication</_hsubsystem>
+					<_hname type="a">CM-13</_hname>
+					<_hid type="a">GUID 36fd3293-2845-4282-a5e7-3b47eb6d92f8</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">
@@ -25837,10 +26228,6 @@
 			<_id type="a">GUID fc73cba4-5b62-4111-adb8-6709bcc4712d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Detection_Alert</_name>
-			<OwnedDependencies type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</OwnedDependencies>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -25854,16 +26241,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.9.2021::15:15:52</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.27.2021::10:41:22</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 2a3cbd2e-d73c-479b-b492-7dd7678fdb88</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.19.2021::17:58:45</_modifiedTime>
-			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">5.9.2021::15:15:52</weakCGTime>
+			<_modifiedTime type="a">5.27.2021::10:41:22</_modifiedTime>
+			<_lastID type="a">6</_lastID>
+			<weakCGTime type="a">5.27.2021::10:41:22</weakCGTime>
 			<strongCGTime type="a">5.9.2021::15:15:52</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -25871,6 +26258,7 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID 8de925c3-5d90-4961-9348-afbfa5378a20</value>
 				<value>GUID 870eb702-5c7b-4a03-b369-1ddd3e9f3c50</value>
 				<value>GUID 2a3903a5-4ae1-4c4c-b365-994f37f1c42d</value>
 				<value>GUID e30a98e9-be45-4f86-943c-36c771e4e461</value>
@@ -25879,6 +26267,41 @@
 				<value>GUID 83ce4177-255c-40a2-ab30-b6787340f595</value>
 			</AggregatesList>
 		</IClass>
+		<IDependency type="e">
+			<_id type="a">GUID 8de925c3-5d90-4961-9348-afbfa5378a20</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">PD-01</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.27.2021::10:41:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:41:22</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\PersonDetection.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::PersonDetection</_hsubsystem>
+					<_hname type="a">PD-01</_hname>
+					<_hid type="a">GUID 225459ba-617b-49d3-bd70-e87421a67215</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID fc73cba4-5b62-4111-adb8-6709bcc4712d</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IInformationFlow type="e">
 			<_id type="a">GUID 870eb702-5c7b-4a03-b369-1ddd3e9f3c50</_id>
 			<_myState type="a">2048</_myState>
@@ -27123,10 +27546,6 @@
 			<_id type="a">GUID 6699a41d-606e-45ba-bdc7-6f065ba1787f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Communications_Card_Base</_name>
-			<OwnedDependencies type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</OwnedDependencies>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					
@@ -27140,15 +27559,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.9.2021::15:15:52</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.27.2021::10:53:31</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID 6049121a-bbe6-4242-ab0f-cce7bdc4b6a1</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.18.2021::15:47:46</_modifiedTime>
-			<weakCGTime type="a">5.9.2021::15:15:52</weakCGTime>
+			<_modifiedTime type="a">5.27.2021::10:53:31</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<weakCGTime type="a">5.27.2021::10:53:31</weakCGTime>
 			<strongCGTime type="a">5.9.2021::15:15:52</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -27156,11 +27576,119 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID c25fbb12-19fe-44d0-8360-9ebbebf8a777</value>
+				<value>GUID 624c2b67-bcd9-45c7-9f89-67e4bf6a54a8</value>
+				<value>GUID 6b3ae690-0532-4edc-a2fb-8f0e39462796</value>
 				<value>GUID 34e5bfc0-2205-4050-8d6b-f4196e2f24cf</value>
 				<value>GUID add6b71d-8b03-4491-a0e4-954ce9222dc0</value>
 				<value>GUID 839af20b-6925-46ca-b68b-9a3a1b8b9fe2</value>
 			</AggregatesList>
 		</IClass>
+		<IDependency type="e">
+			<_id type="a">GUID c25fbb12-19fe-44d0-8360-9ebbebf8a777</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">PD-14</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.27.2021::10:40:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:40:48</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\PersonDetection.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::PersonDetection</_hsubsystem>
+					<_hname type="a">PD-14</_hname>
+					<_hid type="a">GUID 04d5c3bf-572e-46e1-998c-63cc4e1b00e5</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 6699a41d-606e-45ba-bdc7-6f065ba1787f</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 624c2b67-bcd9-45c7-9f89-67e4bf6a54a8</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">CM-03</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.27.2021::10:53:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:53:20</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\Communication.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::Communication</_hsubsystem>
+					<_hname type="a">CM-03</_hname>
+					<_hid type="a">GUID 41f9a71d-8839-4114-b43a-e3f278406d1a</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 6699a41d-606e-45ba-bdc7-6f065ba1787f</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 6b3ae690-0532-4edc-a2fb-8f0e39462796</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">CM-06</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Allocation</_hsubsystem>
+							<_hname type="a">allocate</_hname>
+							<_hid type="a">GUID 71e4a680-c847-499c-8160-bc05f6a1f2eb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.27.2021::10:53:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::10:53:31</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\Communication.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::Communication</_hsubsystem>
+					<_hname type="a">CM-06</_hname>
+					<_hid type="a">GUID f85d040f-38db-4888-aeac-b85343be0eb8</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 6699a41d-606e-45ba-bdc7-6f065ba1787f</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 34e5bfc0-2205-4050-8d6b-f4196e2f24cf</_id>
 			<_myState type="a">10240</_myState>

@@ -12,11 +12,11 @@
 			<_id type="a">GUID 866af1d3-fb6b-4981-ad84-1e096ede7e18</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">BatteryManagement</_name>
-			<_modifiedTimeWeak type="a">4.26.2021::11:22:56</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.19.2021::17:24:35</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.27.2021::11:41:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::11:41:30</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">4.26.2021::11:22:56</weakCGTime>
-			<strongCGTime type="a">2.8.2021::8:44:9</strongCGTime>
+			<weakCGTime type="a">5.27.2021::11:41:58</weakCGTime>
+			<strongCGTime type="a">5.27.2021::11:41:42</strongCGTime>
 			<_defaultComposite type="s">GUID 129aca9a-c9e7-48d8-a938-7b1a851e3e43</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
@@ -4936,16 +4936,147 @@
 			<_myState type="a">40960</_myState>
 			<_rmmServerID type="a">-1</_rmmServerID>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">2.8.2021::8:44:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<weakCGTime type="a">2.8.2021::8:44:9</weakCGTime>
+			<_modifiedTimeWeak type="a">5.27.2021::11:41:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::11:41:58</_modifiedTime>
+			<weakCGTime type="a">5.27.2021::11:41:58</weakCGTime>
 			<strongCGTime type="a">2.8.2021::8:44:9</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 02f3212b-dcc9-437f-abd1-1f5d582938c5</value>
+			</AggregatesList>
 		</IClass>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 02f3212b-dcc9-437f-abd1-1f5d582938c5</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">CPP_CG</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Operation</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Kind</_Name>
+													<_Value type="a">common</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">common,virtual,abstract</_ExtraTypeInfo>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">Test8</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Requirements</_hsubsystem>
+							<_hname type="a">testCase</_hname>
+							<_hid type="a">GUID 53ddc7a4-031a-4525-a251-b68e02cf5ca3</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.27.2021::11:41:49</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fswiss\fprq2\fcharset0 IBM Plex Sans Light;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\sa120\sl252\slmult1\qj\lang2057\b\f0\fs22 Expected results:\par%0D
+\b0\ldblquote\lang1033 Before the taking off, battery must be charged\lang2057\rdblquote  (requirement BM-03).\lang1033\par%0D
+\lang2057\b Technique:\b0\par%0D
+Analysis\par%0D
+Battery inspection consists of a verification analysis of the drones\rquote  battery levels. The previously conducted simulations will require a theoretical check before proceeding with the planned mission.\par%0D
+This implies that the battery level shown in the GUI, should coincide with the theoretical value expected at the beginning of the mission, particularly 100%25.\par%0D
+\b Necessary systems:\par%0D
+\b0 For this analysis, the interface will be used as the battery indicator is located at the GUI. In line of the previous test, a TDF operator will conduct this particular analysis.\par%0D
+\b Conditions:\par%0D
+\b0 Prior to take-off, the battery indicator must show a 100%25 level in order to consider this analysis a success and proceed with the rescue mission.\lang3082\f1\fs20\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">5.27.2021::11:41:49</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">SystemRequirements</_hsubsystem>
+					<_hname type="a">TestCase</_hname>
+					<_hid type="a">GUID 39cac540-d2b8-410c-8bd6-43f5bd7ccd10</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+			</IBody>
+			</_itsBody>
+			<AggregatesList type="e">
+				<value>GUID b718dfc2-ab0f-4705-9358-9cbd5e5a6ca3</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IDependency type="e">
+			<_id type="a">GUID b718dfc2-ab0f-4705-9358-9cbd5e5a6ca3</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">AC-03</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Requirements</_hsubsystem>
+							<_hname type="a">verify</_hname>
+							<_hid type="a">GUID c69773c8-90f6-4988-9e03-fa229ae80a0d</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.27.2021::11:41:37</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AirspaceConditions.sbsx</_hfilename>
+					<_hsubsystem type="a">SystemRequirements::AirspaceConditions</_hsubsystem>
+					<_hname type="a">AC-03</_hname>
+					<_hid type="a">GUID b1d6d0b5-e732-41bd-b994-e329833b325e</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
+					<_hid type="a">GUID 02f3212b-dcc9-437f-abd1-1f5d582938c5</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">
